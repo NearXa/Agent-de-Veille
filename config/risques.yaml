@@ -1,0 +1,57 @@
+# Grille d'évaluation des risques : probabilité × impact (1 à 4), criticité brute = P × I (1 à 16).
+# Le risque résiduel est calculé par code : brut × produit des facteurs d'atténuation des contrôles
+# liés, arrondi à l'entier supérieur et borné à [1, 16].
+
+probabilite:
+  1: { libelle: 'Rare', description: "Moins d'une fois tous les cinq ans" }
+  2: { libelle: 'Peu probable', description: 'Une fois tous les deux à cinq ans' }
+  3: { libelle: 'Probable', description: 'Environ une fois par an' }
+  4: { libelle: 'Quasi certain', description: 'Plusieurs fois par an' }
+
+impact:
+  1:
+    {
+      libelle: 'Mineur',
+      description: "Pas d'effet notable sur les services, la conformité ou les clients",
+    }
+  2:
+    {
+      libelle: 'Modéré',
+      description: "Perturbation limitée, remarque ou demande d'information du régulateur possible",
+    }
+  3:
+    {
+      libelle: 'Majeur',
+      description: "Interruption d'une fonction critique, sanction ou perte financière significative",
+    }
+  4:
+    {
+      libelle: 'Critique',
+      description: "Mise en cause de l'agrément, perte majeure, atteinte durable à la réputation",
+    }
+
+niveaux:
+  - { nom: 'Faible', min: 1, max: 3 }
+  - { nom: 'Modéré', min: 4, max: 6 }
+  - { nom: 'Élevé', min: 7, max: 9 }
+  - { nom: 'Critique', min: 10, max: 16 }
+
+seuil_acceptation: 'Modéré' # niveau résiduel maximal acceptable sans plan de traitement
+
+attenuation:
+  # Facteur appliqué à la criticité brute par contrôle atténuant, selon statut puis efficacité.
+  'En place':
+    'Forte': 0.5
+    'Satisfaisante': 0.7
+    'Faible': 0.85
+    'Non évaluée': 0.9
+  'Partiel':
+    'Forte': 0.8
+    'Satisfaisante': 0.85
+    'Faible': 0.95
+    'Non évaluée': 0.95
+  'Planifié': 1.0
+  'Absent': 1.0
+
+categories: ['Juridique', 'Financier', 'Opérationnel', 'Réputationnel', 'Cyber']
+traitements: ['Réduire', 'Accepter', 'Transférer', 'Éviter']

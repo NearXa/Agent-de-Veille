@@ -1,0 +1,355 @@
+# Catalogue des contrôles existants : sélection de l'Annexe A d'ISO/IEC 27001:2022 pertinente pour
+# DORA et NIS2, plus des contrôles internes. Les statuts sont ceux de l'organisation fictive.
+# statut : En place | Partiel | Planifié | Absent
+# efficacite : Non évaluée | Faible | Satisfaisante | Forte
+
+referentiels:
+  - 'ISO 27001:2022'
+  - 'NIST CSF 2.0'
+  - 'CIS v8'
+  - 'Interne'
+  - 'Autre'
+
+controles:
+  - id: CT-0001
+    nom: "Politiques de sécurité de l'information"
+    description: 'PSSI et politiques thématiques définies, approuvées par la direction, publiées et revues à intervalles planifiés.'
+    referentiel: 'ISO 27001:2022'
+    reference: 'A.5.1'
+    proprietaire: 'RSSI'
+    statut: 'En place'
+    efficacite: 'Satisfaisante'
+    preuves: 'PSSI v3 approuvée en 2025, revue annuelle tracée en comité'
+  - id: CT-0002
+    nom: "Fonctions et responsabilités liées à la sécurité de l'information"
+    description: "Rôles et responsabilités sécurité définis et attribués (RSSI, propriétaires d'actifs, correspondants)."
+    referentiel: 'ISO 27001:2022'
+    reference: 'A.5.2'
+    proprietaire: 'Direction'
+    statut: 'En place'
+    efficacite: 'Satisfaisante'
+    preuves: 'Organigramme sécurité, fiches de poste, lettre de mission du RSSI'
+  - id: CT-0003
+    nom: 'Renseignement sur les menaces'
+    description: "Collecte et analyse d'informations sur les menaces pour produire une veille exploitable."
+    referentiel: 'ISO 27001:2022'
+    reference: 'A.5.7'
+    proprietaire: 'RSSI'
+    statut: 'Partiel'
+    efficacite: 'Faible'
+    preuves: "Abonnement aux bulletins CERT-FR, pas de processus formalisé d'exploitation"
+  - id: CT-0004
+    nom: 'Inventaire des informations et autres actifs associés'
+    description: 'Inventaire des actifs informationnels et TIC tenu à jour avec un propriétaire par actif.'
+    referentiel: 'ISO 27001:2022'
+    reference: 'A.5.9'
+    proprietaire: 'DSI'
+    statut: 'Partiel'
+    efficacite: 'Faible'
+    preuves: "CMDB ITSM couvrant l'infrastructure on-premise, périmètre cloud et SaaS incomplet"
+  - id: CT-0005
+    nom: "Sécurité de l'information dans les relations avec les fournisseurs"
+    description: 'Processus de gestion des risques liés aux fournisseurs (sélection, évaluation, suivi).'
+    referentiel: 'ISO 27001:2022'
+    reference: 'A.5.19'
+    proprietaire: 'Achats et fournisseurs'
+    statut: 'Partiel'
+    efficacite: 'Faible'
+    preuves: 'Questionnaire sécurité à la contractualisation, pas de réévaluation périodique'
+  - id: CT-0006
+    nom: "Sécurité de l'information dans les accords conclus avec les fournisseurs"
+    description: "Clauses de sécurité, d'audit, de notification d'incident et de réversibilité dans les contrats."
+    referentiel: 'ISO 27001:2022'
+    reference: 'A.5.20'
+    proprietaire: 'Juridique'
+    statut: 'Partiel'
+    efficacite: 'Non évaluée'
+    preuves: "Clauses hétérogènes selon l'ancienneté des contrats, pas de modèle unique"
+  - id: CT-0007
+    nom: "Gestion de la sécurité de l'information dans la chaîne d'approvisionnement TIC"
+    description: 'Maîtrise des risques liés aux sous-traitants de rang 2 et aux composants TIC.'
+    referentiel: 'ISO 27001:2022'
+    reference: 'A.5.21'
+    proprietaire: 'RSSI'
+    statut: 'Planifié'
+    efficacite: 'Non évaluée'
+    preuves: 'Chantier inscrit au plan 2027'
+  - id: CT-0008
+    nom: 'Surveillance, revue et gestion des changements des services fournisseurs'
+    description: 'Revue régulière des niveaux de service, des incidents et des changements chez les fournisseurs.'
+    referentiel: 'ISO 27001:2022'
+    reference: 'A.5.22'
+    proprietaire: 'DSI'
+    statut: 'Partiel'
+    efficacite: 'Faible'
+    preuves: 'Comités de service trimestriels avec 3 prestataires critiques sur 10'
+  - id: CT-0009
+    nom: "Sécurité de l'information pour l'utilisation de services en nuage"
+    description: "Processus d'acquisition, d'utilisation, de gestion et de sortie des services cloud."
+    referentiel: 'ISO 27001:2022'
+    reference: 'A.5.23'
+    proprietaire: 'DSI'
+    statut: 'Partiel'
+    efficacite: 'Satisfaisante'
+    preuves: "Politique cloud, matrice de responsabilités partagées pour l'hyperscaler, pas de plan de sortie testé"
+  - id: CT-0010
+    nom: "Planification et préparation de la gestion des incidents de sécurité de l'information"
+    description: 'Processus, rôles et procédures de gestion des incidents définis et communiqués.'
+    referentiel: 'ISO 27001:2022'
+    reference: 'A.5.24'
+    proprietaire: 'RSSI'
+    statut: 'En place'
+    efficacite: 'Satisfaisante'
+    preuves: 'Procédure de gestion des incidents, cellule de crise, astreinte'
+  - id: CT-0011
+    nom: "Évaluation des événements de sécurité de l'information et prise de décision"
+    description: 'Qualification des événements de sécurité et décision de classification en incident.'
+    referentiel: 'ISO 27001:2022'
+    reference: 'A.5.25'
+    proprietaire: 'RSSI'
+    statut: 'En place'
+    efficacite: 'Satisfaisante'
+    preuves: 'Grille de qualification du SOC, revue hebdomadaire'
+  - id: CT-0012
+    nom: "Réponse aux incidents de sécurité de l'information"
+    description: 'Réponse aux incidents conformément aux procédures, confinement, éradication, communication.'
+    referentiel: 'ISO 27001:2022'
+    reference: 'A.5.26'
+    proprietaire: 'RSSI'
+    statut: 'En place'
+    efficacite: 'Satisfaisante'
+    preuves: 'Playbooks ransomware, fuite de données, indisponibilité ; exercices 2025'
+  - id: CT-0013
+    nom: "Tirer des enseignements des incidents de sécurité de l'information"
+    description: 'Analyse post-incident et amélioration des contrôles.'
+    referentiel: 'ISO 27001:2022'
+    reference: 'A.5.27'
+    proprietaire: 'RSSI'
+    statut: 'Partiel'
+    efficacite: 'Faible'
+    preuves: 'Revues post-incident réalisées pour les incidents majeurs uniquement'
+  - id: CT-0014
+    nom: "Sécurité de l'information durant une perturbation"
+    description: 'Maintien du niveau de sécurité pendant une crise ou une perturbation.'
+    referentiel: 'ISO 27001:2022'
+    reference: 'A.5.29'
+    proprietaire: 'RSSI'
+    statut: 'Partiel'
+    efficacite: 'Non évaluée'
+    preuves: 'Volet sécurité du PCA en cours de rédaction'
+  - id: CT-0015
+    nom: "Préparation des TIC pour la continuité d'activité"
+    description: 'Plan de continuité et de reprise des TIC aligné sur les objectifs métier (RTO, RPO), testé.'
+    referentiel: 'ISO 27001:2022'
+    reference: 'A.5.30'
+    proprietaire: 'DSI'
+    statut: 'Partiel'
+    efficacite: 'Satisfaisante'
+    preuves: 'PRA du datacenter testé en 2025 sur 60 % des applications critiques ; SaaS non couverts'
+  - id: CT-0016
+    nom: 'Exigences légales, statutaires, réglementaires et contractuelles'
+    description: 'Identification, documentation et tenue à jour des exigences applicables.'
+    referentiel: 'ISO 27001:2022'
+    reference: 'A.5.31'
+    proprietaire: 'Conformité'
+    statut: 'En place'
+    efficacite: 'Satisfaisante'
+    preuves: 'Registre des obligations réglementaires tenu par la conformité, mise à jour semestrielle'
+  - id: CT-0017
+    nom: "Revue indépendante de la sécurité de l'information"
+    description: "Revue indépendante de l'approche sécurité à intervalles planifiés ou lors de changements majeurs."
+    referentiel: 'ISO 27001:2022'
+    reference: 'A.5.35'
+    proprietaire: 'Audit interne'
+    statut: 'Planifié'
+    efficacite: 'Non évaluée'
+    preuves: "Audit interne sécurité prévu au plan d'audit 2027"
+  - id: CT-0018
+    nom: "Conformité aux politiques, règles et normes de sécurité de l'information"
+    description: 'Revue régulière de la conformité aux politiques et normes internes.'
+    referentiel: 'ISO 27001:2022'
+    reference: 'A.5.36'
+    proprietaire: 'Conformité'
+    statut: 'Partiel'
+    efficacite: 'Faible'
+    preuves: 'Contrôles de second niveau sur un échantillon de politiques'
+  - id: CT-0019
+    nom: "Procédures d'exploitation documentées"
+    description: "Procédures d'exploitation des moyens de traitement documentées et disponibles."
+    referentiel: 'ISO 27001:2022'
+    reference: 'A.5.37'
+    proprietaire: 'DSI'
+    statut: 'Partiel'
+    efficacite: 'Satisfaisante'
+    preuves: 'Base documentaire ITSM, couverture partielle des services cloud'
+  - id: CT-0020
+    nom: "Sensibilisation, enseignement et formation en sécurité de l'information"
+    description: 'Programme de sensibilisation et de formation pour le personnel et les prestataires.'
+    referentiel: 'ISO 27001:2022'
+    reference: 'A.6.3'
+    proprietaire: 'RSSI'
+    statut: 'En place'
+    efficacite: 'Satisfaisante'
+    preuves: 'E-learning annuel obligatoire (92 % de complétion), campagnes de phishing'
+  - id: CT-0021
+    nom: "Privilèges d'accès"
+    description: "Attribution et revue des droits d'accès privilégiés selon le moindre privilège."
+    referentiel: 'ISO 27001:2022'
+    reference: 'A.8.2'
+    proprietaire: 'DSI'
+    statut: 'En place'
+    efficacite: 'Satisfaisante'
+    preuves: "Bastion d'administration, revue semestrielle des comptes à privilèges"
+  - id: CT-0022
+    nom: 'Authentification sécurisée'
+    description: "Technologies et procédures d'authentification sécurisées (MFA) selon la classification des accès."
+    referentiel: 'ISO 27001:2022'
+    reference: 'A.8.5'
+    proprietaire: 'DSI'
+    statut: 'En place'
+    efficacite: 'Forte'
+    preuves: 'MFA généralisée pour les accès distants et les comptes administrateurs'
+  - id: CT-0023
+    nom: 'Protection contre les programmes malveillants'
+    description: 'Mesures de détection, de prévention et de récupération contre les programmes malveillants.'
+    referentiel: 'ISO 27001:2022'
+    reference: 'A.8.7'
+    proprietaire: 'DSI'
+    statut: 'En place'
+    efficacite: 'Forte'
+    preuves: 'EDR déployé sur 100 % du parc, supervision par le SOC'
+  - id: CT-0024
+    nom: 'Gestion des vulnérabilités techniques'
+    description: 'Identification, évaluation et traitement des vulnérabilités techniques dans des délais définis.'
+    referentiel: 'ISO 27001:2022'
+    reference: 'A.8.8'
+    proprietaire: 'DSI'
+    statut: 'Partiel'
+    efficacite: 'Faible'
+    preuves: 'Scans mensuels, délais de correction non respectés sur les systèmes legacy'
+  - id: CT-0025
+    nom: 'Gestion de la configuration'
+    description: 'Configurations sécurisées définies, documentées, mises en œuvre et surveillées.'
+    referentiel: 'ISO 27001:2022'
+    reference: 'A.8.9'
+    proprietaire: 'DSI'
+    statut: 'Partiel'
+    efficacite: 'Non évaluée'
+    preuves: 'Guides de durcissement pour les serveurs, pas de contrôle automatisé de dérive'
+  - id: CT-0026
+    nom: 'Sauvegarde des informations'
+    description: 'Sauvegardes régulières, testées et conformes à la politique de sauvegarde.'
+    referentiel: 'ISO 27001:2022'
+    reference: 'A.8.13'
+    proprietaire: 'DSI'
+    statut: 'En place'
+    efficacite: 'Satisfaisante'
+    preuves: 'Sauvegardes quotidiennes, copie immuable hors site, tests de restauration trimestriels'
+  - id: CT-0027
+    nom: "Redondance des moyens de traitement de l'information"
+    description: 'Redondance suffisante pour satisfaire les exigences de disponibilité.'
+    referentiel: 'ISO 27001:2022'
+    reference: 'A.8.14'
+    proprietaire: 'DSI'
+    statut: 'Partiel'
+    efficacite: 'Satisfaisante'
+    preuves: "Infrastructure redondée pour le PMS et l'OMS, points uniques de défaillance sur le reporting"
+  - id: CT-0028
+    nom: 'Journalisation'
+    description: "Journaux d'activité, d'exceptions et d'événements de sécurité produits, stockés, protégés et analysés."
+    referentiel: 'ISO 27001:2022'
+    reference: 'A.8.15'
+    proprietaire: 'RSSI'
+    statut: 'En place'
+    efficacite: 'Satisfaisante'
+    preuves: 'Centralisation dans le SIEM, rétention 12 mois'
+  - id: CT-0029
+    nom: 'Activités de surveillance'
+    description: 'Surveillance des réseaux, systèmes et applications pour détecter les comportements anormaux.'
+    referentiel: 'ISO 27001:2022'
+    reference: 'A.8.16'
+    proprietaire: 'RSSI'
+    statut: 'En place'
+    efficacite: 'Satisfaisante'
+    preuves: 'SOC externalisé 24/7, règles de détection revues trimestriellement'
+  - id: CT-0030
+    nom: 'Sécurité des réseaux'
+    description: 'Réseaux et dispositifs réseau sécurisés, gérés et contrôlés.'
+    referentiel: 'ISO 27001:2022'
+    reference: 'A.8.20'
+    proprietaire: 'DSI'
+    statut: 'En place'
+    efficacite: 'Satisfaisante'
+    preuves: 'Pare-feu nouvelle génération, filtrage des flux sortants, revue annuelle des règles'
+  - id: CT-0031
+    nom: 'Cloisonnement des réseaux'
+    description: "Séparation des groupes de services, d'utilisateurs et de systèmes dans le réseau."
+    referentiel: 'ISO 27001:2022'
+    reference: 'A.8.22'
+    proprietaire: 'DSI'
+    statut: 'Partiel'
+    efficacite: 'Faible'
+    preuves: 'Segmentation du datacenter réalisée, réseau bureautique à plat'
+  - id: CT-0032
+    nom: 'Utilisation de la cryptographie'
+    description: "Règles d'utilisation de la cryptographie et gestion des clés."
+    referentiel: 'ISO 27001:2022'
+    reference: 'A.8.24'
+    proprietaire: 'RSSI'
+    statut: 'En place'
+    efficacite: 'Satisfaisante'
+    preuves: 'Chiffrement des données au repos et en transit, HSM pour les clés critiques'
+  - id: CT-0033
+    nom: 'Gestion des changements'
+    description: 'Changements des moyens de traitement et des systèmes soumis à des procédures de gestion des changements.'
+    referentiel: 'ISO 27001:2022'
+    reference: 'A.8.32'
+    proprietaire: 'DSI'
+    statut: 'En place'
+    efficacite: 'Satisfaisante'
+    preuves: "CAB hebdomadaire, pratique ITIL Change Enablement outillée dans l'ITSM"
+  - id: CT-0034
+    nom: 'Comité des risques TIC'
+    description: 'Comité trimestriel présidé par la direction générale, suivant les risques TIC, les incidents majeurs et les prestataires critiques.'
+    referentiel: 'Interne'
+    reference: 'INT-01'
+    proprietaire: 'Direction'
+    statut: 'En place'
+    efficacite: 'Satisfaisante'
+    preuves: 'Comptes rendus des quatre derniers comités'
+  - id: CT-0035
+    nom: "Registre d'informations sur les prestataires TIC"
+    description: "Registre complet des accords contractuels portant sur des services TIC, au niveau de l'entité, distinguant les fonctions critiques ou importantes."
+    referentiel: 'Interne'
+    reference: 'INT-02'
+    proprietaire: 'Achats et fournisseurs'
+    statut: 'Absent'
+    efficacite: 'Non évaluée'
+    preuves: "Liste des fournisseurs dans l'outil achats, sans les attributs attendus par DORA"
+  - id: CT-0036
+    nom: 'Exercices de crise et tests de continuité annuels'
+    description: "Exercices de gestion de crise et tests du PCA/PRA couvrant les fonctions critiques, avec plan d'action."
+    referentiel: 'Interne'
+    reference: 'INT-03'
+    proprietaire: 'Gestion des risques'
+    statut: 'Partiel'
+    efficacite: 'Faible'
+    preuves: 'Exercice de crise 2025 réalisé, tests PRA partiels, pas de test des prestataires'
+  - id: CT-0037
+    nom: "Tests d'intrusion annuels"
+    description: "Tests d'intrusion externes et internes annuels sur les systèmes exposés et critiques."
+    referentiel: 'Interne'
+    reference: 'INT-04'
+    proprietaire: 'RSSI'
+    statut: 'En place'
+    efficacite: 'Satisfaisante'
+    preuves: 'Rapports de tests 2024 et 2025, plans de remédiation suivis'
+  - id: CT-0038
+    nom: 'Cartographie des actifs TIC et des interdépendances'
+    description: 'Cartographie des fonctions métier, des actifs TIC qui les soutiennent et de leurs interdépendances, y compris avec les tiers.'
+    referentiel: 'Interne'
+    reference: 'INT-05'
+    proprietaire: 'DSI'
+    statut: 'Absent'
+    efficacite: 'Non évaluée'
+    preuves: "Aucune cartographie consolidée ; schémas d'architecture épars"

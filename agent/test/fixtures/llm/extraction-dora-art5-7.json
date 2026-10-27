@@ -1,0 +1,71 @@
+{
+  "_commentaire": "Réponse LLM enregistrée (replay) pour le chunk des articles 5 à 7 de DORA. Les extraits verbatim des trois premières exigences sont copiés du texte officiel ; la quatrième est volontairement fausse (article absent, extrait inventé) pour tester la vérification.",
+  "texte_id": "TX-0001",
+  "chunk_id": "TX-0001-chunk-01-art5-7",
+  "exigences": [
+    {
+      "titre": "Mettre en place un cadre de gouvernance et de contrôle interne du risque lié aux TIC",
+      "description": "L'entité financière dispose d'un cadre de gouvernance et de contrôle interne garantissant une gestion efficace et prudente du risque lié aux TIC, en vue d'un niveau élevé de résilience opérationnelle numérique.",
+      "articles": ["Art. 5 §1"],
+      "extrait_verbatim": "Les entités financières disposent d’un cadre de gouvernance et de contrôle interne qui garantit une gestion efficace et prudente du risque lié aux TIC",
+      "type_obligation": "Gouvernance",
+      "destinataires": ["Entités financières"],
+      "echeance": null,
+      "sanction": null,
+      "confiance": 0.9,
+      "justification_confiance": "Obligation explicite au présent de l'indicatif, destinataire nommé."
+    },
+    {
+      "titre": "Disposer d'un cadre de gestion du risque lié aux TIC solide, complet et documenté",
+      "description": "L'entité financière dispose d'un cadre de gestion du risque lié aux TIC solide, complet et bien documenté, intégré à son système global de gestion des risques.",
+      "articles": ["Art. 6 §1"],
+      "extrait_verbatim": "Les entités financières disposent d’un cadre de gestion du risque lié aux TIC solide, complet et bien documenté, faisant partie de leur système global de gestion des risques",
+      "type_obligation": "Gouvernance",
+      "destinataires": ["Entités financières"],
+      "echeance": null,
+      "sanction": null,
+      "confiance": 0.95,
+      "justification_confiance": "Obligation explicite et sans ambiguïté."
+    },
+    {
+      "titre": "Réexaminer le cadre de gestion du risque lié aux TIC au moins une fois par an",
+      "description": "L'entité financière documente et réexamine son cadre de gestion du risque lié aux TIC au moins une fois par an, ainsi qu'en cas d'incident majeur lié aux TIC ou sur instruction des autorités de surveillance.",
+      "articles": ["Art. 6 §5"],
+      "extrait_verbatim": "Le cadre de gestion du risque lié aux TIC est documenté et réexaminé au moins une fois par an, ou périodiquement pour les microentreprises",
+      "type_obligation": "Documentaire",
+      "destinataires": ["Entités financières", "Microentreprises"],
+      "echeance": { "date": null, "type": "Périodique", "texte_source": "Art. 6 §5" },
+      "sanction": null,
+      "confiance": 0.85,
+      "justification_confiance": "Fréquence explicite ; la date de première revue dépend de l'entrée en application."
+    },
+    {
+      "titre": "Publier un rapport annuel sur la résilience opérationnelle numérique",
+      "description": "L'entité financière publie chaque année un rapport sur sa résilience opérationnelle numérique.",
+      "articles": ["Art. 42 §1"],
+      "extrait_verbatim": "Les entités financières publient un rapport annuel sur la résilience opérationnelle numérique",
+      "type_obligation": "Documentaire",
+      "destinataires": ["Entités financières"],
+      "echeance": { "date": "chaque année", "type": "Périodique", "texte_source": null },
+      "sanction": null,
+      "confiance": 0.6,
+      "justification_confiance": "Obligation déduite, formulation incertaine."
+    },
+    {
+      "titre": "Disposer d'un cadre de gestion du risque TIC solide, complet et documenté",
+      "description": "Doublon volontaire de l'exigence précédente avec un titre légèrement différent, pour tester la fusion.",
+      "articles": ["Art. 6 §1"],
+      "extrait_verbatim": "Les entités financières disposent d’un cadre de gestion du risque lié aux TIC solide, complet et bien documenté",
+      "type_obligation": "Gouvernance",
+      "destinataires": ["Entités financières"],
+      "echeance": null,
+      "sanction": null,
+      "confiance": 0.7,
+      "justification_confiance": "Doublon."
+    }
+  ],
+  "sections_traitees": ["5", "6", "7"],
+  "avertissements": [
+    "L'article 7 renvoie à des normes techniques de réglementation non incluses dans le chunk."
+  ]
+}

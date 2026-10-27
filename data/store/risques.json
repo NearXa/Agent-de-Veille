@@ -1,0 +1,1936 @@
+[
+  {
+    "id": "RK-0001",
+    "exigence_id": "EX-0001",
+    "intitule": "Absence de cadre formalisé de contrôle interne du risque TIC",
+    "scenario": "Lors d'un contrôle de l'AMF, Aurelia ne peut démontrer un cadre de gouvernance et de contrôle interne couvrant l'ensemble du risque TIC. Le régulateur formule une injonction de mise en conformité, voire une sanction, et les faiblesses du contrôle de second niveau laissent des risques TIC non détectés.",
+    "categorie": "Juridique",
+    "probabilite": 3,
+    "impact": 3,
+    "criticite_brute": 9,
+    "justification_scores": "Les contrôles existent mais restent partiels et peu efficaces, ce qui rend une constatation en contrôle probable. L'impact est majeur car il s'agit d'un pilier de DORA pouvant entraîner une sanction.",
+    "controles_attenuants": [
+      "CT-0034",
+      "CT-0001",
+      "CT-0018"
+    ],
+    "risque_residuel": 5,
+    "niveau_residuel": "Modéré",
+    "traitement": "Réduire",
+    "proprietaire": "Juridique",
+    "statut": "Identifié",
+    "lots_ids": [
+      "LA-0001"
+    ],
+    "run_id": "RUN-20261027-2050"
+  },
+  {
+    "id": "RK-0002",
+    "exigence_id": "EX-0002",
+    "intitule": "Responsabilité ultime de l'organe de direction sur le risque TIC non démontrée",
+    "scenario": "L'organe de direction ne peut prouver qu'il a défini, approuvé et assume le cadre de gestion du risque TIC. En cas d'incident majeur ou de contrôle, la responsabilité des dirigeants est mise en cause et l'AMF peut remettre en question l'honorabilité et la compétence de la gouvernance, jusqu'à menacer l'agrément.",
+    "categorie": "Juridique",
+    "probabilite": 3,
+    "impact": 4,
+    "criticite_brute": 12,
+    "justification_scores": "Seul un suivi par comité et une PSSI approuvée existent, l'absence de preuve est donc probable d'être relevée. L'impact est critique car la responsabilité des dirigeants touche directement aux conditions d'agrément.",
+    "controles_attenuants": [
+      "CT-0034",
+      "CT-0001"
+    ],
+    "risque_residuel": 6,
+    "niveau_residuel": "Modéré",
+    "traitement": "Réduire",
+    "proprietaire": "Juridique",
+    "statut": "Identifié",
+    "lots_ids": [
+      "LA-0001"
+    ],
+    "run_id": "RUN-20261027-2050"
+  },
+  {
+    "id": "RK-0003",
+    "exigence_id": "EX-0003",
+    "intitule": "Rôles et responsabilités TIC incomplètement définis",
+    "scenario": "Hors sécurité, les rôles des fonctions TIC ne sont pas définis ni validés par la direction. Lors d'un incident, des zones grises de responsabilité retardent la prise de décision et la coordination entre équipes, allongeant l'interruption des services de gestion.",
+    "categorie": "Opérationnel",
+    "probabilite": 3,
+    "impact": 2,
+    "criticite_brute": 6,
+    "justification_scores": "Les dysfonctionnements de coordination sont fréquents faute de formalisation complète. L'impact reste modéré car les rôles sécurité et un comité de coordination existent.",
+    "controles_attenuants": [
+      "CT-0002",
+      "CT-0034"
+    ],
+    "risque_residuel": 3,
+    "niveau_residuel": "Faible",
+    "traitement": "Réduire",
+    "proprietaire": "DSI",
+    "statut": "Identifié",
+    "lots_ids": [
+      "LA-0002"
+    ],
+    "run_id": "RUN-20261027-2050"
+  },
+  {
+    "id": "RK-0004",
+    "exigence_id": "EX-0004",
+    "intitule": "Absence de stratégie de résilience numérique et de tolérance au risque TIC",
+    "scenario": "Aucune stratégie de résilience opérationnelle numérique ni appétence au risque TIC n'est approuvée. Les investissements et priorités de protection sont décidés sans référentiel, et l'AMF constate un manquement direct à DORA pouvant donner lieu à sanction.",
+    "categorie": "Juridique",
+    "probabilite": 4,
+    "impact": 3,
+    "criticite_brute": 12,
+    "justification_scores": "L'exigence n'est pas couverte, le manquement est donc certain et sera relevé à tout contrôle. L'impact est majeur : sanction possible et pilotage des risques TIC sans cap.",
+    "controles_attenuants": [],
+    "risque_residuel": 12,
+    "niveau_residuel": "Critique",
+    "traitement": "Réduire",
+    "proprietaire": "Juridique",
+    "statut": "Identifié",
+    "lots_ids": [
+      "LA-0001"
+    ],
+    "run_id": "RUN-20261027-2050"
+  },
+  {
+    "id": "RK-0005",
+    "exigence_id": "EX-0005",
+    "intitule": "Continuité TIC insuffisamment testée et non supervisée par la direction",
+    "scenario": "Une panne majeure touche une application critique ou un SaaS non couvert par le PRA testé. Le rétablissement échoue ou dépasse les délais acceptables, empêchant la valorisation des fonds ou le passage d'ordres, avec pertes financières, réclamations clients et observations du régulateur.",
+    "categorie": "Opérationnel",
+    "probabilite": 3,
+    "impact": 4,
+    "criticite_brute": 12,
+    "justification_scores": "40 % des applications critiques et les SaaS ne sont pas testés, et le volet sécurité du PCA est inachevé : un incident affectant ce périmètre est probable. L'impact est critique en cas d'interruption prolongée de fonctions critiques.",
+    "controles_attenuants": [
+      "CT-0015",
+      "CT-0036",
+      "CT-0014",
+      "CT-0012"
+    ],
+    "risque_residuel": 7,
+    "niveau_residuel": "Élevé",
+    "traitement": "Réduire",
+    "proprietaire": "DSI",
+    "statut": "Identifié",
+    "lots_ids": [
+      "LA-0003"
+    ],
+    "run_id": "RUN-20261027-2050"
+  },
+  {
+    "id": "RK-0006",
+    "exigence_id": "EX-0006",
+    "intitule": "Plans d'audit TIC non approuvés ni examinés par la direction",
+    "scenario": "L'audit interne sécurité n'est prévu qu'en 2027 et aucun plan d'audit TIC n'est approuvé par l'organe de direction. Les faiblesses TIC ne sont pas identifiées de manière indépendante et l'AMF peut relever l'absence de troisième ligne de défense sur le risque TIC.",
+    "categorie": "Juridique",
+    "probabilite": 3,
+    "impact": 3,
+    "criticite_brute": 9,
+    "justification_scores": "L'écart est avéré et durable jusqu'en 2027, donc probable d'être constaté. L'impact est majeur car il prive la direction d'une assurance indépendante et expose à une sanction.",
+    "controles_attenuants": [
+      "CT-0017"
+    ],
+    "risque_residuel": 9,
+    "niveau_residuel": "Élevé",
+    "traitement": "Réduire",
+    "proprietaire": "Juridique",
+    "statut": "Identifié",
+    "lots_ids": [
+      "LA-0004"
+    ],
+    "run_id": "RUN-20261027-2050"
+  },
+  {
+    "id": "RK-0007",
+    "exigence_id": "EX-0007",
+    "intitule": "Absence de budget dédié à la résilience opérationnelle numérique",
+    "scenario": "Aucun budget de résilience numérique n'est alloué ni réexaminé. Les chantiers de remédiation (PRA, segmentation, legacy, formation) sont sous-financés ou reportés, laissant persister des vulnérabilités et exposant Aurelia à un manquement constaté par l'AMF.",
+    "categorie": "Financier",
+    "probabilite": 4,
+    "impact": 3,
+    "criticite_brute": 12,
+    "justification_scores": "Non couverte, l'exigence est en manquement certain. L'impact est majeur car le sous-financement entretient les autres écarts et peut conduire à des pertes en cas d'incident.",
+    "controles_attenuants": [],
+    "risque_residuel": 12,
+    "niveau_residuel": "Critique",
+    "traitement": "Réduire",
+    "proprietaire": "Direction",
+    "statut": "Identifié",
+    "lots_ids": [
+      "LA-0005"
+    ],
+    "run_id": "RUN-20261027-2050"
+  },
+  {
+    "id": "RK-0008",
+    "exigence_id": "EX-0008",
+    "intitule": "Politique d'utilisation des prestataires TIC tiers non formalisée",
+    "scenario": "Sans politique approuvée sur les services TIC tiers ni réévaluation périodique, Aurelia dépend de prestataires dont les risques ne sont pas maîtrisés et sans plan de sortie testé. La défaillance d'un prestataire cloud critique bloque des activités et le régulateur constate un manquement aux exigences DORA sur les tiers.",
+    "categorie": "Opérationnel",
+    "probabilite": 3,
+    "impact": 3,
+    "criticite_brute": 9,
+    "justification_scores": "Les processus sont partiels et la dépendance au cloud est forte, rendant un incident ou une constatation probable. L'impact est majeur en cas de défaillance d'un prestataire critique sans réversibilité.",
+    "controles_attenuants": [
+      "CT-0005",
+      "CT-0009"
+    ],
+    "risque_residuel": 8,
+    "niveau_residuel": "Élevé",
+    "traitement": "Réduire",
+    "proprietaire": "DSI",
+    "statut": "Identifié",
+    "lots_ids": [
+      "LA-0006"
+    ],
+    "run_id": "RUN-20261027-2050"
+  },
+  {
+    "id": "RK-0009",
+    "exigence_id": "EX-0009",
+    "intitule": "Remontée d'information incomplète vers l'organe de direction",
+    "scenario": "Les changements significatifs prévus et l'ensemble des accords tiers ne sont pas remontés formellement à l'organe de direction. Celui-ci prend des décisions sans visibilité sur des risques TIC importants, et ne peut justifier sa supervision en cas d'incident majeur ou de contrôle.",
+    "categorie": "Juridique",
+    "probabilite": 3,
+    "impact": 2,
+    "criticite_brute": 6,
+    "justification_scores": "Le comité trimestriel ne couvre qu'une partie du périmètre, l'écart est donc probable d'être relevé. L'impact est modéré car les incidents majeurs sont déjà remontés à la DG.",
+    "controles_attenuants": [
+      "CT-0034"
+    ],
+    "risque_residuel": 5,
+    "niveau_residuel": "Modéré",
+    "traitement": "Réduire",
+    "proprietaire": "Juridique",
+    "statut": "Identifié",
+    "lots_ids": [
+      "LA-0002"
+    ],
+    "run_id": "RUN-20261027-2050"
+  },
+  {
+    "id": "RK-0010",
+    "exigence_id": "EX-0010",
+    "intitule": "Absence de responsable désigné et de registre des accords TIC tiers",
+    "scenario": "Aucun rôle dédié ne supervise l'exposition aux prestataires TIC et le registre d'information exigé par DORA n'existe pas. Aurelia ne peut transmettre le registre à l'AMF, s'exposant à une sanction, et ne maîtrise pas ses concentrations de dépendance.",
+    "categorie": "Juridique",
+    "probabilite": 4,
+    "impact": 3,
+    "criticite_brute": 12,
+    "justification_scores": "Le registre est absent alors que sa transmission est exigée périodiquement, le manquement est quasi certain. L'impact est majeur : sanction et méconnaissance des dépendances critiques.",
+    "controles_attenuants": [
+      "CT-0034",
+      "CT-0035"
+    ],
+    "risque_residuel": 9,
+    "niveau_residuel": "Élevé",
+    "traitement": "Réduire",
+    "proprietaire": "Juridique",
+    "statut": "Identifié",
+    "lots_ids": [
+      "LA-0006"
+    ],
+    "run_id": "RUN-20261027-2050"
+  },
+  {
+    "id": "RK-0011",
+    "exigence_id": "EX-0011",
+    "intitule": "Membres de l'organe de direction non formés au risque TIC",
+    "scenario": "Les dirigeants ne suivent pas de formation spécifique au risque TIC et peinent à challenger les choix techniques ou à piloter une crise cyber. L'AMF peut contester leur compétence collective sur ce risque lors d'un contrôle.",
+    "categorie": "Juridique",
+    "probabilite": 3,
+    "impact": 2,
+    "criticite_brute": 6,
+    "justification_scores": "L'absence de formation dédiée est un écart facile à constater. L'impact reste modéré car un programme général de sensibilisation existe.",
+    "controles_attenuants": [
+      "CT-0020"
+    ],
+    "risque_residuel": 5,
+    "niveau_residuel": "Modéré",
+    "traitement": "Réduire",
+    "proprietaire": "Juridique",
+    "statut": "Identifié",
+    "lots_ids": [
+      "LA-0004"
+    ],
+    "run_id": "RUN-20261027-2050"
+  },
+  {
+    "id": "RK-0012",
+    "exigence_id": "EX-0012",
+    "intitule": "Cadre de gestion du risque TIC incomplet et actifs mal cartographiés",
+    "scenario": "Sans cadre complet intégré à la gestion globale des risques ni cartographie des actifs et interdépendances, notamment cloud et SaaS, des actifs critiques restent non protégés. Un incident sur un actif inconnu se propage sans maîtrise, et le régulateur relève un manquement central de DORA.",
+    "categorie": "Cyber",
+    "probabilite": 3,
+    "impact": 4,
+    "criticite_brute": 12,
+    "justification_scores": "L'inventaire est incomplet et la cartographie absente, rendant probable un incident sur un périmètre non maîtrisé. L'impact est critique car le cadre est la pierre angulaire de DORA.",
+    "controles_attenuants": [
+      "CT-0001",
+      "CT-0004",
+      "CT-0038",
+      "CT-0034"
+    ],
+    "risque_residuel": 6,
+    "niveau_residuel": "Modéré",
+    "traitement": "Réduire",
+    "proprietaire": "RSSI",
+    "statut": "Identifié",
+    "lots_ids": [
+      "LA-0002"
+    ],
+    "run_id": "RUN-20261027-2050"
+  },
+  {
+    "id": "RK-0013",
+    "exigence_id": "EX-0013",
+    "intitule": "Mesures de réduction du risque TIC lacunaires",
+    "scenario": "Des systèmes legacy non corrigés et un réseau bureautique à plat permettent à un attaquant d'exploiter une vulnérabilité et de se propager latéralement, par exemple via un rançongiciel. Les points uniques de défaillance sur le reporting aggravent l'indisponibilité, avec pertes financières et atteinte à la réputation.",
+    "categorie": "Cyber",
+    "probabilite": 4,
+    "impact": 4,
+    "criticite_brute": 16,
+    "justification_scores": "Les tentatives d'exploitation sont fréquentes et les faiblesses de correctifs et de segmentation sont avérées. L'impact est critique en cas de compromission étendue du système d'information.",
+    "controles_attenuants": [
+      "CT-0023",
+      "CT-0022",
+      "CT-0026",
+      "CT-0029",
+      "CT-0024",
+      "CT-0031",
+      "CT-0027"
+    ],
+    "risque_residuel": 2,
+    "niveau_residuel": "Faible",
+    "traitement": "Réduire",
+    "proprietaire": "RSSI",
+    "statut": "Identifié",
+    "lots_ids": [
+      "LA-0004"
+    ],
+    "run_id": "RUN-20261027-2050"
+  },
+  {
+    "id": "RK-0014",
+    "exigence_id": "EX-0014",
+    "intitule": "Incapacité à fournir aux autorités les informations sur le risque TIC",
+    "scenario": "À la demande de l'AMF, Aurelia ne peut produire rapidement des informations complètes sur son risque TIC ni de rapport de réexamen du cadre. Le régulateur considère la réponse insuffisante, ce qui peut déclencher un contrôle approfondi et des mesures correctrices.",
+    "categorie": "Juridique",
+    "probabilite": 3,
+    "impact": 3,
+    "criticite_brute": 9,
+    "justification_scores": "Les demandes d'information des autorités sont désormais régulières et aucun processus n'existe. L'impact est majeur car le défaut de réponse aggrave la perception du régulateur et peut mener à sanction.",
+    "controles_attenuants": [
+      "CT-0016",
+      "CT-0017"
+    ],
+    "risque_residuel": 7,
+    "niveau_residuel": "Élevé",
+    "traitement": "Réduire",
+    "proprietaire": "Juridique",
+    "statut": "Identifié",
+    "lots_ids": [
+      "LA-0004"
+    ],
+    "run_id": "RUN-20261027-2050"
+  },
+  {
+    "id": "RK-0015",
+    "exigence_id": "EX-0015",
+    "intitule": "Indépendance de la fonction de contrôle du risque TIC non démontrée",
+    "scenario": "Le RSSI, rattaché aux fonctions opérationnelles TIC, se trouve en situation de conflit d'intérêts et minimise des risques. Les contrôles de second niveau limités ne compensent pas ce défaut, et l'AMF peut exiger une réorganisation de la fonction.",
+    "categorie": "Juridique",
+    "probabilite": 3,
+    "impact": 3,
+    "criticite_brute": 9,
+    "justification_scores": "L'indépendance n'étant pas démontrée, l'écart est probable d'être relevé. L'impact est majeur car il fragilise la fiabilité de toute la surveillance du risque TIC.",
+    "controles_attenuants": [
+      "CT-0002",
+      "CT-0018"
+    ],
+    "risque_residuel": 6,
+    "niveau_residuel": "Modéré",
+    "traitement": "Réduire",
+    "proprietaire": "Juridique",
+    "statut": "Identifié",
+    "lots_ids": [
+      "LA-0002"
+    ],
+    "run_id": "RUN-20261027-2050"
+  },
+  {
+    "id": "RK-0016",
+    "exigence_id": "EX-0016",
+    "intitule": "Absence d'indépendance démontrée entre les trois lignes de défense sur le risque TIC",
+    "scenario": "Lors d'un contrôle de l'AMF, l'absence de séparation formelle entre gestion du risque TIC, contrôle de second niveau et audit interne est relevée. Les risques TIC peuvent être sous-évalués par une première ligne qui s'auto-contrôle. Aurelia s'expose à une injonction de mise en conformité, voire à une sanction, et à des angles morts dans la maîtrise de ses risques.",
+    "categorie": "Juridique",
+    "probabilite": 3,
+    "impact": 3,
+    "criticite_brute": 9,
+    "justification_scores": "Probabilité probable : rôles sécurité définis mais aucune séparation documentée, contrôles de second niveau partiels et troisième ligne seulement planifiée pour 2027. Impact majeur : manquement de gouvernance DORA susceptible de sanction.",
+    "controles_attenuants": [
+      "CT-0002",
+      "CT-0018",
+      "CT-0017"
+    ],
+    "risque_residuel": 6,
+    "niveau_residuel": "Modéré",
+    "traitement": "Réduire",
+    "proprietaire": "Juridique",
+    "statut": "Identifié",
+    "lots_ids": [
+      "LA-0002"
+    ],
+    "run_id": "RUN-20261027-2050"
+  },
+  {
+    "id": "RK-0017",
+    "exigence_id": "EX-0017",
+    "intitule": "Cadre de gestion du risque TIC non réexaminé dans son ensemble ni après incident majeur",
+    "scenario": "Le cadre de gestion du risque TIC devient obsolète car seule la PSSI est revue annuellement, sans réexamen après incident majeur, audit ou instruction des autorités. Les enseignements des incidents ne se traduisent pas en améliorations. Le régulateur peut constater un cadre non maintenu et demander un plan de remédiation.",
+    "categorie": "Juridique",
+    "probabilite": 3,
+    "impact": 2,
+    "criticite_brute": 6,
+    "justification_scores": "Probabilité probable : revue limitée à la PSSI et retours d'expérience non reliés au cadre. Impact modéré : relève d'abord d'une remarque ou demande du régulateur, la PSSI étant tout de même revue.",
+    "controles_attenuants": [
+      "CT-0001",
+      "CT-0013",
+      "CT-0034"
+    ],
+    "risque_residuel": 3,
+    "niveau_residuel": "Faible",
+    "traitement": "Réduire",
+    "proprietaire": "Juridique",
+    "statut": "Identifié",
+    "lots_ids": [
+      "LA-0007"
+    ],
+    "run_id": "RUN-20261027-2050"
+  },
+  {
+    "id": "RK-0018",
+    "exigence_id": "EX-0018",
+    "intitule": "Absence d'audit interne régulier du cadre de gestion du risque TIC",
+    "scenario": "Aucun audit interne du cadre n'est réalisé avant 2027 et la fréquence proportionnée au risque n'est pas définie. Les faiblesses du dispositif restent non détectées par une instance indépendante. En cas d'inspection ou d'incident majeur, l'AMF peut retenir un manquement caractérisé à l'article 6 §6 de DORA et sanctionner Aurelia.",
+    "categorie": "Juridique",
+    "probabilite": 3,
+    "impact": 3,
+    "criticite_brute": 9,
+    "justification_scores": "Probabilité probable : l'écart est total à ce jour, l'audit n'étant que planifié. Impact majeur : obligation explicite non remplie, exposant à une sanction et à des risques non identifiés.",
+    "controles_attenuants": [
+      "CT-0017"
+    ],
+    "risque_residuel": 9,
+    "niveau_residuel": "Élevé",
+    "traitement": "Réduire",
+    "proprietaire": "Juridique",
+    "statut": "Identifié",
+    "lots_ids": [
+      "LA-0008"
+    ],
+    "run_id": "RUN-20261027-2050"
+  },
+  {
+    "id": "RK-0019",
+    "exigence_id": "EX-0019",
+    "intitule": "Constatations critiques d'audit TIC non suivies ni corrigées en temps utile",
+    "scenario": "En l'absence de processus formel, des constatations critiques d'audit TIC restent ouvertes sans vérification de leur correction. Une vulnérabilité ou faiblesse connue peut être exploitée et provoquer un incident affectant une fonction critique. Le régulateur peut reprocher l'inaction face à des risques identifiés.",
+    "categorie": "Opérationnel",
+    "probabilite": 2,
+    "impact": 3,
+    "criticite_brute": 6,
+    "justification_scores": "Probabilité peu probable : un suivi existe pour les tests d'intrusion et peu d'audits TIC sont encore menés. Impact majeur : une faiblesse critique non corrigée peut interrompre une fonction critique.",
+    "controles_attenuants": [
+      "CT-0037"
+    ],
+    "risque_residuel": 5,
+    "niveau_residuel": "Modéré",
+    "traitement": "Réduire",
+    "proprietaire": "DSI",
+    "statut": "Identifié",
+    "lots_ids": [
+      "LA-0008"
+    ],
+    "run_id": "RUN-20261027-2050"
+  },
+  {
+    "id": "RK-0020",
+    "exigence_id": "EX-0020",
+    "intitule": "Absence de stratégie de résilience opérationnelle numérique couvrant les éléments a) à h)",
+    "scenario": "Sans tolérance au risque, indicateurs, architecture cible ni stratégie de communication formalisés, les investissements TIC ne sont pas alignés sur la stratégie d'Aurelia. L'organe de direction ne peut piloter la résilience et justifier ses choix auprès de l'AMF. Une demande de mise en conformité ou une remarque formelle est probable lors d'un contrôle.",
+    "categorie": "Juridique",
+    "probabilite": 3,
+    "impact": 2,
+    "criticite_brute": 6,
+    "justification_scores": "Probabilité probable : la PSSI ne couvre pas les éléments exigés et aucun indicateur stratégique n'est documenté. Impact modéré : manquement documentaire entraînant surtout une remarque du régulateur.",
+    "controles_attenuants": [
+      "CT-0001",
+      "CT-0034"
+    ],
+    "risque_residuel": 3,
+    "niveau_residuel": "Faible",
+    "traitement": "Réduire",
+    "proprietaire": "Juridique",
+    "statut": "Identifié",
+    "lots_ids": [
+      "LA-0001"
+    ],
+    "run_id": "RUN-20261027-2050"
+  },
+  {
+    "id": "RK-0021",
+    "exigence_id": "EX-0021",
+    "intitule": "Responsabilité non encadrée en cas d'externalisation de la vérification de conformité TIC",
+    "scenario": "Si la vérification du respect des exigences de gestion du risque TIC est confiée à un prestataire sans dispositif de supervision, Aurelia ne peut garantir la qualité des conclusions. Une défaillance du prestataire laisse des non-conformités non détectées dont Aurelia reste pleinement responsable devant l'AMF.",
+    "categorie": "Juridique",
+    "probabilite": 2,
+    "impact": 3,
+    "criticite_brute": 6,
+    "justification_scores": "Probabilité peu probable : exigence non couverte mais qui ne se matérialise qu'en cas d'externalisation effective. Impact majeur : la responsabilité réglementaire reste entière et peut entraîner une sanction.",
+    "controles_attenuants": [],
+    "risque_residuel": 6,
+    "niveau_residuel": "Modéré",
+    "traitement": "Réduire",
+    "proprietaire": "Juridique",
+    "statut": "Identifié",
+    "lots_ids": [
+      "LA-0006"
+    ],
+    "run_id": "RUN-20261027-2050"
+  },
+  {
+    "id": "RK-0022",
+    "exigence_id": "EX-0022",
+    "intitule": "Systèmes TIC insuffisamment résilients face aux pics de volume et aux défaillances",
+    "scenario": "Lors d'un pic de volume de marché ou d'une panne, les points uniques de défaillance du reporting et l'absence de gestion de capacité provoquent une indisponibilité. Le PRA non testé sur 40 % des applications critiques et les SaaS retarde la reprise. Aurelia ne peut produire ses reportings réglementaires et clients dans les délais.",
+    "categorie": "Opérationnel",
+    "probabilite": 3,
+    "impact": 3,
+    "criticite_brute": 9,
+    "justification_scores": "Probabilité probable : SPOF connus, capacité non gérée et legacy mal corrigé. Impact majeur : interruption possible d'une fonction critique et manquements de reporting.",
+    "controles_attenuants": [
+      "CT-0027",
+      "CT-0015",
+      "CT-0024"
+    ],
+    "risque_residuel": 7,
+    "niveau_residuel": "Élevé",
+    "traitement": "Réduire",
+    "proprietaire": "DSI",
+    "statut": "Identifié",
+    "lots_ids": [
+      "LA-0009"
+    ],
+    "run_id": "RUN-20261027-2050"
+  },
+  {
+    "id": "RK-0023",
+    "exigence_id": "EX-0023",
+    "intitule": "Fonctions métiers et actifs TIC non classés ni réexaminés annuellement",
+    "scenario": "Sans classification des fonctions métiers et avec un inventaire limité à l'on-premise, Aurelia ne sait pas précisément quelles fonctions critiques dépendent de quels actifs cloud et SaaS. Les priorités de protection et de reprise sont mal définies et la classification des incidents DORA devient fiable. Le régulateur peut relever un manquement structurant.",
+    "categorie": "Opérationnel",
+    "probabilite": 3,
+    "impact": 3,
+    "criticite_brute": 9,
+    "justification_scores": "Probabilité probable : absence de classification et de réexamen annuel, inventaire incomplet. Impact majeur : base de tout le dispositif DORA, erreurs de priorisation lors d'une crise.",
+    "controles_attenuants": [
+      "CT-0004",
+      "CT-0002"
+    ],
+    "risque_residuel": 6,
+    "niveau_residuel": "Modéré",
+    "traitement": "Réduire",
+    "proprietaire": "DSI",
+    "statut": "Identifié",
+    "lots_ids": [
+      "LA-0002"
+    ],
+    "run_id": "RUN-20261027-2050"
+  },
+  {
+    "id": "RK-0024",
+    "exigence_id": "EX-0024",
+    "intitule": "Identification des menaces et examen des scénarios de risque TIC non formalisés",
+    "scenario": "La veille CERT-FR n'est pas exploitée de façon structurée et les vulnérabilités détectées sur le legacy ne sont pas traitées. Une menace connue peut être exploitée par un attaquant avant toute mesure. L'absence d'examen annuel des scénarios de risque laisse des expositions majeures non anticipées.",
+    "categorie": "Cyber",
+    "probabilite": 3,
+    "impact": 3,
+    "criticite_brute": 9,
+    "justification_scores": "Probabilité probable : veille non exploitée, traitement défaillant sur le legacy, scénarios non examinés. Impact majeur : une cyberattaque peut interrompre une fonction critique.",
+    "controles_attenuants": [
+      "CT-0003",
+      "CT-0024",
+      "CT-0037"
+    ],
+    "risque_residuel": 6,
+    "niveau_residuel": "Modéré",
+    "traitement": "Réduire",
+    "proprietaire": "RSSI",
+    "statut": "Identifié",
+    "lots_ids": [
+      "LA-0004"
+    ],
+    "run_id": "RUN-20261027-2050"
+  },
+  {
+    "id": "RK-0025",
+    "exigence_id": "EX-0025",
+    "intitule": "Modifications importantes déployées sans évaluation formelle des risques",
+    "scenario": "Une modification d'infrastructure ou de processus validée en CAB sans analyse de risques formelle introduit une vulnérabilité ou une régression. Elle provoque un incident de production ou une faille de sécurité sur un actif TIC soutenant une fonction métier.",
+    "categorie": "Opérationnel",
+    "probabilite": 3,
+    "impact": 2,
+    "criticite_brute": 6,
+    "justification_scores": "Probabilité probable : les changements sont fréquents et l'analyse de risques n'est pas décrite. Impact modéré : le CAB existant limite l'ampleur des perturbations.",
+    "controles_attenuants": [
+      "CT-0033"
+    ],
+    "risque_residuel": 5,
+    "niveau_residuel": "Modéré",
+    "traitement": "Réduire",
+    "proprietaire": "DSI",
+    "statut": "Identifié",
+    "lots_ids": [
+      "LA-0010"
+    ],
+    "run_id": "RUN-20261027-2050"
+  },
+  {
+    "id": "RK-0026",
+    "exigence_id": "EX-0026",
+    "intitule": "Actifs critiques, configurations et interdépendances non répertoriés",
+    "scenario": "Des actifs cloud et SaaS non inventoriés et sans suivi de configuration échappent aux mesures de sécurité. Un actif critique mal configuré est compromis, et l'absence de cartographie des interdépendances ralentit l'analyse d'impact et la reprise.",
+    "categorie": "Cyber",
+    "probabilite": 3,
+    "impact": 3,
+    "criticite_brute": 9,
+    "justification_scores": "Probabilité probable : périmètre externe incomplet et durcissement limité aux serveurs. Impact majeur : compromission possible d'actifs critiques et reprise ralentie.",
+    "controles_attenuants": [
+      "CT-0004",
+      "CT-0025"
+    ],
+    "risque_residuel": 9,
+    "niveau_residuel": "Élevé",
+    "traitement": "Réduire",
+    "proprietaire": "RSSI",
+    "statut": "Identifié",
+    "lots_ids": [
+      "LA-0011"
+    ],
+    "run_id": "RUN-20261027-2050"
+  },
+  {
+    "id": "RK-0027",
+    "exigence_id": "EX-0027",
+    "intitule": "Dépendances des processus aux prestataires tiers TIC non documentées",
+    "scenario": "Lors de la défaillance d'un prestataire TIC autre que l'hyperscaler, Aurelia découvre tardivement les processus impactés et leurs interconnexions avec des fonctions critiques. La continuité des opérations de gestion est perturbée et le registre d'information DORA est inexact.",
+    "categorie": "Opérationnel",
+    "probabilite": 2,
+    "impact": 3,
+    "criticite_brute": 6,
+    "justification_scores": "Probabilité peu probable : les prestataires critiques sont suivis, mais les dépendances ne sont pas cartographiées. Impact majeur : perturbation possible de fonctions critiques.",
+    "controles_attenuants": [
+      "CT-0034",
+      "CT-0009"
+    ],
+    "risque_residuel": 4,
+    "niveau_residuel": "Modéré",
+    "traitement": "Réduire",
+    "proprietaire": "DSI",
+    "statut": "Identifié",
+    "lots_ids": [
+      "LA-0002"
+    ],
+    "run_id": "RUN-20261027-2050"
+  },
+  {
+    "id": "RK-0028",
+    "exigence_id": "EX-0028",
+    "intitule": "Inventaires TIC incomplets et non mis à jour à chaque modification",
+    "scenario": "La CMDB incomplète sur le cloud et le SaaS et non mise à jour lors des changements fournit une vision erronée du SI. Les analyses d'impact, la gestion des vulnérabilités et les réponses aux demandes du régulateur s'appuient sur des données inexactes.",
+    "categorie": "Opérationnel",
+    "probabilite": 3,
+    "impact": 2,
+    "criticite_brute": 6,
+    "justification_scores": "Probabilité probable : efficacité faible de la CMDB et mises à jour non démontrées. Impact modéré : perturbations limitées et remarques possibles du régulateur.",
+    "controles_attenuants": [
+      "CT-0004"
+    ],
+    "risque_residuel": 6,
+    "niveau_residuel": "Modéré",
+    "traitement": "Réduire",
+    "proprietaire": "DSI",
+    "statut": "Identifié",
+    "lots_ids": [
+      "LA-0010"
+    ],
+    "run_id": "RUN-20261027-2050"
+  },
+  {
+    "id": "RK-0029",
+    "exigence_id": "EX-0029",
+    "intitule": "Risque des systèmes hérités non évalué annuellement ni lors des connexions",
+    "scenario": "Les systèmes legacy, scannés mais mal corrigés, sont connectés à de nouvelles applications sans évaluation préalable. Un attaquant exploite une vulnérabilité ancienne pour pénétrer le SI et atteindre des systèmes de gestion critiques.",
+    "categorie": "Cyber",
+    "probabilite": 3,
+    "impact": 3,
+    "criticite_brute": 9,
+    "justification_scores": "Probabilité probable : vulnérabilités legacy connues non corrigées et aucune évaluation annuelle. Impact majeur : compromission pouvant interrompre une fonction critique.",
+    "controles_attenuants": [
+      "CT-0024"
+    ],
+    "risque_residuel": 9,
+    "niveau_residuel": "Élevé",
+    "traitement": "Réduire",
+    "proprietaire": "RSSI",
+    "statut": "Identifié",
+    "lots_ids": [
+      "LA-0009"
+    ],
+    "run_id": "RUN-20261027-2050"
+  },
+  {
+    "id": "RK-0030",
+    "exigence_id": "EX-0031",
+    "intitule": "Protection incomplète des données et de la disponibilité des systèmes",
+    "scenario": "Faute de prévention de la perte de données et de contrôle global des accès non privilégiés, des données clients ou de portefeuilles sont exfiltrées ou consultées sans autorisation. Aurelia doit notifier la CNIL et ses clients, s'expose à des sanctions RGPD et DORA et à une perte de confiance des investisseurs.",
+    "categorie": "Cyber",
+    "probabilite": 3,
+    "impact": 3,
+    "criticite_brute": 9,
+    "justification_scores": "Probabilité probable : absence de DLP, de protection des données en utilisation et de contrôle d'accès global. Impact majeur : fuite de données entraînant sanction et atteinte à la réputation, atténuée par le chiffrement et les sauvegardes.",
+    "controles_attenuants": [
+      "CT-0032",
+      "CT-0026",
+      "CT-0027",
+      "CT-0015",
+      "CT-0021"
+    ],
+    "risque_residuel": 3,
+    "niveau_residuel": "Faible",
+    "traitement": "Réduire",
+    "proprietaire": "RSSI",
+    "statut": "Identifié",
+    "lots_ids": [
+      "LA-0012"
+    ],
+    "run_id": "RUN-20261027-2050"
+  },
+  {
+    "id": "RK-0031",
+    "exigence_id": "EX-0033",
+    "intitule": "Propagation latérale d'une attaque faute de segmentation et de déconnexion rapide",
+    "scenario": "Lors d'une intrusion ou d'un rançongiciel, le réseau bureautique à plat permet la propagation rapide de l'attaque vers les systèmes de gestion (PMS, OMS). Faute de capacité de déconnexion instantanée ou segmentée, Aurelia ne peut pas isoler les zones compromises et subit une interruption étendue de ses fonctions critiques. L'AMF pourrait relever un manquement à l'article 9 de DORA.",
+    "categorie": "Cyber",
+    "probabilite": 3,
+    "impact": 4,
+    "criticite_brute": 12,
+    "justification_scores": "Les tentatives d'intrusion sont fréquentes dans le secteur financier et le réseau à plat, d'efficacité faible, rend une propagation probable. Une compromission généralisée toucherait des fonctions critiques et pourrait mettre en cause l'agrément.",
+    "controles_attenuants": [
+      "CT-0030",
+      "CT-0031"
+    ],
+    "risque_residuel": 8,
+    "niveau_residuel": "Élevé",
+    "traitement": "Réduire",
+    "proprietaire": "RSSI",
+    "statut": "Identifié",
+    "lots_ids": [
+      "LA-0009"
+    ],
+    "run_id": "RUN-20261027-2050"
+  },
+  {
+    "id": "RK-0032",
+    "exigence_id": "EX-0034",
+    "intitule": "Accès logiques et physiques excessifs aux systèmes et locaux",
+    "scenario": "En l'absence de politique globale de gestion des droits et de contrôle des accès physiques, des collaborateurs ou prestataires conservent des accès dépassant le strict nécessaire. Un compte détourné ou une personne malveillante peut consulter ou modifier des données clients ou des ordres, entraînant fuite de données, fraude et sanctions au titre de DORA et du RGPD.",
+    "categorie": "Cyber",
+    "probabilite": 3,
+    "impact": 3,
+    "criticite_brute": 9,
+    "justification_scores": "Les dérives de droits sont courantes sans revue globale, seuls les accès privilégiés étant encadrés. L'impact est majeur : fuite de données ou fraude avec sanction possible, sans remise en cause directe de l'agrément.",
+    "controles_attenuants": [
+      "CT-0021",
+      "CT-0022"
+    ],
+    "risque_residuel": 4,
+    "niveau_residuel": "Modéré",
+    "traitement": "Réduire",
+    "proprietaire": "RSSI",
+    "statut": "Identifié",
+    "lots_ids": [
+      "LA-0012"
+    ],
+    "run_id": "RUN-20261027-2050"
+  },
+  {
+    "id": "RK-0033",
+    "exigence_id": "EX-0035",
+    "intitule": "Compromission de comptes faute d'authentification forte étendue",
+    "scenario": "La MFA n'étant appliquée qu'aux accès distants et administrateurs, un hameçonnage permet de compromettre des comptes utilisateurs internes ayant accès à des données sensibles non protégées selon leur classification. Il peut en résulter une exfiltration de données clients ou de stratégies de gestion, une notification CNIL et une remarque de l'AMF.",
+    "categorie": "Cyber",
+    "probabilite": 3,
+    "impact": 3,
+    "criticite_brute": 9,
+    "justification_scores": "Le hameçonnage ciblant les gestionnaires d'actifs est fréquent et la MFA ne couvre pas les accès internes aux données sensibles. La protection des clés par HSM limite partiellement l'impact, qui reste majeur.",
+    "controles_attenuants": [
+      "CT-0022",
+      "CT-0032"
+    ],
+    "risque_residuel": 4,
+    "niveau_residuel": "Modéré",
+    "traitement": "Réduire",
+    "proprietaire": "RSSI",
+    "statut": "Identifié",
+    "lots_ids": [
+      "LA-0012"
+    ],
+    "run_id": "RUN-20261027-2050"
+  },
+  {
+    "id": "RK-0034",
+    "exigence_id": "EX-0037",
+    "intitule": "Exploitation de vulnérabilités non corrigées sur le legacy",
+    "scenario": "Sans stratégie documentée et globale de correctifs, les délais de correction ne sont pas tenus sur les systèmes legacy. Un attaquant exploite une vulnérabilité connue pour s'introduire dans le SI, provoquant une interruption de service ou une fuite de données. Le régulateur peut en outre relever l'absence de stratégie documentée exigée par DORA.",
+    "categorie": "Cyber",
+    "probabilite": 4,
+    "impact": 3,
+    "criticite_brute": 12,
+    "justification_scores": "L'exploitation de vulnérabilités connues est quasi certaine en l'absence de correction effective et l'efficacité du contrôle est faible. L'impact est majeur via l'interruption de fonctions ou une sanction.",
+    "controles_attenuants": [
+      "CT-0024"
+    ],
+    "risque_residuel": 12,
+    "niveau_residuel": "Critique",
+    "traitement": "Réduire",
+    "proprietaire": "RSSI",
+    "statut": "Identifié",
+    "lots_ids": [
+      "LA-0010"
+    ],
+    "run_id": "RUN-20261027-2050"
+  },
+  {
+    "id": "RK-0035",
+    "exigence_id": "EX-0038",
+    "intitule": "Détection tardive d'activités anormales et de points uniques de défaillance",
+    "scenario": "Les mécanismes de détection n'étant ni testés régulièrement ni dotés de seuils multi-niveaux, une attaque furtive ou une défaillance d'un composant unique passe inaperçue pendant plusieurs jours. Le délai de réaction s'allonge, aggravant les pertes et compromettant le respect des délais de notification des incidents majeurs à l'AMF.",
+    "categorie": "Cyber",
+    "probabilite": 2,
+    "impact": 3,
+    "criticite_brute": 6,
+    "justification_scores": "Le SOC 24/7 et le SIEM réduisent la probabilité d'une détection manquée, mais l'absence de tests laisse des angles morts. Une détection tardive entraînerait des pertes et un manquement de notification significatifs.",
+    "controles_attenuants": [
+      "CT-0029",
+      "CT-0028",
+      "CT-0011"
+    ],
+    "risque_residuel": 3,
+    "niveau_residuel": "Faible",
+    "traitement": "Réduire",
+    "proprietaire": "RSSI",
+    "statut": "Identifié",
+    "lots_ids": [
+      "LA-0013"
+    ],
+    "run_id": "RUN-20261027-2050"
+  },
+  {
+    "id": "RK-0036",
+    "exigence_id": "EX-0040",
+    "intitule": "Déclarations de transactions incomplètes ou erronées non détectées",
+    "scenario": "Aucun système ne vérifie l'exhaustivité des déclarations de transactions transmises au régulateur. Des omissions ou erreurs répétées ne sont ni repérées ni retransmises, ce qui expose Aurelia à des contrôles de l'AMF, à des sanctions pécuniaires et à des coûts importants de reprise des déclarations historiques.",
+    "categorie": "Juridique",
+    "probabilite": 3,
+    "impact": 3,
+    "criticite_brute": 9,
+    "justification_scores": "L'exigence n'est pas couverte du tout et les erreurs déclaratives sont fréquentes sans contrôle automatisé. Les manquements déclaratifs donnent régulièrement lieu à sanction pécuniaire significative.",
+    "controles_attenuants": [],
+    "risque_residuel": 9,
+    "niveau_residuel": "Élevé",
+    "traitement": "Réduire",
+    "proprietaire": "Juridique",
+    "statut": "Identifié",
+    "lots_ids": [
+      "LA-0011"
+    ],
+    "run_id": "RUN-20261027-2050"
+  },
+  {
+    "id": "RK-0037",
+    "exigence_id": "EX-0041",
+    "intitule": "Absence de politique de continuité TIC formellement adoptée",
+    "scenario": "Faute de politique de continuité TIC adoptée et intégrée au cadre de gestion du risque TIC, les dispositifs existants manquent de pilotage et de cohérence. Lors d'une inspection, l'AMF relève un manquement de gouvernance à l'article 11 de DORA et exige un plan de remédiation, avec responsabilité engagée de l'organe de direction.",
+    "categorie": "Juridique",
+    "probabilite": 3,
+    "impact": 2,
+    "criticite_brute": 6,
+    "justification_scores": "Un contrôle portant sur DORA relèverait probablement ce manque documentaire. L'existence d'un plan de continuité TIC limite l'impact à une remarque ou injonction du régulateur.",
+    "controles_attenuants": [
+      "CT-0015",
+      "CT-0014"
+    ],
+    "risque_residuel": 5,
+    "niveau_residuel": "Modéré",
+    "traitement": "Réduire",
+    "proprietaire": "Juridique",
+    "statut": "Identifié",
+    "lots_ids": [
+      "LA-0003"
+    ],
+    "run_id": "RUN-20261027-2050"
+  },
+  {
+    "id": "RK-0038",
+    "exigence_id": "EX-0042",
+    "intitule": "Réponse aux incidents incomplète sur les fonctions critiques",
+    "scenario": "Lors d'un incident TIC majeur, l'absence d'estimation des pertes préliminaires, de continuité couvrant toutes les fonctions critiques et de volet sécurité finalisé du PCA ralentit la prise de décision. Certaines fonctions critiques, notamment les SaaS, restent indisponibles plus longtemps que tolérable, générant pertes financières et réclamations clients.",
+    "categorie": "Opérationnel",
+    "probabilite": 2,
+    "impact": 3,
+    "criticite_brute": 6,
+    "justification_scores": "Un incident majeur reste peu fréquent et la cellule de crise et les playbooks existent. Les lacunes entraîneraient toutefois une interruption prolongée de fonctions critiques.",
+    "controles_attenuants": [
+      "CT-0010",
+      "CT-0012",
+      "CT-0015",
+      "CT-0014"
+    ],
+    "risque_residuel": 3,
+    "niveau_residuel": "Faible",
+    "traitement": "Réduire",
+    "proprietaire": "DSI",
+    "statut": "Identifié",
+    "lots_ids": [
+      "LA-0003"
+    ],
+    "run_id": "RUN-20261027-2050"
+  },
+  {
+    "id": "RK-0039",
+    "exigence_id": "EX-0043",
+    "intitule": "Plans de réponse et de rétablissement non revus par l'audit interne",
+    "scenario": "Les plans de rétablissement ne couvrent que 60 % des applications critiques et n'ont fait l'objet d'aucune revue indépendante de l'audit interne, prévue seulement en 2027. Les faiblesses non identifiées compromettent le rétablissement réel, et l'AMF peut constater un manquement explicite à l'article 11 §3.",
+    "categorie": "Juridique",
+    "probabilite": 3,
+    "impact": 3,
+    "criticite_brute": 9,
+    "justification_scores": "Le manquement est avéré et sera constaté lors de tout contrôle avant 2027. L'impact combine sanction possible et risque d'échec de rétablissement de fonctions critiques.",
+    "controles_attenuants": [
+      "CT-0012",
+      "CT-0015",
+      "CT-0017"
+    ],
+    "risque_residuel": 6,
+    "niveau_residuel": "Modéré",
+    "traitement": "Réduire",
+    "proprietaire": "Juridique",
+    "statut": "Identifié",
+    "lots_ids": [
+      "LA-0003"
+    ],
+    "run_id": "RUN-20261027-2050"
+  },
+  {
+    "id": "RK-0040",
+    "exigence_id": "EX-0044",
+    "intitule": "Plans de continuité non testés pour les fonctions externalisées et SaaS",
+    "scenario": "Les fonctions critiques externalisées auprès de prestataires TIC et les SaaS ne sont pas couverts par les tests de continuité. En cas de défaillance d'un prestataire clé, Aurelia découvre que les procédures de reprise sont inopérantes, entraînant une interruption prolongée de la gestion ou du reporting et un manquement réglementaire.",
+    "categorie": "Opérationnel",
+    "probabilite": 2,
+    "impact": 4,
+    "criticite_brute": 8,
+    "justification_scores": "La défaillance d'un prestataire critique survient environ tous les deux à cinq ans. Sans plan testé, l'interruption de fonctions critiques externalisées pourrait être durable et mettre en cause l'agrément.",
+    "controles_attenuants": [
+      "CT-0015",
+      "CT-0036"
+    ],
+    "risque_residuel": 7,
+    "niveau_residuel": "Élevé",
+    "traitement": "Réduire",
+    "proprietaire": "DSI",
+    "statut": "Identifié",
+    "lots_ids": [
+      "LA-0003"
+    ],
+    "run_id": "RUN-20261027-2050"
+  },
+  {
+    "id": "RK-0041",
+    "exigence_id": "EX-0045",
+    "intitule": "Priorités de continuité mal fondées faute de BIA formalisée",
+    "scenario": "Sans analyse d'impact formalisée ni cartographie des interdépendances et dépendances de tiers, les RTO/RPO et les investissements de résilience reposent sur des hypothèses. Lors d'une perturbation grave, des dépendances cachées (cloud, SaaS) provoquent des interruptions imprévues de fonctions critiques et le régulateur relève l'absence de BIA.",
+    "categorie": "Opérationnel",
+    "probabilite": 3,
+    "impact": 3,
+    "criticite_brute": 9,
+    "justification_scores": "L'inventaire incomplet rend probable la découverte de dépendances non maîtrisées. L'impact est majeur car il touche la continuité des fonctions critiques et expose à une sanction.",
+    "controles_attenuants": [
+      "CT-0015",
+      "CT-0004"
+    ],
+    "risque_residuel": 8,
+    "niveau_residuel": "Élevé",
+    "traitement": "Réduire",
+    "proprietaire": "DSI",
+    "statut": "Identifié",
+    "lots_ids": [
+      "LA-0002"
+    ],
+    "run_id": "RUN-20261027-2050"
+  },
+  {
+    "id": "RK-0042",
+    "exigence_id": "EX-0046",
+    "intitule": "Points uniques de défaillance subsistant sur le reporting",
+    "scenario": "La redondance se limite au PMS et à l'OMS et n'est pas fondée sur une BIA ; les chaînes de reporting comportent des points uniques de défaillance. La panne d'un composant interrompt la production des valorisations ou des reportings clients et réglementaires, entraînant retards, pénalités et dégradation de la confiance des investisseurs.",
+    "categorie": "Opérationnel",
+    "probabilite": 3,
+    "impact": 3,
+    "criticite_brute": 9,
+    "justification_scores": "Les pannes d'un composant unique surviennent environ une fois par an sur des chaînes non redondées. L'interruption du reporting constitue une perturbation majeure d'une fonction importante.",
+    "controles_attenuants": [
+      "CT-0027",
+      "CT-0015",
+      "CT-0038"
+    ],
+    "risque_residuel": 7,
+    "niveau_residuel": "Élevé",
+    "traitement": "Réduire",
+    "proprietaire": "DSI",
+    "statut": "Identifié",
+    "lots_ids": [
+      "LA-0009"
+    ],
+    "run_id": "RUN-20261027-2050"
+  },
+  {
+    "id": "RK-0043",
+    "exigence_id": "EX-0047",
+    "intitule": "Tests annuels de continuité et de rétablissement incomplets",
+    "scenario": "Les tests annuels ne couvrent pas les systèmes de toutes les fonctions ni les modifications substantielles, et l'efficacité des tests PRA est faible. Une défaillance réelle révèle des procédures obsolètes ou inopérantes, et l'AMF constate un non-respect de l'obligation de test annuel de l'article 11 §6.",
+    "categorie": "Juridique",
+    "probabilite": 3,
+    "impact": 3,
+    "criticite_brute": 9,
+    "justification_scores": "Le défaut de couverture est avéré et sera constaté lors d'un contrôle. L'impact est majeur : sanction possible et risque d'échec du rétablissement.",
+    "controles_attenuants": [
+      "CT-0036",
+      "CT-0015",
+      "CT-0012"
+    ],
+    "risque_residuel": 6,
+    "niveau_residuel": "Modéré",
+    "traitement": "Réduire",
+    "proprietaire": "Juridique",
+    "statut": "Identifié",
+    "lots_ids": [
+      "LA-0003"
+    ],
+    "run_id": "RUN-20261027-2050"
+  },
+  {
+    "id": "RK-0044",
+    "exigence_id": "EX-0048",
+    "intitule": "Communication de crise défaillante faute de test des plans",
+    "scenario": "Les plans de communication de crise n'ayant pas été testés spécifiquement, Aurelia communique de façon tardive ou incohérente envers ses clients, investisseurs, autorités et médias lors d'un incident majeur. Cela amplifie la perte de confiance, provoque des demandes de rachat et attire l'attention du régulateur.",
+    "categorie": "Réputationnel",
+    "probabilite": 2,
+    "impact": 3,
+    "criticite_brute": 6,
+    "justification_scores": "Une crise nécessitant une communication externe reste peu fréquente et un exercice de crise a eu lieu en 2025. Une communication ratée aurait un impact réputationnel et financier majeur.",
+    "controles_attenuants": [
+      "CT-0036"
+    ],
+    "risque_residuel": 6,
+    "niveau_residuel": "Modéré",
+    "traitement": "Réduire",
+    "proprietaire": "Conformité",
+    "statut": "Identifié",
+    "lots_ids": [
+      "LA-0003"
+    ],
+    "run_id": "RUN-20261027-2050"
+  },
+  {
+    "id": "RK-0045",
+    "exigence_id": "EX-0049",
+    "intitule": "Basculement vers l'infrastructure redondante non éprouvé en cas de cyberattaque",
+    "scenario": "Les plans de test n'intègrent pas de scénario unifié de cyberattaque et de basculement vers l'infrastructure redondante. Lors d'un rançongiciel, le basculement et la restauration échouent pour les applications non testées et les SaaS, prolongeant l'indisponibilité des fonctions critiques et exposant Aurelia à des pertes significatives et à un manquement DORA.",
+    "categorie": "Cyber",
+    "probabilite": 2,
+    "impact": 4,
+    "criticite_brute": 8,
+    "justification_scores": "Une cyberattaque destructrice nécessitant un basculement est peu probable mais plausible ; les tests de restauration trimestriels atténuent partiellement. Un échec de basculement mettrait durablement en cause l'activité et l'agrément.",
+    "controles_attenuants": [
+      "CT-0012",
+      "CT-0015",
+      "CT-0026",
+      "CT-0036"
+    ],
+    "risque_residuel": 4,
+    "niveau_residuel": "Modéré",
+    "traitement": "Réduire",
+    "proprietaire": "RSSI",
+    "statut": "Identifié",
+    "lots_ids": [
+      "LA-0003"
+    ],
+    "run_id": "RUN-20261027-2050"
+  },
+  {
+    "id": "RK-0046",
+    "exigence_id": "EX-0050",
+    "intitule": "Plans de continuité TIC obsolètes faute de réexamen alimenté par les tests et audits",
+    "scenario": "Sans réexamen formel de la politique de continuité TIC et des plans de réponse, les enseignements des exercices et les futures recommandations d'audit ne sont pas intégrés. Lors d'une perturbation, Aurelia active des plans qui ne reflètent plus son SI, ce qui allonge l'interruption des fonctions de gestion. L'AMF peut relever ce défaut de gouvernance lors d'un contrôle DORA.",
+    "categorie": "Juridique",
+    "probabilite": 3,
+    "impact": 3,
+    "criticite_brute": 9,
+    "justification_scores": "La revue annuelle porte sur la PSSI, la boucle post-exercice est peu efficace et aucun audit n'est disponible avant 2027 : le défaut est probable. L'impact est majeur car des plans inadaptés peuvent prolonger l'interruption d'une fonction critique et entraîner une injonction ou une sanction.",
+    "controles_attenuants": [
+      "CT-0001",
+      "CT-0036",
+      "CT-0017"
+    ],
+    "risque_residuel": 6,
+    "niveau_residuel": "Modéré",
+    "traitement": "Réduire",
+    "proprietaire": "Juridique",
+    "statut": "Identifié",
+    "lots_ids": [
+      "LA-0003"
+    ],
+    "run_id": "RUN-20261027-2050"
+  },
+  {
+    "id": "RK-0047",
+    "exigence_id": "EX-0051",
+    "intitule": "Communication de crise non maîtrisée lors de l'activation des plans de continuité",
+    "scenario": "La cellule de crise existe, mais aucune procédure ne décrit la communication interne et externe en cas d'activation des plans de continuité. Lors d'une crise TIC, les messages aux investisseurs, distributeurs, dépositaires et à l'AMF risquent d'être tardifs ou contradictoires. Il en résulte une perte de confiance des clients, des rachats possibles et des griefs du régulateur.",
+    "categorie": "Réputationnel",
+    "probabilite": 2,
+    "impact": 3,
+    "criticite_brute": 6,
+    "justification_scores": "L'activation des plans de continuité reste peu fréquente et une cellule de crise est déjà en place, d'où une probabilité peu probable. Une communication défaillante en crise causerait une atteinte réputationnelle et des pertes significatives.",
+    "controles_attenuants": [
+      "CT-0010",
+      "CT-0012"
+    ],
+    "risque_residuel": 3,
+    "niveau_residuel": "Faible",
+    "traitement": "Réduire",
+    "proprietaire": "Conformité",
+    "statut": "Identifié",
+    "lots_ids": [
+      "LA-0014"
+    ],
+    "run_id": "RUN-20261027-2050"
+  },
+  {
+    "id": "RK-0048",
+    "exigence_id": "EX-0052",
+    "intitule": "Absence de registre des actions menées pendant l'activation des plans",
+    "scenario": "Aucun registre n'est tenu des activités menées avant et pendant une perturbation. Aurelia ne peut pas reconstituer les décisions prises, ce qui compromet l'analyse post-incident et la justification de sa conduite auprès de l'AMF, des dépositaires ou des assureurs. L'absence de traçabilité peut constituer un manquement constaté lors d'un contrôle.",
+    "categorie": "Juridique",
+    "probabilite": 3,
+    "impact": 2,
+    "criticite_brute": 6,
+    "justification_scores": "L'exigence n'est pas couverte : le défaut se matérialiserait à chaque activation ou contrôle, d'où une probabilité probable. L'impact est modéré car il s'agit d'un manquement documentaire susceptible d'entraîner une remarque du régulateur.",
+    "controles_attenuants": [],
+    "risque_residuel": 6,
+    "niveau_residuel": "Modéré",
+    "traitement": "Réduire",
+    "proprietaire": "Juridique",
+    "statut": "Identifié",
+    "lots_ids": [
+      "LA-0014"
+    ],
+    "run_id": "RUN-20261027-2050"
+  },
+  {
+    "id": "RK-0049",
+    "exigence_id": "EX-0053",
+    "intitule": "Non-transmission des résultats de tests de continuité (obligation propre aux DCT)",
+    "scenario": "Cette obligation vise les dépositaires centraux de titres, statut qu'Aurelia ne détient pas. Le risque résiduel tient à une demande de l'AMF portant sur les résultats des tests de continuité, à laquelle Aurelia ne pourrait répondre faute de processus de restitution. Il en découlerait une simple demande d'information complémentaire.",
+    "categorie": "Juridique",
+    "probabilite": 1,
+    "impact": 1,
+    "criticite_brute": 1,
+    "justification_scores": "L'exigence n'est pas applicable à une société de gestion, d'où une probabilité rare. L'impact est mineur car une transmission ponctuelle reste possible sur demande, sans sanction attendue.",
+    "controles_attenuants": [],
+    "risque_residuel": 1,
+    "niveau_residuel": "Faible",
+    "traitement": "Accepter",
+    "proprietaire": "Juridique",
+    "statut": "Identifié",
+    "lots_ids": [
+      "LA-0003"
+    ],
+    "run_id": "RUN-20261027-2050"
+  },
+  {
+    "id": "RK-0050",
+    "exigence_id": "EX-0054",
+    "intitule": "Incapacité à estimer les coûts et pertes annuels des incidents TIC majeurs",
+    "scenario": "Aurelia ne collecte pas les coûts et pertes associés aux incidents TIC majeurs. Sur demande de l'AMF, elle ne pourrait fournir qu'une estimation tardive ou non étayée. Cela expose à un constat de manquement et prive la direction d'un indicateur de pilotage du risque TIC.",
+    "categorie": "Juridique",
+    "probabilite": 2,
+    "impact": 2,
+    "criticite_brute": 4,
+    "justification_scores": "La demande n'intervient qu'à l'initiative de l'autorité, d'où une probabilité peu probable. L'impact est modéré : il s'agirait d'une remarque ou d'une injonction de mise en conformité.",
+    "controles_attenuants": [],
+    "risque_residuel": 4,
+    "niveau_residuel": "Modéré",
+    "traitement": "Réduire",
+    "proprietaire": "Juridique",
+    "statut": "Identifié",
+    "lots_ids": [
+      "LA-0014"
+    ],
+    "run_id": "RUN-20261027-2050"
+  },
+  {
+    "id": "RK-0051",
+    "exigence_id": "EX-0055",
+    "intitule": "Politique de sauvegarde imprécise et restauration incomplète des services cloud",
+    "scenario": "La politique de sauvegarde ne précise ni la portée des données ni des fréquences adaptées à leur criticité, et la restauration des services cloud est partiellement documentée. Après une corruption ou une attaque, certaines données de gestion ou de valorisation pourraient être absentes ou trop anciennes, ce qui retarderait le calcul des VL et exposerait Aurelia à des erreurs et à des indemnisations.",
+    "categorie": "Opérationnel",
+    "probabilite": 3,
+    "impact": 3,
+    "criticite_brute": 9,
+    "justification_scores": "Les pertes ou corruptions de données nécessitant une restauration sont fréquentes et les écarts touchent le cloud, d'où une probabilité probable. Une restauration incomplète interromprait des fonctions critiques comme la valorisation.",
+    "controles_attenuants": [
+      "CT-0026",
+      "CT-0019"
+    ],
+    "risque_residuel": 6,
+    "niveau_residuel": "Modéré",
+    "traitement": "Réduire",
+    "proprietaire": "DSI",
+    "statut": "Identifié",
+    "lots_ids": [
+      "LA-0003"
+    ],
+    "run_id": "RUN-20261027-2050"
+  },
+  {
+    "id": "RK-0052",
+    "exigence_id": "EX-0057",
+    "intitule": "Restauration sur des systèmes non isolés exposés à une recontamination",
+    "scenario": "La séparation des systèmes de restauration n'est pas attestée et le réseau bureautique est à plat. En cas de rançongiciel, la restauration sur des systèmes non isolés risque une réinfection immédiate et l'échec de la reprise. L'indisponibilité des outils de gestion et de passation d'ordres se prolongerait alors.",
+    "categorie": "Cyber",
+    "probabilite": 3,
+    "impact": 4,
+    "criticite_brute": 12,
+    "justification_scores": "La menace rançongiciel sur le secteur financier est élevée et la segmentation est jugée peu efficace, d'où une probabilité probable. Un échec de restauration après attaque entraînerait une interruption prolongée et une mise en cause sérieuse par le régulateur.",
+    "controles_attenuants": [
+      "CT-0026",
+      "CT-0031"
+    ],
+    "risque_residuel": 8,
+    "niveau_residuel": "Élevé",
+    "traitement": "Réduire",
+    "proprietaire": "RSSI",
+    "statut": "Identifié",
+    "lots_ids": [
+      "LA-0009"
+    ],
+    "run_id": "RUN-20261027-2050"
+  },
+  {
+    "id": "RK-0053",
+    "exigence_id": "EX-0058",
+    "intitule": "Reprise des transactions en cours non prévue (obligation propre aux CCP)",
+    "scenario": "Cette obligation vise les contreparties centrales et ne s'applique pas directement à Aurelia. Le risque résiduel est qu'une perturbation interrompe des ordres en cours de transmission, avec des écarts de règlement à traiter manuellement avec les brokers et dépositaires.",
+    "categorie": "Opérationnel",
+    "probabilite": 1,
+    "impact": 2,
+    "criticite_brute": 2,
+    "justification_scores": "L'exigence n'est pas applicable à une société de gestion, d'où une probabilité rare. Les ordres interrompus resteraient récupérables via les contreparties, avec une perturbation limitée.",
+    "controles_attenuants": [],
+    "risque_residuel": 2,
+    "niveau_residuel": "Faible",
+    "traitement": "Accepter",
+    "proprietaire": "DSI",
+    "statut": "Identifié",
+    "lots_ids": [
+      "LA-0003"
+    ],
+    "run_id": "RUN-20261027-2050"
+  },
+  {
+    "id": "RK-0054",
+    "exigence_id": "EX-0059",
+    "intitule": "Ressources de sauvegarde permanentes non exigées (obligation propre aux PSCD)",
+    "scenario": "Cette obligation vise les prestataires de services de communication de données, statut qu'Aurelia ne détient pas. Le risque résiduel de disponibilité est déjà traité au titre des exigences de sauvegarde et de redondance. Une non-conformité formelle n'aurait pas de conséquence propre.",
+    "categorie": "Juridique",
+    "probabilite": 1,
+    "impact": 1,
+    "criticite_brute": 1,
+    "justification_scores": "L'exigence n'est pas applicable au statut d'Aurelia, d'où une probabilité rare. L'impact est mineur car le risque opérationnel sous-jacent est couvert par d'autres exigences.",
+    "controles_attenuants": [],
+    "risque_residuel": 1,
+    "niveau_residuel": "Faible",
+    "traitement": "Accepter",
+    "proprietaire": "Juridique",
+    "statut": "Identifié",
+    "lots_ids": [
+      "LA-0003"
+    ],
+    "run_id": "RUN-20261027-2050"
+  },
+  {
+    "id": "RK-0055",
+    "exigence_id": "EX-0060",
+    "intitule": "Redondance TIC insuffisante : points uniques de défaillance sur le reporting et les SaaS",
+    "scenario": "La redondance est limitée au PMS et à l'OMS. Une panne sur la chaîne de reporting ou sur un SaaS critique rendrait impossibles la production des reportings réglementaires et clients ainsi que certaines fonctions de gestion. Aurelia s'expose alors à des retards de déclarations à l'AMF, à des réclamations d'investisseurs et à des pénalités contractuelles.",
+    "categorie": "Opérationnel",
+    "probabilite": 3,
+    "impact": 3,
+    "criticite_brute": 9,
+    "justification_scores": "Les points uniques de défaillance sont identifiés et 40 % des applications critiques ne sont pas testées, d'où une probabilité probable. Une panne interromprait une fonction critique avec des conséquences réglementaires et financières.",
+    "controles_attenuants": [
+      "CT-0027",
+      "CT-0015"
+    ],
+    "risque_residuel": 7,
+    "niveau_residuel": "Élevé",
+    "traitement": "Réduire",
+    "proprietaire": "DSI",
+    "statut": "Identifié",
+    "lots_ids": [
+      "LA-0009"
+    ],
+    "run_id": "RUN-20261027-2050"
+  },
+  {
+    "id": "RK-0056",
+    "exigence_id": "EX-0061",
+    "intitule": "Absence de site secondaire distant (exigence DCT, enjeu de continuité pour Aurelia)",
+    "scenario": "L'exigence formelle vise les DCT, mais l'absence de site secondaire distant, équipé et accessible au personnel, laisse Aurelia exposée à un sinistre majeur sur son datacenter principal. Les fonctions de gestion et de valorisation seraient alors arrêtées durablement.",
+    "categorie": "Opérationnel",
+    "probabilite": 1,
+    "impact": 3,
+    "criticite_brute": 3,
+    "justification_scores": "L'exigence n'est pas directement applicable et un sinistre de site est rare. L'impact serait toutefois majeur, avec l'interruption de fonctions critiques. Le risque est en partie traité au titre de la redondance (EX-0060).",
+    "controles_attenuants": [
+      "CT-0015",
+      "CT-0027"
+    ],
+    "risque_residuel": 3,
+    "niveau_residuel": "Faible",
+    "traitement": "Accepter",
+    "proprietaire": "DSI",
+    "statut": "Identifié",
+    "lots_ids": [
+      "LA-0009"
+    ],
+    "run_id": "RUN-20261027-2050"
+  },
+  {
+    "id": "RK-0057",
+    "exigence_id": "EX-0062",
+    "intitule": "Objectifs RTO/RPO incomplets faute de cartographie des fonctions métier",
+    "scenario": "Sans cartographie des fonctions métier, les objectifs RTO/RPO ne couvrent ni les SaaS ni les scénarios extrêmes. En cas de perturbation majeure, les priorités de reprise sont mal définies et des fonctions critiques, comme la valorisation, le passage d'ordres ou le reporting, redémarrent trop tard. Les niveaux de service envers les clients et les obligations réglementaires ne sont alors pas tenus.",
+    "categorie": "Opérationnel",
+    "probabilite": 3,
+    "impact": 3,
+    "criticite_brute": 9,
+    "justification_scores": "La cartographie est absente et les objectifs sont partiels, ce qui rend le défaut probable à chaque incident significatif. L'impact est majeur car il peut retarder la reprise d'une fonction critique.",
+    "controles_attenuants": [
+      "CT-0015",
+      "CT-0038"
+    ],
+    "risque_residuel": 8,
+    "niveau_residuel": "Élevé",
+    "traitement": "Réduire",
+    "proprietaire": "DSI",
+    "statut": "Identifié",
+    "lots_ids": [
+      "LA-0002"
+    ],
+    "run_id": "RUN-20261027-2050"
+  },
+  {
+    "id": "RK-0058",
+    "exigence_id": "EX-0063",
+    "intitule": "Données corrompues réintroduites faute de contrôles d'intégrité au rétablissement",
+    "scenario": "Les restaurations ne comportent ni contrôles multiples ni rapprochements, notamment avec les données des dépositaires, valorisateurs ou fournisseurs de données de marché. Des positions ou des prix erronés pourraient être réintroduits après un incident, ce qui fausserait les VL publiées. Aurelia devrait alors indemniser les porteurs et subirait une atteinte à sa réputation.",
+    "categorie": "Financier",
+    "probabilite": 2,
+    "impact": 3,
+    "criticite_brute": 6,
+    "justification_scores": "Un rétablissement après incident avec corruption de données reste peu fréquent, d'où une probabilité peu probable. Une erreur de VL entraînerait toutefois des pertes financières significatives et une possible sanction.",
+    "controles_attenuants": [
+      "CT-0026",
+      "CT-0015"
+    ],
+    "risque_residuel": 4,
+    "niveau_residuel": "Modéré",
+    "traitement": "Réduire",
+    "proprietaire": "Direction",
+    "statut": "Identifié",
+    "lots_ids": [
+      "LA-0003"
+    ],
+    "run_id": "RUN-20261027-2050"
+  },
+  {
+    "id": "RK-0059",
+    "exigence_id": "EX-0064",
+    "intitule": "Veille sur les menaces insuffisante et vulnérabilités legacy non traitées",
+    "scenario": "La veille se limite à un abonnement CERT-FR non exploité et sans effectifs dédiés, et les vulnérabilités des systèmes legacy restent ouvertes. Aurelia risque de ne pas anticiper une campagne d'attaque ciblant le secteur. Une intrusion exploitant une faille connue pourrait alors compromettre ses systèmes et ses données clients.",
+    "categorie": "Cyber",
+    "probabilite": 3,
+    "impact": 3,
+    "criticite_brute": 9,
+    "justification_scores": "Les menaces sont permanentes et deux contrôles présentent une efficacité faible, d'où une probabilité probable. Une compromission exploitant une faille connue causerait une interruption et un manquement significatifs, au titre de DORA comme du RGPD.",
+    "controles_attenuants": [
+      "CT-0003",
+      "CT-0029",
+      "CT-0024"
+    ],
+    "risque_residuel": 6,
+    "niveau_residuel": "Modéré",
+    "traitement": "Réduire",
+    "proprietaire": "RSSI",
+    "statut": "Identifié",
+    "lots_ids": [
+      "LA-0012"
+    ],
+    "run_id": "RUN-20261027-2050"
+  },
+  {
+    "id": "RK-0060",
+    "exigence_id": "EX-0065",
+    "intitule": "Examens post-incident non méthodiques, sans amélioration durable",
+    "scenario": "Les revues post-incident manquent de méthodologie et n'évaluent ni la célérité de réponse, ni l'analyse technico-légale, ni la remontée, ni la communication. Les causes profondes des incidents majeurs ne sont pas corrigées et les mêmes défaillances se reproduisent. L'AMF peut relever l'absence d'amélioration continue.",
+    "categorie": "Opérationnel",
+    "probabilite": 3,
+    "impact": 2,
+    "criticite_brute": 6,
+    "justification_scores": "Des incidents majeurs surviennent environ une fois par an et le contrôle est peu efficace, d'où une probabilité probable. L'impact direct est modéré : récurrence d'incidents et remarque possible du régulateur.",
+    "controles_attenuants": [
+      "CT-0013",
+      "CT-0034"
+    ],
+    "risque_residuel": 4,
+    "niveau_residuel": "Modéré",
+    "traitement": "Réduire",
+    "proprietaire": "DSI",
+    "statut": "Identifié",
+    "lots_ids": [
+      "LA-0014"
+    ],
+    "run_id": "RUN-20261027-2050"
+  },
+  {
+    "id": "RK-0061",
+    "exigence_id": "EX-0066",
+    "intitule": "Incapacité à justifier auprès de l'AMF les changements post-incident TIC",
+    "scenario": "Lors d'une demande de l'AMF consécutive à un incident TIC, Aurelia ne parvient pas à produire dans les délais la liste tracée des changements apportés après l'examen post-incident. L'autorité constate un défaut de suivi et peut formuler une injonction ou une remarque formelle, voire étendre son contrôle au cadre de gestion des incidents.",
+    "categorie": "Juridique",
+    "probabilite": 2,
+    "impact": 2,
+    "criticite_brute": 4,
+    "justification_scores": "Les demandes de l'autorité restent ponctuelles, d'où une probabilité peu probable. L'impact est modéré : il s'agirait d'une remarque ou d'une demande complémentaire du régulateur plutôt que d'une sanction lourde.",
+    "controles_attenuants": [
+      "CT-0013",
+      "CT-0016"
+    ],
+    "risque_residuel": 3,
+    "niveau_residuel": "Faible",
+    "traitement": "Réduire",
+    "proprietaire": "Juridique",
+    "statut": "Identifié",
+    "lots_ids": [
+      "LA-0014"
+    ],
+    "run_id": "RUN-20261027-2050"
+  },
+  {
+    "id": "RK-0062",
+    "exigence_id": "EX-0067",
+    "intitule": "Évaluation du risque TIC non alimentée par les enseignements des tests, incidents et contreparties",
+    "scenario": "Les faiblesses révélées par les exercices partiels, les incidents non majeurs et les échanges avec les prestataires ne sont pas réinjectées dans l'évaluation du risque TIC. Les mêmes vulnérabilités persistent et provoquent des incidents récurrents, tandis qu'un contrôle AMF relève un cadre de gestion figé et non réexaminé.",
+    "categorie": "Opérationnel",
+    "probabilite": 3,
+    "impact": 3,
+    "criticite_brute": 9,
+    "justification_scores": "Les enseignements sont limités aux incidents majeurs et les prestataires ne sont pas testés : la répétition d'incidents évitables est probable chaque année. L'impact est majeur car des fonctions critiques peuvent être interrompues et un manquement DORA relevé.",
+    "controles_attenuants": [
+      "CT-0034",
+      "CT-0013",
+      "CT-0036"
+    ],
+    "risque_residuel": 6,
+    "niveau_residuel": "Modéré",
+    "traitement": "Réduire",
+    "proprietaire": "DSI",
+    "statut": "Identifié",
+    "lots_ids": [
+      "LA-0004"
+    ],
+    "run_id": "RUN-20261027-2050"
+  },
+  {
+    "id": "RK-0063",
+    "exigence_id": "EX-0068",
+    "intitule": "Absence de contrôle d'efficacité de la stratégie de résilience et d'analyse des tendances d'incidents",
+    "scenario": "Faute d'analyse de la fréquence, des types et de l'évolution de l'ensemble des incidents, Aurelia ne détecte pas la dégradation progressive de son exposition TIC. La stratégie de résilience n'est pas mesurée, la revue indépendante n'intervenant qu'en 2027, et un contrôle AMF peut conclure à une gouvernance insuffisante assortie de mesures correctrices contraignantes.",
+    "categorie": "Juridique",
+    "probabilite": 3,
+    "impact": 3,
+    "criticite_brute": 9,
+    "justification_scores": "L'absence totale de contrôle d'efficacité et des contrôles de second niveau faibles rendent le constat probable lors de toute revue. L'impact est majeur : sanction possible et dérive non maîtrisée du risque TIC.",
+    "controles_attenuants": [
+      "CT-0034",
+      "CT-0017",
+      "CT-0018"
+    ],
+    "risque_residuel": 6,
+    "niveau_residuel": "Modéré",
+    "traitement": "Réduire",
+    "proprietaire": "Juridique",
+    "statut": "Identifié",
+    "lots_ids": [
+      "LA-0007"
+    ],
+    "run_id": "RUN-20261027-2050"
+  },
+  {
+    "id": "RK-0064",
+    "exigence_id": "EX-0069",
+    "intitule": "Défaut de compte rendu annuel formalisé à l'organe de direction sur les enseignements TIC",
+    "scenario": "L'organe de direction ne reçoit pas de rapport annuel formalisé sur les enseignements tirés et les recommandations associées, ce qui l'empêche d'arbitrer les investissements de résilience. En cas d'incident grave, la responsabilité de la direction peut être mise en cause par l'AMF pour défaut de supervision du risque TIC.",
+    "categorie": "Juridique",
+    "probabilite": 2,
+    "impact": 3,
+    "criticite_brute": 6,
+    "justification_scores": "Le comité trimestriel présidé par la DG atténue l'écart, d'où une probabilité peu probable de constat bloquant. L'impact est majeur car la responsabilité de l'organe de direction est un point central de DORA.",
+    "controles_attenuants": [
+      "CT-0034",
+      "CT-0013"
+    ],
+    "risque_residuel": 4,
+    "niveau_residuel": "Modéré",
+    "traitement": "Réduire",
+    "proprietaire": "Juridique",
+    "statut": "Identifié",
+    "lots_ids": [
+      "LA-0004"
+    ],
+    "run_id": "RUN-20261027-2050"
+  },
+  {
+    "id": "RK-0065",
+    "exigence_id": "EX-0070",
+    "intitule": "Formation à la résilience numérique incomplète, notamment pour la direction",
+    "scenario": "Les dirigeants et les fonctions sensibles ne sont pas formés à la résilience opérationnelle numérique, ce qui dégrade la qualité des décisions en crise et la réaction aux attaques ciblées. Une compromission par hameçonnage d'un dirigeant ou une mauvaise gestion de crise peut en résulter, et l'AMF peut relever le non-respect d'une obligation explicite de DORA.",
+    "categorie": "Cyber",
+    "probabilite": 3,
+    "impact": 2,
+    "criticite_brute": 6,
+    "justification_scores": "Les tentatives d'ingénierie sociale visant les dirigeants sont fréquentes, mais un e-learning sécurité existe. L'impact reste modéré car l'écart porte sur la proportionnalité et le volet résilience, pas sur l'absence de formation.",
+    "controles_attenuants": [
+      "CT-0020"
+    ],
+    "risque_residuel": 5,
+    "niveau_residuel": "Modéré",
+    "traitement": "Réduire",
+    "proprietaire": "RSSI",
+    "statut": "Identifié",
+    "lots_ids": [
+      "LA-0012"
+    ],
+    "run_id": "RUN-20261027-2050"
+  },
+  {
+    "id": "RK-0066",
+    "exigence_id": "EX-0071",
+    "intitule": "Veille technologique et sur les menaces insuffisante",
+    "scenario": "Limitée aux bulletins CERT-FR et non formalisée, la veille ne permet pas d'anticiper les menaces émergentes ciblant les gestionnaires d'actifs ni l'obsolescence des technologies utilisées. Aurelia risque de subir une attaque exploitant une technique ou une vulnérabilité connue du secteur mais non identifiée en interne.",
+    "categorie": "Cyber",
+    "probabilite": 3,
+    "impact": 2,
+    "criticite_brute": 6,
+    "justification_scores": "Les nouvelles menaces apparaissent plusieurs fois par an et la veille est jugée faible, d'où une probabilité probable. L'impact direct est modéré, la veille étant un facteur contributif plutôt qu'une cause unique d'incident.",
+    "controles_attenuants": [
+      "CT-0003"
+    ],
+    "risque_residuel": 6,
+    "niveau_residuel": "Modéré",
+    "traitement": "Réduire",
+    "proprietaire": "RSSI",
+    "statut": "Identifié",
+    "lots_ids": [
+      "LA-0007"
+    ],
+    "run_id": "RUN-20261027-2050"
+  },
+  {
+    "id": "RK-0067",
+    "exigence_id": "EX-0072",
+    "intitule": "Absence de plan de communication de crise vers clients, contreparties et public",
+    "scenario": "Lors d'un incident TIC majeur affectant les valorisations ou le reporting, Aurelia communique de façon improvisée et tardive auprès des investisseurs, distributeurs et contreparties. Cela provoque perte de confiance, demandes de rachat et couverture médiatique négative, ainsi qu'un manquement constaté par l'AMF.",
+    "categorie": "Réputationnel",
+    "probabilite": 2,
+    "impact": 4,
+    "criticite_brute": 8,
+    "justification_scores": "Un incident majeur nécessitant une communication externe survient une fois tous les deux à cinq ans. Une communication défaillante peut entraîner une atteinte durable à la réputation et des décollectes majeures.",
+    "controles_attenuants": [
+      "CT-0012",
+      "CT-0010"
+    ],
+    "risque_residuel": 4,
+    "niveau_residuel": "Modéré",
+    "traitement": "Réduire",
+    "proprietaire": "Conformité",
+    "statut": "Identifié",
+    "lots_ids": [
+      "LA-0014"
+    ],
+    "run_id": "RUN-20261027-2050"
+  },
+  {
+    "id": "RK-0068",
+    "exigence_id": "EX-0073",
+    "intitule": "Absence de politique de communication interne et externe distinguant les publics",
+    "scenario": "Sans politique distinguant les équipes de réponse et de rétablissement du personnel à simplement informer, les informations circulent mal pendant un incident : consignes contradictoires, fuites d'informations sensibles ou retards de coordination. Les parties prenantes externes reçoivent des messages incohérents, ce qui allonge l'interruption et fragilise la relation clients.",
+    "categorie": "Opérationnel",
+    "probabilite": 3,
+    "impact": 2,
+    "criticite_brute": 6,
+    "justification_scores": "Des incidents nécessitant une communication interne surviennent chaque année et la communication reste ad hoc. L'impact est modéré, la cellule de crise et les rôles existant déjà.",
+    "controles_attenuants": [
+      "CT-0010",
+      "CT-0012"
+    ],
+    "risque_residuel": 3,
+    "niveau_residuel": "Faible",
+    "traitement": "Réduire",
+    "proprietaire": "DSI",
+    "statut": "Identifié",
+    "lots_ids": [
+      "LA-0014"
+    ],
+    "run_id": "RUN-20261027-2050"
+  },
+  {
+    "id": "RK-0069",
+    "exigence_id": "EX-0074",
+    "intitule": "Aucun responsable désigné pour la communication incidents TIC et médias",
+    "scenario": "En cas d'incident médiatisé, aucune personne n'est mandatée pour porter la stratégie de communication et répondre au public et aux médias. Des prises de parole non coordonnées ou une absence de réponse amplifient la crise et exposent Aurelia à une remarque de l'AMF sur une exigence explicite.",
+    "categorie": "Réputationnel",
+    "probabilite": 2,
+    "impact": 3,
+    "criticite_brute": 6,
+    "justification_scores": "La médiatisation d'un incident TIC reste peu fréquente. L'impact est majeur car une communication incohérente peut fortement dégrader la réputation et la confiance des investisseurs.",
+    "controles_attenuants": [
+      "CT-0010"
+    ],
+    "risque_residuel": 5,
+    "niveau_residuel": "Modéré",
+    "traitement": "Réduire",
+    "proprietaire": "Conformité",
+    "statut": "Identifié",
+    "lots_ids": [
+      "LA-0014"
+    ],
+    "run_id": "RUN-20261027-2050"
+  },
+  {
+    "id": "RK-0070",
+    "exigence_id": "EX-0075",
+    "intitule": "Cadre de gestion du risque TIC incomplet et non documenté",
+    "scenario": "Sans cadre documenté décrivant les mécanismes de gestion du risque TIC, sans cartographie ni registre, Aurelia ne peut démontrer sa conformité au cœur des obligations DORA. Un contrôle AMF peut aboutir à une sanction et à un plan de remédiation imposé, tandis que la protection des infrastructures physiques n'est pas assurée de façon cohérente.",
+    "categorie": "Juridique",
+    "probabilite": 3,
+    "impact": 4,
+    "criticite_brute": 12,
+    "justification_scores": "L'absence de cartographie et de registre serait relevée à coup sûr lors d'un contrôle, désormais probable compte tenu de l'entrée en application de DORA. L'impact est critique, le cadre étant le socle de l'agrément au regard de la résilience.",
+    "controles_attenuants": [
+      "CT-0001",
+      "CT-0034",
+      "CT-0002"
+    ],
+    "risque_residuel": 5,
+    "niveau_residuel": "Modéré",
+    "traitement": "Réduire",
+    "proprietaire": "Juridique",
+    "statut": "Identifié",
+    "lots_ids": [
+      "LA-0004"
+    ],
+    "run_id": "RUN-20261027-2050"
+  },
+  {
+    "id": "RK-0071",
+    "exigence_id": "EX-0076",
+    "intitule": "Surveillance incomplète du fonctionnement et du périmètre des systèmes TIC",
+    "scenario": "Le SOC surveille la sécurité mais ni la disponibilité ni la performance, et des actifs cloud/SaaS hors inventaire échappent à la surveillance. Une panne ou une compromission sur ces systèmes n'est détectée que tardivement par les utilisateurs, retardant les traitements de valorisation ou d'ordres.",
+    "categorie": "Opérationnel",
+    "probabilite": 3,
+    "impact": 3,
+    "criticite_brute": 9,
+    "justification_scores": "Les dégradations non détectées sur le cloud/SaaS sont probables annuellement au vu de l'inventaire incomplet. L'impact est majeur car des fonctions critiques peuvent être interrompues.",
+    "controles_attenuants": [
+      "CT-0029",
+      "CT-0028",
+      "CT-0004"
+    ],
+    "risque_residuel": 5,
+    "niveau_residuel": "Modéré",
+    "traitement": "Réduire",
+    "proprietaire": "DSI",
+    "statut": "Identifié",
+    "lots_ids": [
+      "LA-0013"
+    ],
+    "run_id": "RUN-20261027-2050"
+  },
+  {
+    "id": "RK-0072",
+    "exigence_id": "EX-0077",
+    "intitule": "Systèmes TIC non actualisés et réseau insuffisamment cloisonné",
+    "scenario": "Les systèmes legacy non corrigés et le réseau bureautique à plat permettent à un attaquant d'exploiter une vulnérabilité connue puis de se propager latéralement, par exemple via un rançongiciel. Les systèmes de gestion de portefeuilles et de reporting, déjà exposés à des points uniques de défaillance, peuvent être chiffrés ou indisponibles plusieurs jours, avec pertes financières, notification d'incident majeur et enquête de l'AMF.",
+    "categorie": "Cyber",
+    "probabilite": 3,
+    "impact": 4,
+    "criticite_brute": 12,
+    "justification_scores": "Retards de correctifs, réseau plat et absence de contrôle de dérive rendent une exploitation probable chaque année. L'impact est critique : paralysie d'activités critiques, pertes et mise en cause par le régulateur.",
+    "controles_attenuants": [
+      "CT-0024",
+      "CT-0025",
+      "CT-0027",
+      "CT-0032",
+      "CT-0030",
+      "CT-0031",
+      "CT-0022"
+    ],
+    "risque_residuel": 3,
+    "niveau_residuel": "Faible",
+    "traitement": "Réduire",
+    "proprietaire": "RSSI",
+    "statut": "Identifié",
+    "lots_ids": [
+      "LA-0009"
+    ],
+    "run_id": "RUN-20261027-2050"
+  },
+  {
+    "id": "RK-0073",
+    "exigence_id": "EX-0078",
+    "intitule": "Détection tardive des sources de risque et anomalies TIC",
+    "scenario": "Une veille faible et un périmètre cloud/SaaS incomplet empêchent d'identifier en amont certaines sources de risque, si bien qu'une intrusion ciblant un service SaaS ou une technique émergente n'est repérée qu'après exfiltration de données clients. Aurelia doit alors gérer un incident majeur avec notifications DORA et RGPD, et un risque de sanction.",
+    "categorie": "Cyber",
+    "probabilite": 2,
+    "impact": 3,
+    "criticite_brute": 6,
+    "justification_scores": "Le SOC 24/7 limite la probabilité d'une détection tardive à peu probable. L'impact est majeur en cas de fuite de données ou d'interruption non contenue rapidement.",
+    "controles_attenuants": [
+      "CT-0029",
+      "CT-0011",
+      "CT-0012",
+      "CT-0023",
+      "CT-0003",
+      "CT-0004"
+    ],
+    "risque_residuel": 1,
+    "niveau_residuel": "Faible",
+    "traitement": "Réduire",
+    "proprietaire": "RSSI",
+    "statut": "Identifié",
+    "lots_ids": [
+      "LA-0014"
+    ],
+    "run_id": "RUN-20261027-2050"
+  },
+  {
+    "id": "RK-0074",
+    "exigence_id": "EX-0079",
+    "intitule": "Dépendances aux prestataires TIC non recensées",
+    "scenario": "Sans registre d'information DORA ni cartographie des interdépendances, Aurelia ne peut identifier les prestataires soutenant ses fonctions critiques ni remettre à l'AMF le registre exigé. La défaillance d'un prestataire ou d'un sous-traitant de rang 2 non identifié provoque une interruption imprévue, et le défaut de registre expose à une sanction.",
+    "categorie": "Juridique",
+    "probabilite": 4,
+    "impact": 3,
+    "criticite_brute": 12,
+    "justification_scores": "Le registre est attendu par l'autorité chaque année et est actuellement absent : le manquement est quasi certain. L'impact est majeur, avec sanction possible et vulnérabilité aux défaillances de tiers.",
+    "controles_attenuants": [
+      "CT-0035",
+      "CT-0038",
+      "CT-0005",
+      "CT-0034",
+      "CT-0007"
+    ],
+    "risque_residuel": 8,
+    "niveau_residuel": "Élevé",
+    "traitement": "Réduire",
+    "proprietaire": "Juridique",
+    "statut": "Identifié",
+    "lots_ids": [
+      "LA-0006"
+    ],
+    "run_id": "RUN-20261027-2050"
+  },
+  {
+    "id": "RK-0075",
+    "exigence_id": "EX-0080",
+    "intitule": "Continuité des fonctions critiques non garantie",
+    "scenario": "Le PRA n'est testé que sur 60 % des applications critiques, les SaaS ne sont pas couverts, le volet sécurité du PCA est inachevé et aucun plan de sortie cloud n'est testé. Une panne majeure ou une cyberattaque peut interrompre durablement le calcul des valeurs liquidatives ou le reporting réglementaire, entraînant pertes, réclamations clients et remise en cause par l'AMF.",
+    "categorie": "Opérationnel",
+    "probabilite": 2,
+    "impact": 4,
+    "criticite_brute": 8,
+    "justification_scores": "Un sinistre majeur nécessitant l'activation des plans survient une fois tous les deux à cinq ans, les sauvegardes étant bien maîtrisées. L'impact est critique car l'interruption des fonctions critiques peut menacer l'agrément.",
+    "controles_attenuants": [
+      "CT-0026",
+      "CT-0015",
+      "CT-0014",
+      "CT-0027",
+      "CT-0012",
+      "CT-0009"
+    ],
+    "risque_residuel": 3,
+    "niveau_residuel": "Faible",
+    "traitement": "Réduire",
+    "proprietaire": "DSI",
+    "statut": "Identifié",
+    "lots_ids": [
+      "LA-0003"
+    ],
+    "run_id": "RUN-20261027-2050"
+  },
+  {
+    "id": "RK-0076",
+    "exigence_id": "EX-0081",
+    "intitule": "Défaillance des plans de continuité non testés lors d'une crise TIC",
+    "scenario": "Lors d'un incident majeur (rançongiciel, panne d'un prestataire critique), les plans de continuité d'Aurelia, testés sur seulement 60 % des applications critiques et sans les prestataires, ne fonctionnent pas comme prévu. Les fonctions de valorisation et de passage d'ordres des fonds sont interrompues au-delà des délais tolérables. L'AMF relève en outre l'absence de démonstration de l'efficacité des contrôles, ce qui expose à une injonction ou à une sanction.",
+    "categorie": "Opérationnel",
+    "probabilite": 3,
+    "impact": 4,
+    "criticite_brute": 12,
+    "justification_scores": "Les écarts sont nombreux et l'efficacité des tests est jugée faible, rendant probable la révélation de défaillances lors d'un incident ou d'un contrôle. L'interruption de fonctions critiques de gestion pour une entité DORA peut mettre en cause l'agrément.",
+    "controles_attenuants": [
+      "CT-0036",
+      "CT-0015",
+      "CT-0026",
+      "CT-0037",
+      "CT-0017",
+      "CT-0018"
+    ],
+    "risque_residuel": 5,
+    "niveau_residuel": "Modéré",
+    "traitement": "Réduire",
+    "proprietaire": "DSI",
+    "statut": "Identifié",
+    "lots_ids": [
+      "LA-0003"
+    ],
+    "run_id": "RUN-20261027-2050"
+  },
+  {
+    "id": "RK-0077",
+    "exigence_id": "EX-0082",
+    "intitule": "Répétition d'incidents faute d'intégration des enseignements dans l'évaluation des risques TIC",
+    "scenario": "Les conclusions des tests et des analyses post-incident, limitées aux incidents majeurs, ne sont pas réinjectées dans l'évaluation du risque TIC. Des vulnérabilités déjà identifiées persistent et provoquent des incidents récurrents. Lors d'une inspection, l'autorité constate l'absence de boucle d'apprentissage et formule des observations.",
+    "categorie": "Opérationnel",
+    "probabilite": 3,
+    "impact": 3,
+    "criticite_brute": 9,
+    "justification_scores": "Faute de mécanisme formalisé, la récurrence d'incidents évitables est attendue environ une fois par an. L'impact est majeur car ces incidents peuvent toucher des fonctions critiques et motiver une sanction.",
+    "controles_attenuants": [
+      "CT-0013",
+      "CT-0037",
+      "CT-0036",
+      "CT-0034"
+    ],
+    "risque_residuel": 4,
+    "niveau_residuel": "Modéré",
+    "traitement": "Réduire",
+    "proprietaire": "DSI",
+    "statut": "Identifié",
+    "lots_ids": [
+      "LA-0004"
+    ],
+    "run_id": "RUN-20261027-2050"
+  },
+  {
+    "id": "RK-0078",
+    "exigence_id": "EX-0083",
+    "intitule": "Direction et personnel insuffisamment formés à la résilience opérationnelle numérique",
+    "scenario": "La direction, non formée à la résilience opérationnelle numérique, ne peut pas exercer pleinement sa responsabilité au titre de DORA ni piloter efficacement une crise TIC. Le programme de sensibilisation, non adapté au profil de risque, laisse subsister des comportements à risque (hameçonnage, mauvaise gestion des accès). L'autorité peut relever un manquement à l'exigence de formation de l'organe de direction.",
+    "categorie": "Cyber",
+    "probabilite": 3,
+    "impact": 2,
+    "criticite_brute": 6,
+    "justification_scores": "Un programme existe pour le personnel, mais l'écart sur la direction et la résilience rend probable un constat ou un incident lié à l'erreur humaine. L'impact reste modéré grâce à la couverture partielle existante.",
+    "controles_attenuants": [
+      "CT-0020"
+    ],
+    "risque_residuel": 5,
+    "niveau_residuel": "Modéré",
+    "traitement": "Réduire",
+    "proprietaire": "RSSI",
+    "statut": "Identifié",
+    "lots_ids": [
+      "LA-0012"
+    ],
+    "run_id": "RUN-20261027-2050"
+  },
+  {
+    "id": "RK-0079",
+    "exigence_id": "EX-0084",
+    "intitule": "Absence de cadre de gestion du risque TIC documenté et réexaminé",
+    "scenario": "Aurelia ne dispose que d'une PSSI et d'un pilotage trimestriel, sans cadre de gestion du risque TIC documenté ni réexamen déclenché par les incidents majeurs. Lors d'un contrôle de l'AMF, ce manquement à une exigence structurante de DORA est constaté. Il peut conduire à une injonction de mise en conformité, voire à une sanction pécuniaire et à une publicité de la décision.",
+    "categorie": "Juridique",
+    "probabilite": 3,
+    "impact": 3,
+    "criticite_brute": 9,
+    "justification_scores": "L'absence de cadre formalisé est un écart visible et quasi systématiquement relevé en contrôle, d'où une probabilité élevée. L'impact est majeur compte tenu du risque de sanction, la revue indépendante n'étant prévue qu'en 2027.",
+    "controles_attenuants": [
+      "CT-0001",
+      "CT-0034",
+      "CT-0013",
+      "CT-0017"
+    ],
+    "risque_residuel": 5,
+    "niveau_residuel": "Modéré",
+    "traitement": "Réduire",
+    "proprietaire": "Juridique",
+    "statut": "Identifié",
+    "lots_ids": [
+      "LA-0007"
+    ],
+    "run_id": "RUN-20261027-2050"
+  },
+  {
+    "id": "RK-0080",
+    "exigence_id": "EX-0085",
+    "intitule": "Incapacité à produire le rapport de réexamen du cadre sur demande de l'autorité",
+    "scenario": "À la demande de l'AMF, Aurelia ne peut fournir dans les délais un rapport formalisé de réexamen de son cadre de gestion du risque TIC, faute de processus de production. Le régulateur y voit un défaut de gouvernance et peut renforcer sa surveillance ou ouvrir une procédure. La crédibilité de la société de gestion auprès de l'autorité est dégradée.",
+    "categorie": "Juridique",
+    "probabilite": 2,
+    "impact": 3,
+    "criticite_brute": 6,
+    "justification_scores": "Une demande de ce rapport reste ponctuelle, de l'ordre d'une fois tous les deux à cinq ans. L'impossibilité d'y répondre constitue un manquement pouvant entraîner une sanction.",
+    "controles_attenuants": [
+      "CT-0001",
+      "CT-0016"
+    ],
+    "risque_residuel": 3,
+    "niveau_residuel": "Faible",
+    "traitement": "Réduire",
+    "proprietaire": "Juridique",
+    "statut": "Identifié",
+    "lots_ids": [
+      "LA-0004"
+    ],
+    "run_id": "RUN-20261027-2050"
+  }
+]

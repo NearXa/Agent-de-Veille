@@ -1,0 +1,29 @@
+# Node
+node_modules/
+dist/
+coverage/
+*.log
+
+# Python
+.venv/
+__pycache__/
+*.pyc
+.pytest_cache/
+
+# Secrets
+.env
+.env.*
+!.env.example
+.streamlit/secrets.toml
+
+# Données générées (les textes officiels de data/sources/ et les fixtures de test sont versionnés)
+data/raw/
+data/cache/
+data/runs/
+output/
+notion/ids.json
+notion/pages-map.json
+
+# Divers
+.DS_Store
+Thumbs.db

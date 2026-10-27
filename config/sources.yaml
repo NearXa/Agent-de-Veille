@@ -1,0 +1,138 @@
+# Sources de veille : connecteur, activation, fréquence (cron) et références suivies.
+# Les URL des flux et exports ont été vérifiées le 27/10/2026 (codes HTTP 200 obtenus avec un client standard).
+# Le texte DORA de la démo est relu depuis data/sources/ (connecteur fichier local).
+
+defaults:
+  cron: '0 */6 * * *' # toutes les 6 heures
+  timeout_ms: 30000
+  retries: 3
+  rate_limit_per_minute: 30
+  analyse_automatique: false # true : extraire les exigences des textes nouveaux ou modifiés lors de `watch` (coût LLM)
+  fenetre_initiale_jours: 30 # premier passage sans état : entrées publiées dans les 30 derniers jours
+  max_par_passage: 20 # nombre maximal de documents récupérés par source et par passage
+
+sources:
+  - id: local-file
+    nom: Fichier local
+    enabled: true
+    description: Documents officiels déjà téléchargés (HTML, PDF, TXT) dans data/sources/
+    documents:
+      - fichier: data/sources/dora-32022R2554-fr.html
+        source_origine: eurlex
+        reference: CELEX:32022R2554
+        url_officielle: https://eur-lex.europa.eu/legal-content/FR/TXT/HTML/?uri=CELEX:32022R2554
+        titre: Règlement (UE) 2022/2554 du 14 décembre 2022 sur la résilience opérationnelle numérique du secteur financier (DORA)
+
+  - id: eurlex
+    nom: EUR-Lex
+    enabled: true
+    url_html: https://eur-lex.europa.eu/legal-content/FR/TXT/HTML/?uri={reference}
+    # Depuis certains réseaux, eur-lex.europa.eu renvoie une page de contrôle anti-bot aux clients automatisés ;
+    # le Cellar de l'Office des publications (négociation de contenu xhtml / fra, documentée) sert de repli.
+    urls_alternatives:
+      - http://publications.europa.eu/resource/celex/{celex}
+    # Flux RSS prédéfinis officiels : actes du Journal officiel L (FR) et législation Parlement / Conseil (EN).
+    rss:
+      - https://eur-lex.europa.eu/FR/display-feed.rss?rssId=165
+      - https://eur-lex.europa.eu/EN/display-feed.rss?rssId=162
+    mots_cles:
+      [
+        numérique,
+        digital,
+        cyber,
+        résilience,
+        TIC,
+        ICT,
+        DORA,
+        NIS,
+        'intelligence artificielle',
+        'artificial intelligence',
+      ]
+    references:
+      - { reference: 'CELEX:32022R2554', titre: DORA, suivi: false } # déjà suivi via le fichier local
+      - { reference: 'CELEX:32022L2555', titre: NIS2, suivi: false }
+      - { reference: 'CELEX:32016R0679', titre: RGPD, suivi: false }
+
+  - id: legifrance
+    nom: Légifrance (PISTE)
+    enabled: false # nécessite PISTE_CLIENT_ID / PISTE_CLIENT_SECRET (OAuth2 client credentials)
+    env: sandbox
+    references:
+      - { reference: LEGITEXT000006068624, titre: Loi Informatique et Libertés, suivi: true }
+    mots_cles:
+      [résilience opérationnelle numérique, sécurité des réseaux et des systèmes d'information]
+
+  - id: judilibre
+    nom: Judilibre (PISTE)
+    enabled: false # nécessite PISTE_API_KEY (en-tête KeyId)
+    env: sandbox
+    requete: risque informatique établissement financier
+    juridictions: [cc]
+
+  - id: assemblee-nationale
+    nom: Assemblée nationale
+    enabled: true
+    # Flux RSS officiels. L'export open data des dossiers législatifs (JSON zippé, 11 Mo,
+    # https://data.assemblee-nationale.fr/static/openData/repository/17/loi/dossiers_legislatifs/Dossiers_Legislatifs.json.zip)
+    # est documenté mais non exploité par le connecteur.
+    rss:
+      - https://www2.assemblee-nationale.fr/feeds/detail/documents-parlementaires
+      - http://www.assemblee-nationale.fr/dyn/rss/communiques-de-presse.xml
+    mots_cles:
+      [
+        numérique,
+        cyber,
+        données,
+        résilience,
+        sécurité des systèmes,
+        informatique,
+        intelligence artificielle,
+      ]
+
+  - id: senat
+    nom: Sénat
+    enabled: true
+    # Open data des dossiers législatifs (CSV quotidien, ISO-8859-1) et flux RSS officiels (textes déposés, thème Union européenne).
+    csv: https://data.senat.fr/data/dosleg/dossiers-legislatifs.csv
+    rss:
+      - https://www.senat.fr/rss/textes.rss
+      - https://www.senat.fr/themes/rss/therss8.rss
+    mots_cles:
+      [
+        numérique,
+        cyber,
+        données,
+        résilience,
+        sécurité des systèmes,
+        informatique,
+        intelligence artificielle,
+      ]
+
+  - id: cnil
+    nom: CNIL
+    enabled: true
+    # Flux RSS officiel des actualités. Les délibérations et sanctions sont publiées sur Légifrance (fonds CNIL,
+    # accessible via l'API Légifrance sur PISTE) et dans l'open data DILA (https://echanges.dila.gouv.fr/OPENDATA/CNIL/).
+    rss:
+      - https://www.cnil.fr/fr/rss.xml
+    mots_cles:
+      [
+        sanction,
+        délibération,
+        mise en demeure,
+        recommandation,
+        référentiel,
+        lignes directrices,
+        règlement,
+      ]
+
+  - id: anssi
+    nom: ANSSI / CERT-FR
+    enabled: true
+    # Flux CERT-FR (actualités et alertes). Le flux des actualités de cyber.gouv.fr (https://cyber.gouv.fr/actualites/rss/)
+    # est attesté mais le site applique un contrôle anti-bot qui bloque les clients automatisés.
+    rss:
+      - https://www.cert.ssi.gouv.fr/actualite/feed/
+      - https://www.cert.ssi.gouv.fr/alerte/feed/
+    mots_cles:
+      [guide, recommandation, référentiel, doctrine, qualification, réglement, DORA, NIS, alerte]

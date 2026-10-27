@@ -1,0 +1,45 @@
+# Veille planifiée (alternative au scheduler local `pnpm agent watch`) : un passage quotidien sur les
+# sources activées dans config/sources.yaml, puis commit des changements du store s'il y en a.
+name: veille
+
+on:
+  schedule:
+    - cron: '0 6 * * *' # tous les jours à 06:00 UTC
+  workflow_dispatch:
+
+permissions:
+  contents: write
+
+jobs:
+  veille:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+      - uses: pnpm/action-setup@v4
+        with:
+          version: 12
+      - uses: actions/setup-node@v4
+        with:
+          node-version: 22
+          cache: pnpm
+      - run: pnpm install --frozen-lockfile
+      - name: Passage de veille
+        env:
+          ANTHROPIC_API_KEY: ${{ secrets.ANTHROPIC_API_KEY }}
+          NOTION_TOKEN: ${{ secrets.NOTION_TOKEN }}
+          NOTION_PARENT_PAGE_ID: ${{ secrets.NOTION_PARENT_PAGE_ID }}
+          PISTE_CLIENT_ID: ${{ secrets.PISTE_CLIENT_ID }}
+          PISTE_CLIENT_SECRET: ${{ secrets.PISTE_CLIENT_SECRET }}
+          LOG_FORMAT: json
+        run: pnpm agent watch --once
+      - name: Commit des changements du store
+        run: |
+          git config user.name "veille-bot"
+          git config user.email "veille-bot@users.noreply.github.com"
+          if ! git diff --quiet -- data/store; then
+            git add data/store
+            git commit -m "chore(veille): passage planifié du $(date -u +%Y-%m-%d)"
+            git push
+          else
+            echo "Aucun changement dans data/store."
+          fi

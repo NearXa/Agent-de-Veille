@@ -1,0 +1,414 @@
+[
+  {
+    "id": "LA-0001",
+    "titre": "TOGAF Phase A (Architecture Vision) : 4 exigence(s) à couvrir",
+    "description": "Mettre en conformité les exigences EX-0001, EX-0002, EX-0004, EX-0020 (TOGAF, TOGAF Phase A (Architecture Vision)). Livrables : Architecture Vision intégrant le modèle de gouvernance et de contrôle interne du risque TIC ; Charte de gouvernance et délibération du conseil approuvant le cadre de risque TIC ; Stratégie de résilience opérationnelle numérique et déclaration d'appétence/tolérance au risque TIC approuvées ; Document de stratégie de résilience opérationnelle numérique.",
+    "exigences_ids": [
+      "EX-0001",
+      "EX-0002",
+      "EX-0004",
+      "EX-0020"
+    ],
+    "risques_ids": [
+      "RK-0001",
+      "RK-0002",
+      "RK-0004",
+      "RK-0020"
+    ],
+    "priorite": "P1",
+    "responsable": "Direction",
+    "echeance_cible": "2025-01-17",
+    "statut": "À planifier",
+    "cadre_gouvernance": "TOGAF",
+    "phase_ou_pratique": "TOGAF Phase A (Architecture Vision)",
+    "livrable_attendu": "Architecture Vision intégrant le modèle de gouvernance et de contrôle interne du risque TIC ; Charte de gouvernance et délibération du conseil approuvant le cadre de risque TIC ; Stratégie de résilience opérationnelle numérique et déclaration d'appétence/tolérance au risque TIC approuvées ; Document de stratégie de résilience opérationnelle numérique",
+    "effort": "Moyen",
+    "run_id": "RUN-20261027-2029"
+  },
+  {
+    "id": "LA-0005",
+    "titre": "TOGAF Phase F (Migration Planning) : 1 exigence(s) à couvrir",
+    "description": "Mettre en conformité les exigences EX-0007 (TOGAF, TOGAF Phase F (Migration Planning)). Livrables : Feuille de route chiffrée et enveloppe budgétaire de résilience numérique.",
+    "exigences_ids": [
+      "EX-0007"
+    ],
+    "risques_ids": [
+      "RK-0007"
+    ],
+    "priorite": "P1",
+    "responsable": "DSI",
+    "echeance_cible": "2025-01-17",
+    "statut": "À planifier",
+    "cadre_gouvernance": "TOGAF",
+    "phase_ou_pratique": "TOGAF Phase F (Migration Planning)",
+    "livrable_attendu": "Feuille de route chiffrée et enveloppe budgétaire de résilience numérique",
+    "effort": "Moyen",
+    "run_id": "RUN-20261027-2029"
+  },
+  {
+    "id": "LA-0010",
+    "titre": "ITIL Change Enablement : 3 exigence(s) à couvrir",
+    "description": "Mettre en conformité les exigences EX-0025, EX-0028, EX-0037 (ITIL, ITIL Change Enablement). Livrables : Grille d'évaluation des risques intégrée au processus CAB ; Procédure de mise à jour des inventaires à chaque changement ; Stratégie de gestion des correctifs et des mises à jour avec délais par criticité.",
+    "exigences_ids": [
+      "EX-0025",
+      "EX-0028",
+      "EX-0037"
+    ],
+    "risques_ids": [
+      "RK-0025",
+      "RK-0028",
+      "RK-0034"
+    ],
+    "priorite": "P1",
+    "responsable": "DSI",
+    "echeance_cible": "2025-01-17",
+    "statut": "À planifier",
+    "cadre_gouvernance": "ITIL",
+    "phase_ou_pratique": "ITIL Change Enablement",
+    "livrable_attendu": "Grille d'évaluation des risques intégrée au processus CAB ; Procédure de mise à jour des inventaires à chaque changement ; Stratégie de gestion des correctifs et des mises à jour avec délais par criticité",
+    "effort": "Moyen",
+    "run_id": "RUN-20261027-2029"
+  },
+  {
+    "id": "LA-0002",
+    "titre": "TOGAF Phase B (Business Architecture) : 9 exigence(s) à couvrir",
+    "description": "Mettre en conformité les exigences EX-0003, EX-0009, EX-0012, EX-0015, EX-0016, EX-0023, EX-0027, EX-0045, EX-0062 (TOGAF, TOGAF Phase B (Business Architecture)). Livrables : Matrice RACI des fonctions TIC et fiches de poste ; Modèle d'escalade et circuits de reporting vers l'organe de direction ; Architecture Requirements Specification du cadre de gestion du risque TIC ; Modèle organisationnel des trois lignes de défense pour le risque TIC ; Matrice de séparation des fonctions gestion du risque / contrôle / audit interne ; Cartographie et classification des fonctions métiers critiques ou importantes ; Cartographie processus métiers / prestataires tiers TIC ; Analyse d'impact sur les activités (BIA) ; Matrice RTO/RPO par fonction critique ou importante.",
+    "exigences_ids": [
+      "EX-0003",
+      "EX-0009",
+      "EX-0012",
+      "EX-0015",
+      "EX-0016",
+      "EX-0023",
+      "EX-0027",
+      "EX-0045",
+      "EX-0062"
+    ],
+    "risques_ids": [
+      "RK-0003",
+      "RK-0009",
+      "RK-0012",
+      "RK-0015",
+      "RK-0016",
+      "RK-0023",
+      "RK-0027",
+      "RK-0041",
+      "RK-0057"
+    ],
+    "priorite": "P2",
+    "responsable": "Direction",
+    "echeance_cible": "2025-01-17",
+    "statut": "À planifier",
+    "cadre_gouvernance": "TOGAF",
+    "phase_ou_pratique": "TOGAF Phase B (Business Architecture)",
+    "livrable_attendu": "Matrice RACI des fonctions TIC et fiches de poste ; Modèle d'escalade et circuits de reporting vers l'organe de direction ; Architecture Requirements Specification du cadre de gestion du risque TIC ; Modèle organisationnel des trois lignes de défense pour le risque TIC ; Matrice de séparation des fonctions gestion du risque / contrôle / audit interne ; Cartographie et classification des fonctions métiers critiques ou importantes ; Cartographie processus métiers / prestataires tiers TIC ; Analyse d'impact sur les activités (BIA) ; Matrice RTO/RPO par fonction critique ou importante",
+    "effort": "Élevé",
+    "run_id": "RUN-20261027-2029"
+  },
+  {
+    "id": "LA-0003",
+    "titre": "ITIL Service Continuity Management : 16 exigence(s) à couvrir",
+    "description": "Mettre en conformité les exigences EX-0005, EX-0041, EX-0042, EX-0043, EX-0044, EX-0047, EX-0048, EX-0049, EX-0050, EX-0053, EX-0055, EX-0058, EX-0059, EX-0063, EX-0080, EX-0081 (ITIL, ITIL Service Continuity Management). Livrables : Procès-verbal d'approbation et calendrier de revue de la politique de continuité TIC et des PRA ; Politique de continuité des activités TIC ; Dispositifs, plans et procédures de continuité documentés ; Plans de réponse et de rétablissement TIC et rapport de revue indépendante ; PCA TIC incluant les prestataires et comptes rendus de tests ; Programme annuel de tests PCA/PRA et rapports ; Rapport d'exercice de communication de crise ; Scénarios de test cyberattaque et basculement ; Calendrier et comptes rendus de réexamen de la politique de continuité ; Note d'applicabilité (exigence propre aux DCT) et, le cas échéant, modèle de transmission ; Politique de sauvegarde et procédures de restauration ; Note d'applicabilité (exigence propre aux CCP) ; Note d'applicabilité (exigence propre aux PSCD) ; Procédure de contrôle d'intégrité des données (dont VL des fonds) au rétablissement ; Plans de continuité des fonctions critiques (gestion, ordres, valorisation) ; Plan de tests des contrôles et des plans de continuité.",
+    "exigences_ids": [
+      "EX-0005",
+      "EX-0041",
+      "EX-0042",
+      "EX-0043",
+      "EX-0044",
+      "EX-0047",
+      "EX-0048",
+      "EX-0049",
+      "EX-0050",
+      "EX-0053",
+      "EX-0055",
+      "EX-0058",
+      "EX-0059",
+      "EX-0063",
+      "EX-0080",
+      "EX-0081"
+    ],
+    "risques_ids": [
+      "RK-0005",
+      "RK-0037",
+      "RK-0038",
+      "RK-0039",
+      "RK-0040",
+      "RK-0043",
+      "RK-0044",
+      "RK-0045",
+      "RK-0046",
+      "RK-0049",
+      "RK-0051",
+      "RK-0053",
+      "RK-0054",
+      "RK-0058",
+      "RK-0075",
+      "RK-0076"
+    ],
+    "priorite": "P2",
+    "responsable": "DSI",
+    "echeance_cible": "2025-01-17",
+    "statut": "À planifier",
+    "cadre_gouvernance": "ITIL",
+    "phase_ou_pratique": "ITIL Service Continuity Management",
+    "livrable_attendu": "Procès-verbal d'approbation et calendrier de revue de la politique de continuité TIC et des PRA ; Politique de continuité des activités TIC ; Dispositifs, plans et procédures de continuité documentés ; Plans de réponse et de rétablissement TIC et rapport de revue indépendante ; PCA TIC incluant les prestataires et comptes rendus de tests ; Programme annuel de tests PCA/PRA et rapports ; Rapport d'exercice de communication de crise ; Scénarios de test cyberattaque et basculement ; Calendrier et comptes rendus de réexamen de la politique de continuité ; Note d'applicabilité (exigence propre aux DCT) et, le cas échéant, modèle de transmission ; Politique de sauvegarde et procédures de restauration ; Note d'applicabilité (exigence propre aux CCP) ; Note d'applicabilité (exigence propre aux PSCD) ; Procédure de contrôle d'intégrité des données (dont VL des fonds) au rétablissement ; Plans de continuité des fonctions critiques (gestion, ordres, valorisation) ; Plan de tests des contrôles et des plans de continuité",
+    "effort": "Élevé",
+    "run_id": "RUN-20261027-2029"
+  },
+  {
+    "id": "LA-0004",
+    "titre": "ITIL Risk Management : 10 exigence(s) à couvrir",
+    "description": "Mettre en conformité les exigences EX-0006, EX-0011, EX-0013, EX-0014, EX-0024, EX-0067, EX-0069, EX-0075, EX-0082, EX-0085 (ITIL, ITIL Risk Management). Livrables : Plan d'audit TIC pluriannuel approuvé par l'organe de direction ; Plan de formation annuel des dirigeants au risque TIC et attestations ; Plan de traitement des risques TIC et suivi des mesures ; Procédure de réponse aux demandes des autorités (AMF/ACPR) ; Registre des risques TIC et bibliothèque de scénarios ; Procédure d'intégration des retours d'expérience au registre des risques ; Rapport annuel à l'organe de direction sur le risque TIC ; Note d'applicabilité de l'article 16 (cadre simplifié), sinon rattachement à EX-0012 ; Registre des enseignements et des actions issues des tests et des post-incidents ; Rapport de réexamen du cadre au format attendu par l'autorité.",
+    "exigences_ids": [
+      "EX-0006",
+      "EX-0011",
+      "EX-0013",
+      "EX-0014",
+      "EX-0024",
+      "EX-0067",
+      "EX-0069",
+      "EX-0075",
+      "EX-0082",
+      "EX-0085"
+    ],
+    "risques_ids": [
+      "RK-0006",
+      "RK-0011",
+      "RK-0013",
+      "RK-0014",
+      "RK-0024",
+      "RK-0062",
+      "RK-0064",
+      "RK-0070",
+      "RK-0077",
+      "RK-0080"
+    ],
+    "priorite": "P2",
+    "responsable": "DSI",
+    "echeance_cible": "2025-01-17",
+    "statut": "À planifier",
+    "cadre_gouvernance": "ITIL",
+    "phase_ou_pratique": "ITIL Risk Management",
+    "livrable_attendu": "Plan d'audit TIC pluriannuel approuvé par l'organe de direction ; Plan de formation annuel des dirigeants au risque TIC et attestations ; Plan de traitement des risques TIC et suivi des mesures ; Procédure de réponse aux demandes des autorités (AMF/ACPR) ; Registre des risques TIC et bibliothèque de scénarios ; Procédure d'intégration des retours d'expérience au registre des risques ; Rapport annuel à l'organe de direction sur le risque TIC ; Note d'applicabilité de l'article 16 (cadre simplifié), sinon rattachement à EX-0012 ; Registre des enseignements et des actions issues des tests et des post-incidents ; Rapport de réexamen du cadre au format attendu par l'autorité",
+    "effort": "Élevé",
+    "run_id": "RUN-20261027-2029"
+  },
+  {
+    "id": "LA-0006",
+    "titre": "ITIL Supplier Management : 4 exigence(s) à couvrir",
+    "description": "Mettre en conformité les exigences EX-0008, EX-0010, EX-0021, EX-0079 (ITIL, ITIL Supplier Management). Livrables : Politique d'utilisation des services TIC de prestataires tiers approuvée ; Fiche de rôle du responsable du suivi des accords TIC tiers ; Clauses contractuelles et note de gouvernance sur la responsabilité conservée ; Registre d'informations des accords avec les prestataires tiers TIC.",
+    "exigences_ids": [
+      "EX-0008",
+      "EX-0010",
+      "EX-0021",
+      "EX-0079"
+    ],
+    "risques_ids": [
+      "RK-0008",
+      "RK-0010",
+      "RK-0021",
+      "RK-0074"
+    ],
+    "priorite": "P2",
+    "responsable": "Conformité",
+    "echeance_cible": "2025-01-17",
+    "statut": "À planifier",
+    "cadre_gouvernance": "ITIL",
+    "phase_ou_pratique": "ITIL Supplier Management",
+    "livrable_attendu": "Politique d'utilisation des services TIC de prestataires tiers approuvée ; Fiche de rôle du responsable du suivi des accords TIC tiers ; Clauses contractuelles et note de gouvernance sur la responsabilité conservée ; Registre d'informations des accords avec les prestataires tiers TIC",
+    "effort": "Faible",
+    "run_id": "RUN-20261027-2029"
+  },
+  {
+    "id": "LA-0008",
+    "titre": "TOGAF Phase G (Implementation Governance) : 2 exigence(s) à couvrir",
+    "description": "Mettre en conformité les exigences EX-0018, EX-0019 (TOGAF, TOGAF Phase G (Implementation Governance)). Livrables : Programme d'audit de conformité du cadre et rapports d'audit ; Registre de suivi des constatations d'audit TIC et plans de remédiation.",
+    "exigences_ids": [
+      "EX-0018",
+      "EX-0019"
+    ],
+    "risques_ids": [
+      "RK-0018",
+      "RK-0019"
+    ],
+    "priorite": "P2",
+    "responsable": "DSI",
+    "echeance_cible": "2025-01-17",
+    "statut": "À planifier",
+    "cadre_gouvernance": "TOGAF",
+    "phase_ou_pratique": "TOGAF Phase G (Implementation Governance)",
+    "livrable_attendu": "Programme d'audit de conformité du cadre et rapports d'audit ; Registre de suivi des constatations d'audit TIC et plans de remédiation",
+    "effort": "Moyen",
+    "run_id": "RUN-20261027-2029"
+  },
+  {
+    "id": "LA-0009",
+    "titre": "TOGAF Phase D (Technology Architecture) : 8 exigence(s) à couvrir",
+    "description": "Mettre en conformité les exigences EX-0022, EX-0029, EX-0033, EX-0046, EX-0057, EX-0060, EX-0061, EX-0077 (TOGAF, TOGAF Phase D (Technology Architecture)). Livrables : Architecture Definition Document des socles techniques front-office et gestion de portefeuille ; Évaluation annuelle des systèmes hérités et plan de décommissionnement ; Architecture cible de segmentation réseau et mécanismes de déconnexion ; Architecture Definition Document de redondance alignée sur la BIA ; Architecture d'environnement de restauration isolé et protégé ; Architecture Definition Document des capacités TIC redondantes ; Note d'applicabilité (DCT) et, si retenu, architecture de site secondaire ; Standards technologiques et politique d'obsolescence.",
+    "exigences_ids": [
+      "EX-0022",
+      "EX-0029",
+      "EX-0033",
+      "EX-0046",
+      "EX-0057",
+      "EX-0060",
+      "EX-0061",
+      "EX-0077"
+    ],
+    "risques_ids": [
+      "RK-0022",
+      "RK-0029",
+      "RK-0031",
+      "RK-0042",
+      "RK-0052",
+      "RK-0055",
+      "RK-0056",
+      "RK-0072"
+    ],
+    "priorite": "P2",
+    "responsable": "DSI",
+    "echeance_cible": "2025-01-17",
+    "statut": "À planifier",
+    "cadre_gouvernance": "TOGAF",
+    "phase_ou_pratique": "TOGAF Phase D (Technology Architecture)",
+    "livrable_attendu": "Architecture Definition Document des socles techniques front-office et gestion de portefeuille ; Évaluation annuelle des systèmes hérités et plan de décommissionnement ; Architecture cible de segmentation réseau et mécanismes de déconnexion ; Architecture Definition Document de redondance alignée sur la BIA ; Architecture d'environnement de restauration isolé et protégé ; Architecture Definition Document des capacités TIC redondantes ; Note d'applicabilité (DCT) et, si retenu, architecture de site secondaire ; Standards technologiques et politique d'obsolescence",
+    "effort": "Élevé",
+    "run_id": "RUN-20261027-2029"
+  },
+  {
+    "id": "LA-0011",
+    "titre": "TOGAF Phase C (Information Systems Architectures) : 2 exigence(s) à couvrir",
+    "description": "Mettre en conformité les exigences EX-0026, EX-0040 (TOGAF, TOGAF Phase C (Information Systems Architectures)). Livrables : Cartographie des actifs TIC critiques et de leurs interdépendances (référentiel CMDB) ; Contrôles de complétude des flux de déclaration de transactions (sous réserve d'applicabilité).",
+    "exigences_ids": [
+      "EX-0026",
+      "EX-0040"
+    ],
+    "risques_ids": [
+      "RK-0026",
+      "RK-0036"
+    ],
+    "priorite": "P2",
+    "responsable": "DSI",
+    "echeance_cible": "2025-01-17",
+    "statut": "À planifier",
+    "cadre_gouvernance": "TOGAF",
+    "phase_ou_pratique": "TOGAF Phase C (Information Systems Architectures)",
+    "livrable_attendu": "Cartographie des actifs TIC critiques et de leurs interdépendances (référentiel CMDB) ; Contrôles de complétude des flux de déclaration de transactions (sous réserve d'applicabilité)",
+    "effort": "Élevé",
+    "run_id": "RUN-20261027-2029"
+  },
+  {
+    "id": "LA-0007",
+    "titre": "TOGAF Phase H (Architecture Change Management) : 4 exigence(s) à couvrir",
+    "description": "Mettre en conformité les exigences EX-0017, EX-0068, EX-0071, EX-0084 (TOGAF, TOGAF Phase H (Architecture Change Management)). Livrables : Rapport annuel de réexamen du cadre de gestion du risque TIC ; Tableau de bord KRI/KPI de la stratégie de résilience ; Processus de veille technologique et revue d'impact architectural ; Dossier documentaire versionné du cadre et plan d'amélioration continue.",
+    "exigences_ids": [
+      "EX-0017",
+      "EX-0068",
+      "EX-0071",
+      "EX-0084"
+    ],
+    "risques_ids": [
+      "RK-0017",
+      "RK-0063",
+      "RK-0066",
+      "RK-0079"
+    ],
+    "priorite": "P3",
+    "responsable": "DSI",
+    "echeance_cible": "2025-01-17",
+    "statut": "À planifier",
+    "cadre_gouvernance": "TOGAF",
+    "phase_ou_pratique": "TOGAF Phase H (Architecture Change Management)",
+    "livrable_attendu": "Rapport annuel de réexamen du cadre de gestion du risque TIC ; Tableau de bord KRI/KPI de la stratégie de résilience ; Processus de veille technologique et revue d'impact architectural ; Dossier documentaire versionné du cadre et plan d'amélioration continue",
+    "effort": "Moyen",
+    "run_id": "RUN-20261027-2029"
+  },
+  {
+    "id": "LA-0012",
+    "titre": "ITIL Information Security Management : 6 exigence(s) à couvrir",
+    "description": "Mettre en conformité les exigences EX-0031, EX-0034, EX-0035, EX-0064, EX-0070, EX-0083 (ITIL, ITIL Information Security Management). Livrables : Catalogue de mesures de protection des données (chiffrement, DLP) ; Politique de contrôle des accès physiques et logiques et revues d'habilitations ; Standard d'authentification forte et procédure de gestion des clés ; Service de veille sur les menaces (CTI) et bulletins ; Programme obligatoire de sensibilisation et de formation (y compris tiers) ; Programme de formation différencié personnel / direction.",
+    "exigences_ids": [
+      "EX-0031",
+      "EX-0034",
+      "EX-0035",
+      "EX-0064",
+      "EX-0070",
+      "EX-0083"
+    ],
+    "risques_ids": [
+      "RK-0030",
+      "RK-0032",
+      "RK-0033",
+      "RK-0059",
+      "RK-0065",
+      "RK-0078"
+    ],
+    "priorite": "P3",
+    "responsable": "RSSI",
+    "echeance_cible": "2025-01-17",
+    "statut": "À planifier",
+    "cadre_gouvernance": "ITIL",
+    "phase_ou_pratique": "ITIL Information Security Management",
+    "livrable_attendu": "Catalogue de mesures de protection des données (chiffrement, DLP) ; Politique de contrôle des accès physiques et logiques et revues d'habilitations ; Standard d'authentification forte et procédure de gestion des clés ; Service de veille sur les menaces (CTI) et bulletins ; Programme obligatoire de sensibilisation et de formation (y compris tiers) ; Programme de formation différencié personnel / direction",
+    "effort": "Élevé",
+    "run_id": "RUN-20261027-2029"
+  },
+  {
+    "id": "LA-0013",
+    "titre": "ITIL Monitoring and Event Management : 2 exigence(s) à couvrir",
+    "description": "Mettre en conformité les exigences EX-0038, EX-0076 (ITIL, ITIL Monitoring and Event Management). Livrables : Règles de détection des anomalies et rapports de tests ; Catalogue d'événements supervisés et seuils d'alerte.",
+    "exigences_ids": [
+      "EX-0038",
+      "EX-0076"
+    ],
+    "risques_ids": [
+      "RK-0035",
+      "RK-0071"
+    ],
+    "priorite": "P3",
+    "responsable": "RSSI",
+    "echeance_cible": "2025-01-17",
+    "statut": "À planifier",
+    "cadre_gouvernance": "ITIL",
+    "phase_ou_pratique": "ITIL Monitoring and Event Management",
+    "livrable_attendu": "Règles de détection des anomalies et rapports de tests ; Catalogue d'événements supervisés et seuils d'alerte",
+    "effort": "Élevé",
+    "run_id": "RUN-20261027-2029"
+  },
+  {
+    "id": "LA-0014",
+    "titre": "ITIL Incident Management : 9 exigence(s) à couvrir",
+    "description": "Mettre en conformité les exigences EX-0051, EX-0052, EX-0054, EX-0065, EX-0066, EX-0072, EX-0073, EX-0074, EX-0078 (ITIL, ITIL Incident Management). Livrables : Charte de la cellule de gestion de crise ; Registre horodaté des activités lors de l'activation des plans ; Méthode d'estimation des coûts et pertes des incidents majeurs ; Modèle et rapports de revue post-incident ; Dossier des changements post-incident communicable aux autorités ; Plan de communication de crise (clients, distributeurs, autorités) ; Politique de communication interne et externe sur les incidents ; Lettre de désignation du responsable de la communication incidents TIC ; Procédure de détection, qualification et traitement des incidents.",
+    "exigences_ids": [
+      "EX-0051",
+      "EX-0052",
+      "EX-0054",
+      "EX-0065",
+      "EX-0066",
+      "EX-0072",
+      "EX-0073",
+      "EX-0074",
+      "EX-0078"
+    ],
+    "risques_ids": [
+      "RK-0047",
+      "RK-0048",
+      "RK-0050",
+      "RK-0060",
+      "RK-0061",
+      "RK-0067",
+      "RK-0068",
+      "RK-0069",
+      "RK-0073"
+    ],
+    "priorite": "P3",
+    "responsable": "RSSI",
+    "echeance_cible": "2025-01-17",
+    "statut": "À planifier",
+    "cadre_gouvernance": "ITIL",
+    "phase_ou_pratique": "ITIL Incident Management",
+    "livrable_attendu": "Charte de la cellule de gestion de crise ; Registre horodaté des activités lors de l'activation des plans ; Méthode d'estimation des coûts et pertes des incidents majeurs ; Modèle et rapports de revue post-incident ; Dossier des changements post-incident communicable aux autorités ; Plan de communication de crise (clients, distributeurs, autorités) ; Politique de communication interne et externe sur les incidents ; Lettre de désignation du responsable de la communication incidents TIC ; Procédure de détection, qualification et traitement des incidents",
+    "effort": "Moyen",
+    "run_id": "RUN-20261027-2029"
+  }
+]

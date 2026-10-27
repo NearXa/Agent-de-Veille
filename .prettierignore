@@ -1,0 +1,9 @@
+node_modules/
+.venv/
+data/
+output/
+notion/
+docs/matrices/
+pnpm-lock.yaml
+*.html
+SPEC.md

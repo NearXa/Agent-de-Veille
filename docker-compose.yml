@@ -1,0 +1,31 @@
+# Démo conteneurisée : cockpit Streamlit (port 8501) et scheduler de veille (`pnpm agent watch`).
+# Les données, sorties et identifiants Notion sont montés depuis le dépôt ; les secrets viennent de .env.
+services:
+  cockpit:
+    build:
+      context: .
+      dockerfile: docker/cockpit.Dockerfile
+    env_file: .env
+    environment:
+      VEILLE_ROOT: /app
+    ports:
+      - '8501:8501'
+    volumes:
+      - ./data:/app/data
+      - ./output:/app/output
+      - ./notion:/app/notion
+      - ./config:/app/config
+
+  scheduler:
+    build:
+      context: .
+      dockerfile: docker/agent.Dockerfile
+    env_file: .env
+    environment:
+      VEILLE_ROOT: /app
+      LOG_FORMAT: json
+    volumes:
+      - ./data:/app/data
+      - ./output:/app/output
+      - ./notion:/app/notion
+      - ./config:/app/config

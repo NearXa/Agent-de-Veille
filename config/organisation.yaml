@@ -1,0 +1,187 @@
+# Profil de l'organisation cible (fictive) : « Aurelia Gestion d'Actifs ».
+# Utilisé par les étapes applicabilité, impact, couverture, risques et gouvernance.
+# Les listes `processus`, `systemes`, `donnees`, `contrats` et `departements` servent d'énumérations
+# fermées pour la validation Zod des sorties du LLM (ImpactSchema).
+
+organisation:
+  nom: "Aurelia Gestion d'Actifs"
+  nom_court: 'Aurelia'
+  forme_juridique: 'Société anonyme'
+  pays: 'France'
+  siege: 'Paris'
+  effectif: 800
+  secteur: "Gestion d'actifs"
+  description: >
+    Société de gestion de portefeuille fictive agréée par l'AMF, gérant des OPCVM et des FIA
+    pour une clientèle institutionnelle et de distribution. Environ 800 salariés, un datacenter
+    principal en Île-de-France et un recours croissant au cloud public pour les applications
+    métier et l'analyse de données.
+  agrements:
+    - autorite: 'AMF'
+      type: 'Agrément de société de gestion de portefeuille (directives UCITS et AIFM)'
+  statuts_reglementaires:
+    - "Entité financière au sens de l'article 2 de DORA (gestionnaire de fonds d'investissement alternatifs et société de gestion d'OPCVM)"
+    - 'Responsable de traitement au sens du RGPD'
+    - 'Entité potentiellement concernée par NIS2 via le secteur bancaire et financier (à déterminer)'
+  exclusions_connues:
+    - "N'est ni une microentreprise ni une petite entreprise : les régimes simplifiés de DORA ne s'appliquent pas"
+
+systeme_information:
+  modele: 'Hybride : datacenter on-premise principal + cloud public (IaaS/PaaS/SaaS)'
+  cloud:
+    - "Cloud public hyperscaler (hébergement d'applications, data platform)"
+    - 'SaaS métier (PMS/OMS) et bureautique'
+  on_premise:
+    - 'Datacenter principal (serveurs applicatifs, bases de données, sauvegardes)'
+    - 'Site de secours pour le PRA'
+  objectifs_continuite:
+    rto_cible_heures: 4
+    rpo_cible_heures: 1
+  gouvernance_tic:
+    comite_risques_tic: 'Trimestriel, présidé par la direction générale'
+    rattachement_rssi: 'Direction des risques'
+    referentiels_internes:
+      - 'ISO/IEC 27001:2022 (certification en cours)'
+      - 'ITIL 4 (pratiques incidents et changements)'
+
+processus:
+  - 'Gestion de portefeuille'
+  - "Passage d'ordres et exécution"
+  - 'Valorisation et comptabilité des fonds'
+  - 'Gestion des risques'
+  - 'Conformité et contrôle interne'
+  - 'Relation clients et distribution'
+  - 'Reporting réglementaire'
+  - 'Gestion des incidents'
+  - 'Gestion des changements'
+  - "Continuité d'activité"
+  - 'Gestion des fournisseurs et sous-traitants'
+  - "Sécurité de l'information"
+  - 'Gestion des accès et des identités'
+  - 'Ressources humaines'
+  - 'Direction générale et gouvernance'
+
+systemes:
+  - 'Portfolio Management System (PMS, SaaS)'
+  - 'Order Management System (OMS, SaaS)'
+  - 'Outil de valorisation'
+  - 'Comptabilité des fonds (externalisée)'
+  - 'CRM'
+  - 'Entrepôt de données et reporting'
+  - 'Messagerie et bureautique (SaaS)'
+  - 'Annuaire et gestion des identités (IAM)'
+  - 'Infrastructure on-premise (datacenter principal)'
+  - 'Cloud public (IaaS/PaaS)'
+  - 'SIEM et supervision sécurité'
+  - 'Sauvegarde et PRA'
+  - 'Site web et portail clients'
+  - 'Outil ITSM'
+  - 'Réseau et sécurité périmétrique'
+
+donnees:
+  - 'Données clients (KYC, identité, contrats)'
+  - 'Données de transactions et positions'
+  - 'Données de marché'
+  - 'Données financières et comptables'
+  - 'Données RH'
+  - 'Journaux techniques et de sécurité'
+  - 'Données de reporting réglementaire'
+  - 'Données contractuelles fournisseurs'
+  - 'Documentation interne (politiques, procédures)'
+
+contrats:
+  - 'Hébergeur cloud public'
+  - 'Éditeur PMS/OMS en SaaS'
+  - 'Valorisateur externe'
+  - 'Prestataire SOC externalisé'
+  - 'Fournisseur de données de marché'
+  - 'Dépositaire et teneur de compte'
+  - 'Infogérance du datacenter'
+  - 'Infogérance poste de travail'
+  - 'Opérateur télécom'
+  - 'Éditeur ITSM'
+  - "Prestataire de tests d'intrusion"
+
+departements:
+  - 'Direction générale'
+  - "Direction des systèmes d'information (DSI)"
+  - "RSSI / Sécurité de l'information"
+  - 'Conformité (RCCI)'
+  - 'Gestion des risques'
+  - 'Juridique'
+  - 'Front office (gestion de portefeuille)'
+  - 'Middle office'
+  - 'Back office'
+  - 'Achats et fournisseurs'
+  - 'Ressources humaines'
+  - 'Audit interne'
+
+prestataires_tic_critiques:
+  - {
+      nom: 'Hébergeur cloud public',
+      service: 'IaaS/PaaS, data platform',
+      criticite: 'Critique',
+      localisation: 'UE',
+    }
+  - {
+      nom: 'Éditeur PMS/OMS',
+      service: 'SaaS gestion de portefeuille et ordres',
+      criticite: 'Critique',
+      localisation: 'UE',
+    }
+  - {
+      nom: 'Valorisateur externe',
+      service: 'Valorisation et comptabilité des fonds',
+      criticite: 'Critique',
+      localisation: 'France',
+    }
+  - {
+      nom: 'Prestataire SOC',
+      service: 'Supervision sécurité 24/7',
+      criticite: 'Critique',
+      localisation: 'France',
+    }
+  - {
+      nom: 'Fournisseur de données de marché',
+      service: 'Flux de prix et référentiels',
+      criticite: 'Critique',
+      localisation: 'Hors UE',
+    }
+  - {
+      nom: 'Infogérant datacenter',
+      service: "Exploitation de l'infrastructure on-premise",
+      criticite: 'Élevée',
+      localisation: 'France',
+    }
+  - {
+      nom: 'Opérateur télécom',
+      service: 'Liens réseau et interconnexions',
+      criticite: 'Élevée',
+      localisation: 'France',
+    }
+  - {
+      nom: 'Éditeur messagerie et bureautique',
+      service: 'SaaS collaboratif',
+      criticite: 'Élevée',
+      localisation: 'Hors UE',
+    }
+  - {
+      nom: 'Infogérant poste de travail',
+      service: 'Support et gestion du parc',
+      criticite: 'Moyenne',
+      localisation: 'France',
+    }
+  - {
+      nom: 'Éditeur ITSM',
+      service: 'Outil de gestion des services',
+      criticite: 'Moyenne',
+      localisation: 'UE',
+    }
+
+raci_roles:
+  - 'RSSI'
+  - 'DSI'
+  - 'Conformité'
+  - 'Juridique'
+  - 'Métiers'
+  - 'Direction'
