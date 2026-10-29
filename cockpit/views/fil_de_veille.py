@@ -49,9 +49,14 @@ def render() -> None:
     c1, c2, c3, c4 = st.columns(4)
     filtre_source = c1.multiselect("Source", sources, default=sources)
     filtre_type = c2.multiselect("Type", types, default=types)
-    filtre_appl = c3.multiselect("Applicabilité", applicabilites, default=applicabilites)
+    # Les textes jugés non applicables restent consultables, mais ne sont pas présélectionnés.
+    par_defaut = [a for a in applicabilites if a != "Non"] or applicabilites
+    filtre_appl = c3.multiselect("Applicabilité", applicabilites, default=par_defaut)
     periode = c4.selectbox("Période", ["Tout", "7 derniers jours", "30 derniers jours", "90 derniers jours"], index=0)
     limite = {"7 derniers jours": 7, "30 derniers jours": 30, "90 derniers jours": 90}.get(periode)
+    masques = sum(1 for t in textes if t.applicable == "Non") if "Non" not in filtre_appl else 0
+    if masques:
+        st.caption(f"{masques} texte(s) non applicable(s) masqué(s) : ajouter « Non » au filtre Applicabilité pour les afficher.")
     visibles = []
     for t in textes:
         if t.source not in filtre_source or t.type not in filtre_type or t.applicable not in filtre_appl:
