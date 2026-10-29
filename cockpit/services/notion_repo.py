@@ -227,6 +227,9 @@ class NotionRepo:
                 proprietaire=_plain(p.get(P["proprietaire"])), statut=_select(p.get(P["statut"])) or "Absent",
                 efficacite=_select(p.get(P["efficacite"])) or "Non évaluée", preuves=_plain(p.get(P["preuves"])) or None,
                 ecart_constate=_plain(p.get(P["ecart"])) or None,
+                exigences_ids=_relation_ids(p.get(P.get("exigences", ""))),
+                risques_ids=_relation_ids(p.get(P.get("risques", ""))),
+                notion_page_id=page["id"],
             ))
         return out
 
@@ -246,8 +249,10 @@ class NotionRepo:
                 risque_residuel=int(_number(p.get(P["residuel"])) or 1), niveau_residuel=_select(p.get(P["niveau_residuel"])) or "Faible",
                 traitement=_select(p.get(P["traitement"])) or "Réduire", proprietaire=_plain(p.get(P["proprietaire"])),
                 statut=_select(p.get(P["statut"])) or "Identifié",
+                controles_attenuants=_relation_ids(p.get(P.get("controles", ""))),
+                lots_ids=_relation_ids(p.get(P.get("lots", ""))),
+                notion_page_id=page["id"],
             ))
-            out[-1].__dict__["notion_page_id"] = page["id"]
         return out
 
     def jurisprudence(self) -> list[Jurisprudence]:
@@ -276,6 +281,7 @@ class NotionRepo:
             out.append(Lot(
                 id=_plain(p.get(P["id"])), titre=_plain(p.get(P["titre"])), description=_plain(p.get(P["description"])),
                 exigences_ids=[exigence_pages.get(r, r) for r in _relation_ids(p.get(P["exigences"]))],
+                risques_ids=_relation_ids(p.get(P.get("risques", ""))),
                 priorite=_select(p.get(P["priorite"])) or "P3", responsable=_plain(p.get(P["responsable"])),
                 echeance_cible=_date(p.get(P["echeance"])), statut=_select(p.get(P["statut"])) or "À planifier",
                 cadre_gouvernance=_select(p.get(P["cadre"])) or "Hybride", phase_ou_pratique=_plain(p.get(P["phase"])),
@@ -286,23 +292,33 @@ class NotionRepo:
 
     @staticmethod
     def lier(exigences: list[Exigence], controles: list[Controle], risques: list[Risque], lots: list[Lot], jurisprudence: list[Jurisprudence]) -> None:
-        """Résout les relations Notion (identifiants de pages) en identifiants métier sur les exigences."""
+        """Résout les relations Notion (identifiants de pages) en identifiants métier, sur toutes les bases."""
         pages: dict[str, str] = {}
-        for items in (risques, lots, jurisprudence):
+        for items in (exigences, controles, risques, lots, jurisprudence):
             for item in items:
                 page_id = getattr(item, "notion_page_id", None)
                 if page_id:
                     pages[page_id] = item.id
+
+        def resoudre(valeurs: list[str]) -> list[str]:
+            return [pages.get(v, v) for v in valeurs]
+
         for e in exigences:
             rel = e.relations_notion or {}
-            if rel.get("risques"):
-                e.risques_ids = [pages.get(r, r) for r in rel["risques"]]
-            if rel.get("lots"):
-                e.lots_ids = [pages.get(r, r) for r in rel["lots"]]
-            if rel.get("jurisprudence"):
-                e.jurisprudence_ids = [pages.get(r, r) for r in rel["jurisprudence"]]
-            if rel.get("controles") and not e.controles_ids:
-                e.controles_ids = [pages.get(r, r) for r in rel["controles"]]
+            for cle, champ in (("risques", "risques_ids"), ("lots", "lots_ids"), ("jurisprudence", "jurisprudence_ids"), ("controles", "controles_ids")):
+                if rel.get(cle):
+                    setattr(e, champ, resoudre(rel[cle]))
+        for c in controles:
+            c.exigences_ids = resoudre(c.exigences_ids)
+            c.risques_ids = resoudre(c.risques_ids)
+        for r in risques:
+            r.controles_attenuants = resoudre(r.controles_attenuants)
+            r.lots_ids = resoudre(r.lots_ids)
+        for lot in lots:
+            lot.exigences_ids = resoudre(lot.exigences_ids)
+            lot.risques_ids = resoudre(lot.risques_ids)
+        for j in jurisprudence:
+            j.exigences_ids = resoudre(j.exigences_ids)
 
     def recommandation(self) -> Recommandation | None:
         from services.local_repo import LocalRepo

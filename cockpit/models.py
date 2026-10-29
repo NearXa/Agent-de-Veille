@@ -195,6 +195,7 @@ class Controle(_Base):
     risques_ids: list[str] = Field(default_factory=list)
     ecart_constate: str | None = None
     run_id: str | None = None
+    notion_page_id: str | None = None
 
 
 class Risque(_Base):

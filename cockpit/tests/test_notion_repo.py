@@ -155,3 +155,33 @@ def test_exigence_modele_depuis_notion_sans_detail_de_confiance():
     e = repo.exigences()[0]
     assert isinstance(e, Exigence)
     assert e.confiance_detail.llm == 0 and e.niveau_confiance == "vert"
+
+
+PROPS_CT = {"id": "ID", "nom": "Nom", "description": "Description", "referentiel": "Référentiel", "reference": "Référence", "proprietaire": "Propriétaire", "statut": "Statut de mise en œuvre", "efficacite": "Efficacité", "preuves": "Preuves", "exigences": "Exigences couvertes", "ecart": "Écart constaté", "risques": "Risques atténués"}
+PROPS_RK = {"id": "ID", "intitule": "Intitulé", "scenario": "Scénario", "categorie": "Catégorie", "exigences": "Exigences liées", "probabilite": "Probabilité", "impact": "Impact", "criticite": "Criticité brute", "controles": "Contrôles atténuants", "residuel": "Risque résiduel", "niveau_residuel": "Niveau résiduel", "traitement": "Traitement", "proprietaire": "Propriétaire", "statut": "Statut", "lots": "Lots d'action"}
+PROPS_LA = {"id": "ID", "titre": "Titre", "description": "Description", "exigences": "Exigences", "risques": "Risques", "priorite": "Priorité", "responsable": "Responsable", "echeance": "Échéance cible", "statut": "Statut", "cadre": "Cadre de gouvernance", "phase": "Phase ou pratique", "livrable": "Livrable attendu", "effort": "Effort"}
+PROPS_JP = {"id": "ID", "juridiction": "Juridiction", "numero": "Numéro", "date": "Date de décision", "url": "URL officielle", "resume": "Résumé", "solution": "Solution retenue", "portee": "Portée pour l'organisation", "pertinence": "Pertinence", "exigences": "Exigences liées", "mots_cles": "Mots-clés"}
+
+
+def rel(*page_ids):
+    return {"relation": [{"id": page_id} for page_id in page_ids]}
+
+
+def test_relations_resolues_sur_toutes_les_bases():
+    """Les relations poussées par l'agent (risques-contrôles, lots-risques, contrôles-exigences) sont relues."""
+    exigence = {"id": "page-ex1", "properties": {**EXIGENCE_PAGE["properties"], "Contrôles": rel("page-ct1"), "Risques": rel("page-rk1"), "Lots d'action": rel("page-la1")}}
+    controle = {"id": "page-ct1", "properties": {"ID": {"title": [{"plain_text": "CT-0001"}]}, "Nom": t("Politique"), "Exigences couvertes": rel("page-ex1"), "Risques atténués": rel("page-rk1")}}
+    risque = {"id": "page-rk1", "properties": {"ID": {"title": [{"plain_text": "RK-0001"}]}, "Intitulé": t("Absence de cadre"), "Exigences liées": rel("page-ex1"), "Contrôles atténuants": rel("page-ct1"), "Lots d'action": rel("page-la1"), "Niveau résiduel": {"select": {"name": "Critique"}}}}
+    lot = {"id": "page-la1", "properties": {"ID": {"title": [{"plain_text": "LA-0001"}]}, "Titre": t("Vision"), "Exigences": rel("page-ex1"), "Risques": rel("page-rk1")}}
+    pages = {"ds-textes": [TEXTE_PAGE], "ds-exigences": [exigence], "ds-controles": [controle], "ds-risques": [risque], "ds-lots": [lot], "ds-jurisprudence": []}
+    client = FakeClient()
+    client.query = lambda data_source_id, **kwargs: {"results": pages[data_source_id], "has_more": False, "next_cursor": None}
+    ids = {"bases": {**IDS["bases"], "controles": {"data_source_id": "ds-controles", "proprietes": PROPS_CT}, "risques": {"data_source_id": "ds-risques", "proprietes": PROPS_RK}, "lots": {"data_source_id": "ds-lots", "proprietes": PROPS_LA}, "jurisprudence": {"data_source_id": "ds-jurisprudence", "proprietes": PROPS_JP}}}
+    repo = NotionRepo("token", ids, client=client)
+    exigences, controles, risques, lots, jurisprudence = repo.exigences(), repo.controles(), repo.risques(), repo.lots(), repo.jurisprudence()
+    NotionRepo.lier(exigences, controles, risques, lots, jurisprudence)
+    e, c, r, la = exigences[0], controles[0], risques[0], lots[0]
+    assert (e.controles_ids, e.risques_ids, e.lots_ids) == (["CT-0001"], ["RK-0001"], ["LA-0001"])
+    assert (c.exigences_ids, c.risques_ids) == (["EX-0001"], ["RK-0001"])
+    assert (r.exigence_id, r.controles_attenuants, r.lots_ids) == ("EX-0001", ["CT-0001"], ["LA-0001"])
+    assert (la.exigences_ids, la.risques_ids) == (["EX-0001"], ["RK-0001"])
