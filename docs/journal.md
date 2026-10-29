@@ -3,14 +3,15 @@
 Tenu à chaque phase. Il distingue ce qui a été fait pendant l'atelier de 4 h (tag `atelier-4h`) de ce
 qui a été ajouté ensuite (tag `rendu-final`), conformément à la section 16 de `SPEC.md`.
 
-| Phase                            | Date       | Fait pendant l'atelier                                                                                                                                                    | Ajouté après | Démo de l'état courant              |
-| -------------------------------- | ---------- | ------------------------------------------------------------------------------------------------------------------------------------------------------------------------- | ------------ | ----------------------------------- |
-| 0 Fondations                     | 27/10/2026 | Scaffold du monorepo, configuration (4 YAML), store JSON et registre d'IDs, factory LLM avec cache et coût, CLI squelette, cockpit Streamlit (4 vues, repli local), tests |              | `pnpm agent config`, `pnpm cockpit` |
-| 1 MVP six étapes                 |            |                                                                                                                                                                           |              |                                     |
-| 2 Veille multi-sources           |            |                                                                                                                                                                           |              |                                     |
-| 3 Analyse complète et matrices   |            |                                                                                                                                                                           |              |                                     |
-| 4 Gouvernance et cockpit complet |            |                                                                                                                                                                           |              |                                     |
-| 5 Qualité et rendu               |            |                                                                                                                                                                           |              |                                     |
+| Phase                            | Date       | Fait pendant l'atelier                                                                                                                                                                                              | Ajouté après                                                                                                                                                                                                                | Démo de l'état courant                                  |
+| -------------------------------- | ---------- | ------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- | --------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- | ------------------------------------------------------- |
+| 0 Fondations                     | 27/10/2026 | Scaffold du monorepo, configuration (4 YAML), store JSON et registre d'IDs, factory LLM avec cache et coût, CLI squelette, cockpit Streamlit (4 vues, repli local), tests                                           |                                                                                                                                                                                                                             | `pnpm agent config`, `pnpm cockpit`                     |
+| 1 MVP six étapes                 | 27/10/2026 | Connecteur fichier local, parser EUR-Lex, `ingest`, schéma Zod et prompt d'extraction, `extract` vérifié (85 exigences), matrice M1, `notion init` et `push`, validation dans le cockpit écrite dans Notion, `demo` |                                                                                                                                                                                                                             | `pnpm agent demo`, `pnpm cockpit`                       |
+| 2 Veille multi-sources           | 27/10/2026 |                                                                                                                                                                                                                     | Connecteurs EUR-Lex (Cellar), Légifrance et Judilibre (PISTE), Assemblée nationale, Sénat, CNIL, CERT-FR ; diff par article et « À revalider » ; dédup ; `watch` cron ; workflow de veille                                  | `pnpm agent watch --once`                               |
+| 3 Analyse complète et matrices   | 27/10/2026 |                                                                                                                                                                                                                     | Applicabilité, enrichissement, jurisprudence, impact, couverture, risques, `run`, M1 à M5 (CSV, XLSX, MD), `notion pull` et `watch`                                                                                         | `pnpm agent run --texte TX-0001 --articles 5-16`        |
+| 4 Gouvernance et cockpit complet | 27/10/2026 |                                                                                                                                                                                                                     | Recommandation TOGAF / ITIL / Hybride, 14 lots d'action, plan de gouvernance, décision humaine, 4 vues complètes, `agent ask` (MCP), Docker Compose                                                                         | `pnpm agent governance --texte TX-0001`, `pnpm cockpit` |
+| 5 Qualité et rendu               | 27/10/2026 |                                                                                                                                                                                                                     | CI, documentation complète, mesures, répétition de la démo, relecture sur clone propre                                                                                                                                      | `pnpm agent demo`, `pnpm cockpit`                       |
+| 6 Assistant de chat              | 29/10/2026 |                                                                                                                                                                                                                     | Demande de l'enseignant hors spec : application Next.js + AI SDK 7 (`chat/`) inspirée du template « Chatbot » de Vercel, outils de lecture sur le store et Notion ; correctif de l'extraction qui effaçait l'enrichissement | `pnpm chat`                                             |
 
 ## Phase 0 : fondations (27/10/2026)
 
@@ -185,3 +186,32 @@ et relations ; cockpit lisant les six bases en 2,7 s.
   vitest et 13 tests pytest verts, 64 articles segmentés avec le même hash de contenu (`e1e54d9230e86244…`), cinq matrices
   régénérées depuis le store versionné (M3 : 85 lignes, M4 : 80 lignes). Seules les clés restent à renseigner.
 - Tag `rendu-final`.
+
+## Phase 6 : assistant de chat (29/10/2026, demande de l'enseignant, hors SPEC.md)
+
+**Demande** : implémenter l'équivalent du template https://vercel.com/templates/next.js/chatbot (Next.js, AI SDK, chat avec
+streaming et outils, modèles via API ou token). Interprétation retenue avec Neyl : une application allégée dans le dépôt,
+appelant le modèle avec la clé Anthropic existante, sans Auth.js, Postgres ni AI Gateway.
+
+**Fait** : paquet `chat/` du workspace pnpm (Next.js 16, React 19, AI SDK 7, `@ai-sdk/react`), route `/api/chat`
+(`streamText` + `instructions` + outils + `stopWhen`), neuf outils de lecture seule (store et recherche Notion), composant
+de chat (suggestions, streaming, badges d'appels d'outils, Markdown, historique localStorage), scripts racine `pnpm chat`,
+`chat:build`, `chat:typecheck`, job CI, service Docker `chat`, documentation.
+
+**Mesure réelle (29/10/2026)** : page servie en production locale (`pnpm chat:build` puis `chat:start`), question « Quels risques
+ont un niveau résiduel critique ? » : deux appels d'outils (`lister_risques`, `lister_lots`), réponse exacte en 6 s citant
+RK-0004 / EX-0004 / LA-0001, RK-0007 / EX-0007 / LA-0005 et RK-0034 / EX-0037 / LA-0010.
+
+**Correctif : une nouvelle extraction effaçait l'enrichissement.** Le 27/10 à 21:10, un `pnpm agent demo` lancé depuis un autre
+terminal a ré-extrait les exigences (depuis le cache) ; l'extraction réécrivait échéance, sanction et destinataires avec ses propres
+valeurs, vides le plus souvent, et la démo a poussé ces valeurs vides dans Notion. Correction : la valeur extraite ne prime que si elle
+est renseignée ; les valeurs brutes sont conservées dans `valeurs_extraction` ; `enrich` repart de ces valeurs brutes (idempotent,
+prompt stable donc cache réutilisable) et ré-applique les corrections humaines. Restauration : enrichissement rejoué avec
+`claude-opus-5-5` depuis le cache (6 appels, 0 $), 85 échéances et 85 listes de destinataires identiques au run du 27/10, puis
+`notion push --only exigences` (85 pages). Un premier passage avait tourné avec `claude-sonnet-5-5`, le modèle désormais indiqué dans
+`.env` (cache inopérant, 6 appels, 0,35 $) ; ses valeurs ont été remplacées par celles d'Opus.
+
+**Dépôt** : le 27/10 à 21:44, le dépôt a été réinitialisé et publié sur GitHub (`NearXa/Agent-de-Veille`, commit unique `aad52d3`).
+Les tags `atelier-4h` et `rendu-final` de l'historique local précédent n'existent plus ; le contenu des phases 0 à 5 est dans ce
+commit, sauf `pnpm-lock.yaml` et `pnpm-workspace.yaml`, ajoutés sur la branche `feat/assistant-chat` (indispensables à la CI et aux
+images Docker).

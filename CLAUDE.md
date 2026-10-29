@@ -10,11 +10,17 @@ toute modification.** Les phases, critères de fin et règles de travail y sont 
 | Installer                   | `scripts/setup.sh` (ou `pnpm install` puis `python3 -m venv .venv && .venv/bin/pip install -r cockpit/requirements.txt`) |
 | Aide CLI                    | `pnpm agent --help`                                                                                                      |
 | Vérifier la configuration   | `pnpm agent config`                                                                                                      |
-| Lint / typecheck / tests TS | `pnpm lint` · `pnpm typecheck` · `pnpm test` (ou `pnpm check` pour les trois)                                            |
+| Lint / typecheck / tests TS | `pnpm lint` · `pnpm typecheck` · `pnpm test` (agent et chat ; `pnpm check` pour les trois)                               |
 | Tests Python                | `pnpm cockpit:test` (`.venv/bin/python -m pytest cockpit/tests -q`)                                                      |
-| Cockpit                     | `pnpm cockpit` (`.venv/bin/streamlit run cockpit/app.py`)                                                                |
-| Parcours de démo            | `pnpm agent demo` (phase 1)                                                                                              |
+| Cockpit                     | `pnpm cockpit` (`.venv/bin/streamlit run cockpit/app.py`, http://localhost:8501)                                         |
+| Parcours de démo            | `pnpm agent demo` (étapes 1 à 5, cache LLM forcé ; `--skip-notion` hors ligne)                                           |
+| Pipeline complet            | `pnpm agent run --texte TX-0001 --articles 5-16 --max-cost 12` (`--steps enrich,impact` pour une partie)                 |
+| Gouvernance                 | `pnpm agent governance --texte TX-0001`, puis décision dans la vue « Pilotage » du cockpit                               |
+| Veille                      | `pnpm agent watch --once [--source cnil,senat]` ; `pnpm agent watch` lance le planificateur cron                         |
 | Workers Notion              | `pnpm notion init` · `pnpm notion push` · `pnpm notion pull` · `pnpm notion watch`                                       |
+| MCP Notion                  | `pnpm agent ask "question"` (serveur MCP local via npx) ; `.mcp.json` pour Claude Code                                   |
+| Assistant de chat           | `pnpm chat` (http://localhost:3000) · `pnpm chat:typecheck` · `pnpm chat:build`                                          |
+| Docker                      | `docker compose up --build` (cockpit 8501, chat 3000, scheduler de veille)                                               |
 
 ## Conventions (SPEC.md, section 5)
 
@@ -44,6 +50,10 @@ toute modification.** Les phases, critères de fin et règles de travail y sont 
 - IDs stables via `data/store/ids-registry.json` (`agent/src/store/ids.ts`) : jamais de renumérotation.
 - Chemins relatifs à la racine du dépôt (`agent/src/utils/paths.ts`), commandes à lancer depuis la racine.
 - Piège d'écriture de fichiers : les séquences `\uXXXX` écrites dans un heredoc shell peuvent devenir des caractères littéraux ; préférer `String.fromCharCode` ou vérifier avec `grep -P`.
+- Une nouvelle extraction conserve l'enrichissement : `valeurs_extraction` garde les valeurs brutes (échéance, sanction, destinataires) et l'étape `enrich` repart d'elles, ce qui la rend idempotente et garde son prompt stable pour le cache. Les corrections humaines (`Corrigée`) sont ré-appliquées après chaque passage.
+- Le cache LLM est indexé par modèle : changer `LLM_MODEL` rend le cache inopérant. Le pipeline documenté a tourné avec `claude-opus-5-5` ; pour rejouer gratuitement, préfixer la commande par `LLM_MODEL=claude-opus-5-5`.
+- Prettier réaligne les tableaux Markdown (`pnpm format`) : pour modifier un tableau par script, cibler le début de ligne ou réécrire le tableau entier, puis vérifier que la modification a bien été appliquée.
+- Dépôt publié sur GitHub (`origin`, branche `main`) : travailler sur une branche par module, ne jamais pousser sans accord.
 - Tests : vitest avec `LOG_LEVEL=silent`, fixtures `agent/test/fixtures/` (extrait officiel DORA art. 5 à 7, réponse LLM rejouable), faux client Notion `agent/test/helpers/fake-notion.ts`.
 
 ## Structure

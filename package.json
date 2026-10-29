@@ -19,7 +19,11 @@
     "test:watch": "vitest",
     "check": "pnpm lint && pnpm typecheck && pnpm test",
     "cockpit": ".venv/bin/streamlit run cockpit/app.py",
-    "cockpit:test": ".venv/bin/python -m pytest cockpit/tests -q"
+    "cockpit:test": ".venv/bin/python -m pytest cockpit/tests -q",
+    "chat": "pnpm --filter veille-grc-chat dev",
+    "chat:build": "pnpm --filter veille-grc-chat build",
+    "chat:start": "pnpm --filter veille-grc-chat start",
+    "chat:typecheck": "pnpm --filter veille-grc-chat typecheck"
   },
   "packageManager": "pnpm@12.15.0",
   "dependencies": {

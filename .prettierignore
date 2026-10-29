@@ -7,3 +7,5 @@ docs/matrices/
 pnpm-lock.yaml
 *.html
 SPEC.md
+chat/.next/
+chat/next-env.d.ts

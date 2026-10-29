@@ -121,6 +121,23 @@ du cockpit : la décision est écrite dans Notion (lots d'action, page « Décis
 `output/gouvernance/decision.json`. Le serveur MCP Notion est aussi déclaré dans `.mcp.json` pour Claude Code (serveur hébergé,
 authentification OAuth via `/mcp`).
 
+## Assistant de chat (phase 6)
+
+Interface de chat web demandée par l'enseignant, inspirée du template « Chatbot » de Vercel (Next.js, AI SDK, `useChat`,
+streaming, appels d'outils) mais sans sa couche d'infrastructure (pas d'Auth.js, de Postgres ni d'AI Gateway) : le dossier
+`chat/` est un paquet du workspace pnpm.
+
+```bash
+pnpm chat                 # http://localhost:3000 (dev) ; pnpm chat:build puis pnpm chat:start en production
+```
+
+- Le modèle est appelé avec la clé `ANTHROPIC_API_KEY` du `.env` racine (`LLM_CHAT_MODEL` sinon `LLM_MODEL`). Pour passer par
+  Vercel AI Gateway comme le template, remplacer `createAnthropic` par le provider gateway dans `chat/app/api/chat/route.ts`.
+- Le modèle dispose d'outils de lecture seule sur le store (`rechercher_exigences`, `detail_exigence`, `echeances`,
+  `lister_risques`, `lister_lots`, `lister_controles`, `fil_de_veille`, `indicateurs`) et d'une recherche Notion
+  (`rechercher_notion`, via `NOTION_TOKEN`). Il ne valide, ne corrige et ne décide jamais : ces actions restent dans le cockpit.
+- Les appels d'outils s'affichent dans la conversation (traçabilité), l'historique reste dans le navigateur (localStorage).
+
 ## Sources de veille (phase 2)
 
 | Source              | Connecteur                                                    | Accès                                    | Activation                                          |

@@ -29,3 +29,16 @@ services:
       - ./output:/app/output
       - ./notion:/app/notion
       - ./config:/app/config
+
+  chat:
+    build:
+      context: .
+      dockerfile: docker/chat.Dockerfile
+    env_file: .env
+    environment:
+      VEILLE_ROOT: /app
+    ports:
+      - '3000:3000'
+    volumes:
+      - ./data:/app/data
+      - ./output:/app/output

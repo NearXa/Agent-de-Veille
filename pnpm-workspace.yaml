@@ -1,0 +1,11 @@
+# Réglages pnpm (pnpm 10+ lit ses options ici). Paquets : la racine (agent) et chat/ (assistant Next.js).
+packages:
+  - chat
+allowBuilds:
+  esbuild: true
+  '@tailwindcss/oxide': true
+  sharp: true
+minimumReleaseAgeExclude:
+  - '@ai-sdk/gateway@4.0.129'
+  - '@ai-sdk/react@4.0.160'
+  - ai@7.0.156

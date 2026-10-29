@@ -4,7 +4,8 @@ ENV COREPACK_ENABLE_DOWNLOAD_PROMPT=0
 RUN corepack enable pnpm
 WORKDIR /app
 COPY package.json pnpm-lock.yaml pnpm-workspace.yaml tsconfig.json ./
-RUN pnpm install --frozen-lockfile
+COPY chat/package.json ./chat/package.json
+RUN pnpm install --frozen-lockfile --filter veille-grc
 COPY agent ./agent
 COPY config ./config
 CMD ["pnpm", "agent", "watch"]
