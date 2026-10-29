@@ -1,5 +1,6 @@
 import { parseDateFr } from '../ingest/dates.js';
 import type { Logger } from '../utils/logger.js';
+import { matchesAnyKeyword } from '../utils/text.js';
 import type { HttpClient } from './http.js';
 import { RssPageConnector } from './rss-page.js';
 import type {
@@ -135,12 +136,9 @@ export class SenatConnector implements SourceConnector {
     const text = new TextDecoder('iso-8859-1').decode(response.body);
     const dossiers = parseDossiersSenat(text);
     const limit = since ? since.slice(0, 10) : null;
-    const motsCles = (this.options.motsCles ?? []).map((k) => k.toLowerCase());
     return dossiers.filter((d) => {
       if (limit && d.date_initiale && d.date_initiale < limit) return false;
-      if (motsCles.length === 0) return true;
-      const haystack = `${d.titre} ${d.themes.join(' ')}`.toLowerCase();
-      return motsCles.some((k) => haystack.includes(k));
+      return matchesAnyKeyword(`${d.titre} ${d.themes.join(' ')}`, this.options.motsCles);
     });
   }
 

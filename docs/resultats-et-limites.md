@@ -45,8 +45,11 @@ de 38 contrôles de `config/controles.yaml`. Tous les chiffres proviennent de `d
 - **Quotas et disponibilité** : quotas PISTE non publiés ; Notion limité à ≈ 3 requêtes par seconde (un push complet dure
   plusieurs minutes) ; un run complet coûte ≈ 3 $ et 15 min avec Opus 5.5 (le cache rend les rejeux gratuits).
 - **PDF** : pris en charge par `unpdf` avec segmentation par regex, moins fiable que le HTML EUR-Lex ou le JSON Légifrance.
-- **Mots-clés de veille** : les premiers filtres EUR-Lex, trop larges, ont fait entrer des décisions PESC sans rapport (conservées
-  dans le store à titre de trace, filtre resserré ensuite).
+- **Mots-clés de veille** : jusqu'au 29/10/2026, les mots-clés étaient cherchés comme sous-chaînes. Le sigle « TIC » se trouvait
+  donc dans « article », « NIS » dans « définis » et « DORA » dans « dorade », et presque tout acte du Journal officiel passait le
+  filtre EUR-Lex : 24 actes sans rapport sont entrés dans le store. Les mots-clés sont désormais comparés par mot entier, et les
+  sigles en majuscules. Rejoué sur les titres du store, le filtre ne retient plus que DORA parmi les actes EUR-Lex, sans rien
+  écarter des autres sources.
 - **Assistant GRC** : le périmètre repose sur un classement fait par le modèle, pas sur une règle déterministe. Les essais
   (9 sur 9) ne garantissent pas l'absence d'erreur ; en cas de doute ou d'échec du classement, l'assistant refuse. Ses réponses
   sont des lectures des données du cockpit, à vérifier dans les vues avant toute décision.

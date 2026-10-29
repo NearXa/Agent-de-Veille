@@ -1,6 +1,7 @@
 import { looksLikeEurlex } from '../ingest/html-text.js';
 import { normalizeDocument } from '../ingest/normalize.js';
 import { sha256 } from '../utils/hash.js';
+import { matchesAnyKeyword } from '../utils/text.js';
 import type { Logger } from '../utils/logger.js';
 import { AppError } from '../utils/errors.js';
 import { HttpError, type HttpClient } from './http.js';
@@ -77,12 +78,7 @@ export class EurlexConnector implements SourceConnector {
         for (const item of itemsSince(parseFeed(response.text()).items, since)) {
           const celex = celexFromLink(item.lien) ?? celexFromLink(item.guid ?? '');
           if (!celex || refs.some((r) => r.reference === celex)) continue;
-          if (
-            this.options.motsCles?.length &&
-            !this.options.motsCles.some((k) =>
-              `${item.titre} ${item.description ?? ''}`.toLowerCase().includes(k.toLowerCase()),
-            )
-          )
+          if (!matchesAnyKeyword(`${item.titre} ${item.description ?? ''}`, this.options.motsCles))
             continue;
           refs.push({
             reference: celex,

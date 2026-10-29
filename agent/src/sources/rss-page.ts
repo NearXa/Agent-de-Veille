@@ -2,7 +2,7 @@ import { normalizeDocument } from '../ingest/normalize.js';
 import type { SourceId, TypeTexte } from '../schemas/common.js';
 import { sha256 } from '../utils/hash.js';
 import type { Logger } from '../utils/logger.js';
-import { collapseWhitespace, slugify } from '../utils/text.js';
+import { collapseWhitespace, matchesAnyKeyword, slugify } from '../utils/text.js';
 import type { HttpClient } from './http.js';
 import { extractPdfText } from './local-file.js';
 import { itemsSince, parseFeed, type FeedItem } from './rss.js';
@@ -25,9 +25,7 @@ export interface RssPageOptions {
 }
 
 function matchesKeywords(item: FeedItem, motsCles: string[] | undefined): boolean {
-  if (!motsCles || motsCles.length === 0) return true;
-  const haystack = `${item.titre} ${item.description ?? ''}`.toLowerCase();
-  return motsCles.some((k) => haystack.includes(k.toLowerCase()));
+  return matchesAnyKeyword(`${item.titre} ${item.description ?? ''}`, motsCles);
 }
 
 /** Référence stable d'une entrée de flux : guid si c'est une URL ou un identifiant, sinon le lien. */

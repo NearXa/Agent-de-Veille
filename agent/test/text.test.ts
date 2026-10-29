@@ -2,6 +2,8 @@ import { describe, expect, it } from 'vitest';
 import {
   containsNormalized,
   estimateTokens,
+  matchesAnyKeyword,
+  matchesKeyword,
   normalizeForMatch,
   truncate,
 } from '../src/utils/text.js';
@@ -47,5 +49,45 @@ describe('estimateTokens et truncate', () => {
   it('tronque avec une ellipse', () => {
     expect(truncate('abcdef', 4)).toBe('abc…');
     expect(truncate('abc', 10)).toBe('abc');
+  });
+});
+
+describe('matchesKeyword (filtre de veille)', () => {
+  it('reconnaît un sigle comme mot entier, chiffres permis à la suite', () => {
+    expect(matchesKeyword('Règlement (UE) 2022/2554 sur la résilience (DORA)', 'DORA')).toBe(true);
+    expect(matchesKeyword('directive NIS2 et directive NIS 2', 'NIS')).toBe(true);
+    expect(matchesKeyword('gestion du risque lié aux TIC', 'TIC')).toBe(true);
+    expect(matchesKeyword('ICT risk management framework', 'ICT')).toBe(true);
+  });
+
+  it('ne trouve plus de sigle au milieu d’un mot (faux positifs du 29/10/2026)', () => {
+    expect(matchesKeyword("modifiant l'article 11, paragraphe 1, dudit règlement", 'TIC')).toBe(
+      false,
+    );
+    expect(matchesKeyword('ARTICLE PREMIER', 'TIC')).toBe(false);
+    expect(matchesKeyword('les pays tiers définis et les États-Unis', 'NIS')).toBe(false);
+    expect(matchesKeyword('accord entre l’Union et la Tunisie', 'NIS')).toBe(false);
+    expect(matchesKeyword('mesures techniques pour la dorade rose', 'DORA')).toBe(false);
+    expect(matchesKeyword('un contrôle strict', 'ICT')).toBe(false);
+  });
+
+  it('retient les mots ordinaires en début de mot, sans accents ni casse', () => {
+    expect(matchesKeyword('Stratégie de cybersécurité', 'cyber')).toBe(true);
+    expect(matchesKeyword('Délibération : SANCTIONS de 7 millions', 'sanction')).toBe(true);
+    expect(
+      matchesKeyword("L'intelligence artificielle générative", 'intelligence artificielle'),
+    ).toBe(true);
+    expect(matchesKeyword('Règlement délégué de la Commission', 'réglement')).toBe(true);
+    expect(matchesKeyword('le marché intérieur', 'numérique')).toBe(false);
+    expect(matchesKeyword('anticyber', 'cyber')).toBe(false);
+  });
+
+  it('sans mots-clés, tout passe ; sinon au moins un doit apparaître', () => {
+    expect(matchesAnyKeyword('n’importe quel titre', undefined)).toBe(true);
+    expect(matchesAnyKeyword('n’importe quel titre', [])).toBe(true);
+    expect(
+      matchesAnyKeyword('normes harmonisées des sèche-linge', ['TIC', 'NIS', 'DORA', 'numérique']),
+    ).toBe(false);
+    expect(matchesAnyKeyword('Le règlement DORA', ['TIC', 'DORA'])).toBe(true);
   });
 });
