@@ -212,6 +212,9 @@ GRC. L'application Next.js a été retirée.
   prend ≈ 23 s sur `/mnt/c`, est préchargé en arrière-plan ;
 - tests : 9 tests des outils, 12 tests de l'assistant avec un faux client Anthropic, 4 tests de la bulle (AppTest) et 1 test des
   relations Notion.
+- lockfile : après le retrait de `chat/`, `pnpm-lock.yaml` décrivait encore ses paquets, dont trois publiés moins de 24 h plus tôt.
+  pnpm 12 refuse par défaut de tels paquets (`minimumReleaseAge`), ce qui faisait échouer l'installation lancée avant
+  `pnpm cockpit`. Le lockfile a été élagué des 156 paquets de `chat/` ; les 443 entrées conservées sont inchangées.
 
 **Mesures réelles (29/10/2026, `claude-sonnet-5-5`, effort `low`)** :
 
