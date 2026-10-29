@@ -215,7 +215,9 @@ GRC. L'application Next.js a été retirée.
 - filtre de veille : les mots-clés étaient cherchés comme sous-chaînes (« TIC » dans « article », « NIS » dans « définis »,
   « DORA » dans « dorade »). Le premier passage réussi de la veille sur GitHub a ainsi fait entrer 7 actes européens sans
   rapport. Ils sont désormais comparés par mot entier, et les sigles en majuscules, dans les connecteurs EUR-Lex, RSS (CNIL,
-  CERT-FR) et Sénat ;
+  CERT-FR) et Sénat . Les 24 actes européens entrés ainsi depuis le 27/10 sont marqués « Non » applicables, avec une
+  justification de périmètre et sans analyse juridique, dans le store et dans Notion. Le fil de veille ne les présélectionne
+  plus, et ils restent consultables ;
 - lockfile : après le retrait de `chat/`, `pnpm-lock.yaml` décrivait encore ses paquets, dont trois publiés moins de 24 h plus tôt.
   pnpm 12 refuse par défaut de tels paquets (`minimumReleaseAge`), ce qui faisait échouer l'installation lancée avant
   `pnpm cockpit`. Le lockfile a été élagué des 156 paquets de `chat/` ; les 443 entrées conservées sont inchangées.
