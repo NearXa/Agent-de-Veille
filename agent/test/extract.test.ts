@@ -1,3 +1,5 @@
+import { mergeWithEnrichment } from '../src/analysis/extract.js';
+import type { ExigenceRecord } from '../src/store/types.js';
 import { cpSync, mkdirSync, readFileSync } from 'node:fs';
 import path from 'node:path';
 import { fileURLToPath } from 'node:url';
@@ -282,5 +284,35 @@ describe('extractExigences (replay)', () => {
     expect(after.statut_validation).toBe('Corrigée');
     expect(after.validateur).toBe('N. Kaci');
     expect(after.titre).toBe('Cadre de gestion du risque TIC (corrigé)');
+  });
+});
+
+describe('mergeWithEnrichment', () => {
+  it('garde l’enrichissement quand l’extraction ne renseigne rien, et laisse primer une valeur extraite', () => {
+    const existing = {
+      echeance: { date: '2025-01-17', type: 'Entrée en application', texte_source: 'Art. 64' },
+      sanction: { description: 'Amende administrative', niveau: 'Élevé', article: 'Art. 50' },
+      destinataires: ['Entités financières', 'Microentreprises'],
+    } as unknown as ExigenceRecord;
+    expect(
+      mergeWithEnrichment(
+        { echeance: null, sanction: null, destinataires: ['Entités financières'] },
+        existing,
+      ),
+    ).toEqual({
+      echeance: existing.echeance,
+      sanction: existing.sanction,
+      destinataires: ['Entités financières', 'Microentreprises'],
+    });
+    const datee = { date: '2026-06-30', type: 'Périodique', texte_source: 'Art. 6 §5' } as const;
+    expect(
+      mergeWithEnrichment({ echeance: datee, sanction: null, destinataires: [] }, existing)
+        .echeance,
+    ).toEqual(datee);
+    const nonDatee = { date: null, type: 'Périodique', texte_source: null } as const;
+    expect(
+      mergeWithEnrichment({ echeance: nonDatee, sanction: null, destinataires: [] }, undefined)
+        .echeance,
+    ).toEqual(nonDatee);
   });
 });

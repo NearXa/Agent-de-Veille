@@ -1,3 +1,4 @@
+import { extractExigences } from '../src/analysis/extract.js';
 import ExcelJS from 'exceljs';
 import { cpSync, mkdirSync, readFileSync, writeFileSync } from 'node:fs';
 import path from 'node:path';
@@ -374,6 +375,67 @@ describe('pipeline complet avec faux LLM', () => {
     const m5 = readFileSync(path.join(matricesDir, 'M5-jurisprudence.csv'), 'utf8');
     expect(m5).toContain('JP-0001');
     expect(m5).toContain('https://www.courdecassation.fr/decision/DEC-1');
+  });
+
+  it('relancer l’extraction conserve l’enrichissement, et le prompt d’enrichissement reste identique (cache)', async () => {
+    const { llm } = makeFakeLlm();
+    const prompts: string[] = [];
+    const espion: StructuredCaller = async (options) => {
+      if (options.schemaName === 'Enrichissement') prompts.push(options.prompt);
+      return llm(options);
+    };
+    await runPipeline({
+      texteId: 'TX-0001',
+      articles: '5-7',
+      llm: espion,
+      steps: ['extract', 'enrich'],
+    });
+    expect(store.exigences.readAll().every((e) => e.echeance?.date === '2025-01-17')).toBe(true);
+
+    // Démo relancée : nouvelle extraction seule, l'enrichissement doit survivre.
+    await extractExigences({ texteId: 'TX-0001', articles: '5-7', llm: espion });
+    const apres = store.exigences.readAll();
+    expect(apres.every((e) => e.echeance?.date === '2025-01-17')).toBe(true);
+    expect(apres.filter((e) => e.sanction).length).toBeGreaterThanOrEqual(1);
+    expect(apres.every((e) => e.valeurs_extraction)).toBe(true);
+    expect(
+      apres.find((e) => e.articles.includes('Art. 6 §1'))?.valeurs_extraction?.echeance,
+    ).toBeNull();
+
+    const valeurs = (): string =>
+      JSON.stringify(
+        store.exigences.readAll().map((e) => [e.id, e.echeance, e.sanction, e.destinataires]),
+      );
+    const avantSecondEnrichissement = valeurs();
+    await runPipeline({
+      texteId: 'TX-0001',
+      articles: '5-7',
+      llm: espion,
+      steps: ['extract', 'enrich'],
+    });
+    expect(prompts).toHaveLength(2);
+    expect(prompts[1]).toBe(prompts[0]);
+    // Idempotence : un second enrichissement produit exactement les mêmes valeurs.
+    expect(valeurs()).toBe(avantSecondEnrichissement);
+
+    // Une correction humaine survit à une nouvelle extraction et à un nouvel enrichissement.
+    const cible = store.exigences.readAll()[0]!;
+    store.exigences.upsert({
+      ...cible,
+      statut_validation: 'Corrigée',
+      version_corrigee: { destinataires: ['Organe de direction'], echeance: '2026-12-31' },
+    });
+    await runPipeline({
+      texteId: 'TX-0001',
+      articles: '5-7',
+      llm: espion,
+      steps: ['extract', 'enrich'],
+    });
+    expect(store.exigences.findById(cible.id)).toMatchObject({
+      statut_validation: 'Corrigée',
+      destinataires: ['Organe de direction'],
+      echeance: { date: '2026-12-31' },
+    });
   });
 
   it('s’arrête après l’applicabilité quand le texte n’est pas applicable, sauf --force', async () => {

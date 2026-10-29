@@ -14,8 +14,16 @@
     "destinataires": [
       "Entités financières"
     ],
-    "echeance": null,
-    "sanction": null,
+    "echeance": {
+      "date": "2025-01-17",
+      "type": "Entrée en application",
+      "texte_source": "Art. 64"
+    },
+    "sanction": {
+      "description": "Sanctions administratives et mesures correctives (injonction, cessation de pratique, mesures pécuniaires, déclaration publique), publication de la décision",
+      "niveau": "Élevé",
+      "article": "Art. 50 §4 ; Art. 54"
+    },
     "confiance": 1,
     "confiance_detail": {
       "llm": 1,
@@ -81,10 +89,17 @@
     "lots_ids": [
       "LA-0001"
     ],
-    "run_id": "RUN-20261027-2110",
+    "run_id": "RUN-20261029-1658",
     "chunk_id": "TX-0001-chunk-01-art5-10",
     "avertissements": [],
-    "revalidation_motif": null
+    "revalidation_motif": null,
+    "valeurs_extraction": {
+      "echeance": null,
+      "sanction": null,
+      "destinataires": [
+        "Entités financières"
+      ]
+    }
   },
   {
     "id": "EX-0002",
@@ -101,10 +116,19 @@
     "verifie_dans_source": true,
     "type_obligation": "Gouvernance",
     "destinataires": [
-      "Organe de direction de l'entité financière"
+      "Organe de direction de l'entité financière",
+      "Entités financières"
     ],
-    "echeance": null,
-    "sanction": null,
+    "echeance": {
+      "date": "2025-01-17",
+      "type": "Entrée en application",
+      "texte_source": "Art. 64"
+    },
+    "sanction": {
+      "description": "Sanctions administratives et mesures correctives applicables à l'entité et aux membres de l'organe de direction responsables",
+      "niveau": "Élevé",
+      "article": "Art. 50 §4 et §5"
+    },
     "confiance": 1,
     "confiance_detail": {
       "llm": 1,
@@ -161,10 +185,17 @@
     "lots_ids": [
       "LA-0001"
     ],
-    "run_id": "RUN-20261027-2110",
+    "run_id": "RUN-20261029-1658",
     "chunk_id": "TX-0001-chunk-01-art5-10",
     "avertissements": [],
-    "revalidation_motif": null
+    "revalidation_motif": null,
+    "valeurs_extraction": {
+      "echeance": null,
+      "sanction": null,
+      "destinataires": [
+        "Organe de direction de l'entité financière"
+      ]
+    }
   },
   {
     "id": "EX-0003",
@@ -179,10 +210,19 @@
     "verifie_dans_source": true,
     "type_obligation": "Gouvernance",
     "destinataires": [
-      "Organe de direction de l'entité financière"
+      "Organe de direction de l'entité financière",
+      "Entités financières"
     ],
-    "echeance": null,
-    "sanction": null,
+    "echeance": {
+      "date": "2025-01-17",
+      "type": "Entrée en application",
+      "texte_source": "Art. 64"
+    },
+    "sanction": {
+      "description": "Sanctions administratives et mesures correctives applicables à l'entité et aux membres de l'organe de direction responsables",
+      "niveau": "Élevé",
+      "article": "Art. 50 §4 et §5"
+    },
     "confiance": 1,
     "confiance_detail": {
       "llm": 1,
@@ -239,10 +279,17 @@
     "lots_ids": [
       "LA-0002"
     ],
-    "run_id": "RUN-20261027-2110",
+    "run_id": "RUN-20261029-1658",
     "chunk_id": "TX-0001-chunk-01-art5-10",
     "avertissements": [],
-    "revalidation_motif": null
+    "revalidation_motif": null,
+    "valeurs_extraction": {
+      "echeance": null,
+      "sanction": null,
+      "destinataires": [
+        "Organe de direction de l'entité financière"
+      ]
+    }
   },
   {
     "id": "EX-0004",
@@ -257,10 +304,19 @@
     "verifie_dans_source": true,
     "type_obligation": "Gouvernance",
     "destinataires": [
-      "Organe de direction de l'entité financière"
+      "Organe de direction de l'entité financière",
+      "Entités financières"
     ],
-    "echeance": null,
-    "sanction": null,
+    "echeance": {
+      "date": "2025-01-17",
+      "type": "Entrée en application",
+      "texte_source": "Art. 64"
+    },
+    "sanction": {
+      "description": "Sanctions administratives et mesures correctives applicables à l'entité et aux membres de l'organe de direction responsables",
+      "niveau": "Élevé",
+      "article": "Art. 50 §4 et §5"
+    },
     "confiance": 1,
     "confiance_detail": {
       "llm": 1,
@@ -303,10 +359,17 @@
     "lots_ids": [
       "LA-0001"
     ],
-    "run_id": "RUN-20261027-2110",
+    "run_id": "RUN-20261029-1658",
     "chunk_id": "TX-0001-chunk-01-art5-10",
     "avertissements": [],
-    "revalidation_motif": null
+    "revalidation_motif": null,
+    "valeurs_extraction": {
+      "echeance": null,
+      "sanction": null,
+      "destinataires": [
+        "Organe de direction de l'entité financière"
+      ]
+    }
   },
   {
     "id": "EX-0005",
@@ -321,14 +384,19 @@
     "verifie_dans_source": true,
     "type_obligation": "Gouvernance",
     "destinataires": [
-      "Organe de direction de l'entité financière"
+      "Organe de direction de l'entité financière",
+      "Entités financières"
     ],
     "echeance": {
-      "date": null,
+      "date": "2025-01-17",
       "type": "Périodique",
-      "texte_source": "Art. 5 §2, point e)"
+      "texte_source": "Art. 5 §2, point e) ; Art. 64"
     },
-    "sanction": null,
+    "sanction": {
+      "description": "Sanctions administratives et mesures correctives applicables à l'entité et aux membres de l'organe de direction responsables",
+      "niveau": "Élevé",
+      "article": "Art. 50 §4 et §5"
+    },
     "confiance": 1,
     "confiance_detail": {
       "llm": 1,
@@ -399,10 +467,21 @@
     "lots_ids": [
       "LA-0003"
     ],
-    "run_id": "RUN-20261027-2110",
+    "run_id": "RUN-20261029-1658",
     "chunk_id": "TX-0001-chunk-01-art5-10",
     "avertissements": [],
-    "revalidation_motif": null
+    "revalidation_motif": null,
+    "valeurs_extraction": {
+      "echeance": {
+        "date": null,
+        "type": "Périodique",
+        "texte_source": "Art. 5 §2, point e)"
+      },
+      "sanction": null,
+      "destinataires": [
+        "Organe de direction de l'entité financière"
+      ]
+    }
   },
   {
     "id": "EX-0006",
@@ -417,14 +496,19 @@
     "verifie_dans_source": true,
     "type_obligation": "Gouvernance",
     "destinataires": [
-      "Organe de direction de l'entité financière"
+      "Organe de direction de l'entité financière",
+      "Entités financières"
     ],
     "echeance": {
-      "date": null,
+      "date": "2025-01-17",
       "type": "Périodique",
-      "texte_source": "Art. 5 §2, point f)"
+      "texte_source": "Art. 5 §2, point f) ; Art. 64"
     },
-    "sanction": null,
+    "sanction": {
+      "description": "Sanctions administratives et mesures correctives applicables à l'entité et aux membres de l'organe de direction responsables",
+      "niveau": "Élevé",
+      "article": "Art. 50 §4 et §5"
+    },
     "confiance": 1,
     "confiance_detail": {
       "llm": 1,
@@ -472,10 +556,21 @@
     "lots_ids": [
       "LA-0004"
     ],
-    "run_id": "RUN-20261027-2110",
+    "run_id": "RUN-20261029-1658",
     "chunk_id": "TX-0001-chunk-01-art5-10",
     "avertissements": [],
-    "revalidation_motif": null
+    "revalidation_motif": null,
+    "valeurs_extraction": {
+      "echeance": {
+        "date": null,
+        "type": "Périodique",
+        "texte_source": "Art. 5 §2, point f)"
+      },
+      "sanction": null,
+      "destinataires": [
+        "Organe de direction de l'entité financière"
+      ]
+    }
   },
   {
     "id": "EX-0007",
@@ -490,14 +585,19 @@
     "verifie_dans_source": true,
     "type_obligation": "Gouvernance",
     "destinataires": [
-      "Organe de direction de l'entité financière"
+      "Organe de direction de l'entité financière",
+      "Entités financières"
     ],
     "echeance": {
-      "date": null,
+      "date": "2025-01-17",
       "type": "Périodique",
-      "texte_source": "Art. 5 §2, point g)"
+      "texte_source": "Art. 5 §2, point g) ; Art. 64"
     },
-    "sanction": null,
+    "sanction": {
+      "description": "Sanctions administratives et mesures correctives applicables à l'entité et aux membres de l'organe de direction responsables",
+      "niveau": "Élevé",
+      "article": "Art. 50 §4 et §5"
+    },
     "confiance": 1,
     "confiance_detail": {
       "llm": 1,
@@ -540,10 +640,21 @@
     "lots_ids": [
       "LA-0005"
     ],
-    "run_id": "RUN-20261027-2110",
+    "run_id": "RUN-20261029-1658",
     "chunk_id": "TX-0001-chunk-01-art5-10",
     "avertissements": [],
-    "revalidation_motif": null
+    "revalidation_motif": null,
+    "valeurs_extraction": {
+      "echeance": {
+        "date": null,
+        "type": "Périodique",
+        "texte_source": "Art. 5 §2, point g)"
+      },
+      "sanction": null,
+      "destinataires": [
+        "Organe de direction de l'entité financière"
+      ]
+    }
   },
   {
     "id": "EX-0008",
@@ -558,14 +669,19 @@
     "verifie_dans_source": true,
     "type_obligation": "Gouvernance",
     "destinataires": [
-      "Organe de direction de l'entité financière"
+      "Organe de direction de l'entité financière",
+      "Entités financières"
     ],
     "echeance": {
-      "date": null,
+      "date": "2025-01-17",
       "type": "Périodique",
-      "texte_source": "Art. 5 §2, point h)"
+      "texte_source": "Art. 5 §2, point h) ; Art. 64"
     },
-    "sanction": null,
+    "sanction": {
+      "description": "Sanctions administratives et mesures correctives applicables à l'entité et aux membres de l'organe de direction responsables",
+      "niveau": "Élevé",
+      "article": "Art. 50 §4 et §5"
+    },
     "confiance": 1,
     "confiance_detail": {
       "llm": 1,
@@ -633,10 +749,21 @@
     "lots_ids": [
       "LA-0006"
     ],
-    "run_id": "RUN-20261027-2110",
+    "run_id": "RUN-20261029-1658",
     "chunk_id": "TX-0001-chunk-01-art5-10",
     "avertissements": [],
-    "revalidation_motif": null
+    "revalidation_motif": null,
+    "valeurs_extraction": {
+      "echeance": {
+        "date": null,
+        "type": "Périodique",
+        "texte_source": "Art. 5 §2, point h)"
+      },
+      "sanction": null,
+      "destinataires": [
+        "Organe de direction de l'entité financière"
+      ]
+    }
   },
   {
     "id": "EX-0009",
@@ -651,10 +778,19 @@
     "verifie_dans_source": true,
     "type_obligation": "Gouvernance",
     "destinataires": [
-      "Organe de direction de l'entité financière"
+      "Organe de direction de l'entité financière",
+      "Entités financières"
     ],
-    "echeance": null,
-    "sanction": null,
+    "echeance": {
+      "date": "2025-01-17",
+      "type": "Entrée en application",
+      "texte_source": "Art. 64"
+    },
+    "sanction": {
+      "description": "Sanctions administratives et mesures correctives applicables à l'entité et aux membres de l'organe de direction responsables",
+      "niveau": "Élevé",
+      "article": "Art. 50 §4 et §5"
+    },
     "confiance": 1,
     "confiance_detail": {
       "llm": 1,
@@ -709,10 +845,17 @@
     "lots_ids": [
       "LA-0002"
     ],
-    "run_id": "RUN-20261027-2110",
+    "run_id": "RUN-20261029-1658",
     "chunk_id": "TX-0001-chunk-01-art5-10",
     "avertissements": [],
-    "revalidation_motif": null
+    "revalidation_motif": null,
+    "valeurs_extraction": {
+      "echeance": null,
+      "sanction": null,
+      "destinataires": [
+        "Organe de direction de l'entité financière"
+      ]
+    }
   },
   {
     "id": "EX-0010",
@@ -727,10 +870,19 @@
     "verifie_dans_source": true,
     "type_obligation": "Gouvernance",
     "destinataires": [
-      "Entités financières, autres que les microentreprises"
+      "Entités financières, autres que les microentreprises",
+      "Entités financières, autres que les microentreprises (art. 3, point 60)"
     ],
-    "echeance": null,
-    "sanction": null,
+    "echeance": {
+      "date": "2025-01-17",
+      "type": "Entrée en application",
+      "texte_source": "Art. 64"
+    },
+    "sanction": {
+      "description": "Sanctions administratives et mesures correctives (injonction, mesures pécuniaires, déclaration publique)",
+      "niveau": "Élevé",
+      "article": "Art. 50 §4"
+    },
     "confiance": 1,
     "confiance_detail": {
       "llm": 1,
@@ -795,10 +947,17 @@
     "lots_ids": [
       "LA-0006"
     ],
-    "run_id": "RUN-20261027-2110",
+    "run_id": "RUN-20261029-1658",
     "chunk_id": "TX-0001-chunk-01-art5-10",
     "avertissements": [],
-    "revalidation_motif": null
+    "revalidation_motif": null,
+    "valeurs_extraction": {
+      "echeance": null,
+      "sanction": null,
+      "destinataires": [
+        "Entités financières, autres que les microentreprises"
+      ]
+    }
   },
   {
     "id": "EX-0011",
@@ -813,14 +972,19 @@
     "verifie_dans_source": true,
     "type_obligation": "Obligation de faire",
     "destinataires": [
-      "Membres de l'organe de direction de l'entité financière"
+      "Membres de l'organe de direction de l'entité financière",
+      "Entités financières"
     ],
     "echeance": {
-      "date": null,
+      "date": "2025-01-17",
       "type": "Périodique",
-      "texte_source": "Art. 5 §4"
+      "texte_source": "Art. 5 §4 ; Art. 64"
     },
-    "sanction": null,
+    "sanction": {
+      "description": "Sanctions administratives et mesures correctives applicables à l'entité et aux membres de l'organe de direction responsables",
+      "niveau": "Élevé",
+      "article": "Art. 50 §4 et §5"
+    },
     "confiance": 1,
     "confiance_detail": {
       "llm": 1,
@@ -869,10 +1033,21 @@
     "lots_ids": [
       "LA-0004"
     ],
-    "run_id": "RUN-20261027-2110",
+    "run_id": "RUN-20261029-1658",
     "chunk_id": "TX-0001-chunk-01-art5-10",
     "avertissements": [],
-    "revalidation_motif": null
+    "revalidation_motif": null,
+    "valeurs_extraction": {
+      "echeance": {
+        "date": null,
+        "type": "Périodique",
+        "texte_source": "Art. 5 §4"
+      },
+      "sanction": null,
+      "destinataires": [
+        "Membres de l'organe de direction de l'entité financière"
+      ]
+    }
   },
   {
     "id": "EX-0012",
@@ -890,8 +1065,16 @@
     "destinataires": [
       "Entités financières"
     ],
-    "echeance": null,
-    "sanction": null,
+    "echeance": {
+      "date": "2025-01-17",
+      "type": "Entrée en application",
+      "texte_source": "Art. 64"
+    },
+    "sanction": {
+      "description": "Sanctions administratives et mesures correctives (injonction, mesures pécuniaires, déclaration publique), publication de la décision",
+      "niveau": "Élevé",
+      "article": "Art. 50 §4 ; Art. 54"
+    },
     "confiance": 1,
     "confiance_detail": {
       "llm": 1,
@@ -976,10 +1159,17 @@
     "lots_ids": [
       "LA-0002"
     ],
-    "run_id": "RUN-20261027-2110",
+    "run_id": "RUN-20261029-1658",
     "chunk_id": "TX-0001-chunk-01-art5-10",
     "avertissements": [],
-    "revalidation_motif": null
+    "revalidation_motif": null,
+    "valeurs_extraction": {
+      "echeance": null,
+      "sanction": null,
+      "destinataires": [
+        "Entités financières"
+      ]
+    }
   },
   {
     "id": "EX-0013",
@@ -996,8 +1186,16 @@
     "destinataires": [
       "Entités financières"
     ],
-    "echeance": null,
-    "sanction": null,
+    "echeance": {
+      "date": "2025-01-17",
+      "type": "Entrée en application",
+      "texte_source": "Art. 64"
+    },
+    "sanction": {
+      "description": "Sanctions administratives et mesures correctives (injonction, mesures pécuniaires, déclaration publique)",
+      "niveau": "Élevé",
+      "article": "Art. 50 §4"
+    },
     "confiance": 1,
     "confiance_detail": {
       "llm": 1,
@@ -1090,10 +1288,17 @@
     "lots_ids": [
       "LA-0004"
     ],
-    "run_id": "RUN-20261027-2110",
+    "run_id": "RUN-20261029-1658",
     "chunk_id": "TX-0001-chunk-01-art5-10",
     "avertissements": [],
-    "revalidation_motif": null
+    "revalidation_motif": null,
+    "valeurs_extraction": {
+      "echeance": null,
+      "sanction": null,
+      "destinataires": [
+        "Entités financières"
+      ]
+    }
   },
   {
     "id": "EX-0014",
@@ -1111,8 +1316,16 @@
     "destinataires": [
       "Entités financières"
     ],
-    "echeance": null,
-    "sanction": null,
+    "echeance": {
+      "date": "2025-01-17",
+      "type": "Entrée en application",
+      "texte_source": "Art. 64"
+    },
+    "sanction": {
+      "description": "Pouvoirs d'accès aux documents et d'enquête des autorités, sanctions administratives et mesures correctives en cas de manquement",
+      "niveau": "Élevé",
+      "article": "Art. 50 §2 et §4"
+    },
     "confiance": 1,
     "confiance_detail": {
       "llm": 1,
@@ -1169,10 +1382,17 @@
     "lots_ids": [
       "LA-0004"
     ],
-    "run_id": "RUN-20261027-2110",
+    "run_id": "RUN-20261029-1658",
     "chunk_id": "TX-0001-chunk-01-art5-10",
     "avertissements": [],
-    "revalidation_motif": null
+    "revalidation_motif": null,
+    "valeurs_extraction": {
+      "echeance": null,
+      "sanction": null,
+      "destinataires": [
+        "Entités financières"
+      ]
+    }
   },
   {
     "id": "EX-0015",
@@ -1187,10 +1407,19 @@
     "verifie_dans_source": true,
     "type_obligation": "Gouvernance",
     "destinataires": [
-      "Entités financières, autres que les microentreprises"
+      "Entités financières, autres que les microentreprises",
+      "Entités financières, autres que les microentreprises (art. 3, point 60)"
     ],
-    "echeance": null,
-    "sanction": null,
+    "echeance": {
+      "date": "2025-01-17",
+      "type": "Entrée en application",
+      "texte_source": "Art. 64"
+    },
+    "sanction": {
+      "description": "Sanctions administratives et mesures correctives (injonction, mesures pécuniaires, déclaration publique)",
+      "niveau": "Élevé",
+      "article": "Art. 50 §4"
+    },
     "confiance": 1,
     "confiance_detail": {
       "llm": 1,
@@ -1247,10 +1476,17 @@
     "lots_ids": [
       "LA-0002"
     ],
-    "run_id": "RUN-20261027-2110",
+    "run_id": "RUN-20261029-1658",
     "chunk_id": "TX-0001-chunk-01-art5-10",
     "avertissements": [],
-    "revalidation_motif": null
+    "revalidation_motif": null,
+    "valeurs_extraction": {
+      "echeance": null,
+      "sanction": null,
+      "destinataires": [
+        "Entités financières, autres que les microentreprises"
+      ]
+    }
   },
   {
     "id": "EX-0016",
@@ -1267,8 +1503,16 @@
     "destinataires": [
       "Entités financières"
     ],
-    "echeance": null,
-    "sanction": null,
+    "echeance": {
+      "date": "2025-01-17",
+      "type": "Entrée en application",
+      "texte_source": "Art. 64"
+    },
+    "sanction": {
+      "description": "Sanctions administratives et mesures correctives fixées par les États membres : injonction, cessation de la pratique, mesures y compris pécuniaires, déclaration publique ; publication des sanctions",
+      "niveau": "Moyen",
+      "article": "Art. 50 §4 ; Art. 54"
+    },
     "confiance": 1,
     "confiance_detail": {
       "llm": 1,
@@ -1332,10 +1576,17 @@
     "lots_ids": [
       "LA-0002"
     ],
-    "run_id": "RUN-20261027-2110",
+    "run_id": "RUN-20261029-1658",
     "chunk_id": "TX-0001-chunk-01-art5-10",
     "avertissements": [],
-    "revalidation_motif": null
+    "revalidation_motif": null,
+    "valeurs_extraction": {
+      "echeance": null,
+      "sanction": null,
+      "destinataires": [
+        "Entités financières"
+      ]
+    }
   },
   {
     "id": "EX-0017",
@@ -1354,11 +1605,15 @@
       "Microentreprises"
     ],
     "echeance": {
-      "date": null,
+      "date": "2025-01-17",
       "type": "Périodique",
-      "texte_source": "Art. 6 §5"
+      "texte_source": "Art. 6 §5 ; Art. 64"
     },
-    "sanction": null,
+    "sanction": {
+      "description": "Sanctions administratives et mesures correctives fixées par les États membres : injonction, cessation de la pratique, mesures y compris pécuniaires, déclaration publique ; publication des sanctions",
+      "niveau": "Moyen",
+      "article": "Art. 50 §4 ; Art. 54"
+    },
     "confiance": 1,
     "confiance_detail": {
       "llm": 1,
@@ -1421,10 +1676,22 @@
     "lots_ids": [
       "LA-0007"
     ],
-    "run_id": "RUN-20261027-2110",
+    "run_id": "RUN-20261029-1658",
     "chunk_id": "TX-0001-chunk-01-art5-10",
     "avertissements": [],
-    "revalidation_motif": null
+    "revalidation_motif": null,
+    "valeurs_extraction": {
+      "echeance": {
+        "date": null,
+        "type": "Périodique",
+        "texte_source": "Art. 6 §5"
+      },
+      "sanction": null,
+      "destinataires": [
+        "Entités financières",
+        "Microentreprises"
+      ]
+    }
   },
   {
     "id": "EX-0018",
@@ -1439,14 +1706,19 @@
     "verifie_dans_source": true,
     "type_obligation": "Obligation de faire",
     "destinataires": [
-      "Entités financières, autres que les microentreprises"
+      "Entités financières, autres que les microentreprises",
+      "Entités financières (hors microentreprises)"
     ],
     "echeance": {
-      "date": null,
+      "date": "2025-01-17",
       "type": "Périodique",
-      "texte_source": "Art. 6 §6"
+      "texte_source": "Art. 6 §6 ; Art. 64"
     },
-    "sanction": null,
+    "sanction": {
+      "description": "Sanctions administratives et mesures correctives fixées par les États membres : injonction, cessation de la pratique, mesures y compris pécuniaires, déclaration publique ; publication des sanctions",
+      "niveau": "Moyen",
+      "article": "Art. 50 §4 ; Art. 54"
+    },
     "confiance": 1,
     "confiance_detail": {
       "llm": 1,
@@ -1495,10 +1767,21 @@
     "lots_ids": [
       "LA-0008"
     ],
-    "run_id": "RUN-20261027-2110",
+    "run_id": "RUN-20261029-1658",
     "chunk_id": "TX-0001-chunk-01-art5-10",
     "avertissements": [],
-    "revalidation_motif": null
+    "revalidation_motif": null,
+    "valeurs_extraction": {
+      "echeance": {
+        "date": null,
+        "type": "Périodique",
+        "texte_source": "Art. 6 §6"
+      },
+      "sanction": null,
+      "destinataires": [
+        "Entités financières, autres que les microentreprises"
+      ]
+    }
   },
   {
     "id": "EX-0019",
@@ -1515,8 +1798,16 @@
     "destinataires": [
       "Entités financières"
     ],
-    "echeance": null,
-    "sanction": null,
+    "echeance": {
+      "date": "2025-01-17",
+      "type": "Entrée en application",
+      "texte_source": "Art. 64"
+    },
+    "sanction": {
+      "description": "Sanctions administratives et mesures correctives fixées par les États membres : injonction, cessation de la pratique, mesures y compris pécuniaires, déclaration publique ; publication des sanctions",
+      "niveau": "Moyen",
+      "article": "Art. 50 §4 ; Art. 54"
+    },
     "confiance": 1,
     "confiance_detail": {
       "llm": 1,
@@ -1569,10 +1860,17 @@
     "lots_ids": [
       "LA-0008"
     ],
-    "run_id": "RUN-20261027-2110",
+    "run_id": "RUN-20261029-1658",
     "chunk_id": "TX-0001-chunk-01-art5-10",
     "avertissements": [],
-    "revalidation_motif": null
+    "revalidation_motif": null,
+    "valeurs_extraction": {
+      "echeance": null,
+      "sanction": null,
+      "destinataires": [
+        "Entités financières"
+      ]
+    }
   },
   {
     "id": "EX-0020",
@@ -1589,8 +1887,16 @@
     "destinataires": [
       "Entités financières"
     ],
-    "echeance": null,
-    "sanction": null,
+    "echeance": {
+      "date": "2025-01-17",
+      "type": "Entrée en application",
+      "texte_source": "Art. 64"
+    },
+    "sanction": {
+      "description": "Sanctions administratives et mesures correctives fixées par les États membres : injonction, cessation de la pratique, mesures y compris pécuniaires, déclaration publique ; publication des sanctions",
+      "niveau": "Moyen",
+      "article": "Art. 50 §4 ; Art. 54"
+    },
     "confiance": 1,
     "confiance_detail": {
       "llm": 1,
@@ -1648,10 +1954,17 @@
     "lots_ids": [
       "LA-0001"
     ],
-    "run_id": "RUN-20261027-2110",
+    "run_id": "RUN-20261029-1658",
     "chunk_id": "TX-0001-chunk-01-art5-10",
     "avertissements": [],
-    "revalidation_motif": null
+    "revalidation_motif": null,
+    "valeurs_extraction": {
+      "echeance": null,
+      "sanction": null,
+      "destinataires": [
+        "Entités financières"
+      ]
+    }
   },
   {
     "id": "EX-0021",
@@ -1668,8 +1981,16 @@
     "destinataires": [
       "Entités financières"
     ],
-    "echeance": null,
-    "sanction": null,
+    "echeance": {
+      "date": "2025-01-17",
+      "type": "Entrée en application",
+      "texte_source": "Art. 64"
+    },
+    "sanction": {
+      "description": "Sanctions administratives et mesures correctives fixées par les États membres : injonction, cessation de la pratique, mesures y compris pécuniaires, déclaration publique ; publication des sanctions",
+      "niveau": "Moyen",
+      "article": "Art. 50 §4 ; Art. 54"
+    },
     "confiance": 0.9,
     "confiance_detail": {
       "llm": 0.8,
@@ -1713,10 +2034,17 @@
     "lots_ids": [
       "LA-0006"
     ],
-    "run_id": "RUN-20261027-2110",
+    "run_id": "RUN-20261029-1658",
     "chunk_id": "TX-0001-chunk-01-art5-10",
     "avertissements": [],
-    "revalidation_motif": null
+    "revalidation_motif": null,
+    "valeurs_extraction": {
+      "echeance": null,
+      "sanction": null,
+      "destinataires": [
+        "Entités financières"
+      ]
+    }
   },
   {
     "id": "EX-0022",
@@ -1733,8 +2061,16 @@
     "destinataires": [
       "Entités financières"
     ],
-    "echeance": null,
-    "sanction": null,
+    "echeance": {
+      "date": "2025-01-17",
+      "type": "Entrée en application",
+      "texte_source": "Art. 64"
+    },
+    "sanction": {
+      "description": "Sanctions administratives et mesures correctives fixées par les États membres : injonction, cessation de la pratique, mesures y compris pécuniaires, déclaration publique ; publication des sanctions",
+      "niveau": "Moyen",
+      "article": "Art. 50 §4 ; Art. 54"
+    },
     "confiance": 1,
     "confiance_detail": {
       "llm": 1,
@@ -1808,10 +2144,17 @@
     "lots_ids": [
       "LA-0009"
     ],
-    "run_id": "RUN-20261027-2110",
+    "run_id": "RUN-20261029-1658",
     "chunk_id": "TX-0001-chunk-01-art5-10",
     "avertissements": [],
-    "revalidation_motif": null
+    "revalidation_motif": null,
+    "valeurs_extraction": {
+      "echeance": null,
+      "sanction": null,
+      "destinataires": [
+        "Entités financières"
+      ]
+    }
   },
   {
     "id": "EX-0023",
@@ -1829,11 +2172,15 @@
       "Entités financières"
     ],
     "echeance": {
-      "date": null,
+      "date": "2025-01-17",
       "type": "Périodique",
-      "texte_source": "Art. 8 §1"
+      "texte_source": "Art. 8 §1 ; Art. 64"
     },
-    "sanction": null,
+    "sanction": {
+      "description": "Sanctions administratives et mesures correctives fixées par les États membres : injonction, cessation de la pratique, mesures y compris pécuniaires, déclaration publique ; publication des sanctions",
+      "niveau": "Moyen",
+      "article": "Art. 50 §4 ; Art. 54"
+    },
     "confiance": 1,
     "confiance_detail": {
       "llm": 1,
@@ -1894,10 +2241,21 @@
     "lots_ids": [
       "LA-0002"
     ],
-    "run_id": "RUN-20261027-2110",
+    "run_id": "RUN-20261029-1658",
     "chunk_id": "TX-0001-chunk-01-art5-10",
     "avertissements": [],
-    "revalidation_motif": null
+    "revalidation_motif": null,
+    "valeurs_extraction": {
+      "echeance": {
+        "date": null,
+        "type": "Périodique",
+        "texte_source": "Art. 8 §1"
+      },
+      "sanction": null,
+      "destinataires": [
+        "Entités financières"
+      ]
+    }
   },
   {
     "id": "EX-0024",
@@ -1915,11 +2273,15 @@
       "Entités financières"
     ],
     "echeance": {
-      "date": null,
+      "date": "2025-01-17",
       "type": "Périodique",
-      "texte_source": "Art. 8 §2"
+      "texte_source": "Art. 8 §2 ; Art. 64"
     },
-    "sanction": null,
+    "sanction": {
+      "description": "Sanctions administratives et mesures correctives fixées par les États membres : injonction, cessation de la pratique, mesures y compris pécuniaires, déclaration publique ; publication des sanctions",
+      "niveau": "Moyen",
+      "article": "Art. 50 §4 ; Art. 54"
+    },
     "confiance": 1,
     "confiance_detail": {
       "llm": 1,
@@ -1986,10 +2348,21 @@
     "lots_ids": [
       "LA-0004"
     ],
-    "run_id": "RUN-20261027-2110",
+    "run_id": "RUN-20261029-1658",
     "chunk_id": "TX-0001-chunk-01-art5-10",
     "avertissements": [],
-    "revalidation_motif": null
+    "revalidation_motif": null,
+    "valeurs_extraction": {
+      "echeance": {
+        "date": null,
+        "type": "Périodique",
+        "texte_source": "Art. 8 §2"
+      },
+      "sanction": null,
+      "destinataires": [
+        "Entités financières"
+      ]
+    }
   },
   {
     "id": "EX-0025",
@@ -2004,10 +2377,19 @@
     "verifie_dans_source": true,
     "type_obligation": "Obligation de faire",
     "destinataires": [
-      "Entités financières, autres que les microentreprises"
+      "Entités financières, autres que les microentreprises",
+      "Entités financières (hors microentreprises)"
     ],
-    "echeance": null,
-    "sanction": null,
+    "echeance": {
+      "date": "2025-01-17",
+      "type": "Entrée en application",
+      "texte_source": "Art. 64"
+    },
+    "sanction": {
+      "description": "Sanctions administratives et mesures correctives fixées par les États membres : injonction, cessation de la pratique, mesures y compris pécuniaires, déclaration publique ; publication des sanctions",
+      "niveau": "Moyen",
+      "article": "Art. 50 §4 ; Art. 54"
+    },
     "confiance": 1,
     "confiance_detail": {
       "llm": 1,
@@ -2059,10 +2441,17 @@
     "lots_ids": [
       "LA-0010"
     ],
-    "run_id": "RUN-20261027-2110",
+    "run_id": "RUN-20261029-1658",
     "chunk_id": "TX-0001-chunk-01-art5-10",
     "avertissements": [],
-    "revalidation_motif": null
+    "revalidation_motif": null,
+    "valeurs_extraction": {
+      "echeance": null,
+      "sanction": null,
+      "destinataires": [
+        "Entités financières, autres que les microentreprises"
+      ]
+    }
   },
   {
     "id": "EX-0026",
@@ -2079,8 +2468,16 @@
     "destinataires": [
       "Entités financières"
     ],
-    "echeance": null,
-    "sanction": null,
+    "echeance": {
+      "date": "2025-01-17",
+      "type": "Entrée en application",
+      "texte_source": "Art. 64"
+    },
+    "sanction": {
+      "description": "Sanctions administratives et mesures correctives fixées par les États membres : injonction, cessation de la pratique, mesures y compris pécuniaires, déclaration publique ; publication des sanctions",
+      "niveau": "Moyen",
+      "article": "Art. 50 §4 ; Art. 54"
+    },
     "confiance": 1,
     "confiance_detail": {
       "llm": 1,
@@ -2145,10 +2542,17 @@
     "lots_ids": [
       "LA-0011"
     ],
-    "run_id": "RUN-20261027-2110",
+    "run_id": "RUN-20261029-1658",
     "chunk_id": "TX-0001-chunk-01-art5-10",
     "avertissements": [],
-    "revalidation_motif": null
+    "revalidation_motif": null,
+    "valeurs_extraction": {
+      "echeance": null,
+      "sanction": null,
+      "destinataires": [
+        "Entités financières"
+      ]
+    }
   },
   {
     "id": "EX-0027",
@@ -2165,8 +2569,16 @@
     "destinataires": [
       "Entités financières"
     ],
-    "echeance": null,
-    "sanction": null,
+    "echeance": {
+      "date": "2025-01-17",
+      "type": "Entrée en application",
+      "texte_source": "Art. 64"
+    },
+    "sanction": {
+      "description": "Sanctions administratives et mesures correctives fixées par les États membres : injonction, cessation de la pratique, mesures y compris pécuniaires, déclaration publique ; publication des sanctions",
+      "niveau": "Moyen",
+      "article": "Art. 50 §4 ; Art. 54"
+    },
     "confiance": 1,
     "confiance_detail": {
       "llm": 1,
@@ -2235,10 +2647,17 @@
     "lots_ids": [
       "LA-0002"
     ],
-    "run_id": "RUN-20261027-2110",
+    "run_id": "RUN-20261029-1658",
     "chunk_id": "TX-0001-chunk-01-art5-10",
     "avertissements": [],
-    "revalidation_motif": null
+    "revalidation_motif": null,
+    "valeurs_extraction": {
+      "echeance": null,
+      "sanction": null,
+      "destinataires": [
+        "Entités financières"
+      ]
+    }
   },
   {
     "id": "EX-0028",
@@ -2256,11 +2675,15 @@
       "Entités financières"
     ],
     "echeance": {
-      "date": null,
+      "date": "2025-01-17",
       "type": "Périodique",
-      "texte_source": "Art. 8 §6"
+      "texte_source": "Art. 8 §6 ; Art. 64"
     },
-    "sanction": null,
+    "sanction": {
+      "description": "Sanctions administratives et mesures correctives fixées par les États membres : injonction, cessation de la pratique, mesures y compris pécuniaires, déclaration publique ; publication des sanctions",
+      "niveau": "Moyen",
+      "article": "Art. 50 §4 ; Art. 54"
+    },
     "confiance": 1,
     "confiance_detail": {
       "llm": 1,
@@ -2312,10 +2735,21 @@
     "lots_ids": [
       "LA-0010"
     ],
-    "run_id": "RUN-20261027-2110",
+    "run_id": "RUN-20261029-1658",
     "chunk_id": "TX-0001-chunk-01-art5-10",
     "avertissements": [],
-    "revalidation_motif": null
+    "revalidation_motif": null,
+    "valeurs_extraction": {
+      "echeance": {
+        "date": null,
+        "type": "Périodique",
+        "texte_source": "Art. 8 §6"
+      },
+      "sanction": null,
+      "destinataires": [
+        "Entités financières"
+      ]
+    }
   },
   {
     "id": "EX-0029",
@@ -2330,14 +2764,19 @@
     "verifie_dans_source": true,
     "type_obligation": "Obligation de faire",
     "destinataires": [
-      "Entités financières, autres que les microentreprises"
+      "Entités financières, autres que les microentreprises",
+      "Entités financières (hors microentreprises)"
     ],
     "echeance": {
-      "date": null,
+      "date": "2025-01-17",
       "type": "Périodique",
-      "texte_source": "Art. 8 §7"
+      "texte_source": "Art. 8 §7 ; Art. 64"
     },
-    "sanction": null,
+    "sanction": {
+      "description": "Sanctions administratives et mesures correctives fixées par les États membres : injonction, cessation de la pratique, mesures y compris pécuniaires, déclaration publique ; publication des sanctions",
+      "niveau": "Moyen",
+      "article": "Art. 50 §4 ; Art. 54"
+    },
     "confiance": 1,
     "confiance_detail": {
       "llm": 1,
@@ -2391,10 +2830,21 @@
     "lots_ids": [
       "LA-0009"
     ],
-    "run_id": "RUN-20261027-2110",
+    "run_id": "RUN-20261029-1658",
     "chunk_id": "TX-0001-chunk-01-art5-10",
     "avertissements": [],
-    "revalidation_motif": null
+    "revalidation_motif": null,
+    "valeurs_extraction": {
+      "echeance": {
+        "date": null,
+        "type": "Périodique",
+        "texte_source": "Art. 8 §7"
+      },
+      "sanction": null,
+      "destinataires": [
+        "Entités financières, autres que les microentreprises"
+      ]
+    }
   },
   {
     "id": "EX-0030",
@@ -2411,8 +2861,16 @@
     "destinataires": [
       "Entités financières"
     ],
-    "echeance": null,
-    "sanction": null,
+    "echeance": {
+      "date": "2025-01-17",
+      "type": "Entrée en application",
+      "texte_source": "Art. 64"
+    },
+    "sanction": {
+      "description": "Sanctions administratives et mesures correctives fixées par les États membres : injonction, cessation de la pratique, mesures y compris pécuniaires, déclaration publique ; publication des sanctions",
+      "niveau": "Moyen",
+      "article": "Art. 50 §4 ; Art. 54"
+    },
     "confiance": 1,
     "confiance_detail": {
       "llm": 1,
@@ -2477,10 +2935,17 @@
     "risques_ids": [],
     "jurisprudence_ids": [],
     "lots_ids": [],
-    "run_id": "RUN-20261027-2110",
+    "run_id": "RUN-20261029-1658",
     "chunk_id": "TX-0001-chunk-01-art5-10",
     "avertissements": [],
-    "revalidation_motif": null
+    "revalidation_motif": null,
+    "valeurs_extraction": {
+      "echeance": null,
+      "sanction": null,
+      "destinataires": [
+        "Entités financières"
+      ]
+    }
   },
   {
     "id": "EX-0031",
@@ -2498,8 +2963,16 @@
     "destinataires": [
       "Entités financières"
     ],
-    "echeance": null,
-    "sanction": null,
+    "echeance": {
+      "date": "2025-01-17",
+      "type": "Entrée en application",
+      "texte_source": "Art. 64"
+    },
+    "sanction": {
+      "description": "Sanctions administratives et mesures correctives (injonction, cessation, mesures pécuniaires, déclaration publique) fixées par les États membres ; publication des sanctions.",
+      "niveau": "Élevé",
+      "article": "Art. 50 ; Art. 51 ; Art. 54"
+    },
     "confiance": 1,
     "confiance_detail": {
       "llm": 1,
@@ -2588,10 +3061,17 @@
     "lots_ids": [
       "LA-0012"
     ],
-    "run_id": "RUN-20261027-2110",
+    "run_id": "RUN-20261029-1658",
     "chunk_id": "TX-0001-chunk-01-art5-10",
     "avertissements": [],
-    "revalidation_motif": null
+    "revalidation_motif": null,
+    "valeurs_extraction": {
+      "echeance": null,
+      "sanction": null,
+      "destinataires": [
+        "Entités financières"
+      ]
+    }
   },
   {
     "id": "EX-0032",
@@ -2608,8 +3088,16 @@
     "destinataires": [
       "Entités financières"
     ],
-    "echeance": null,
-    "sanction": null,
+    "echeance": {
+      "date": "2025-01-17",
+      "type": "Entrée en application",
+      "texte_source": "Art. 64"
+    },
+    "sanction": {
+      "description": "Sanctions administratives et mesures correctives (injonction, cessation, mesures pécuniaires, déclaration publique) fixées par les États membres ; publication des sanctions.",
+      "niveau": "Élevé",
+      "article": "Art. 50 ; Art. 51 ; Art. 54"
+    },
     "confiance": 1,
     "confiance_detail": {
       "llm": 1,
@@ -2655,10 +3143,17 @@
     "risques_ids": [],
     "jurisprudence_ids": [],
     "lots_ids": [],
-    "run_id": "RUN-20261027-2110",
+    "run_id": "RUN-20261029-1658",
     "chunk_id": "TX-0001-chunk-01-art5-10",
     "avertissements": [],
-    "revalidation_motif": null
+    "revalidation_motif": null,
+    "valeurs_extraction": {
+      "echeance": null,
+      "sanction": null,
+      "destinataires": [
+        "Entités financières"
+      ]
+    }
   },
   {
     "id": "EX-0033",
@@ -2675,8 +3170,16 @@
     "destinataires": [
       "Entités financières"
     ],
-    "echeance": null,
-    "sanction": null,
+    "echeance": {
+      "date": "2025-01-17",
+      "type": "Entrée en application",
+      "texte_source": "Art. 64"
+    },
+    "sanction": {
+      "description": "Sanctions administratives et mesures correctives (injonction, cessation, mesures pécuniaires, déclaration publique) fixées par les États membres ; publication des sanctions.",
+      "niveau": "Élevé",
+      "article": "Art. 50 ; Art. 51 ; Art. 54"
+    },
     "confiance": 1,
     "confiance_detail": {
       "llm": 1,
@@ -2738,10 +3241,17 @@
     "lots_ids": [
       "LA-0009"
     ],
-    "run_id": "RUN-20261027-2110",
+    "run_id": "RUN-20261029-1658",
     "chunk_id": "TX-0001-chunk-01-art5-10",
     "avertissements": [],
-    "revalidation_motif": null
+    "revalidation_motif": null,
+    "valeurs_extraction": {
+      "echeance": null,
+      "sanction": null,
+      "destinataires": [
+        "Entités financières"
+      ]
+    }
   },
   {
     "id": "EX-0034",
@@ -2758,8 +3268,16 @@
     "destinataires": [
       "Entités financières"
     ],
-    "echeance": null,
-    "sanction": null,
+    "echeance": {
+      "date": "2025-01-17",
+      "type": "Entrée en application",
+      "texte_source": "Art. 64"
+    },
+    "sanction": {
+      "description": "Sanctions administratives et mesures correctives (injonction, cessation, mesures pécuniaires, déclaration publique) fixées par les États membres ; publication des sanctions.",
+      "niveau": "Élevé",
+      "article": "Art. 50 ; Art. 51 ; Art. 54"
+    },
     "confiance": 1,
     "confiance_detail": {
       "llm": 1,
@@ -2824,10 +3342,17 @@
     "lots_ids": [
       "LA-0012"
     ],
-    "run_id": "RUN-20261027-2110",
+    "run_id": "RUN-20261029-1658",
     "chunk_id": "TX-0001-chunk-01-art5-10",
     "avertissements": [],
-    "revalidation_motif": null
+    "revalidation_motif": null,
+    "valeurs_extraction": {
+      "echeance": null,
+      "sanction": null,
+      "destinataires": [
+        "Entités financières"
+      ]
+    }
   },
   {
     "id": "EX-0035",
@@ -2844,8 +3369,16 @@
     "destinataires": [
       "Entités financières"
     ],
-    "echeance": null,
-    "sanction": null,
+    "echeance": {
+      "date": "2025-01-17",
+      "type": "Entrée en application",
+      "texte_source": "Art. 64"
+    },
+    "sanction": {
+      "description": "Sanctions administratives et mesures correctives (injonction, cessation, mesures pécuniaires, déclaration publique) fixées par les États membres ; publication des sanctions.",
+      "niveau": "Élevé",
+      "article": "Art. 50 ; Art. 51 ; Art. 54"
+    },
     "confiance": 1,
     "confiance_detail": {
       "llm": 1,
@@ -2908,10 +3441,17 @@
     "lots_ids": [
       "LA-0012"
     ],
-    "run_id": "RUN-20261027-2110",
+    "run_id": "RUN-20261029-1658",
     "chunk_id": "TX-0001-chunk-01-art5-10",
     "avertissements": [],
-    "revalidation_motif": null
+    "revalidation_motif": null,
+    "valeurs_extraction": {
+      "echeance": null,
+      "sanction": null,
+      "destinataires": [
+        "Entités financières"
+      ]
+    }
   },
   {
     "id": "EX-0036",
@@ -2928,8 +3468,16 @@
     "destinataires": [
       "Entités financières"
     ],
-    "echeance": null,
-    "sanction": null,
+    "echeance": {
+      "date": "2025-01-17",
+      "type": "Entrée en application",
+      "texte_source": "Art. 64"
+    },
+    "sanction": {
+      "description": "Sanctions administratives et mesures correctives (injonction, cessation, mesures pécuniaires, déclaration publique) fixées par les États membres ; publication des sanctions.",
+      "niveau": "Élevé",
+      "article": "Art. 50 ; Art. 51 ; Art. 54"
+    },
     "confiance": 1,
     "confiance_detail": {
       "llm": 1,
@@ -2978,10 +3526,17 @@
     "risques_ids": [],
     "jurisprudence_ids": [],
     "lots_ids": [],
-    "run_id": "RUN-20261027-2110",
+    "run_id": "RUN-20261029-1658",
     "chunk_id": "TX-0001-chunk-01-art5-10",
     "avertissements": [],
-    "revalidation_motif": null
+    "revalidation_motif": null,
+    "valeurs_extraction": {
+      "echeance": null,
+      "sanction": null,
+      "destinataires": [
+        "Entités financières"
+      ]
+    }
   },
   {
     "id": "EX-0037",
@@ -2998,8 +3553,16 @@
     "destinataires": [
       "Entités financières"
     ],
-    "echeance": null,
-    "sanction": null,
+    "echeance": {
+      "date": "2025-01-17",
+      "type": "Entrée en application",
+      "texte_source": "Art. 64"
+    },
+    "sanction": {
+      "description": "Sanctions administratives et mesures correctives (injonction, cessation, mesures pécuniaires, déclaration publique) fixées par les États membres ; publication des sanctions.",
+      "niveau": "Élevé",
+      "article": "Art. 50 ; Art. 51 ; Art. 54"
+    },
     "confiance": 1,
     "confiance_detail": {
       "llm": 1,
@@ -3054,10 +3617,17 @@
     "lots_ids": [
       "LA-0010"
     ],
-    "run_id": "RUN-20261027-2110",
+    "run_id": "RUN-20261029-1658",
     "chunk_id": "TX-0001-chunk-01-art5-10",
     "avertissements": [],
-    "revalidation_motif": null
+    "revalidation_motif": null,
+    "valeurs_extraction": {
+      "echeance": null,
+      "sanction": null,
+      "destinataires": [
+        "Entités financières"
+      ]
+    }
   },
   {
     "id": "EX-0038",
@@ -3076,11 +3646,15 @@
       "Entités financières"
     ],
     "echeance": {
-      "date": null,
+      "date": "2025-01-17",
       "type": "Périodique",
-      "texte_source": "Art. 10 §1"
+      "texte_source": "Art. 10 §1 (tests réguliers) ; Art. 64 (application au 17 janvier 2025)"
     },
-    "sanction": null,
+    "sanction": {
+      "description": "Sanctions administratives et mesures correctives (injonction, cessation, mesures pécuniaires, déclaration publique) fixées par les États membres ; publication des sanctions.",
+      "niveau": "Élevé",
+      "article": "Art. 50 ; Art. 51 ; Art. 54"
+    },
     "confiance": 1,
     "confiance_detail": {
       "llm": 1,
@@ -3147,10 +3721,21 @@
     "lots_ids": [
       "LA-0013"
     ],
-    "run_id": "RUN-20261027-2110",
+    "run_id": "RUN-20261029-1658",
     "chunk_id": "TX-0001-chunk-01-art5-10",
     "avertissements": [],
-    "revalidation_motif": null
+    "revalidation_motif": null,
+    "valeurs_extraction": {
+      "echeance": {
+        "date": null,
+        "type": "Périodique",
+        "texte_source": "Art. 10 §1"
+      },
+      "sanction": null,
+      "destinataires": [
+        "Entités financières"
+      ]
+    }
   },
   {
     "id": "EX-0039",
@@ -3167,8 +3752,16 @@
     "destinataires": [
       "Entités financières"
     ],
-    "echeance": null,
-    "sanction": null,
+    "echeance": {
+      "date": "2025-01-17",
+      "type": "Entrée en application",
+      "texte_source": "Art. 64"
+    },
+    "sanction": {
+      "description": "Sanctions administratives et mesures correctives (injonction, cessation, mesures pécuniaires, déclaration publique) fixées par les États membres ; publication des sanctions.",
+      "niveau": "Élevé",
+      "article": "Art. 50 ; Art. 51 ; Art. 54"
+    },
     "confiance": 1,
     "confiance_detail": {
       "llm": 1,
@@ -3223,10 +3816,17 @@
     "risques_ids": [],
     "jurisprudence_ids": [],
     "lots_ids": [],
-    "run_id": "RUN-20261027-2110",
+    "run_id": "RUN-20261029-1658",
     "chunk_id": "TX-0001-chunk-01-art5-10",
     "avertissements": [],
-    "revalidation_motif": null
+    "revalidation_motif": null,
+    "valeurs_extraction": {
+      "echeance": null,
+      "sanction": null,
+      "destinataires": [
+        "Entités financières"
+      ]
+    }
   },
   {
     "id": "EX-0040",
@@ -3243,8 +3843,16 @@
     "destinataires": [
       "Prestataires de services de communication de données"
     ],
-    "echeance": null,
-    "sanction": null,
+    "echeance": {
+      "date": "2025-01-17",
+      "type": "Entrée en application",
+      "texte_source": "Art. 64"
+    },
+    "sanction": {
+      "description": "Sanctions administratives et mesures correctives (injonction, cessation, mesures pécuniaires, déclaration publique) fixées par les États membres ; publication des sanctions.",
+      "niveau": "Élevé",
+      "article": "Art. 50 ; Art. 51 ; Art. 54"
+    },
     "confiance": 1,
     "confiance_detail": {
       "llm": 1,
@@ -3290,10 +3898,17 @@
     "lots_ids": [
       "LA-0011"
     ],
-    "run_id": "RUN-20261027-2110",
+    "run_id": "RUN-20261029-1658",
     "chunk_id": "TX-0001-chunk-01-art5-10",
     "avertissements": [],
-    "revalidation_motif": null
+    "revalidation_motif": null,
+    "valeurs_extraction": {
+      "echeance": null,
+      "sanction": null,
+      "destinataires": [
+        "Prestataires de services de communication de données"
+      ]
+    }
   },
   {
     "id": "EX-0041",
@@ -3310,8 +3925,16 @@
     "destinataires": [
       "Entités financières"
     ],
-    "echeance": null,
-    "sanction": null,
+    "echeance": {
+      "date": "2025-01-17",
+      "type": "Entrée en application",
+      "texte_source": "Art. 64"
+    },
+    "sanction": {
+      "description": "Sanctions administratives et mesures correctives (injonction, cessation, mesures pécuniaires, déclaration publique) fixées par les États membres ; publication des sanctions.",
+      "niveau": "Élevé",
+      "article": "Art. 50 ; Art. 51 ; Art. 54"
+    },
     "confiance": 1,
     "confiance_detail": {
       "llm": 1,
@@ -3368,10 +3991,17 @@
     "lots_ids": [
       "LA-0003"
     ],
-    "run_id": "RUN-20261027-2110",
+    "run_id": "RUN-20261029-1658",
     "chunk_id": "TX-0001-chunk-02-art11-15",
     "avertissements": [],
-    "revalidation_motif": null
+    "revalidation_motif": null,
+    "valeurs_extraction": {
+      "echeance": null,
+      "sanction": null,
+      "destinataires": [
+        "Entités financières"
+      ]
+    }
   },
   {
     "id": "EX-0042",
@@ -3392,8 +4022,16 @@
     "destinataires": [
       "Entités financières"
     ],
-    "echeance": null,
-    "sanction": null,
+    "echeance": {
+      "date": "2025-01-17",
+      "type": "Entrée en application",
+      "texte_source": "Art. 64"
+    },
+    "sanction": {
+      "description": "Sanctions administratives et mesures correctives (injonction, cessation, mesures pécuniaires, déclaration publique) fixées par les États membres ; publication des sanctions.",
+      "niveau": "Élevé",
+      "article": "Art. 50 ; Art. 51 ; Art. 54"
+    },
     "confiance": 1,
     "confiance_detail": {
       "llm": 1,
@@ -3465,10 +4103,17 @@
     "lots_ids": [
       "LA-0003"
     ],
-    "run_id": "RUN-20261027-2110",
+    "run_id": "RUN-20261029-1658",
     "chunk_id": "TX-0001-chunk-02-art11-15",
     "avertissements": [],
-    "revalidation_motif": null
+    "revalidation_motif": null,
+    "valeurs_extraction": {
+      "echeance": null,
+      "sanction": null,
+      "destinataires": [
+        "Entités financières"
+      ]
+    }
   },
   {
     "id": "EX-0043",
@@ -3486,8 +4131,16 @@
       "Entités financières",
       "Entités financières autres que les microentreprises"
     ],
-    "echeance": null,
-    "sanction": null,
+    "echeance": {
+      "date": "2025-01-17",
+      "type": "Entrée en application",
+      "texte_source": "Art. 64"
+    },
+    "sanction": {
+      "description": "Sanctions administratives et mesures correctives (injonction, cessation, mesures pécuniaires, déclaration publique) fixées par les États membres ; publication des sanctions.",
+      "niveau": "Élevé",
+      "article": "Art. 50 ; Art. 51 ; Art. 54"
+    },
     "confiance": 1,
     "confiance_detail": {
       "llm": 1,
@@ -3549,10 +4202,18 @@
     "lots_ids": [
       "LA-0003"
     ],
-    "run_id": "RUN-20261027-2110",
+    "run_id": "RUN-20261029-1658",
     "chunk_id": "TX-0001-chunk-02-art11-15",
     "avertissements": [],
-    "revalidation_motif": null
+    "revalidation_motif": null,
+    "valeurs_extraction": {
+      "echeance": null,
+      "sanction": null,
+      "destinataires": [
+        "Entités financières",
+        "Entités financières autres que les microentreprises"
+      ]
+    }
   },
   {
     "id": "EX-0044",
@@ -3569,8 +4230,16 @@
     "destinataires": [
       "Entités financières"
     ],
-    "echeance": null,
-    "sanction": null,
+    "echeance": {
+      "date": "2025-01-17",
+      "type": "Entrée en application",
+      "texte_source": "Art. 64"
+    },
+    "sanction": {
+      "description": "Sanctions administratives et mesures correctives (injonction, cessation, mesures pécuniaires, déclaration publique) fixées par les États membres ; publication des sanctions.",
+      "niveau": "Élevé",
+      "article": "Art. 50 ; Art. 51 ; Art. 54"
+    },
     "confiance": 1,
     "confiance_detail": {
       "llm": 1,
@@ -3639,10 +4308,17 @@
     "lots_ids": [
       "LA-0003"
     ],
-    "run_id": "RUN-20261027-2110",
+    "run_id": "RUN-20261029-1658",
     "chunk_id": "TX-0001-chunk-02-art11-15",
     "avertissements": [],
-    "revalidation_motif": null
+    "revalidation_motif": null,
+    "valeurs_extraction": {
+      "echeance": null,
+      "sanction": null,
+      "destinataires": [
+        "Entités financières"
+      ]
+    }
   },
   {
     "id": "EX-0045",
@@ -3659,8 +4335,16 @@
     "destinataires": [
       "Entités financières"
     ],
-    "echeance": null,
-    "sanction": null,
+    "echeance": {
+      "date": "2025-01-17",
+      "type": "Entrée en application",
+      "texte_source": "Art. 64"
+    },
+    "sanction": {
+      "description": "Sanctions administratives et mesures correctives (injonction, cessation, mesures pécuniaires, déclaration publique) fixées par les États membres ; publication des sanctions.",
+      "niveau": "Élevé",
+      "article": "Art. 50 ; Art. 51 ; Art. 54"
+    },
     "confiance": 1,
     "confiance_detail": {
       "llm": 1,
@@ -3727,10 +4411,17 @@
     "lots_ids": [
       "LA-0002"
     ],
-    "run_id": "RUN-20261027-2110",
+    "run_id": "RUN-20261029-1658",
     "chunk_id": "TX-0001-chunk-02-art11-15",
     "avertissements": [],
-    "revalidation_motif": null
+    "revalidation_motif": null,
+    "valeurs_extraction": {
+      "echeance": null,
+      "sanction": null,
+      "destinataires": [
+        "Entités financières"
+      ]
+    }
   },
   {
     "id": "EX-0046",
@@ -3747,8 +4438,16 @@
     "destinataires": [
       "Entités financières"
     ],
-    "echeance": null,
-    "sanction": null,
+    "echeance": {
+      "date": "2025-01-17",
+      "type": "Entrée en application",
+      "texte_source": "Art. 64"
+    },
+    "sanction": {
+      "description": "Sanctions administratives et mesures correctives fixées par les États membres : injonction, cessation de pratique, mesures pécuniaires, communication publique",
+      "niveau": "Élevé",
+      "article": "Art. 50 §4"
+    },
     "confiance": 1,
     "confiance_detail": {
       "llm": 1,
@@ -3824,10 +4523,17 @@
     "lots_ids": [
       "LA-0009"
     ],
-    "run_id": "RUN-20261027-2110",
+    "run_id": "RUN-20261029-1658",
     "chunk_id": "TX-0001-chunk-02-art11-15",
     "avertissements": [],
-    "revalidation_motif": null
+    "revalidation_motif": null,
+    "valeurs_extraction": {
+      "echeance": null,
+      "sanction": null,
+      "destinataires": [
+        "Entités financières"
+      ]
+    }
   },
   {
     "id": "EX-0047",
@@ -3845,11 +4551,15 @@
       "Entités financières"
     ],
     "echeance": {
-      "date": null,
+      "date": "2025-01-17",
       "type": "Périodique",
-      "texte_source": "Art. 11 §6, point a)"
+      "texte_source": "Art. 11 §6, point a) ; Art. 64"
     },
-    "sanction": null,
+    "sanction": {
+      "description": "Sanctions administratives et mesures correctives fixées par les États membres : injonction, cessation de pratique, mesures pécuniaires, communication publique",
+      "niveau": "Élevé",
+      "article": "Art. 50 §4"
+    },
     "confiance": 1,
     "confiance_detail": {
       "llm": 1,
@@ -3922,10 +4632,21 @@
     "lots_ids": [
       "LA-0003"
     ],
-    "run_id": "RUN-20261027-2110",
+    "run_id": "RUN-20261029-1658",
     "chunk_id": "TX-0001-chunk-02-art11-15",
     "avertissements": [],
-    "revalidation_motif": null
+    "revalidation_motif": null,
+    "valeurs_extraction": {
+      "echeance": {
+        "date": null,
+        "type": "Périodique",
+        "texte_source": "Art. 11 §6, point a)"
+      },
+      "sanction": null,
+      "destinataires": [
+        "Entités financières"
+      ]
+    }
   },
   {
     "id": "EX-0048",
@@ -3942,8 +4663,16 @@
     "destinataires": [
       "Entités financières"
     ],
-    "echeance": null,
-    "sanction": null,
+    "echeance": {
+      "date": "2025-01-17",
+      "type": "Entrée en application",
+      "texte_source": "Art. 64"
+    },
+    "sanction": {
+      "description": "Sanctions administratives et mesures correctives fixées par les États membres : injonction, cessation de pratique, mesures pécuniaires, communication publique",
+      "niveau": "Élevé",
+      "article": "Art. 50 §4"
+    },
     "confiance": 1,
     "confiance_detail": {
       "llm": 1,
@@ -3997,10 +4726,17 @@
     "lots_ids": [
       "LA-0003"
     ],
-    "run_id": "RUN-20261027-2110",
+    "run_id": "RUN-20261029-1658",
     "chunk_id": "TX-0001-chunk-02-art11-15",
     "avertissements": [],
-    "revalidation_motif": null
+    "revalidation_motif": null,
+    "valeurs_extraction": {
+      "echeance": null,
+      "sanction": null,
+      "destinataires": [
+        "Entités financières"
+      ]
+    }
   },
   {
     "id": "EX-0049",
@@ -4017,8 +4753,16 @@
     "destinataires": [
       "Entités financières autres que les microentreprises"
     ],
-    "echeance": null,
-    "sanction": null,
+    "echeance": {
+      "date": "2025-01-17",
+      "type": "Entrée en application",
+      "texte_source": "Art. 64"
+    },
+    "sanction": {
+      "description": "Sanctions administratives et mesures correctives fixées par les États membres : injonction, cessation de pratique, mesures pécuniaires, communication publique",
+      "niveau": "Élevé",
+      "article": "Art. 50 §4"
+    },
     "confiance": 1,
     "confiance_detail": {
       "llm": 1,
@@ -4095,10 +4839,17 @@
     "lots_ids": [
       "LA-0003"
     ],
-    "run_id": "RUN-20261027-2110",
+    "run_id": "RUN-20261029-1658",
     "chunk_id": "TX-0001-chunk-02-art11-15",
     "avertissements": [],
-    "revalidation_motif": null
+    "revalidation_motif": null,
+    "valeurs_extraction": {
+      "echeance": null,
+      "sanction": null,
+      "destinataires": [
+        "Entités financières autres que les microentreprises"
+      ]
+    }
   },
   {
     "id": "EX-0050",
@@ -4115,8 +4866,16 @@
     "destinataires": [
       "Entités financières"
     ],
-    "echeance": null,
-    "sanction": null,
+    "echeance": {
+      "date": "2025-01-17",
+      "type": "Entrée en application",
+      "texte_source": "Art. 64"
+    },
+    "sanction": {
+      "description": "Sanctions administratives et mesures correctives fixées par les États membres : injonction, cessation de pratique, mesures pécuniaires, communication publique",
+      "niveau": "Élevé",
+      "article": "Art. 50 §4"
+    },
     "confiance": 1,
     "confiance_detail": {
       "llm": 1,
@@ -4180,10 +4939,17 @@
     "lots_ids": [
       "LA-0003"
     ],
-    "run_id": "RUN-20261027-2110",
+    "run_id": "RUN-20261029-1658",
     "chunk_id": "TX-0001-chunk-02-art11-15",
     "avertissements": [],
-    "revalidation_motif": null
+    "revalidation_motif": null,
+    "valeurs_extraction": {
+      "echeance": null,
+      "sanction": null,
+      "destinataires": [
+        "Entités financières"
+      ]
+    }
   },
   {
     "id": "EX-0051",
@@ -4200,8 +4966,16 @@
     "destinataires": [
       "Entités financières autres que les microentreprises"
     ],
-    "echeance": null,
-    "sanction": null,
+    "echeance": {
+      "date": "2025-01-17",
+      "type": "Entrée en application",
+      "texte_source": "Art. 64"
+    },
+    "sanction": {
+      "description": "Sanctions administratives et mesures correctives fixées par les États membres : injonction, cessation de pratique, mesures pécuniaires, communication publique",
+      "niveau": "Élevé",
+      "article": "Art. 50 §4"
+    },
     "confiance": 1,
     "confiance_detail": {
       "llm": 1,
@@ -4261,10 +5035,17 @@
     "lots_ids": [
       "LA-0014"
     ],
-    "run_id": "RUN-20261027-2110",
+    "run_id": "RUN-20261029-1658",
     "chunk_id": "TX-0001-chunk-02-art11-15",
     "avertissements": [],
-    "revalidation_motif": null
+    "revalidation_motif": null,
+    "valeurs_extraction": {
+      "echeance": null,
+      "sanction": null,
+      "destinataires": [
+        "Entités financières autres que les microentreprises"
+      ]
+    }
   },
   {
     "id": "EX-0052",
@@ -4281,8 +5062,16 @@
     "destinataires": [
       "Entités financières"
     ],
-    "echeance": null,
-    "sanction": null,
+    "echeance": {
+      "date": "2025-01-17",
+      "type": "Entrée en application",
+      "texte_source": "Art. 64"
+    },
+    "sanction": {
+      "description": "Sanctions administratives et mesures correctives fixées par les États membres : injonction, cessation de pratique, mesures pécuniaires, communication publique",
+      "niveau": "Élevé",
+      "article": "Art. 50 §4"
+    },
     "confiance": 1,
     "confiance_detail": {
       "llm": 1,
@@ -4327,10 +5116,17 @@
     "lots_ids": [
       "LA-0014"
     ],
-    "run_id": "RUN-20261027-2110",
+    "run_id": "RUN-20261029-1658",
     "chunk_id": "TX-0001-chunk-02-art11-15",
     "avertissements": [],
-    "revalidation_motif": null
+    "revalidation_motif": null,
+    "valeurs_extraction": {
+      "echeance": null,
+      "sanction": null,
+      "destinataires": [
+        "Entités financières"
+      ]
+    }
   },
   {
     "id": "EX-0053",
@@ -4347,8 +5143,16 @@
     "destinataires": [
       "Dépositaires centraux de titres"
     ],
-    "echeance": null,
-    "sanction": null,
+    "echeance": {
+      "date": "2025-01-17",
+      "type": "Entrée en application",
+      "texte_source": "Art. 64"
+    },
+    "sanction": {
+      "description": "Sanctions administratives et mesures correctives fixées par les États membres : injonction, cessation de pratique, mesures pécuniaires, communication publique",
+      "niveau": "Élevé",
+      "article": "Art. 50 §4"
+    },
     "confiance": 1,
     "confiance_detail": {
       "llm": 1,
@@ -4386,10 +5190,17 @@
     "lots_ids": [
       "LA-0003"
     ],
-    "run_id": "RUN-20261027-2110",
+    "run_id": "RUN-20261029-1658",
     "chunk_id": "TX-0001-chunk-02-art11-15",
     "avertissements": [],
-    "revalidation_motif": null
+    "revalidation_motif": null,
+    "valeurs_extraction": {
+      "echeance": null,
+      "sanction": null,
+      "destinataires": [
+        "Dépositaires centraux de titres"
+      ]
+    }
   },
   {
     "id": "EX-0054",
@@ -4406,8 +5217,16 @@
     "destinataires": [
       "Entités financières autres que les microentreprises"
     ],
-    "echeance": null,
-    "sanction": null,
+    "echeance": {
+      "date": "2025-01-17",
+      "type": "Entrée en application",
+      "texte_source": "Art. 64"
+    },
+    "sanction": {
+      "description": "Sanctions administratives et mesures correctives fixées par les États membres : injonction, cessation de pratique, mesures pécuniaires, communication publique",
+      "niveau": "Élevé",
+      "article": "Art. 50 §4"
+    },
     "confiance": 1,
     "confiance_detail": {
       "llm": 1,
@@ -4453,10 +5272,17 @@
     "lots_ids": [
       "LA-0014"
     ],
-    "run_id": "RUN-20261027-2110",
+    "run_id": "RUN-20261029-1658",
     "chunk_id": "TX-0001-chunk-02-art11-15",
     "avertissements": [],
-    "revalidation_motif": null
+    "revalidation_motif": null,
+    "valeurs_extraction": {
+      "echeance": null,
+      "sanction": null,
+      "destinataires": [
+        "Entités financières autres que les microentreprises"
+      ]
+    }
   },
   {
     "id": "EX-0055",
@@ -4474,8 +5300,16 @@
     "destinataires": [
       "Entités financières"
     ],
-    "echeance": null,
-    "sanction": null,
+    "echeance": {
+      "date": "2025-01-17",
+      "type": "Entrée en application",
+      "texte_source": "Art. 64"
+    },
+    "sanction": {
+      "description": "Sanctions administratives et mesures correctives fixées par les États membres : injonction, cessation de pratique, mesures pécuniaires, communication publique",
+      "niveau": "Élevé",
+      "article": "Art. 50 §4"
+    },
     "confiance": 1,
     "confiance_detail": {
       "llm": 1,
@@ -4534,10 +5368,17 @@
     "lots_ids": [
       "LA-0003"
     ],
-    "run_id": "RUN-20261027-2110",
+    "run_id": "RUN-20261029-1658",
     "chunk_id": "TX-0001-chunk-02-art11-15",
     "avertissements": [],
-    "revalidation_motif": null
+    "revalidation_motif": null,
+    "valeurs_extraction": {
+      "echeance": null,
+      "sanction": null,
+      "destinataires": [
+        "Entités financières"
+      ]
+    }
   },
   {
     "id": "EX-0056",
@@ -4554,8 +5395,16 @@
     "destinataires": [
       "Entités financières"
     ],
-    "echeance": null,
-    "sanction": null,
+    "echeance": {
+      "date": "2025-01-17",
+      "type": "Entrée en application",
+      "texte_source": "Art. 64"
+    },
+    "sanction": {
+      "description": "Sanctions administratives et mesures correctives fixées par les États membres : injonction, cessation de pratique, mesures pécuniaires, communication publique",
+      "niveau": "Élevé",
+      "article": "Art. 50 §4"
+    },
     "confiance": 1,
     "confiance_detail": {
       "llm": 1,
@@ -4615,10 +5464,17 @@
     "risques_ids": [],
     "jurisprudence_ids": [],
     "lots_ids": [],
-    "run_id": "RUN-20261027-2110",
+    "run_id": "RUN-20261029-1658",
     "chunk_id": "TX-0001-chunk-02-art11-15",
     "avertissements": [],
-    "revalidation_motif": null
+    "revalidation_motif": null,
+    "valeurs_extraction": {
+      "echeance": null,
+      "sanction": null,
+      "destinataires": [
+        "Entités financières"
+      ]
+    }
   },
   {
     "id": "EX-0057",
@@ -4635,8 +5491,16 @@
     "destinataires": [
       "Entités financières"
     ],
-    "echeance": null,
-    "sanction": null,
+    "echeance": {
+      "date": "2025-01-17",
+      "type": "Entrée en application",
+      "texte_source": "Art. 64"
+    },
+    "sanction": {
+      "description": "Sanctions administratives et mesures correctives fixées par les États membres : injonction, cessation de pratique, mesures pécuniaires, communication publique",
+      "niveau": "Élevé",
+      "article": "Art. 50 §4"
+    },
     "confiance": 1,
     "confiance_detail": {
       "llm": 1,
@@ -4699,10 +5563,17 @@
     "lots_ids": [
       "LA-0009"
     ],
-    "run_id": "RUN-20261027-2110",
+    "run_id": "RUN-20261029-1658",
     "chunk_id": "TX-0001-chunk-02-art11-15",
     "avertissements": [],
-    "revalidation_motif": null
+    "revalidation_motif": null,
+    "valeurs_extraction": {
+      "echeance": null,
+      "sanction": null,
+      "destinataires": [
+        "Entités financières"
+      ]
+    }
   },
   {
     "id": "EX-0058",
@@ -4719,8 +5590,16 @@
     "destinataires": [
       "Contreparties centrales"
     ],
-    "echeance": null,
-    "sanction": null,
+    "echeance": {
+      "date": "2025-01-17",
+      "type": "Entrée en application",
+      "texte_source": "Art. 64"
+    },
+    "sanction": {
+      "description": "Sanctions administratives et mesures correctives fixées par les États membres : injonction, cessation de pratique, mesures pécuniaires, communication publique",
+      "niveau": "Élevé",
+      "article": "Art. 50 §4"
+    },
     "confiance": 0.88,
     "confiance_detail": {
       "llm": 0.75,
@@ -4754,10 +5633,17 @@
     "lots_ids": [
       "LA-0003"
     ],
-    "run_id": "RUN-20261027-2110",
+    "run_id": "RUN-20261029-1658",
     "chunk_id": "TX-0001-chunk-02-art11-15",
     "avertissements": [],
-    "revalidation_motif": null
+    "revalidation_motif": null,
+    "valeurs_extraction": {
+      "echeance": null,
+      "sanction": null,
+      "destinataires": [
+        "Contreparties centrales"
+      ]
+    }
   },
   {
     "id": "EX-0059",
@@ -4774,8 +5660,16 @@
     "destinataires": [
       "Prestataires de services de communication de données"
     ],
-    "echeance": null,
-    "sanction": null,
+    "echeance": {
+      "date": "2025-01-17",
+      "type": "Entrée en application",
+      "texte_source": "Art. 64"
+    },
+    "sanction": {
+      "description": "Sanctions administratives et mesures correctives fixées par les États membres : injonction, cessation de pratique, mesures pécuniaires, communication publique",
+      "niveau": "Élevé",
+      "article": "Art. 50 §4"
+    },
     "confiance": 1,
     "confiance_detail": {
       "llm": 1,
@@ -4809,10 +5703,17 @@
     "lots_ids": [
       "LA-0003"
     ],
-    "run_id": "RUN-20261027-2110",
+    "run_id": "RUN-20261029-1658",
     "chunk_id": "TX-0001-chunk-02-art11-15",
     "avertissements": [],
-    "revalidation_motif": null
+    "revalidation_motif": null,
+    "valeurs_extraction": {
+      "echeance": null,
+      "sanction": null,
+      "destinataires": [
+        "Prestataires de services de communication de données"
+      ]
+    }
   },
   {
     "id": "EX-0060",
@@ -4830,8 +5731,16 @@
       "Entités financières autres que les microentreprises",
       "Microentreprises"
     ],
-    "echeance": null,
-    "sanction": null,
+    "echeance": {
+      "date": "2025-01-17",
+      "type": "Entrée en application",
+      "texte_source": "Art. 64"
+    },
+    "sanction": {
+      "description": "Sanctions administratives et mesures correctives fixées par les États membres : injonction, cessation de pratique, mesures pécuniaires, communication publique",
+      "niveau": "Élevé",
+      "article": "Art. 50 §4"
+    },
     "confiance": 1,
     "confiance_detail": {
       "llm": 1,
@@ -4898,10 +5807,18 @@
     "lots_ids": [
       "LA-0009"
     ],
-    "run_id": "RUN-20261027-2110",
+    "run_id": "RUN-20261029-1658",
     "chunk_id": "TX-0001-chunk-02-art11-15",
     "avertissements": [],
-    "revalidation_motif": null
+    "revalidation_motif": null,
+    "valeurs_extraction": {
+      "echeance": null,
+      "sanction": null,
+      "destinataires": [
+        "Entités financières autres que les microentreprises",
+        "Microentreprises"
+      ]
+    }
   },
   {
     "id": "EX-0061",
@@ -4920,8 +5837,16 @@
     "destinataires": [
       "Dépositaires centraux de titres"
     ],
-    "echeance": null,
-    "sanction": null,
+    "echeance": {
+      "date": "2025-01-17",
+      "type": "Entrée en application",
+      "texte_source": "Art. 64"
+    },
+    "sanction": {
+      "description": "Sanctions administratives et mesures correctives fixées par les États membres (injonction, cessation de la pratique, mesures pécuniaires, communication publique), avec publication des décisions de sanction",
+      "niveau": "Élevé",
+      "article": "Art. 50 §4 ; Art. 54"
+    },
     "confiance": 1,
     "confiance_detail": {
       "llm": 1,
@@ -4987,10 +5912,17 @@
     "lots_ids": [
       "LA-0009"
     ],
-    "run_id": "RUN-20261027-2110",
+    "run_id": "RUN-20261029-1658",
     "chunk_id": "TX-0001-chunk-02-art11-15",
     "avertissements": [],
-    "revalidation_motif": null
+    "revalidation_motif": null,
+    "valeurs_extraction": {
+      "echeance": null,
+      "sanction": null,
+      "destinataires": [
+        "Dépositaires centraux de titres"
+      ]
+    }
   },
   {
     "id": "EX-0062",
@@ -5007,8 +5939,16 @@
     "destinataires": [
       "Entités financières"
     ],
-    "echeance": null,
-    "sanction": null,
+    "echeance": {
+      "date": "2025-01-17",
+      "type": "Entrée en application",
+      "texte_source": "Art. 64"
+    },
+    "sanction": {
+      "description": "Sanctions administratives et mesures correctives fixées par les États membres (injonction, cessation de la pratique, mesures pécuniaires, communication publique), avec publication des décisions de sanction",
+      "niveau": "Élevé",
+      "article": "Art. 50 §4 ; Art. 54"
+    },
     "confiance": 0.88,
     "confiance_detail": {
       "llm": 0.75,
@@ -5076,10 +6016,17 @@
     "lots_ids": [
       "LA-0002"
     ],
-    "run_id": "RUN-20261027-2110",
+    "run_id": "RUN-20261029-1658",
     "chunk_id": "TX-0001-chunk-02-art11-15",
     "avertissements": [],
-    "revalidation_motif": null
+    "revalidation_motif": null,
+    "valeurs_extraction": {
+      "echeance": null,
+      "sanction": null,
+      "destinataires": [
+        "Entités financières"
+      ]
+    }
   },
   {
     "id": "EX-0063",
@@ -5096,8 +6043,16 @@
     "destinataires": [
       "Entités financières"
     ],
-    "echeance": null,
-    "sanction": null,
+    "echeance": {
+      "date": "2025-01-17",
+      "type": "Entrée en application",
+      "texte_source": "Art. 64"
+    },
+    "sanction": {
+      "description": "Sanctions administratives et mesures correctives fixées par les États membres (injonction, cessation de la pratique, mesures pécuniaires, communication publique), avec publication des décisions de sanction",
+      "niveau": "Élevé",
+      "article": "Art. 50 §4 ; Art. 54"
+    },
     "confiance": 1,
     "confiance_detail": {
       "llm": 1,
@@ -5165,10 +6120,17 @@
     "lots_ids": [
       "LA-0003"
     ],
-    "run_id": "RUN-20261027-2110",
+    "run_id": "RUN-20261029-1658",
     "chunk_id": "TX-0001-chunk-02-art11-15",
     "avertissements": [],
-    "revalidation_motif": null
+    "revalidation_motif": null,
+    "valeurs_extraction": {
+      "echeance": null,
+      "sanction": null,
+      "destinataires": [
+        "Entités financières"
+      ]
+    }
   },
   {
     "id": "EX-0064",
@@ -5185,8 +6147,16 @@
     "destinataires": [
       "Entités financières"
     ],
-    "echeance": null,
-    "sanction": null,
+    "echeance": {
+      "date": "2025-01-17",
+      "type": "Entrée en application",
+      "texte_source": "Art. 64"
+    },
+    "sanction": {
+      "description": "Sanctions administratives et mesures correctives fixées par les États membres (injonction, cessation de la pratique, mesures pécuniaires, communication publique), avec publication des décisions de sanction",
+      "niveau": "Élevé",
+      "article": "Art. 50 §4 ; Art. 54"
+    },
     "confiance": 1,
     "confiance_detail": {
       "llm": 1,
@@ -5251,10 +6221,17 @@
     "lots_ids": [
       "LA-0012"
     ],
-    "run_id": "RUN-20261027-2110",
+    "run_id": "RUN-20261029-1658",
     "chunk_id": "TX-0001-chunk-02-art11-15",
     "avertissements": [],
-    "revalidation_motif": null
+    "revalidation_motif": null,
+    "valeurs_extraction": {
+      "echeance": null,
+      "sanction": null,
+      "destinataires": [
+        "Entités financières"
+      ]
+    }
   },
   {
     "id": "EX-0065",
@@ -5271,8 +6248,16 @@
     "destinataires": [
       "Entités financières"
     ],
-    "echeance": null,
-    "sanction": null,
+    "echeance": {
+      "date": "2025-01-17",
+      "type": "Entrée en application",
+      "texte_source": "Art. 64"
+    },
+    "sanction": {
+      "description": "Sanctions administratives et mesures correctives fixées par les États membres (injonction, cessation de la pratique, mesures pécuniaires, communication publique), avec publication des décisions de sanction",
+      "niveau": "Élevé",
+      "article": "Art. 50 §4 ; Art. 54"
+    },
     "confiance": 1,
     "confiance_detail": {
       "llm": 1,
@@ -5333,10 +6318,17 @@
     "lots_ids": [
       "LA-0014"
     ],
-    "run_id": "RUN-20261027-2110",
+    "run_id": "RUN-20261029-1658",
     "chunk_id": "TX-0001-chunk-02-art11-15",
     "avertissements": [],
-    "revalidation_motif": null
+    "revalidation_motif": null,
+    "valeurs_extraction": {
+      "echeance": null,
+      "sanction": null,
+      "destinataires": [
+        "Entités financières"
+      ]
+    }
   },
   {
     "id": "EX-0066",
@@ -5353,8 +6345,16 @@
     "destinataires": [
       "Entités financières autres que les microentreprises"
     ],
-    "echeance": null,
-    "sanction": null,
+    "echeance": {
+      "date": "2025-01-17",
+      "type": "Entrée en application",
+      "texte_source": "Art. 64"
+    },
+    "sanction": {
+      "description": "Sanctions administratives et mesures correctives fixées par les États membres (injonction, cessation de la pratique, mesures pécuniaires, communication publique), avec publication des décisions de sanction",
+      "niveau": "Élevé",
+      "article": "Art. 50 §4 ; Art. 54"
+    },
     "confiance": 1,
     "confiance_detail": {
       "llm": 1,
@@ -5411,10 +6411,17 @@
     "lots_ids": [
       "LA-0014"
     ],
-    "run_id": "RUN-20261027-2110",
+    "run_id": "RUN-20261029-1658",
     "chunk_id": "TX-0001-chunk-02-art11-15",
     "avertissements": [],
-    "revalidation_motif": null
+    "revalidation_motif": null,
+    "valeurs_extraction": {
+      "echeance": null,
+      "sanction": null,
+      "destinataires": [
+        "Entités financières autres que les microentreprises"
+      ]
+    }
   },
   {
     "id": "EX-0067",
@@ -5428,9 +6435,19 @@
     "url_article": "https://eur-lex.europa.eu/legal-content/FR/TXT/HTML/?uri=CELEX:32022R2554#art_13",
     "verifie_dans_source": true,
     "type_obligation": "Gouvernance",
-    "destinataires": [],
-    "echeance": null,
-    "sanction": null,
+    "destinataires": [
+      "Entités financières"
+    ],
+    "echeance": {
+      "date": "2025-01-17",
+      "type": "Entrée en application",
+      "texte_source": "Art. 64"
+    },
+    "sanction": {
+      "description": "Sanctions administratives et mesures correctives fixées par les États membres (injonction, cessation de la pratique, mesures pécuniaires, communication publique), avec publication des décisions de sanction",
+      "niveau": "Élevé",
+      "article": "Art. 50 §4 ; Art. 54"
+    },
     "confiance": 0.88,
     "confiance_detail": {
       "llm": 0.75,
@@ -5494,10 +6511,15 @@
     "lots_ids": [
       "LA-0004"
     ],
-    "run_id": "RUN-20261027-2110",
+    "run_id": "RUN-20261029-1658",
     "chunk_id": "TX-0001-chunk-02-art11-15",
     "avertissements": [],
-    "revalidation_motif": null
+    "revalidation_motif": null,
+    "valeurs_extraction": {
+      "echeance": null,
+      "sanction": null,
+      "destinataires": []
+    }
   },
   {
     "id": "EX-0068",
@@ -5514,8 +6536,16 @@
     "destinataires": [
       "Entités financières"
     ],
-    "echeance": null,
-    "sanction": null,
+    "echeance": {
+      "date": "2025-01-17",
+      "type": "Entrée en application",
+      "texte_source": "Art. 64"
+    },
+    "sanction": {
+      "description": "Sanctions administratives et mesures correctives fixées par les États membres (injonction, cessation de la pratique, mesures pécuniaires, communication publique), avec publication des décisions de sanction",
+      "niveau": "Élevé",
+      "article": "Art. 50 §4 ; Art. 54"
+    },
     "confiance": 1,
     "confiance_detail": {
       "llm": 1,
@@ -5581,10 +6611,17 @@
     "lots_ids": [
       "LA-0007"
     ],
-    "run_id": "RUN-20261027-2110",
+    "run_id": "RUN-20261029-1658",
     "chunk_id": "TX-0001-chunk-02-art11-15",
     "avertissements": [],
-    "revalidation_motif": null
+    "revalidation_motif": null,
+    "valeurs_extraction": {
+      "echeance": null,
+      "sanction": null,
+      "destinataires": [
+        "Entités financières"
+      ]
+    }
   },
   {
     "id": "EX-0069",
@@ -5599,14 +6636,20 @@
     "verifie_dans_source": true,
     "type_obligation": "Gouvernance",
     "destinataires": [
-      "Membres de l'encadrement supérieur responsables des TIC"
+      "Membres de l'encadrement supérieur responsables des TIC",
+      "Entités financières",
+      "Organe de direction"
     ],
     "echeance": {
-      "date": null,
+      "date": "2025-01-17",
       "type": "Périodique",
-      "texte_source": "Art. 13 §5"
+      "texte_source": "Art. 13 §5 (annuel) ; Art. 64"
     },
-    "sanction": null,
+    "sanction": {
+      "description": "Sanctions administratives et mesures correctives fixées par les États membres, applicables aussi aux membres de l'organe de direction et autres personnes responsables, avec publication des décisions",
+      "niveau": "Élevé",
+      "article": "Art. 50 §4 et §5 ; Art. 54"
+    },
     "confiance": 1,
     "confiance_detail": {
       "llm": 1,
@@ -5660,10 +6703,21 @@
     "lots_ids": [
       "LA-0004"
     ],
-    "run_id": "RUN-20261027-2110",
+    "run_id": "RUN-20261029-1658",
     "chunk_id": "TX-0001-chunk-02-art11-15",
     "avertissements": [],
-    "revalidation_motif": null
+    "revalidation_motif": null,
+    "valeurs_extraction": {
+      "echeance": {
+        "date": null,
+        "type": "Périodique",
+        "texte_source": "Art. 13 §5"
+      },
+      "sanction": null,
+      "destinataires": [
+        "Membres de l'encadrement supérieur responsables des TIC"
+      ]
+    }
   },
   {
     "id": "EX-0070",
@@ -5680,8 +6734,16 @@
     "destinataires": [
       "Entités financières"
     ],
-    "echeance": null,
-    "sanction": null,
+    "echeance": {
+      "date": "2025-01-17",
+      "type": "Entrée en application",
+      "texte_source": "Art. 64"
+    },
+    "sanction": {
+      "description": "Sanctions administratives et mesures correctives fixées par les États membres (injonction, cessation de la pratique, mesures pécuniaires, communication publique), avec publication des décisions de sanction",
+      "niveau": "Élevé",
+      "article": "Art. 50 §4 ; Art. 54"
+    },
     "confiance": 1,
     "confiance_detail": {
       "llm": 1,
@@ -5734,10 +6796,17 @@
     "lots_ids": [
       "LA-0012"
     ],
-    "run_id": "RUN-20261027-2110",
+    "run_id": "RUN-20261029-1658",
     "chunk_id": "TX-0001-chunk-02-art11-15",
     "avertissements": [],
-    "revalidation_motif": null
+    "revalidation_motif": null,
+    "valeurs_extraction": {
+      "echeance": null,
+      "sanction": null,
+      "destinataires": [
+        "Entités financières"
+      ]
+    }
   },
   {
     "id": "EX-0071",
@@ -5754,8 +6823,16 @@
     "destinataires": [
       "Entités financières autres que les microentreprises"
     ],
-    "echeance": null,
-    "sanction": null,
+    "echeance": {
+      "date": "2025-01-17",
+      "type": "Entrée en application",
+      "texte_source": "Art. 64"
+    },
+    "sanction": {
+      "description": "Sanctions administratives et mesures correctives fixées par les États membres (injonction, cessation de la pratique, mesures pécuniaires, communication publique), avec publication des décisions de sanction",
+      "niveau": "Élevé",
+      "article": "Art. 50 §4 ; Art. 54"
+    },
     "confiance": 1,
     "confiance_detail": {
       "llm": 1,
@@ -5803,10 +6880,17 @@
     "lots_ids": [
       "LA-0007"
     ],
-    "run_id": "RUN-20261027-2110",
+    "run_id": "RUN-20261029-1658",
     "chunk_id": "TX-0001-chunk-02-art11-15",
     "avertissements": [],
-    "revalidation_motif": null
+    "revalidation_motif": null,
+    "valeurs_extraction": {
+      "echeance": null,
+      "sanction": null,
+      "destinataires": [
+        "Entités financières autres que les microentreprises"
+      ]
+    }
   },
   {
     "id": "EX-0072",
@@ -5823,8 +6907,16 @@
     "destinataires": [
       "Entités financières"
     ],
-    "echeance": null,
-    "sanction": null,
+    "echeance": {
+      "date": "2025-01-17",
+      "type": "Entrée en application",
+      "texte_source": "Art. 64"
+    },
+    "sanction": {
+      "description": "Sanctions administratives et mesures correctives fixées par les États membres (injonction, cessation de la pratique, mesures pécuniaires, communication publique), avec publication des décisions de sanction",
+      "niveau": "Élevé",
+      "article": "Art. 50 §4 ; Art. 54"
+    },
     "confiance": 1,
     "confiance_detail": {
       "llm": 1,
@@ -5886,10 +6978,17 @@
     "lots_ids": [
       "LA-0014"
     ],
-    "run_id": "RUN-20261027-2110",
+    "run_id": "RUN-20261029-1658",
     "chunk_id": "TX-0001-chunk-02-art11-15",
     "avertissements": [],
-    "revalidation_motif": null
+    "revalidation_motif": null,
+    "valeurs_extraction": {
+      "echeance": null,
+      "sanction": null,
+      "destinataires": [
+        "Entités financières"
+      ]
+    }
   },
   {
     "id": "EX-0073",
@@ -5906,8 +7005,16 @@
     "destinataires": [
       "Entités financières"
     ],
-    "echeance": null,
-    "sanction": null,
+    "echeance": {
+      "date": "2025-01-17",
+      "type": "Entrée en application",
+      "texte_source": "Art. 64"
+    },
+    "sanction": {
+      "description": "Sanctions administratives et mesures correctives fixées par les États membres (injonction, cessation de la pratique, mesures pécuniaires, communication publique), avec publication des décisions de sanction",
+      "niveau": "Élevé",
+      "article": "Art. 50 §4 ; Art. 54"
+    },
     "confiance": 1,
     "confiance_detail": {
       "llm": 1,
@@ -5964,10 +7071,17 @@
     "lots_ids": [
       "LA-0014"
     ],
-    "run_id": "RUN-20261027-2110",
+    "run_id": "RUN-20261029-1658",
     "chunk_id": "TX-0001-chunk-02-art11-15",
     "avertissements": [],
-    "revalidation_motif": null
+    "revalidation_motif": null,
+    "valeurs_extraction": {
+      "echeance": null,
+      "sanction": null,
+      "destinataires": [
+        "Entités financières"
+      ]
+    }
   },
   {
     "id": "EX-0074",
@@ -5984,8 +7098,16 @@
     "destinataires": [
       "Entités financières"
     ],
-    "echeance": null,
-    "sanction": null,
+    "echeance": {
+      "date": "2025-01-17",
+      "type": "Entrée en application",
+      "texte_source": "Art. 64"
+    },
+    "sanction": {
+      "description": "Sanctions administratives et mesures correctives fixées par les États membres (injonction, cessation de la pratique, mesures pécuniaires, communication publique), avec publication des décisions de sanction",
+      "niveau": "Élevé",
+      "article": "Art. 50 §4 ; Art. 54"
+    },
     "confiance": 0.95,
     "confiance_detail": {
       "llm": 0.9,
@@ -6032,10 +7154,17 @@
     "lots_ids": [
       "LA-0014"
     ],
-    "run_id": "RUN-20261027-2110",
+    "run_id": "RUN-20261029-1658",
     "chunk_id": "TX-0001-chunk-02-art11-15",
     "avertissements": [],
-    "revalidation_motif": null
+    "revalidation_motif": null,
+    "valeurs_extraction": {
+      "echeance": null,
+      "sanction": null,
+      "destinataires": [
+        "Entités financières"
+      ]
+    }
   },
   {
     "id": "EX-0075",
@@ -6056,8 +7185,16 @@
       "Établissements de monnaie électronique exemptés en vertu de la directive 2009/110/CE",
       "Petites institutions de retraite professionnelle"
     ],
-    "echeance": null,
-    "sanction": null,
+    "echeance": {
+      "date": "2025-01-17",
+      "type": "Entrée en application",
+      "texte_source": "Art. 64"
+    },
+    "sanction": {
+      "description": "Sanctions administratives et mesures correctives fixées par les États membres (injonction, cessation de la pratique, mesures pécuniaires, communication publique), avec publication des décisions de sanction",
+      "niveau": "Élevé",
+      "article": "Art. 50 §4 ; Art. 54"
+    },
     "confiance": 1,
     "confiance_detail": {
       "llm": 1,
@@ -6121,10 +7258,21 @@
     "lots_ids": [
       "LA-0004"
     ],
-    "run_id": "RUN-20261027-2110",
+    "run_id": "RUN-20261029-1658",
     "chunk_id": "TX-0001-chunk-03-art16-16",
     "avertissements": [],
-    "revalidation_motif": null
+    "revalidation_motif": null,
+    "valeurs_extraction": {
+      "echeance": null,
+      "sanction": null,
+      "destinataires": [
+        "Petites entreprises d'investissement non interconnectées",
+        "Établissements de paiement exemptés en vertu de la directive (UE) 2015/2366",
+        "Établissements exemptés en vertu de la directive 2013/36/UE",
+        "Établissements de monnaie électronique exemptés en vertu de la directive 2009/110/CE",
+        "Petites institutions de retraite professionnelle"
+      ]
+    }
   },
   {
     "id": "EX-0076",
@@ -6145,8 +7293,16 @@
       "Établissements de monnaie électronique exemptés en vertu de la directive 2009/110/CE",
       "Petites institutions de retraite professionnelle"
     ],
-    "echeance": null,
-    "sanction": null,
+    "echeance": {
+      "date": "2025-01-17",
+      "type": "Entrée en application",
+      "texte_source": "Art. 64"
+    },
+    "sanction": {
+      "description": "Sanctions administratives et mesures correctives fixées par les États membres : injonction, cessation de la pratique, mesures pécuniaires, déclaration publique ; applicables aussi aux membres de l'organe de direction.",
+      "niveau": "Élevé",
+      "article": "Art. 50 §3 à §5 ; Art. 54"
+    },
     "confiance": 1,
     "confiance_detail": {
       "llm": 1,
@@ -6218,10 +7374,21 @@
     "lots_ids": [
       "LA-0013"
     ],
-    "run_id": "RUN-20261027-2110",
+    "run_id": "RUN-20261029-1658",
     "chunk_id": "TX-0001-chunk-03-art16-16",
     "avertissements": [],
-    "revalidation_motif": null
+    "revalidation_motif": null,
+    "valeurs_extraction": {
+      "echeance": null,
+      "sanction": null,
+      "destinataires": [
+        "Petites entreprises d'investissement non interconnectées",
+        "Établissements de paiement exemptés en vertu de la directive (UE) 2015/2366",
+        "Établissements exemptés en vertu de la directive 2013/36/UE",
+        "Établissements de monnaie électronique exemptés en vertu de la directive 2009/110/CE",
+        "Petites institutions de retraite professionnelle"
+      ]
+    }
   },
   {
     "id": "EX-0077",
@@ -6242,8 +7409,16 @@
       "Établissements de monnaie électronique exemptés en vertu de la directive 2009/110/CE",
       "Petites institutions de retraite professionnelle"
     ],
-    "echeance": null,
-    "sanction": null,
+    "echeance": {
+      "date": "2025-01-17",
+      "type": "Entrée en application",
+      "texte_source": "Art. 64"
+    },
+    "sanction": {
+      "description": "Sanctions administratives et mesures correctives fixées par les États membres : injonction, cessation de la pratique, mesures pécuniaires, déclaration publique ; applicables aussi aux membres de l'organe de direction.",
+      "niveau": "Élevé",
+      "article": "Art. 50 §3 à §5 ; Art. 54"
+    },
     "confiance": 1,
     "confiance_detail": {
       "llm": 1,
@@ -6343,10 +7518,21 @@
     "lots_ids": [
       "LA-0009"
     ],
-    "run_id": "RUN-20261027-2110",
+    "run_id": "RUN-20261029-1658",
     "chunk_id": "TX-0001-chunk-03-art16-16",
     "avertissements": [],
-    "revalidation_motif": null
+    "revalidation_motif": null,
+    "valeurs_extraction": {
+      "echeance": null,
+      "sanction": null,
+      "destinataires": [
+        "Petites entreprises d'investissement non interconnectées",
+        "Établissements de paiement exemptés en vertu de la directive (UE) 2015/2366",
+        "Établissements exemptés en vertu de la directive 2013/36/UE",
+        "Établissements de monnaie électronique exemptés en vertu de la directive 2009/110/CE",
+        "Petites institutions de retraite professionnelle"
+      ]
+    }
   },
   {
     "id": "EX-0078",
@@ -6367,8 +7553,16 @@
       "Établissements de monnaie électronique exemptés en vertu de la directive 2009/110/CE",
       "Petites institutions de retraite professionnelle"
     ],
-    "echeance": null,
-    "sanction": null,
+    "echeance": {
+      "date": "2025-01-17",
+      "type": "Entrée en application",
+      "texte_source": "Art. 64"
+    },
+    "sanction": {
+      "description": "Sanctions administratives et mesures correctives fixées par les États membres : injonction, cessation de la pratique, mesures pécuniaires, déclaration publique ; applicables aussi aux membres de l'organe de direction.",
+      "niveau": "Élevé",
+      "article": "Art. 50 §3 à §5 ; Art. 54"
+    },
     "confiance": 1,
     "confiance_detail": {
       "llm": 1,
@@ -6453,10 +7647,21 @@
     "lots_ids": [
       "LA-0014"
     ],
-    "run_id": "RUN-20261027-2110",
+    "run_id": "RUN-20261029-1658",
     "chunk_id": "TX-0001-chunk-03-art16-16",
     "avertissements": [],
-    "revalidation_motif": null
+    "revalidation_motif": null,
+    "valeurs_extraction": {
+      "echeance": null,
+      "sanction": null,
+      "destinataires": [
+        "Petites entreprises d'investissement non interconnectées",
+        "Établissements de paiement exemptés en vertu de la directive (UE) 2015/2366",
+        "Établissements exemptés en vertu de la directive 2013/36/UE",
+        "Établissements de monnaie électronique exemptés en vertu de la directive 2009/110/CE",
+        "Petites institutions de retraite professionnelle"
+      ]
+    }
   },
   {
     "id": "EX-0079",
@@ -6477,8 +7682,16 @@
       "Établissements de monnaie électronique exemptés en vertu de la directive 2009/110/CE",
       "Petites institutions de retraite professionnelle"
     ],
-    "echeance": null,
-    "sanction": null,
+    "echeance": {
+      "date": "2025-01-17",
+      "type": "Entrée en application",
+      "texte_source": "Art. 64"
+    },
+    "sanction": {
+      "description": "Sanctions administratives et mesures correctives fixées par les États membres : injonction, cessation de la pratique, mesures pécuniaires, déclaration publique ; applicables aussi aux membres de l'organe de direction.",
+      "niveau": "Élevé",
+      "article": "Art. 50 §3 à §5 ; Art. 54"
+    },
     "confiance": 1,
     "confiance_detail": {
       "llm": 1,
@@ -6563,10 +7776,21 @@
     "lots_ids": [
       "LA-0006"
     ],
-    "run_id": "RUN-20261027-2110",
+    "run_id": "RUN-20261029-1658",
     "chunk_id": "TX-0001-chunk-03-art16-16",
     "avertissements": [],
-    "revalidation_motif": null
+    "revalidation_motif": null,
+    "valeurs_extraction": {
+      "echeance": null,
+      "sanction": null,
+      "destinataires": [
+        "Petites entreprises d'investissement non interconnectées",
+        "Établissements de paiement exemptés en vertu de la directive (UE) 2015/2366",
+        "Établissements exemptés en vertu de la directive 2013/36/UE",
+        "Établissements de monnaie électronique exemptés en vertu de la directive 2009/110/CE",
+        "Petites institutions de retraite professionnelle"
+      ]
+    }
   },
   {
     "id": "EX-0080",
@@ -6587,8 +7811,16 @@
       "Établissements de monnaie électronique exemptés en vertu de la directive 2009/110/CE",
       "Petites institutions de retraite professionnelle"
     ],
-    "echeance": null,
-    "sanction": null,
+    "echeance": {
+      "date": "2025-01-17",
+      "type": "Entrée en application",
+      "texte_source": "Art. 64"
+    },
+    "sanction": {
+      "description": "Sanctions administratives et mesures correctives fixées par les États membres : injonction, cessation de la pratique, mesures pécuniaires, déclaration publique ; applicables aussi aux membres de l'organe de direction.",
+      "niveau": "Élevé",
+      "article": "Art. 50 §3 à §5 ; Art. 54"
+    },
     "confiance": 1,
     "confiance_detail": {
       "llm": 1,
@@ -6684,10 +7916,21 @@
     "lots_ids": [
       "LA-0003"
     ],
-    "run_id": "RUN-20261027-2110",
+    "run_id": "RUN-20261029-1658",
     "chunk_id": "TX-0001-chunk-03-art16-16",
     "avertissements": [],
-    "revalidation_motif": null
+    "revalidation_motif": null,
+    "valeurs_extraction": {
+      "echeance": null,
+      "sanction": null,
+      "destinataires": [
+        "Petites entreprises d'investissement non interconnectées",
+        "Établissements de paiement exemptés en vertu de la directive (UE) 2015/2366",
+        "Établissements exemptés en vertu de la directive 2013/36/UE",
+        "Établissements de monnaie électronique exemptés en vertu de la directive 2009/110/CE",
+        "Petites institutions de retraite professionnelle"
+      ]
+    }
   },
   {
     "id": "EX-0081",
@@ -6709,11 +7952,15 @@
       "Petites institutions de retraite professionnelle"
     ],
     "echeance": {
-      "date": null,
+      "date": "2025-01-17",
       "type": "Périodique",
-      "texte_source": "Art. 16 §1, point g)"
+      "texte_source": "Art. 16 §1, point g) ; Art. 64"
     },
-    "sanction": null,
+    "sanction": {
+      "description": "Sanctions administratives et mesures correctives fixées par les États membres : injonction, cessation de la pratique, mesures pécuniaires, déclaration publique ; applicables aussi aux membres de l'organe de direction.",
+      "niveau": "Élevé",
+      "article": "Art. 50 §3 à §5 ; Art. 54"
+    },
     "confiance": 1,
     "confiance_detail": {
       "llm": 1,
@@ -6802,10 +8049,25 @@
     "lots_ids": [
       "LA-0003"
     ],
-    "run_id": "RUN-20261027-2110",
+    "run_id": "RUN-20261029-1658",
     "chunk_id": "TX-0001-chunk-03-art16-16",
     "avertissements": [],
-    "revalidation_motif": null
+    "revalidation_motif": null,
+    "valeurs_extraction": {
+      "echeance": {
+        "date": null,
+        "type": "Périodique",
+        "texte_source": "Art. 16 §1, point g)"
+      },
+      "sanction": null,
+      "destinataires": [
+        "Petites entreprises d'investissement non interconnectées",
+        "Établissements de paiement exemptés en vertu de la directive (UE) 2015/2366",
+        "Établissements exemptés en vertu de la directive 2013/36/UE",
+        "Établissements de monnaie électronique exemptés en vertu de la directive 2009/110/CE",
+        "Petites institutions de retraite professionnelle"
+      ]
+    }
   },
   {
     "id": "EX-0082",
@@ -6826,8 +8088,16 @@
       "Établissements de monnaie électronique exemptés en vertu de la directive 2009/110/CE",
       "Petites institutions de retraite professionnelle"
     ],
-    "echeance": null,
-    "sanction": null,
+    "echeance": {
+      "date": "2025-01-17",
+      "type": "Entrée en application",
+      "texte_source": "Art. 64"
+    },
+    "sanction": {
+      "description": "Sanctions administratives et mesures correctives fixées par les États membres : injonction, cessation de la pratique, mesures pécuniaires, déclaration publique ; applicables aussi aux membres de l'organe de direction.",
+      "niveau": "Élevé",
+      "article": "Art. 50 §3 à §5 ; Art. 54"
+    },
     "confiance": 0.9,
     "confiance_detail": {
       "llm": 0.8,
@@ -6896,10 +8166,21 @@
     "lots_ids": [
       "LA-0004"
     ],
-    "run_id": "RUN-20261027-2110",
+    "run_id": "RUN-20261029-1658",
     "chunk_id": "TX-0001-chunk-03-art16-16",
     "avertissements": [],
-    "revalidation_motif": null
+    "revalidation_motif": null,
+    "valeurs_extraction": {
+      "echeance": null,
+      "sanction": null,
+      "destinataires": [
+        "Petites entreprises d'investissement non interconnectées",
+        "Établissements de paiement exemptés en vertu de la directive (UE) 2015/2366",
+        "Établissements exemptés en vertu de la directive 2013/36/UE",
+        "Établissements de monnaie électronique exemptés en vertu de la directive 2009/110/CE",
+        "Petites institutions de retraite professionnelle"
+      ]
+    }
   },
   {
     "id": "EX-0083",
@@ -6920,8 +8201,16 @@
       "Établissements de monnaie électronique exemptés en vertu de la directive 2009/110/CE",
       "Petites institutions de retraite professionnelle"
     ],
-    "echeance": null,
-    "sanction": null,
+    "echeance": {
+      "date": "2025-01-17",
+      "type": "Entrée en application",
+      "texte_source": "Art. 64"
+    },
+    "sanction": {
+      "description": "Sanctions administratives et mesures correctives fixées par les États membres : injonction, cessation de la pratique, mesures pécuniaires, déclaration publique ; applicables aussi aux membres de l'organe de direction.",
+      "niveau": "Élevé",
+      "article": "Art. 50 §3 à §5 ; Art. 54"
+    },
     "confiance": 0.95,
     "confiance_detail": {
       "llm": 0.9,
@@ -6971,10 +8260,21 @@
     "lots_ids": [
       "LA-0012"
     ],
-    "run_id": "RUN-20261027-2110",
+    "run_id": "RUN-20261029-1658",
     "chunk_id": "TX-0001-chunk-03-art16-16",
     "avertissements": [],
-    "revalidation_motif": null
+    "revalidation_motif": null,
+    "valeurs_extraction": {
+      "echeance": null,
+      "sanction": null,
+      "destinataires": [
+        "Petites entreprises d'investissement non interconnectées",
+        "Établissements de paiement exemptés en vertu de la directive (UE) 2015/2366",
+        "Établissements exemptés en vertu de la directive 2013/36/UE",
+        "Établissements de monnaie électronique exemptés en vertu de la directive 2009/110/CE",
+        "Petites institutions de retraite professionnelle"
+      ]
+    }
   },
   {
     "id": "EX-0084",
@@ -6996,11 +8296,15 @@
       "Petites institutions de retraite professionnelle"
     ],
     "echeance": {
-      "date": null,
+      "date": "2025-01-17",
       "type": "Périodique",
-      "texte_source": "Art. 16 §2"
+      "texte_source": "Art. 16 §2 ; Art. 64"
     },
-    "sanction": null,
+    "sanction": {
+      "description": "Sanctions administratives et mesures correctives fixées par les États membres : injonction, cessation de la pratique, mesures pécuniaires, déclaration publique ; applicables aussi aux membres de l'organe de direction.",
+      "niveau": "Élevé",
+      "article": "Art. 50 §3 à §5 ; Art. 54"
+    },
     "confiance": 0.95,
     "confiance_detail": {
       "llm": 0.9,
@@ -7069,10 +8373,25 @@
     "lots_ids": [
       "LA-0007"
     ],
-    "run_id": "RUN-20261027-2110",
+    "run_id": "RUN-20261029-1658",
     "chunk_id": "TX-0001-chunk-03-art16-16",
     "avertissements": [],
-    "revalidation_motif": null
+    "revalidation_motif": null,
+    "valeurs_extraction": {
+      "echeance": {
+        "date": null,
+        "type": "Périodique",
+        "texte_source": "Art. 16 §2"
+      },
+      "sanction": null,
+      "destinataires": [
+        "Petites entreprises d'investissement non interconnectées",
+        "Établissements de paiement exemptés en vertu de la directive (UE) 2015/2366",
+        "Établissements exemptés en vertu de la directive 2013/36/UE",
+        "Établissements de monnaie électronique exemptés en vertu de la directive 2009/110/CE",
+        "Petites institutions de retraite professionnelle"
+      ]
+    }
   },
   {
     "id": "EX-0085",
@@ -7093,8 +8412,16 @@
       "Établissements de monnaie électronique exemptés en vertu de la directive 2009/110/CE",
       "Petites institutions de retraite professionnelle"
     ],
-    "echeance": null,
-    "sanction": null,
+    "echeance": {
+      "date": "2025-01-17",
+      "type": "Entrée en application",
+      "texte_source": "Art. 64"
+    },
+    "sanction": {
+      "description": "Sanctions administratives et mesures correctives fixées par les États membres : injonction, cessation de la pratique, mesures pécuniaires, déclaration publique ; applicables aussi aux membres de l'organe de direction.",
+      "niveau": "Élevé",
+      "article": "Art. 50 §3 à §5 ; Art. 54"
+    },
     "confiance": 0.95,
     "confiance_detail": {
       "llm": 0.9,
@@ -7150,9 +8477,20 @@
     "lots_ids": [
       "LA-0004"
     ],
-    "run_id": "RUN-20261027-2110",
+    "run_id": "RUN-20261029-1658",
     "chunk_id": "TX-0001-chunk-03-art16-16",
     "avertissements": [],
-    "revalidation_motif": null
+    "revalidation_motif": null,
+    "valeurs_extraction": {
+      "echeance": null,
+      "sanction": null,
+      "destinataires": [
+        "Petites entreprises d'investissement non interconnectées",
+        "Établissements de paiement exemptés en vertu de la directive (UE) 2015/2366",
+        "Établissements exemptés en vertu de la directive 2013/36/UE",
+        "Établissements de monnaie électronique exemptés en vertu de la directive 2009/110/CE",
+        "Petites institutions de retraite professionnelle"
+      ]
+    }
   }
 ]

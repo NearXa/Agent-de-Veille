@@ -140,6 +140,15 @@ export const ExigenceRecordSchema = z.object({
   avertissements: z.array(z.string()).default([]),
   /** Motif posé par l'agent quand un article cité a été modifié (statut « À revalider »). */
   revalidation_motif: z.string().nullable().default(null),
+  /** Échéance, sanction et destinataires tels que lus par l'extraction, avant enrichissement ou correction. */
+  valeurs_extraction: z
+    .object({
+      echeance: EcheanceSchema.nullable(),
+      sanction: SanctionSchema.nullable(),
+      destinataires: z.array(z.string()),
+    })
+    .nullable()
+    .optional(),
 });
 export type ExigenceRecord = z.infer<typeof ExigenceRecordSchema>;
 

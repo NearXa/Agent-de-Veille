@@ -11,7 +11,7 @@ import {
   type RunContext,
 } from '../store/run.js';
 import type { ExigenceRecord } from '../store/types.js';
-import type { StructuredCaller } from './extract.js';
+import { applyCorrections, type StructuredCaller } from './extract.js';
 import {
   chunkArray,
   exigenceLine,
@@ -39,6 +39,28 @@ export interface EnrichSummary {
 }
 
 const ISO_DATE = /^\d{4}-\d{2}-\d{2}$/;
+
+/** Valeurs lues par l'extraction (avant tout enrichissement) ; à défaut, les valeurs actuelles. */
+function brutDe(e: ExigenceRecord): NonNullable<ExigenceRecord['valeurs_extraction']> {
+  return (
+    e.valeurs_extraction ?? {
+      echeance: e.echeance,
+      sanction: e.sanction,
+      destinataires: e.destinataires,
+    }
+  );
+}
+
+/** Le prompt décrit l'état issu de l'extraction : il reste identique d'un run à l'autre et le cache LLM s'applique. */
+function avantEnrichissement(e: ExigenceRecord): ExigenceRecord {
+  const brut = brutDe(e);
+  return {
+    ...e,
+    echeance: brut.echeance,
+    sanction: brut.sanction,
+    destinataires: brut.destinataires,
+  };
+}
 
 /** Étape enrichissement : échéances, sanctions et destinataires complétés depuis les articles transversaux. */
 export async function enrichExigences(options: EnrichOptions): Promise<EnrichSummary> {
@@ -71,7 +93,9 @@ export async function enrichExigences(options: EnrichOptions): Promise<EnrichSum
         titre_texte: texte.titre,
         reference: texte.reference,
         articles: formatArticles(transversaux),
-        exigences: batch.map((e) => exigenceLine(e, { echeance: true })).join('\n'),
+        exigences: batch
+          .map((e) => exigenceLine(avantEnrichissement(e), { echeance: true }))
+          .join('\n'),
       });
       const result = await llm({
         schema: EnrichissementSchema,
@@ -99,7 +123,9 @@ export async function enrichExigences(options: EnrichOptions): Promise<EnrichSum
           );
           continue;
         }
-        let echeance = e.echeance;
+        // Point de départ : les valeurs brutes de l'extraction, pour qu'un nouveau passage soit idempotent.
+        const brut = brutDe(e);
+        let echeance = brut.echeance;
         if (item.echeance && item.echeance.date && ISO_DATE.test(item.echeance.date)) {
           echeance = {
             date: item.echeance.date,
@@ -126,14 +152,27 @@ export async function enrichExigences(options: EnrichOptions): Promise<EnrichSum
               niveau: item.sanction.niveau,
               article: item.sanction.article,
             }
-          : e.sanction;
+          : brut.sanction;
         const destinataires = Array.from(
           new Set([
-            ...e.destinataires,
+            ...brut.destinataires,
             ...item.destinataires.map((d) => d.trim()).filter((d) => d.length > 0),
           ]),
         );
-        updated.push({ ...e, echeance, sanction, destinataires, run_id: run.id });
+        const enrichie: ExigenceRecord = {
+          ...e,
+          echeance,
+          sanction,
+          destinataires,
+          valeurs_extraction: brut,
+          run_id: run.id,
+        };
+        // Une correction humaine prime toujours sur l'enrichissement automatique.
+        updated.push(
+          e.statut_validation === 'Corrigée'
+            ? applyCorrections(enrichie, e.version_corrigee)
+            : enrichie,
+        );
       }
     }
     const touched = new Set(updated.map((u) => u.id));
@@ -145,6 +184,7 @@ export async function enrichExigences(options: EnrichOptions): Promise<EnrichSum
         );
         updated.push({
           ...e,
+          valeurs_extraction: brutDe(e),
           echeance: e.echeance?.date
             ? e.echeance
             : texte.date_entree_en_application

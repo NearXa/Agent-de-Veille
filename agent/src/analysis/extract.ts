@@ -16,7 +16,7 @@ import {
   writeRunArtifact,
   type RunContext,
 } from '../store/run.js';
-import type { Echeance, ExigenceRecord, TexteRecord } from '../store/types.js';
+import type { Echeance, ExigenceRecord, Sanction, TexteRecord } from '../store/types.js';
 import { AppError } from '../utils/errors.js';
 import { normalizeForMatch } from '../utils/text.js';
 import { buildChunks, selectArticles, type Chunk } from './chunking.js';
@@ -206,6 +206,33 @@ export function applyCorrections(
   return out;
 }
 
+export interface ValeursExtraction {
+  echeance: Echeance | null;
+  sanction: Sanction | null;
+  destinataires: string[];
+}
+
+/**
+ * Une nouvelle extraction ne doit jamais effacer l'enrichissement (échéances, sanctions et destinataires
+ * complétés par l'étape enrich ou corrigés par un humain) : la valeur extraite ne prime que si elle est renseignée.
+ */
+export function mergeWithEnrichment(
+  extraites: ValeursExtraction,
+  existing: ExigenceRecord | undefined,
+): ValeursExtraction {
+  if (!existing) return extraites;
+  const echeance = extraites.echeance?.date
+    ? extraites.echeance
+    : existing.echeance?.date
+      ? existing.echeance
+      : (extraites.echeance ?? existing.echeance);
+  return {
+    echeance,
+    sanction: extraites.sanction ?? existing.sanction,
+    destinataires: Array.from(new Set([...extraites.destinataires, ...existing.destinataires])),
+  };
+}
+
 function buildRecord(
   candidate: Candidate,
   id: string,
@@ -236,6 +263,18 @@ function buildRecord(
   } as const;
   const confiance = computeConfidence(detail);
   const firstArticle = articleCheck.numeros[0];
+  const extraites: ValeursExtraction = {
+    echeance: sanitizeEcheance(e.echeance, warnings),
+    sanction: e.sanction
+      ? {
+          description: e.sanction.description,
+          niveau: e.sanction.niveau,
+          article: e.sanction.article,
+        }
+      : null,
+    destinataires: e.destinataires.map((d) => d.trim()).filter((d) => d.length > 0),
+  };
+  const effectives = mergeWithEnrichment(extraites, existing);
   const record: ExigenceRecord = {
     id,
     texte_id: texte.id,
@@ -246,15 +285,9 @@ function buildRecord(
     url_article: firstArticle ? articleUrl(texte, firstArticle) : texte.url_officielle,
     verifie_dans_source: articleCheck.ok && verbatimCheck.ok,
     type_obligation: e.type_obligation,
-    destinataires: e.destinataires.map((d) => d.trim()).filter((d) => d.length > 0),
-    echeance: sanitizeEcheance(e.echeance, warnings),
-    sanction: e.sanction
-      ? {
-          description: e.sanction.description,
-          niveau: e.sanction.niveau,
-          article: e.sanction.article,
-        }
-      : null,
+    destinataires: effectives.destinataires,
+    echeance: effectives.echeance,
+    sanction: effectives.sanction,
     confiance,
     confiance_detail: detail,
     justification_confiance: e.justification_confiance || null,
@@ -278,6 +311,7 @@ function buildRecord(
     risques_ids: existing?.risques_ids ?? [],
     jurisprudence_ids: existing?.jurisprudence_ids ?? [],
     lots_ids: existing?.lots_ids ?? [],
+    valeurs_extraction: extraites,
     run_id: runId,
     chunk_id: candidate.chunk_id,
     avertissements: warnings,
