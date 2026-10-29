@@ -1,7 +1,7 @@
 {
   "version": 1,
   "counters": {
-    "TX": 26,
+    "TX": 34,
     "EX": 85,
     "RK": 80,
     "LA": 14
@@ -211,6 +211,14 @@
     "LA|togaf|togaf phase c information systems architectures": "LA-0011",
     "LA|itil|itil information security management": "LA-0012",
     "LA|itil|itil monitoring and event management": "LA-0013",
-    "LA|itil|itil incident management": "LA-0014"
+    "LA|itil|itil incident management": "LA-0014",
+    "TX|eurlex|celex 32026r2470": "TX-0027",
+    "TX|eurlex|celex 32026d2457": "TX-0028",
+    "TX|eurlex|celex 32026d2370": "TX-0029",
+    "TX|eurlex|celex 32026r1915": "TX-0030",
+    "TX|eurlex|celex 32026r2466": "TX-0031",
+    "TX|eurlex|celex 32026d2448": "TX-0032",
+    "TX|eurlex|celex 32026r2343": "TX-0033",
+    "TX|cnil|169092fr": "TX-0034"
   }
 }

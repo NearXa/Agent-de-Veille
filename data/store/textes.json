@@ -14,7 +14,7 @@
     "date_entree_en_application": "2025-01-17",
     "statut_texte": "En vigueur",
     "hash_sha256": "e1e54d9230e86244e1214976d009a6540e15bdc7e2fa1df992237605ff18b41b",
-    "collecte_le": "2026-10-27T20:10:54.189Z",
+    "collecte_le": "2026-10-29T18:28:26.879Z",
     "derniere_modification_detectee": null,
     "fichier_source": "data/sources/dora-32022R2554-fr.html",
     "applicable": "Oui",
@@ -536,7 +536,7 @@
         "position": 63
       }
     ],
-    "run_id": "RUN-20261027-2110",
+    "run_id": "RUN-20261029-1828",
     "version": 1,
     "historique": []
   },
@@ -555,7 +555,7 @@
     "date_entree_en_application": null,
     "statut_texte": "En vigueur",
     "hash_sha256": "72524c10a18b4f2b5baea48dcad0374a0487b42bf649cf6c9324babe8e747e84",
-    "collecte_le": "2026-10-27T18:45:20.435Z",
+    "collecte_le": "2026-10-29T18:28:57.218Z",
     "derniere_modification_detectee": null,
     "fichier_source": null,
     "applicable": "À déterminer",
@@ -581,7 +581,7 @@
         "position": 1
       }
     ],
-    "run_id": "RUN-20261027-1945",
+    "run_id": "RUN-20261029-1828",
     "version": 1,
     "historique": []
   },
@@ -600,7 +600,7 @@
     "date_entree_en_application": null,
     "statut_texte": "En vigueur",
     "hash_sha256": "52118df125e31ba080275f9d033332c11dd27add357edc255630e4f91aa320b0",
-    "collecte_le": "2026-10-27T18:45:24.305Z",
+    "collecte_le": "2026-10-29T18:29:01.196Z",
     "derniere_modification_detectee": null,
     "fichier_source": null,
     "applicable": "À déterminer",
@@ -626,7 +626,7 @@
         "position": 1
       }
     ],
-    "run_id": "RUN-20261027-1945",
+    "run_id": "RUN-20261029-1828",
     "version": 1,
     "historique": []
   },
@@ -645,7 +645,7 @@
     "date_entree_en_application": null,
     "statut_texte": "En vigueur",
     "hash_sha256": "4e3881f5c3ff057d57452d302e464f19542a39385cdb3aa7d08bd54bad13a7fa",
-    "collecte_le": "2026-10-27T18:45:28.299Z",
+    "collecte_le": "2026-10-29T18:29:05.224Z",
     "derniere_modification_detectee": null,
     "fichier_source": null,
     "applicable": "À déterminer",
@@ -671,7 +671,7 @@
         "position": 1
       }
     ],
-    "run_id": "RUN-20261027-1945",
+    "run_id": "RUN-20261029-1828",
     "version": 1,
     "historique": []
   },
@@ -690,7 +690,7 @@
     "date_entree_en_application": null,
     "statut_texte": "En vigueur",
     "hash_sha256": "91014683b19fe41a772496123a1e79f16c4f150fc274cb9dd636a79315741820",
-    "collecte_le": "2026-10-27T18:45:32.335Z",
+    "collecte_le": "2026-10-29T18:29:09.196Z",
     "derniere_modification_detectee": null,
     "fichier_source": null,
     "applicable": "À déterminer",
@@ -716,7 +716,7 @@
         "position": 1
       }
     ],
-    "run_id": "RUN-20261027-1945",
+    "run_id": "RUN-20261029-1828",
     "version": 1,
     "historique": []
   },
@@ -1054,7 +1054,7 @@
     "date_entree_en_application": null,
     "statut_texte": "En vigueur",
     "hash_sha256": "897c027c381945bf210484e71957469b1cc5dc7a923ff83163804c144aebb8f1",
-    "collecte_le": "2026-10-27T18:45:56.326Z",
+    "collecte_le": "2026-10-29T18:29:17.304Z",
     "derniere_modification_detectee": null,
     "fichier_source": null,
     "applicable": "À déterminer",
@@ -1080,7 +1080,7 @@
         "position": 1
       }
     ],
-    "run_id": "RUN-20261027-1945",
+    "run_id": "RUN-20261029-1828",
     "version": 1,
     "historique": []
   },
@@ -1099,7 +1099,7 @@
     "date_entree_en_application": null,
     "statut_texte": "En vigueur",
     "hash_sha256": "3a6759c01197ae76fbf893456c85f625bd0c4a3918cccb11d8fb715ff378c821",
-    "collecte_le": "2026-10-27T18:46:00.326Z",
+    "collecte_le": "2026-10-29T18:29:21.209Z",
     "derniere_modification_detectee": null,
     "fichier_source": null,
     "applicable": "À déterminer",
@@ -1125,7 +1125,7 @@
         "position": 1
       }
     ],
-    "run_id": "RUN-20261027-1945",
+    "run_id": "RUN-20261029-1828",
     "version": 1,
     "historique": []
   },
@@ -1213,7 +1213,7 @@
     "date_entree_en_application": null,
     "statut_texte": "En vigueur",
     "hash_sha256": "951cb53ba330af88c24fd11bcececbf5fca12e0e10f6dbafbfe85d228f539887",
-    "collecte_le": "2026-10-27T18:46:12.339Z",
+    "collecte_le": "2026-10-29T18:29:29.308Z",
     "derniere_modification_detectee": null,
     "fichier_source": null,
     "applicable": "À déterminer",
@@ -1239,7 +1239,7 @@
         "position": 1
       }
     ],
-    "run_id": "RUN-20261027-1945",
+    "run_id": "RUN-20261029-1828",
     "version": 1,
     "historique": []
   },
@@ -1258,7 +1258,7 @@
     "date_entree_en_application": null,
     "statut_texte": "En vigueur",
     "hash_sha256": "9be05fd44b25a21037353d08742e957a8c01e23cf0e45e6be1c22cf7a984561a",
-    "collecte_le": "2026-10-27T18:46:16.460Z",
+    "collecte_le": "2026-10-29T18:29:33.590Z",
     "derniere_modification_detectee": null,
     "fichier_source": null,
     "applicable": "À déterminer",
@@ -1436,7 +1436,7 @@
         "position": 20
       }
     ],
-    "run_id": "RUN-20261027-1945",
+    "run_id": "RUN-20261029-1828",
     "version": 1,
     "historique": []
   },
@@ -1455,7 +1455,7 @@
     "date_entree_en_application": null,
     "statut_texte": "En vigueur",
     "hash_sha256": "8bc95d3113feabf9b15e48cf281ad801d8f3f001d3ebeed3860bed065dcf6b82",
-    "collecte_le": "2026-10-27T18:46:20.410Z",
+    "collecte_le": "2026-10-29T18:29:37.278Z",
     "derniere_modification_detectee": null,
     "fichier_source": null,
     "applicable": "À déterminer",
@@ -1497,7 +1497,7 @@
         "position": 3
       }
     ],
-    "run_id": "RUN-20261027-1945",
+    "run_id": "RUN-20261029-1828",
     "version": 1,
     "historique": []
   },
@@ -1593,7 +1593,7 @@
     "date_entree_en_application": null,
     "statut_texte": "En vigueur",
     "hash_sha256": "395247c07df95fe398596bb8c411f1fde55bac444dab9fc36f41c15cb91ce6b0",
-    "collecte_le": "2026-10-27T18:46:28.318Z",
+    "collecte_le": "2026-10-29T18:29:45.427Z",
     "derniere_modification_detectee": null,
     "fichier_source": null,
     "applicable": "À déterminer",
@@ -1619,7 +1619,7 @@
         "position": 1
       }
     ],
-    "run_id": "RUN-20261027-1945",
+    "run_id": "RUN-20261029-1828",
     "version": 1,
     "historique": []
   },
@@ -1766,7 +1766,7 @@
     "date_entree_en_application": null,
     "statut_texte": "En vigueur",
     "hash_sha256": "c7e4b2f25c85e27289b6e7728eb41a12b5a177f0304e56edaffa53c476188ff1",
-    "collecte_le": "2026-10-27T18:46:48.152Z",
+    "collecte_le": "2026-10-29T18:30:00.072Z",
     "derniere_modification_detectee": null,
     "fichier_source": null,
     "applicable": "À déterminer",
@@ -1785,7 +1785,7 @@
         "position": 0
       }
     ],
-    "run_id": "RUN-20261027-1945",
+    "run_id": "RUN-20261029-1828",
     "version": 1,
     "historique": []
   },
@@ -1878,10 +1878,10 @@
     "date_publication": null,
     "date_entree_en_vigueur": null,
     "date_entree_en_application": null,
-    "statut_texte": "En vigueur",
-    "hash_sha256": "f8a37526c848fcbf1a4f210a9018ea5928fe3fc5abc44fb4e832306745e07ede",
-    "collecte_le": "2026-10-27T18:46:56.475Z",
-    "derniere_modification_detectee": null,
+    "statut_texte": "Modifié",
+    "hash_sha256": "4d5e69b981722ca666fcb6f3b2fae8f3d4df5b883d7663862235989e99305587",
+    "collecte_le": "2026-10-29T18:30:06.595Z",
+    "derniere_modification_detectee": "2026-10-29T18:30:06.595Z",
     "fichier_source": null,
     "applicable": "À déterminer",
     "justification_applicabilite": null,
@@ -1892,16 +1892,28 @@
       {
         "numero": "document",
         "titre": "Bulletin d'actualité CERTFR-2026-ACT-042 (05 octobre 2026)",
-        "contenu": "Contenu\n\nMenu\n\nPied de page\n\nMenu\n\nParamètres d'affichage\n\nDéclarer un\nincident\n\nFermer\n\nParamètres\nd'affichage\n\nDéclarer un\nincident\n\nNous connaître\n\nA propos du CERT-FR\n\nRFC2350\n\nEcosystème des CERT/CSIRT\n\nPolitique de partage des informations\n\nPublications\n\nAlertes de sécurité\n\nRapports menaces et incidents\n\nAvis de sécurité\n\nIndicateurs de compromission\n\nDurcissement et recommandations\n\nBulletins d'actualité\n\nFiches réflexes\n\nNos services\n\nNous rejoindre\n\nViolations de données applicatives – Le CERT-FR partage son expérience CERTFR-2026-CTI-008\n\nBulletin d'actualité du CERT-FR\n\nObjet : Bulletin d'actualité CERTFR-2026-ACT-042\n\nImprimer\n\nGestion du document\n\nRéférence\nCERTFR-2026-ACT-042\n\nTitre\nBulletin d'actualité CERTFR-2026-ACT-042\n\nDate de la première version05 octobre 2026\n\nDate de la dernière version05 octobre 2026\n\nSource(s)\n\nUne gestion de version détaillée se trouve à la fin de ce document.\n\nCe bulletin d'actualité du CERT-FR revient sur les vulnérabilités significatives de la semaine passée pour souligner\nleurs criticités. Il ne remplace pas l'analyse de l'ensemble des avis et alertes publiés par le CERT-FR dans le cadre\nd'une analyse de risques pour prioriser l'application des correctifs.\nToutes les vulnérabilités évoquées dans les avis du CERT-FR doivent être prises en compte et faire l'objet d'un plan\nd'action lorsqu'elles génèrent des risques sur le système d'information.\nVeuillez-vous référer aux avis des éditeurs pour obtenir les correctifs.\n\nVulnérabilités significatives de la semaine 40\n\nTableau récapitulatif :\n\nVulnérabilités critiques du 28/09/26 au 04/10/26\n\nEditeur\nProduit\nIdentifiant CVE\nCVSS (source)\nType de vulnérabilité\nDate de publication\nExploitabilité (Preuve de concept publique)\nAvis Cert-FR\nAvis éditeur\n\nFortinet\nFortimail\nCVE-2026-104286\n9.8 (NVD)\nContournement de la politique de sécurité\n01/10/2026\nExploitée CERTFR-2026-AVI-1257\n\nhttps://www.fortiguard.com/psirt/FG-IR-26-175\n\nCisco\nCatalyst SD-WAN\nCVE-2026-76504\n9.8 (NVD)\nContournement de la politique de sécurité\n30/09/2026\nExploitée CERTFR-2026-AVI-1246\n\nhttps://sec.cloudapps.cisco.com/security/center/content/CiscoSecurityAdvisory/cisco-sa-sdwan-webauth-xr8beuuU\n\nCitrix\nNetscaler\nCVE-2026-88771\n9.5 (NVD)\nExécution de code arbitraire à distance\n27/09/2026\nExploitée CERTFR-2026-AVI-1235\n\nhttps://support.citrix.com/support-home/kbsearch/article?articleNumber=CTX697096\n\nCitrix\nNetscaler\nCVE-2026-88772\n9.5 (NVD)\nExécution de code arbitraire à distance, Déni de service à distance\n27/09/2026\nExploitée CERTFR-2026-AVI-1235\n\nhttps://support.citrix.com/support-home/kbsearch/article?articleNumber=CTX697096\n\nApple\niOS, iPadOS, macOS\nCVE-2026-86950\n8.8 (NVD)\nExécution de code arbitraire à distance\n28/09/2026\nExploitée CERTFR-2026-AVI-1236\n\nhttps://support.apple.com/en-us/149226\nhttps://support.apple.com/en-us/149228\nhttps://support.apple.com/en-us/149229\n\nGitLab\nGitLab Community Edition (CE) et Gitlab Enterprise Edition (EE)\nCVE-2026-89078\n9.9 (NVD)\nExécution de code arbitraire à distance\n23/09/2026 Pas d'information\nCERTFR-2026-AVI-1242\n\nhttps://docs.gitlab.com/releases/patches/patch-release-gitlab-19-0-9-released/\n\nGitLab\nGitLab Community Edition (CE) et Gitlab Enterprise Edition (EE)\nCVE-2026-93577\n9.9 (NVD)\nExécution de code arbitraire à distance\n23/09/2026 Pas d'information\nCERTFR-2026-AVI-1242\n\nhttps://docs.gitlab.com/releases/patches/patch-release-gitlab-19-0-9-released/\n\nHPE Aruba Networking\nInstant On\nCVE-2026-76723\n9.6 (NVD)\nExécution de code arbitraire à distance\n29/09/2026 Pas d'information\nCERTFR-2026-AVI-1238\n\nhttps://csaf.arubanetworking.hpe.com/2026/hpe_networking_-_hpesbnw05150.txt\n\nHPE Aruba Networking\nInstant On\nCVE-2026-76724\n9.6 (NVD)\nExécution de code arbitraire à distance\n29/09/2026 Pas d'information\nCERTFR-2026-AVI-1238\n\nhttps://csaf.arubanetworking.hpe.com/2026/hpe_networking_-_hpesbnw05150.txt\n\nHPE Aruba Networking\nInstant On\nCVE-2026-76725\n9.6 (NVD)\nExécution de code arbitraire à distance, Contournement de la politique de sécurité\n29/09/2026 Pas d'information\nCERTFR-2026-AVI-1238\n\nhttps://csaf.arubanetworking.hpe.com/2026/hpe_networking_-_hpesbnw05150.txt\n\nGoogle\nChrome\nCVE-2026-102331\n9.6 (NVD)\nExécution de code arbitraire à distance, Contournement de la politique de sécurité\n29/09/2026 Pas d'information\nCERTFR-2026-AVI-1237\n\nhttps://chromereleases.googleblog.com/2026/09/stable-channel-update-for-desktop_01807488085.html\n\nMoxa\nMGate MB3170 Series, MGate MB3270 Series\nCVE-2026-86325\n9.4 (NVD)\nAtteinte à la confidentialité des données, Contournement de la politique de sécurité\n02/10/2026 Pas d'information\nCERTFR-2026-AVI-1250\n\nhttps://www.moxa.com/en/support/product-support/security-advisory/mpsa-269540-cve-2026-86325,-cve-2026-86326-two-vulnerabilities-in-protocol-gateways\n\nPython\nCPython\nCVE-2026-19445\n9.2 (NVD)\nDéni de service à distance\n30/09/2026 Pas d'information\nCERTFR-2026-AVI-1243\n\nhttps://mail.python.org/archives/list/security-announce@python.org/thread/QMQIUQB6WGGC3MI7I3WKQXOYOBDSPPS3/\n\nRappel des alertes CERT-FR\n\nMultiples vulnérabilités dans Citrix NetScaler ADC et Gateway\n\nLe 27 septembre 2026, Citrix a publié un avis de sécurité concernant plusieurs vulnérabilités qui affectent NetScaler ADC et Gateway.\nParmi celles-ci, les vulnérabilités CVE-2026-88771 et CVE-2026-88772 permettent une exécution de code arbitraire à distance par un attaquant non authentifié.\nCes vulnérabilités sont activement exploitées et les exploitations ont commencé avant la disponibilité des correctifs.\nDe plus, l'éditeur indique que si les correctifs n'ont pas été installés, tous les équipements sont vulnérables dans leur configuration par défaut.\nDans son billet de blogue (cf. section Documentation), Citrix indique mettre des indicateurs de compromission à disposition de ses clients par le biais de la console Netscaler.\n\nLe 28 septembre 2026, le CERT-FR a connaissance d'une preuve de concept publique pour la vulnérabilité CVE-2026-88771.\n\nDans un billet de blogue du 29 septembre 2026 (cf. section Documentation), Mandiant et Google Threat Intelligence Group (GTIG) fournissent des indicateurs de compromission ainsi que des règles de détection au format YARA. Ceux-ci n'ont pas été qualifiés par l'ANSSI.\nSelon Google, la présence de ces motifs est caractéristique d'une exploitation réussie:\n\n0-PPE-0 : default SSLLOG SSL_HANDSHAKE_FAILURE 0 : SPCBId - ClientIP - ClientPort - VserverServiceIP - VserverServicePort 443 - ClientVersion DTLSv1.0 - CipherSuite \"TLS1-AES-256-CBC-SHA\" - Session New - Reason \"Handshake failure-Internal Error\" (dans *Syslog*)\n\nqat0: Process NSPPE-<##> exit with orphan rings 5:500\n\npitboss[<##>]: pitboss NOT restarting NSPPE-<##> (\\) (dans */var/log/messages*)\n\nLe CERT-FR a également connaissance d'une preuve de concept publique pour la vulnérabilité CVE-2026-88772.\n\nLiens :\n\nBulletin de sécurité Citrix CTX697096\nBillet de blogue Google du 29 septembre 2026\nBillet de blogue Citrix du 27 septembre 2026\nAvis CERT-FR CERTFR-2026-AVI-1235 du 28 septembre 2026\nCVE-2026-88771\nCVE-2026-88772\n\nMultiples vulnérabilités dans OpenBao / Hashicorp Vault\n\nLe 23 septembre 2026, OpenBao a rendu publique quatre vulnérabilités pouvant être combinées pour contourner l'authentification et dans certains cas, exécuter des commandes arbitraires sur le serveur. Les versions antérieures à 2.6.3 sont vulnérables. Ces vulnérabilités sont aussi présentes dans Vault.\n\nLiens :\n\nhttps://github.com/openbao/openbao/security/advisories/GHSA-j6wc-jpvg-xfxq\n\nhttps://github.com/openbao/openbao/security/advisories/GHSA-x8fg-h69x-p28f\n\nhttps://github.com/openbao/openbao/security/advisories/GHSA-mjch-vcw3-hhmf\n\nhttps://github.com/openbao/openbao/security/advisories/GHSA-fg5x-7whg-6c28\n\nAutres vulnérabilités\n\nTableau récapitulatif :\n\nEditeur\nProduit\nIdentifiant CVE\nCVSS\nType de vulnérabilité\nDate de publication\nExploitabilité (Preuve de concept publique)\nAvis éditeur\n\nCitrix\nCitrix\nCVE-2026-88779\n8.7\nNon spécifié par l'éditeur\n04/10/2026\nExploitée https://support.citrix.com/support-home/kbsearch/article?articleNumber=CTX697174&articleURL=Citrix_NetScaler_ADC_and_Citrix_NetScaler_Gateway_Security_Bulletin_for_CVE_2026_88779\n\nZammad\nZammad\nCVE-2026-102489\n9.4\nExécution de code arbitraire à distance\n30/09/2026\nExploitée https://csirt.divd.nl/cves/CVE-2026-102489/\n\nZammad\nZammad\nCVE-2026-102490\n9.4\nÉlévation de privilèges\n30/09/2026\nExploitée https://csirt.divd.nl/cves/CVE-2026-102490/\n\nGestion détaillée du document\n\nDate\nDescription\n\n05 octobre 2026\nVersion initiale\n\nRappel des publications émises\n\nDans la période du 28 septembre 2026 au 04 octobre 2026, le CERT-FR\na émis les publications suivantes :\n\nCERTFR-2026-AVI-1234\n\nMultiples vulnérabilités dans MongoDB\n\nCERTFR-2026-AVI-1235\n\nMultiples vulnérabilités dans Citrix NetScaler ADC et Gateway\n\nCERTFR-2026-AVI-1236\n\nVulnérabilité dans les produits Apple\n\nCERTFR-2026-AVI-1237\n\nMultiples vulnérabilités dans Google Chrome\n\nCERTFR-2026-AVI-1238\n\nMultiples vulnérabilités dans HPE Aruba Networking Instant On\n\nCERTFR-2026-AVI-1239\n\nVulnérabilité dans CPython\n\nCERTFR-2026-AVI-1240\n\nMultiples vulnérabilités dans les produits Mozilla\n\nCERTFR-2026-AVI-1241\n\nMultiples vulnérabilités dans OpenSSL\n\nCERTFR-2026-AVI-1242\n\nMultiples vulnérabilités dans GitLab\n\nCERTFR-2026-AVI-1243\n\nMultiples vulnérabilités dans CPython\n\nCERTFR-2026-AVI-1244\n\nMultiples vulnérabilités dans Mozilla Thunderbird\n\nCERTFR-2026-AVI-1245\n\nMultiples vulnérabilités dans Redmine\n\nCERTFR-2026-AVI-1246\n\nVulnérabilité dans Cisco Catalyst SD-WAN\n\nCERTFR-2026-AVI-1247\n\nMultiples vulnérabilités dans Tenable Nessus\n\nCERTFR-2026-AVI-1248\n\nMultiples vulnérabilités dans Apache HTTP Server\n\nCERTFR-2026-AVI-1249\n\nMultiples vulnérabilités dans les produits VMware\n\nCERTFR-2026-AVI-1250\n\nMultiples vulnérabilités dans les produits Moxa\n\nCERTFR-2026-AVI-1251\n\nMultiples vulnérabilités dans Microsoft Edge\n\nCERTFR-2026-AVI-1252\n\nMultiples vulnérabilités dans le noyau Linux d'Ubuntu\n\nCERTFR-2026-AVI-1253\n\nMultiples vulnérabilités dans le noyau Linux de Debian\n\nCERTFR-2026-AVI-1254\n\nMultiples vulnérabilités dans le noyau Linux de Red Hat\n\nCERTFR-2026-AVI-1255\n\nMultiples vulnérabilités dans le noyau Linux de SUSE\n\nCERTFR-2026-AVI-1256\n\nMultiples vulnérabilités dans les produits IBM\n\nCERTFR-2026-AVI-1257\n\nVulnérabilité dans Fortinet FortiMail\n\nCERTFR-2026-ALE-011\n\nMultiples vulnérabilités dans Citrix NetScaler ADC et Gateway\n\nHaut de page\n\nAccédez au portail authentifié du CERT-FR (ClubSSI)\n\nSe connecter au portail des services numériques du CERT-FR\n\nJe me connecte\n\nSuivez-nous sur les réseaux\n\nLinkedIn\n\nX (anciennement Twitter)\n\nMastodon\n\nGitHub\n\nRSS\n\nRépublique\nFrançaise\n\nLe site du CERT-FR est édité par l’Agence nationale de la sécurité des systèmes d’information (ANSSI).\n\ninfo.gouv.fr\n\nservice-public.fr\n\nlegifrance.gouv.fr\n\ndata.gouv.fr\n\nPlan du site\n\nAccessibilité : partiellement conforme\n\nMentions légales\n\nConditions générales\n\nANSSI\n\nContact\n\nRecrutement\n\nAPI\n\nSauf mention explicite de propriété intellectuelle détenue par des tiers, les contenus de ce site sont proposés sous licence etalab-2.0\n\nFermer\n\nParamètres d'affichage\n\nChoisissez un thème pour personnaliser l'apparence du site.\n\nThème clair\n\nThème sombre\n\nSystème Utilise les paramètres système",
+        "contenu": "Contenu\n\nMenu\n\nPied de page\n\nMenu\n\nParamètres d'affichage\n\nDéclarer un\nincident\n\nFermer\n\nParamètres\nd'affichage\n\nDéclarer un\nincident\n\nNous connaître\n\nA propos du CERT-FR\n\nRFC2350\n\nEcosystème des CERT/CSIRT\n\nPolitique de partage des informations\n\nPublications\n\nAlertes de sécurité\n\nRapports menaces et incidents\n\nAvis de sécurité\n\nIndicateurs de compromission\n\nDurcissement et recommandations\n\nBulletins d'actualité\n\nFiches réflexes\n\nNos services\n\nNous rejoindre\n\nBulletin d'actualité du CERT-FR\n\nObjet : Bulletin d'actualité CERTFR-2026-ACT-042\n\nImprimer\n\nGestion du document\n\nRéférence\nCERTFR-2026-ACT-042\n\nTitre\nBulletin d'actualité CERTFR-2026-ACT-042\n\nDate de la première version05 octobre 2026\n\nDate de la dernière version05 octobre 2026\n\nSource(s)\n\nUne gestion de version détaillée se trouve à la fin de ce document.\n\nCe bulletin d'actualité du CERT-FR revient sur les vulnérabilités significatives de la semaine passée pour souligner\nleurs criticités. Il ne remplace pas l'analyse de l'ensemble des avis et alertes publiés par le CERT-FR dans le cadre\nd'une analyse de risques pour prioriser l'application des correctifs.\nToutes les vulnérabilités évoquées dans les avis du CERT-FR doivent être prises en compte et faire l'objet d'un plan\nd'action lorsqu'elles génèrent des risques sur le système d'information.\nVeuillez-vous référer aux avis des éditeurs pour obtenir les correctifs.\n\nVulnérabilités significatives de la semaine 40\n\nTableau récapitulatif :\n\nVulnérabilités critiques du 28/09/26 au 04/10/26\n\nEditeur\nProduit\nIdentifiant CVE\nCVSS (source)\nType de vulnérabilité\nDate de publication\nExploitabilité (Preuve de concept publique)\nAvis Cert-FR\nAvis éditeur\n\nFortinet\nFortimail\nCVE-2026-104286\n9.8 (NVD)\nContournement de la politique de sécurité\n01/10/2026\nExploitée CERTFR-2026-AVI-1257\n\nhttps://www.fortiguard.com/psirt/FG-IR-26-175\n\nCisco\nCatalyst SD-WAN\nCVE-2026-76504\n9.8 (NVD)\nContournement de la politique de sécurité\n30/09/2026\nExploitée CERTFR-2026-AVI-1246\n\nhttps://sec.cloudapps.cisco.com/security/center/content/CiscoSecurityAdvisory/cisco-sa-sdwan-webauth-xr8beuuU\n\nCitrix\nNetscaler\nCVE-2026-88771\n9.5 (NVD)\nExécution de code arbitraire à distance\n27/09/2026\nExploitée CERTFR-2026-AVI-1235\n\nhttps://support.citrix.com/support-home/kbsearch/article?articleNumber=CTX697096\n\nCitrix\nNetscaler\nCVE-2026-88772\n9.5 (NVD)\nExécution de code arbitraire à distance, Déni de service à distance\n27/09/2026\nExploitée CERTFR-2026-AVI-1235\n\nhttps://support.citrix.com/support-home/kbsearch/article?articleNumber=CTX697096\n\nApple\niOS, iPadOS, macOS\nCVE-2026-86950\n8.8 (NVD)\nExécution de code arbitraire à distance\n28/09/2026\nExploitée CERTFR-2026-AVI-1236\n\nhttps://support.apple.com/en-us/149226\nhttps://support.apple.com/en-us/149228\nhttps://support.apple.com/en-us/149229\n\nGitLab\nGitLab Community Edition (CE) et Gitlab Enterprise Edition (EE)\nCVE-2026-89078\n9.9 (NVD)\nExécution de code arbitraire à distance\n23/09/2026 Pas d'information\nCERTFR-2026-AVI-1242\n\nhttps://docs.gitlab.com/releases/patches/patch-release-gitlab-19-0-9-released/\n\nGitLab\nGitLab Community Edition (CE) et Gitlab Enterprise Edition (EE)\nCVE-2026-93577\n9.9 (NVD)\nExécution de code arbitraire à distance\n23/09/2026 Pas d'information\nCERTFR-2026-AVI-1242\n\nhttps://docs.gitlab.com/releases/patches/patch-release-gitlab-19-0-9-released/\n\nHPE Aruba Networking\nInstant On\nCVE-2026-76723\n9.6 (NVD)\nExécution de code arbitraire à distance\n29/09/2026 Pas d'information\nCERTFR-2026-AVI-1238\n\nhttps://csaf.arubanetworking.hpe.com/2026/hpe_networking_-_hpesbnw05150.txt\n\nHPE Aruba Networking\nInstant On\nCVE-2026-76724\n9.6 (NVD)\nExécution de code arbitraire à distance\n29/09/2026 Pas d'information\nCERTFR-2026-AVI-1238\n\nhttps://csaf.arubanetworking.hpe.com/2026/hpe_networking_-_hpesbnw05150.txt\n\nHPE Aruba Networking\nInstant On\nCVE-2026-76725\n9.6 (NVD)\nExécution de code arbitraire à distance, Contournement de la politique de sécurité\n29/09/2026 Pas d'information\nCERTFR-2026-AVI-1238\n\nhttps://csaf.arubanetworking.hpe.com/2026/hpe_networking_-_hpesbnw05150.txt\n\nGoogle\nChrome\nCVE-2026-102331\n9.6 (NVD)\nExécution de code arbitraire à distance, Contournement de la politique de sécurité\n29/09/2026 Pas d'information\nCERTFR-2026-AVI-1237\n\nhttps://chromereleases.googleblog.com/2026/09/stable-channel-update-for-desktop_01807488085.html\n\nMoxa\nMGate MB3170 Series, MGate MB3270 Series\nCVE-2026-86325\n9.4 (NVD)\nAtteinte à la confidentialité des données, Contournement de la politique de sécurité\n02/10/2026 Pas d'information\nCERTFR-2026-AVI-1250\n\nhttps://www.moxa.com/en/support/product-support/security-advisory/mpsa-269540-cve-2026-86325,-cve-2026-86326-two-vulnerabilities-in-protocol-gateways\n\nPython\nCPython\nCVE-2026-19445\n9.2 (NVD)\nDéni de service à distance\n30/09/2026 Pas d'information\nCERTFR-2026-AVI-1243\n\nhttps://mail.python.org/archives/list/security-announce@python.org/thread/QMQIUQB6WGGC3MI7I3WKQXOYOBDSPPS3/\n\nRappel des alertes CERT-FR\n\nMultiples vulnérabilités dans Citrix NetScaler ADC et Gateway\n\nLe 27 septembre 2026, Citrix a publié un avis de sécurité concernant plusieurs vulnérabilités qui affectent NetScaler ADC et Gateway.\nParmi celles-ci, les vulnérabilités CVE-2026-88771 et CVE-2026-88772 permettent une exécution de code arbitraire à distance par un attaquant non authentifié.\nCes vulnérabilités sont activement exploitées et les exploitations ont commencé avant la disponibilité des correctifs.\nDe plus, l'éditeur indique que si les correctifs n'ont pas été installés, tous les équipements sont vulnérables dans leur configuration par défaut.\nDans son billet de blogue (cf. section Documentation), Citrix indique mettre des indicateurs de compromission à disposition de ses clients par le biais de la console Netscaler.\n\nLe 28 septembre 2026, le CERT-FR a connaissance d'une preuve de concept publique pour la vulnérabilité CVE-2026-88771.\n\nDans un billet de blogue du 29 septembre 2026 (cf. section Documentation), Mandiant et Google Threat Intelligence Group (GTIG) fournissent des indicateurs de compromission ainsi que des règles de détection au format YARA. Ceux-ci n'ont pas été qualifiés par l'ANSSI.\nSelon Google, la présence de ces motifs est caractéristique d'une exploitation réussie:\n\n0-PPE-0 : default SSLLOG SSL_HANDSHAKE_FAILURE 0 : SPCBId - ClientIP - ClientPort - VserverServiceIP - VserverServicePort 443 - ClientVersion DTLSv1.0 - CipherSuite \"TLS1-AES-256-CBC-SHA\" - Session New - Reason \"Handshake failure-Internal Error\" (dans *Syslog*)\n\nqat0: Process NSPPE-<##> exit with orphan rings 5:500\n\npitboss[<##>]: pitboss NOT restarting NSPPE-<##> (\\) (dans */var/log/messages*)\n\nLe CERT-FR a également connaissance d'une preuve de concept publique pour la vulnérabilité CVE-2026-88772.\n\nLiens :\n\nBulletin de sécurité Citrix CTX697096\nBillet de blogue Google du 29 septembre 2026\nBillet de blogue Citrix du 27 septembre 2026\nAvis CERT-FR CERTFR-2026-AVI-1235 du 28 septembre 2026\nCVE-2026-88771\nCVE-2026-88772\n\nMultiples vulnérabilités dans OpenBao / Hashicorp Vault\n\nLe 23 septembre 2026, OpenBao a rendu publique quatre vulnérabilités pouvant être combinées pour contourner l'authentification et dans certains cas, exécuter des commandes arbitraires sur le serveur. Les versions antérieures à 2.6.3 sont vulnérables. Ces vulnérabilités sont aussi présentes dans Vault.\n\nLiens :\n\nhttps://github.com/openbao/openbao/security/advisories/GHSA-j6wc-jpvg-xfxq\n\nhttps://github.com/openbao/openbao/security/advisories/GHSA-x8fg-h69x-p28f\n\nhttps://github.com/openbao/openbao/security/advisories/GHSA-mjch-vcw3-hhmf\n\nhttps://github.com/openbao/openbao/security/advisories/GHSA-fg5x-7whg-6c28\n\nAutres vulnérabilités\n\nTableau récapitulatif :\n\nEditeur\nProduit\nIdentifiant CVE\nCVSS\nType de vulnérabilité\nDate de publication\nExploitabilité (Preuve de concept publique)\nAvis éditeur\n\nCitrix\nCitrix\nCVE-2026-88779\n8.7\nNon spécifié par l'éditeur\n04/10/2026\nExploitée https://support.citrix.com/support-home/kbsearch/article?articleNumber=CTX697174&articleURL=Citrix_NetScaler_ADC_and_Citrix_NetScaler_Gateway_Security_Bulletin_for_CVE_2026_88779\n\nZammad\nZammad\nCVE-2026-102489\n9.4\nExécution de code arbitraire à distance\n30/09/2026\nExploitée https://csirt.divd.nl/cves/CVE-2026-102489/\n\nZammad\nZammad\nCVE-2026-102490\n9.4\nÉlévation de privilèges\n30/09/2026\nExploitée https://csirt.divd.nl/cves/CVE-2026-102490/\n\nGestion détaillée du document\n\nDate\nDescription\n\n05 octobre 2026\nVersion initiale\n\nRappel des publications émises\n\nDans la période du 28 septembre 2026 au 04 octobre 2026, le CERT-FR\na émis les publications suivantes :\n\nCERTFR-2026-AVI-1234\n\nMultiples vulnérabilités dans MongoDB\n\nCERTFR-2026-AVI-1235\n\nMultiples vulnérabilités dans Citrix NetScaler ADC et Gateway\n\nCERTFR-2026-AVI-1236\n\nVulnérabilité dans les produits Apple\n\nCERTFR-2026-AVI-1237\n\nMultiples vulnérabilités dans Google Chrome\n\nCERTFR-2026-AVI-1238\n\nMultiples vulnérabilités dans HPE Aruba Networking Instant On\n\nCERTFR-2026-AVI-1239\n\nVulnérabilité dans CPython\n\nCERTFR-2026-AVI-1240\n\nMultiples vulnérabilités dans les produits Mozilla\n\nCERTFR-2026-AVI-1241\n\nMultiples vulnérabilités dans OpenSSL\n\nCERTFR-2026-AVI-1242\n\nMultiples vulnérabilités dans GitLab\n\nCERTFR-2026-AVI-1243\n\nMultiples vulnérabilités dans CPython\n\nCERTFR-2026-AVI-1244\n\nMultiples vulnérabilités dans Mozilla Thunderbird\n\nCERTFR-2026-AVI-1245\n\nMultiples vulnérabilités dans Redmine\n\nCERTFR-2026-AVI-1246\n\nVulnérabilité dans Cisco Catalyst SD-WAN\n\nCERTFR-2026-AVI-1247\n\nMultiples vulnérabilités dans Tenable Nessus\n\nCERTFR-2026-AVI-1248\n\nMultiples vulnérabilités dans Apache HTTP Server\n\nCERTFR-2026-AVI-1249\n\nMultiples vulnérabilités dans les produits VMware\n\nCERTFR-2026-AVI-1250\n\nMultiples vulnérabilités dans les produits Moxa\n\nCERTFR-2026-AVI-1251\n\nMultiples vulnérabilités dans Microsoft Edge\n\nCERTFR-2026-AVI-1252\n\nMultiples vulnérabilités dans le noyau Linux d'Ubuntu\n\nCERTFR-2026-AVI-1253\n\nMultiples vulnérabilités dans le noyau Linux de Debian\n\nCERTFR-2026-AVI-1254\n\nMultiples vulnérabilités dans le noyau Linux de Red Hat\n\nCERTFR-2026-AVI-1255\n\nMultiples vulnérabilités dans le noyau Linux de SUSE\n\nCERTFR-2026-AVI-1256\n\nMultiples vulnérabilités dans les produits IBM\n\nCERTFR-2026-AVI-1257\n\nVulnérabilité dans Fortinet FortiMail\n\nCERTFR-2026-ALE-011\n\nMultiples vulnérabilités dans Citrix NetScaler ADC et Gateway\n\nHaut de page\n\nAccédez au portail authentifié du CERT-FR (ClubSSI)\n\nSe connecter au portail des services numériques du CERT-FR\n\nJe me connecte\n\nSuivez-nous sur les réseaux\n\nLinkedIn\n\nX (anciennement Twitter)\n\nMastodon\n\nGitHub\n\nRSS\n\nRépublique\nFrançaise\n\nLe site du CERT-FR est édité par l’Agence nationale de la sécurité des systèmes d’information (ANSSI).\n\ninfo.gouv.fr\n\nservice-public.fr\n\nlegifrance.gouv.fr\n\ndata.gouv.fr\n\nPlan du site\n\nAccessibilité : partiellement conforme\n\nMentions légales\n\nConditions générales\n\nANSSI\n\nContact\n\nRecrutement\n\nAPI\n\nSauf mention explicite de propriété intellectuelle détenue par des tiers, les contenus de ce site sont proposés sous licence etalab-2.0\n\nFermer\n\nParamètres d'affichage\n\nChoisissez un thème pour personnaliser l'apparence du site.\n\nThème clair\n\nThème sombre\n\nSystème Utilise les paramètres système",
         "ancre": null,
         "url": "https://www.cert.cyber.gouv.fr/actualite/CERTFR-2026-ACT-042/",
         "type": "section",
         "position": 0
       }
     ],
-    "run_id": "RUN-20261027-1945",
-    "version": 1,
-    "historique": []
+    "run_id": "RUN-20261029-1828",
+    "version": 2,
+    "historique": [
+      {
+        "version": 2,
+        "hash_sha256": "4d5e69b981722ca666fcb6f3b2fae8f3d4df5b883d7663862235989e99305587",
+        "collecte_le": "2026-10-29T18:30:06.595Z",
+        "run_id": "RUN-20261029-1828",
+        "articles_ajoutes": [],
+        "articles_supprimes": [],
+        "articles_modifies": [
+          "document"
+        ]
+      }
+    ]
   },
   {
     "id": "TX-0024",
@@ -1916,10 +1928,10 @@
     "date_publication": null,
     "date_entree_en_vigueur": null,
     "date_entree_en_application": null,
-    "statut_texte": "En vigueur",
-    "hash_sha256": "a41fa95ee7961d5fc6af1b7c8427c699aaf2d7efd3adb0c7dc299ed477112ffc",
-    "collecte_le": "2026-10-27T18:46:58.482Z",
-    "derniere_modification_detectee": null,
+    "statut_texte": "Modifié",
+    "hash_sha256": "e8ff1659210c0878db0921ebba26165b9c212f8e662a9405bb74b23e9df23171",
+    "collecte_le": "2026-10-29T18:30:08.372Z",
+    "derniere_modification_detectee": "2026-10-29T18:30:08.372Z",
     "fichier_source": null,
     "applicable": "À déterminer",
     "justification_applicabilite": null,
@@ -1930,16 +1942,28 @@
       {
         "numero": "document",
         "titre": "Bulletin d'actualité CERTFR-2026-ACT-043 (12 octobre 2026)",
-        "contenu": "Contenu\n\nMenu\n\nPied de page\n\nMenu\n\nParamètres d'affichage\n\nDéclarer un\nincident\n\nFermer\n\nParamètres\nd'affichage\n\nDéclarer un\nincident\n\nNous connaître\n\nA propos du CERT-FR\n\nRFC2350\n\nEcosystème des CERT/CSIRT\n\nPolitique de partage des informations\n\nPublications\n\nAlertes de sécurité\n\nRapports menaces et incidents\n\nAvis de sécurité\n\nIndicateurs de compromission\n\nDurcissement et recommandations\n\nBulletins d'actualité\n\nFiches réflexes\n\nNos services\n\nNous rejoindre\n\nViolations de données applicatives – Le CERT-FR partage son expérience CERTFR-2026-CTI-008\n\nBulletin d'actualité du CERT-FR\n\nObjet : Bulletin d'actualité CERTFR-2026-ACT-043\n\nImprimer\n\nGestion du document\n\nRéférence\nCERTFR-2026-ACT-043\n\nTitre\nBulletin d'actualité CERTFR-2026-ACT-043\n\nDate de la première version12 octobre 2026\n\nDate de la dernière version12 octobre 2026\n\nSource(s)\n\nUne gestion de version détaillée se trouve à la fin de ce document.\n\nCe bulletin d'actualité du CERT-FR revient sur les vulnérabilités significatives de la semaine passée pour souligner\nleurs criticités. Il ne remplace pas l'analyse de l'ensemble des avis et alertes publiés par le CERT-FR dans le cadre\nd'une analyse de risques pour prioriser l'application des correctifs.\nToutes les vulnérabilités évoquées dans les avis du CERT-FR doivent être prises en compte et faire l'objet d'un plan\nd'action lorsqu'elles génèrent des risques sur le système d'information.\nVeuillez-vous référer aux avis des éditeurs pour obtenir les correctifs.\n\nVulnérabilités significatives de la semaine 41\n\nTableau récapitulatif :\n\nVulnérabilités critiques du 05/10/26 au 11/10/26\n\nEditeur\nProduit\nIdentifiant CVE\nCVSS (source)\nType de vulnérabilité\nDate de publication\nExploitabilité (Preuve de concept publique)\nAvis Cert-FR\nAvis éditeur\n\nAtlassian\nConfluence, Jira\nCVE-2026-21589\n9.3 (NVD)\nAtteinte à la confidentialité des données\n05/10/2026\nExploitée CERTFR-2026-AVI-1264\n\nhttps://confluence.atlassian.com/security/cve-2026-21589-arbitrary-file-access-vulnerability-impacts-multiple-products-1870495748.html\n\nGitLab\nAI Gateway\nCVE-2026-90970\n9.9 (NVD)\nExécution de code arbitraire à distance\n02/10/2026 Pas d'information\nCERTFR-2026-AVI-1262\n\nhttps://docs.gitlab.com/releases/patches/other-patches/patch-release-gitlab-ai-gateway-19-4-1-released/\n\nMozilla\nFirefox\nCVE-2026-106016\n9.8 (NVD)\nContournement de la politique de sécurité\n06/10/2026 Pas d'information\nCERTFR-2026-AVI-1272\n\nhttps://www.mozilla.org/en-US/security/advisories/mfsa2026-104/\n\nHPE Aruba Networking\nClearPass Policy Manager\nCVE-2026-79801\n9.8 (NVD)\nExécution de code arbitraire à distance, Atteinte à l'intégrité des données\n06/10/2026 Pas d'information\nCERTFR-2026-AVI-1277\n\nhttps://csaf.arubanetworking.hpe.com/2026/hpe_networking_-_hpesbnw05158.txt\n\nHPE Aruba Networking\nClearPass Policy Manager\nCVE-2026-79805\n9.8 (NVD)\nAtteinte à la confidentialité des données, Atteinte à l'intégrité des données\n06/10/2026 Pas d'information\nCERTFR-2026-AVI-1277\n\nhttps://csaf.arubanetworking.hpe.com/2026/hpe_networking_-_hpesbnw05158.txt\n\nHPE Aruba Networking\nAOS\nCVE-2026-76743\n9.8 (NVD)\nContournement de la politique de sécurité\n06/10/2026 Pas d'information\nCERTFR-2026-AVI-1277\n\nhttps://csaf.arubanetworking.hpe.com/2026/hpe_networking_-_hpesbnw05156.txt\n\nHPE Aruba Networking\nAOS\nCVE-2026-76742\n9.8 (NVD)\nContournement de la politique de sécurité\n06/10/2026 Pas d'information\nCERTFR-2026-AVI-1277\n\nhttps://csaf.arubanetworking.hpe.com/2026/hpe_networking_-_hpesbnw05156.txt\n\nApache\nStruts\nCVE-2026-104711\n9.8 (NVD)\nExécution de code arbitraire à distance, Exécution de code arbitraire, Contournement de la politique de sécurité\n02/10/2026 Pas d'information\nCERTFR-2026-AVI-1290\n\nhttps://cwiki.apache.org/confluence/display/WW/S2-075\n\nVeeam\nVeeam Backup & Replication\nCVE-2025-64393\n9.4 (NVD)\nExécution de code arbitraire à distance\n06/10/2026 Pas d'information\nCERTFR-2026-AVI-1278\n\nhttps://www.veeam.com/kb4934\n\nAutres vulnérabilités\n\nTableau récapitulatif :\n\nEditeur\nProduit\nIdentifiant CVE\nCVSS\nType de vulnérabilité\nDate de publication\nExploitabilité (Preuve de concept publique)\nAvis éditeur\n\nStrapi\nStrapi\nCVE-2023-22894\n7.2\nAtteinte à la confidentialité des données\n19/04/2023\nExploitée https://strapi.io/blog/security-disclosure-of-vulnerabilities-cve\n\nSonicwall\nSecure Mobile Access\nCVE-2026-102255\n10\nFalsification de requêtes côté serveur (SSRF)\n07/10/2026 Pas d'information\nhttps://psirt.global.sonicwall.com/vuln-detail/SNWLID-2026-0017\n\nSonicwall\nSecure Mobile Access\nCVE-2026-102256\n7.8\nExécution de code arbitraire à distance, Contournement de la politique de sécurité\n07/10/2026 Pas d'information\nhttps://psirt.global.sonicwall.com/vuln-detail/SNWLID-2026-0017\n\nSonicwall\nSecure Mobile Access\nCVE-2026-102257\n7.2\nExécution de code arbitraire à distance\n07/10/2026 Pas d'information\nhttps://psirt.global.sonicwall.com/vuln-detail/SNWLID-2026-0017\n\nSonicwall\nSecure Mobile Access\nCVE-2026-102258\n6.1\nInjection de code indirecte à distance (XSS)\n07/10/2026 Pas d'information\nhttps://psirt.global.sonicwall.com/vuln-detail/SNWLID-2026-0017\n\nGestion détaillée du document\n\nDate\nDescription\n\n12 octobre 2026\nVersion initiale\n\nRappel des publications émises\n\nDans la période du 05 octobre 2026 au 11 octobre 2026, le CERT-FR\na émis les publications suivantes :\n\nCERTFR-2026-AVI-1258\n\nVulnérabilité dans Microsoft Exchange Server\n\nCERTFR-2026-AVI-1259\n\nMultiples vulnérabilités dans Google Chrome\n\nCERTFR-2026-AVI-1260\n\nMultiples vulnérabilités dans OpenOffice\n\nCERTFR-2026-AVI-1261\n\nMultiples vulnérabilités dans Zabbix\n\nCERTFR-2026-AVI-1262\n\nVulnérabilité dans GitLab\n\nCERTFR-2026-AVI-1263\n\nVulnérabilité dans Citrix NetScaler ADC et Gateway\n\nCERTFR-2026-AVI-1264\n\nVulnérabilité dans les produits Atlassian\n\nCERTFR-2026-AVI-1265\n\nMultiples vulnérabilités dans Google Android\n\nCERTFR-2026-AVI-1266\n\nVulnérabilité dans Microsoft Office\n\nCERTFR-2026-AVI-1267\n\nMultiples vulnérabilités dans Microsoft Edge\n\nCERTFR-2026-AVI-1268\n\nMultiples vulnérabilités dans Google Chrome\n\nCERTFR-2026-AVI-1269\n\nMultiples vulnérabilités dans GLPI\n\nCERTFR-2026-AVI-1270\n\nMultiples vulnérabilités dans Google Pixel\n\nCERTFR-2026-AVI-1271\n\nMultiples vulnérabilités dans OpenSSH\n\nCERTFR-2026-AVI-1272\n\nVulnérabilité dans les produits Mozilla\n\nCERTFR-2026-AVI-1273\n\nMultiples vulnérabilités dans WordPress\n\nCERTFR-2026-AVI-1274\n\nMultiples vulnérabilités dans Traefik\n\nCERTFR-2026-AVI-1275\n\nMultiples vulnérabilités dans Sonicwall Secure Mobile Access\n\nCERTFR-2026-AVI-1276\n\nMultiples vulnérabilités dans les produits Elastic\n\nCERTFR-2026-AVI-1277\n\nMultiples vulnérabilités dans les produits HPE Aruba Networking\n\nCERTFR-2026-AVI-1278\n\nMultiples vulnérabilités dans les produits Veeam\n\nCERTFR-2026-AVI-1279\n\nMultiples vulnérabilités dans SPIP\n\nCERTFR-2026-AVI-1280\n\nVulnérabilité dans Ceph\n\nCERTFR-2026-AVI-1281\n\nMultiples vulnérabilités dans les produits Splunk\n\nCERTFR-2026-AVI-1282\n\nMultiples vulnérabilités dans les produits Cisco\n\nCERTFR-2026-AVI-1283\n\nMultiples vulnérabilités dans les produits Nextcloud\n\nCERTFR-2026-AVI-1284\n\nVulnérabilité dans les produits Tenable\n\nCERTFR-2026-AVI-1285\n\nVulnérabilité dans Citrix NetScaler ADC et Gateway\n\nCERTFR-2026-AVI-1286\n\nMultiples vulnérabilités dans le noyau Linux d'Ubuntu\n\nCERTFR-2026-AVI-1287\n\nMultiples vulnérabilités dans le noyau Linux de Red Hat\n\nCERTFR-2026-AVI-1288\n\nMultiples vulnérabilités dans le noyau Linux de SUSE\n\nCERTFR-2026-AVI-1289\n\nMultiples vulnérabilités dans le noyau Linux de Debian LTS\n\nCERTFR-2026-AVI-1290\n\nMultiples vulnérabilités dans Apache Struts\n\nCERTFR-2026-AVI-1291\n\nMultiples vulnérabilités dans les produits IBM\n\nDurant la même période, les publications suivantes ont été mises à jour :\n\nCERTFR-2026-ALE-011\n\nMultiples vulnérabilités dans Citrix NetScaler ADC et Gateway\n\nHaut de page\n\nAccédez au portail authentifié du CERT-FR (ClubSSI)\n\nSe connecter au portail des services numériques du CERT-FR\n\nJe me connecte\n\nSuivez-nous sur les réseaux\n\nLinkedIn\n\nX (anciennement Twitter)\n\nMastodon\n\nGitHub\n\nRSS\n\nRépublique\nFrançaise\n\nLe site du CERT-FR est édité par l’Agence nationale de la sécurité des systèmes d’information (ANSSI).\n\ninfo.gouv.fr\n\nservice-public.fr\n\nlegifrance.gouv.fr\n\ndata.gouv.fr\n\nPlan du site\n\nAccessibilité : partiellement conforme\n\nMentions légales\n\nConditions générales\n\nANSSI\n\nContact\n\nRecrutement\n\nAPI\n\nSauf mention explicite de propriété intellectuelle détenue par des tiers, les contenus de ce site sont proposés sous licence etalab-2.0\n\nFermer\n\nParamètres d'affichage\n\nChoisissez un thème pour personnaliser l'apparence du site.\n\nThème clair\n\nThème sombre\n\nSystème Utilise les paramètres système",
+        "contenu": "Contenu\n\nMenu\n\nPied de page\n\nMenu\n\nParamètres d'affichage\n\nDéclarer un\nincident\n\nFermer\n\nParamètres\nd'affichage\n\nDéclarer un\nincident\n\nNous connaître\n\nA propos du CERT-FR\n\nRFC2350\n\nEcosystème des CERT/CSIRT\n\nPolitique de partage des informations\n\nPublications\n\nAlertes de sécurité\n\nRapports menaces et incidents\n\nAvis de sécurité\n\nIndicateurs de compromission\n\nDurcissement et recommandations\n\nBulletins d'actualité\n\nFiches réflexes\n\nNos services\n\nNous rejoindre\n\nBulletin d'actualité du CERT-FR\n\nObjet : Bulletin d'actualité CERTFR-2026-ACT-043\n\nImprimer\n\nGestion du document\n\nRéférence\nCERTFR-2026-ACT-043\n\nTitre\nBulletin d'actualité CERTFR-2026-ACT-043\n\nDate de la première version12 octobre 2026\n\nDate de la dernière version12 octobre 2026\n\nSource(s)\n\nUne gestion de version détaillée se trouve à la fin de ce document.\n\nCe bulletin d'actualité du CERT-FR revient sur les vulnérabilités significatives de la semaine passée pour souligner\nleurs criticités. Il ne remplace pas l'analyse de l'ensemble des avis et alertes publiés par le CERT-FR dans le cadre\nd'une analyse de risques pour prioriser l'application des correctifs.\nToutes les vulnérabilités évoquées dans les avis du CERT-FR doivent être prises en compte et faire l'objet d'un plan\nd'action lorsqu'elles génèrent des risques sur le système d'information.\nVeuillez-vous référer aux avis des éditeurs pour obtenir les correctifs.\n\nVulnérabilités significatives de la semaine 41\n\nTableau récapitulatif :\n\nVulnérabilités critiques du 05/10/26 au 11/10/26\n\nEditeur\nProduit\nIdentifiant CVE\nCVSS (source)\nType de vulnérabilité\nDate de publication\nExploitabilité (Preuve de concept publique)\nAvis Cert-FR\nAvis éditeur\n\nAtlassian\nConfluence, Jira\nCVE-2026-21589\n9.3 (NVD)\nAtteinte à la confidentialité des données\n05/10/2026\nExploitée CERTFR-2026-AVI-1264\n\nhttps://confluence.atlassian.com/security/cve-2026-21589-arbitrary-file-access-vulnerability-impacts-multiple-products-1870495748.html\n\nGitLab\nAI Gateway\nCVE-2026-90970\n9.9 (NVD)\nExécution de code arbitraire à distance\n02/10/2026 Pas d'information\nCERTFR-2026-AVI-1262\n\nhttps://docs.gitlab.com/releases/patches/other-patches/patch-release-gitlab-ai-gateway-19-4-1-released/\n\nMozilla\nFirefox\nCVE-2026-106016\n9.8 (NVD)\nContournement de la politique de sécurité\n06/10/2026 Pas d'information\nCERTFR-2026-AVI-1272\n\nhttps://www.mozilla.org/en-US/security/advisories/mfsa2026-104/\n\nHPE Aruba Networking\nClearPass Policy Manager\nCVE-2026-79801\n9.8 (NVD)\nExécution de code arbitraire à distance, Atteinte à l'intégrité des données\n06/10/2026 Pas d'information\nCERTFR-2026-AVI-1277\n\nhttps://csaf.arubanetworking.hpe.com/2026/hpe_networking_-_hpesbnw05158.txt\n\nHPE Aruba Networking\nClearPass Policy Manager\nCVE-2026-79805\n9.8 (NVD)\nAtteinte à la confidentialité des données, Atteinte à l'intégrité des données\n06/10/2026 Pas d'information\nCERTFR-2026-AVI-1277\n\nhttps://csaf.arubanetworking.hpe.com/2026/hpe_networking_-_hpesbnw05158.txt\n\nHPE Aruba Networking\nAOS\nCVE-2026-76743\n9.8 (NVD)\nContournement de la politique de sécurité\n06/10/2026 Pas d'information\nCERTFR-2026-AVI-1277\n\nhttps://csaf.arubanetworking.hpe.com/2026/hpe_networking_-_hpesbnw05156.txt\n\nHPE Aruba Networking\nAOS\nCVE-2026-76742\n9.8 (NVD)\nContournement de la politique de sécurité\n06/10/2026 Pas d'information\nCERTFR-2026-AVI-1277\n\nhttps://csaf.arubanetworking.hpe.com/2026/hpe_networking_-_hpesbnw05156.txt\n\nApache\nStruts\nCVE-2026-104711\n9.8 (NVD)\nExécution de code arbitraire à distance, Exécution de code arbitraire, Contournement de la politique de sécurité\n02/10/2026 Pas d'information\nCERTFR-2026-AVI-1290\n\nhttps://cwiki.apache.org/confluence/display/WW/S2-075\n\nVeeam\nVeeam Backup & Replication\nCVE-2025-64393\n9.4 (NVD)\nExécution de code arbitraire à distance\n06/10/2026 Pas d'information\nCERTFR-2026-AVI-1278\n\nhttps://www.veeam.com/kb4934\n\nAutres vulnérabilités\n\nTableau récapitulatif :\n\nEditeur\nProduit\nIdentifiant CVE\nCVSS\nType de vulnérabilité\nDate de publication\nExploitabilité (Preuve de concept publique)\nAvis éditeur\n\nStrapi\nStrapi\nCVE-2023-22894\n7.2\nAtteinte à la confidentialité des données\n19/04/2023\nExploitée https://strapi.io/blog/security-disclosure-of-vulnerabilities-cve\n\nSonicwall\nSecure Mobile Access\nCVE-2026-102255\n10\nFalsification de requêtes côté serveur (SSRF)\n07/10/2026 Pas d'information\nhttps://psirt.global.sonicwall.com/vuln-detail/SNWLID-2026-0017\n\nSonicwall\nSecure Mobile Access\nCVE-2026-102256\n7.8\nExécution de code arbitraire à distance, Contournement de la politique de sécurité\n07/10/2026 Pas d'information\nhttps://psirt.global.sonicwall.com/vuln-detail/SNWLID-2026-0017\n\nSonicwall\nSecure Mobile Access\nCVE-2026-102257\n7.2\nExécution de code arbitraire à distance\n07/10/2026 Pas d'information\nhttps://psirt.global.sonicwall.com/vuln-detail/SNWLID-2026-0017\n\nSonicwall\nSecure Mobile Access\nCVE-2026-102258\n6.1\nInjection de code indirecte à distance (XSS)\n07/10/2026 Pas d'information\nhttps://psirt.global.sonicwall.com/vuln-detail/SNWLID-2026-0017\n\nGestion détaillée du document\n\nDate\nDescription\n\n12 octobre 2026\nVersion initiale\n\nRappel des publications émises\n\nDans la période du 05 octobre 2026 au 11 octobre 2026, le CERT-FR\na émis les publications suivantes :\n\nCERTFR-2026-AVI-1258\n\nVulnérabilité dans Microsoft Exchange Server\n\nCERTFR-2026-AVI-1259\n\nMultiples vulnérabilités dans Google Chrome\n\nCERTFR-2026-AVI-1260\n\nMultiples vulnérabilités dans OpenOffice\n\nCERTFR-2026-AVI-1261\n\nMultiples vulnérabilités dans Zabbix\n\nCERTFR-2026-AVI-1262\n\nVulnérabilité dans GitLab\n\nCERTFR-2026-AVI-1263\n\nVulnérabilité dans Citrix NetScaler ADC et Gateway\n\nCERTFR-2026-AVI-1264\n\nVulnérabilité dans les produits Atlassian\n\nCERTFR-2026-AVI-1265\n\nMultiples vulnérabilités dans Google Android\n\nCERTFR-2026-AVI-1266\n\nVulnérabilité dans Microsoft Office\n\nCERTFR-2026-AVI-1267\n\nMultiples vulnérabilités dans Microsoft Edge\n\nCERTFR-2026-AVI-1268\n\nMultiples vulnérabilités dans Google Chrome\n\nCERTFR-2026-AVI-1269\n\nMultiples vulnérabilités dans GLPI\n\nCERTFR-2026-AVI-1270\n\nMultiples vulnérabilités dans Google Pixel\n\nCERTFR-2026-AVI-1271\n\nMultiples vulnérabilités dans OpenSSH\n\nCERTFR-2026-AVI-1272\n\nVulnérabilité dans les produits Mozilla\n\nCERTFR-2026-AVI-1273\n\nMultiples vulnérabilités dans WordPress\n\nCERTFR-2026-AVI-1274\n\nMultiples vulnérabilités dans Traefik\n\nCERTFR-2026-AVI-1275\n\nMultiples vulnérabilités dans Sonicwall Secure Mobile Access\n\nCERTFR-2026-AVI-1276\n\nMultiples vulnérabilités dans les produits Elastic\n\nCERTFR-2026-AVI-1277\n\nMultiples vulnérabilités dans les produits HPE Aruba Networking\n\nCERTFR-2026-AVI-1278\n\nMultiples vulnérabilités dans les produits Veeam\n\nCERTFR-2026-AVI-1279\n\nMultiples vulnérabilités dans SPIP\n\nCERTFR-2026-AVI-1280\n\nVulnérabilité dans Ceph\n\nCERTFR-2026-AVI-1281\n\nMultiples vulnérabilités dans les produits Splunk\n\nCERTFR-2026-AVI-1282\n\nMultiples vulnérabilités dans les produits Cisco\n\nCERTFR-2026-AVI-1283\n\nMultiples vulnérabilités dans les produits Nextcloud\n\nCERTFR-2026-AVI-1284\n\nVulnérabilité dans les produits Tenable\n\nCERTFR-2026-AVI-1285\n\nVulnérabilité dans Citrix NetScaler ADC et Gateway\n\nCERTFR-2026-AVI-1286\n\nMultiples vulnérabilités dans le noyau Linux d'Ubuntu\n\nCERTFR-2026-AVI-1287\n\nMultiples vulnérabilités dans le noyau Linux de Red Hat\n\nCERTFR-2026-AVI-1288\n\nMultiples vulnérabilités dans le noyau Linux de SUSE\n\nCERTFR-2026-AVI-1289\n\nMultiples vulnérabilités dans le noyau Linux de Debian LTS\n\nCERTFR-2026-AVI-1290\n\nMultiples vulnérabilités dans Apache Struts\n\nCERTFR-2026-AVI-1291\n\nMultiples vulnérabilités dans les produits IBM\n\nDurant la même période, les publications suivantes ont été mises à jour :\n\nCERTFR-2026-ALE-011\n\nMultiples vulnérabilités dans Citrix NetScaler ADC et Gateway\n\nHaut de page\n\nAccédez au portail authentifié du CERT-FR (ClubSSI)\n\nSe connecter au portail des services numériques du CERT-FR\n\nJe me connecte\n\nSuivez-nous sur les réseaux\n\nLinkedIn\n\nX (anciennement Twitter)\n\nMastodon\n\nGitHub\n\nRSS\n\nRépublique\nFrançaise\n\nLe site du CERT-FR est édité par l’Agence nationale de la sécurité des systèmes d’information (ANSSI).\n\ninfo.gouv.fr\n\nservice-public.fr\n\nlegifrance.gouv.fr\n\ndata.gouv.fr\n\nPlan du site\n\nAccessibilité : partiellement conforme\n\nMentions légales\n\nConditions générales\n\nANSSI\n\nContact\n\nRecrutement\n\nAPI\n\nSauf mention explicite de propriété intellectuelle détenue par des tiers, les contenus de ce site sont proposés sous licence etalab-2.0\n\nFermer\n\nParamètres d'affichage\n\nChoisissez un thème pour personnaliser l'apparence du site.\n\nThème clair\n\nThème sombre\n\nSystème Utilise les paramètres système",
         "ancre": null,
         "url": "https://www.cert.cyber.gouv.fr/actualite/CERTFR-2026-ACT-043/",
         "type": "section",
         "position": 0
       }
     ],
-    "run_id": "RUN-20261027-1945",
-    "version": 1,
-    "historique": []
+    "run_id": "RUN-20261029-1828",
+    "version": 2,
+    "historique": [
+      {
+        "version": 2,
+        "hash_sha256": "e8ff1659210c0878db0921ebba26165b9c212f8e662a9405bb74b23e9df23171",
+        "collecte_le": "2026-10-29T18:30:08.372Z",
+        "run_id": "RUN-20261029-1828",
+        "articles_ajoutes": [],
+        "articles_supprimes": [],
+        "articles_modifies": [
+          "document"
+        ]
+      }
+    ]
   },
   {
     "id": "TX-0025",
@@ -1954,10 +1978,10 @@
     "date_publication": null,
     "date_entree_en_vigueur": null,
     "date_entree_en_application": null,
-    "statut_texte": "En vigueur",
-    "hash_sha256": "622f26aa8201e1c326a34e330f2e9f00dd8aa4582fab70d9a87068b1e853d8c1",
-    "collecte_le": "2026-10-27T18:47:00.479Z",
-    "derniere_modification_detectee": null,
+    "statut_texte": "Modifié",
+    "hash_sha256": "cc1fb6b2b8f9521e1fb90a20558f5345126c973560b38af19c7a20f50877d483",
+    "collecte_le": "2026-10-29T18:30:10.379Z",
+    "derniere_modification_detectee": "2026-10-29T18:30:10.379Z",
     "fichier_source": null,
     "applicable": "À déterminer",
     "justification_applicabilite": null,
@@ -1968,16 +1992,28 @@
       {
         "numero": "document",
         "titre": "Bulletin d'actualité CERTFR-2026-ACT-044 (19 octobre 2026)",
-        "contenu": "Contenu\n\nMenu\n\nPied de page\n\nMenu\n\nParamètres d'affichage\n\nDéclarer un\nincident\n\nFermer\n\nParamètres\nd'affichage\n\nDéclarer un\nincident\n\nNous connaître\n\nA propos du CERT-FR\n\nRFC2350\n\nEcosystème des CERT/CSIRT\n\nPolitique de partage des informations\n\nPublications\n\nAlertes de sécurité\n\nRapports menaces et incidents\n\nAvis de sécurité\n\nIndicateurs de compromission\n\nDurcissement et recommandations\n\nBulletins d'actualité\n\nFiches réflexes\n\nNos services\n\nNous rejoindre\n\nViolations de données applicatives – Le CERT-FR partage son expérience CERTFR-2026-CTI-008\n\nBulletin d'actualité du CERT-FR\n\nObjet : Bulletin d'actualité CERTFR-2026-ACT-044\n\nImprimer\n\nGestion du document\n\nRéférence\nCERTFR-2026-ACT-044\n\nTitre\nBulletin d'actualité CERTFR-2026-ACT-044\n\nDate de la première version19 octobre 2026\n\nDate de la dernière version19 octobre 2026\n\nSource(s)\n\nUne gestion de version détaillée se trouve à la fin de ce document.\n\nCe bulletin d'actualité du CERT-FR revient sur les vulnérabilités significatives de la semaine passée pour souligner\nleurs criticités. Il ne remplace pas l'analyse de l'ensemble des avis et alertes publiés par le CERT-FR dans le cadre\nd'une analyse de risques pour prioriser l'application des correctifs.\nToutes les vulnérabilités évoquées dans les avis du CERT-FR doivent être prises en compte et faire l'objet d'un plan\nd'action lorsqu'elles génèrent des risques sur le système d'information.\nVeuillez-vous référer aux avis des éditeurs pour obtenir les correctifs.\n\nVulnérabilités significatives de la semaine 42\n\nTableau récapitulatif :\n\nVulnérabilités critiques du 12/10/26 au 18/10/26\n\nEditeur\nProduit\nIdentifiant CVE\nCVSS (source)\nType de vulnérabilité\nDate de publication\nExploitabilité (Preuve de concept publique)\nAvis Cert-FR\nAvis éditeur\n\nCisco\nAsyncOS\nCVE-2026-76519\n9.8 (NVD)\nExécution de code arbitraire à distance, Contournement de la politique de sécurité\n14/10/2026\nExploitée CERTFR-2026-AVI-1325\n\nhttps://sec.cloudapps.cisco.com/security/center/content/CiscoSecurityAdvisory/cisco-sa-esa-afw-zqYJkjxp\n\nMicrosoft\nWindows 10 22H2, Windows 11 26H1, Windows 10 21H2, Windows 10 1607, Windows 11 26H2, Windows Server 2025, Windows 11 25H2, Windows 10 1809, Windows Server 2022, Windows Server 2016, Windows 11 24H2, Windows 11 23H2, Windows Server 2012, Outlook Web, Windows Server 2019\nCVE-2026-96951\n8.8 (NVD)\nExécution de code arbitraire à distance, Contournement de la politique de sécurité\n13/10/2026\nExploitée CERTFR-2026-AVI-1312\n\nhttps://msrc.microsoft.com/update-guide/vulnerability/CVE-2026-96951\n\nPalo Alto Networks\nPAN-OS\nCVE-2026-0322\n8.6 (NVD)\nExécution de code arbitraire à distance\n14/10/2026\nExploitée CERTFR-2026-AVI-1326\n\nhttps://security.paloaltonetworks.com/CVE-2026-0322\n\nPostgreSQL\nPostgreSQL JDBC\nCVE-2026-107315\n5.3 (NVD)\nAtteinte à la confidentialité des données\n09/10/2026Code d'exploitation publicCERTFR-2026-AVI-1292\n\nhttps://www.postgresql.org/about/news/2026-10-07-postgresql-jdbc-42714-security-update-for-multiple-cves-3399/\n\nGitLab\nGitLab Community Edition (CE) et Gitlab Enterprise Edition (EE)\nCVE-2026-97229\n10 (NVD)\nExécution de code arbitraire à distance\n12/10/2026 Pas d'information\nCERTFR-2026-AVI-1294\n\nhttps://docs.gitlab.com/releases/patches/patch-release-gitlab-19-4-2-released/\n\nRappel des alertes CERT-FR\n\nIncident de sécurité ciblant les contrôleurs à distance des installations de réfrigération\n\nLe 12 octobre 2026, le CERT-FR a connaissance de nombreuses compromissions des contrôleurs à distance d'installation de réfrigération Danfoss série AK-SM, AK-SC ainsi que Copeland xweb et Dixell xweb.\nDe manière générale l'exposition d'une interface de gestion sur Internet est contraire aux bonnes pratiques.\nLiens :\n\nRecommandations pour une utilisation sécurisée des superviseurs XWEB\n\nVulnérabilité dans Ivanti Connect Secure (ICS)\n\nLe 13 octobre 2026, Ivanti a publié un avis concernant la vulnérabilité CVE-2026-104935 affectant Ivanti Connect Secure (ICS). Elle permet à un attaquant de provoquer une exécution de code arbitraire à distance, une élévation de privilèges et un contournement de la politique de sécurité.\nL'éditeur indique que cette vulnérabilité CVE-2026-104935 est activement exploitée.\nLiens :\n\nBulletin de sécurité Ivanti Security Advisory Ivanti Connect Secure (CVE-2026-104935)\nCVE-2026-104935\n\nAutres vulnérabilités\n\nTableau récapitulatif :\n\nEditeur\nProduit\nIdentifiant CVE\nCVSS\nType de vulnérabilité\nDate de publication\nExploitabilité (Preuve de concept publique)\nAvis éditeur\n\nAhsay\nAhsayCBS\nCVE-2026-105134\n9.3\nExécution de code arbitraire à distance\n04/10/2026\nExploitée https://www.ahsay.com/en/support/help-centre/release-notes/cbs/v10.3.4\n\nAhsay\nAhsayCBS\nCVE-2026-105133\n5.5\nContournement de la politique de sécurité\n04/10/2026\nExploitée https://www.ahsay.com/en/support/help-centre/release-notes/cbs/v10.3.4\n\nBeyondTrust\nRemote Support\nCVE-2026-102764\n9.3\nExécution de code arbitraire à distance\n15/10/2026\nExploitée https://www.beyondtrust.com/trust-center/security-advisories/bt26-05\nhttps://www.beyondtrust.com/blog/entry/bt26-05\n\nGestion détaillée du document\n\nDate\nDescription\n\n19 octobre 2026\nVersion initiale\n\nRappel des publications émises\n\nDans la période du 12 octobre 2026 au 18 octobre 2026, le CERT-FR\na émis les publications suivantes :\n\nCERTFR-2026-AVI-1292\n\nMultiples vulnérabilités dans PostgreSQL JDBC\n\nCERTFR-2026-AVI-1293\n\nMultiples vulnérabilités dans MongoDB\n\nCERTFR-2026-AVI-1294\n\nMultiples vulnérabilités dans GitLab\n\nCERTFR-2026-AVI-1295\n\nVulnérabilité dans NetApp StorageGRID\n\nCERTFR-2026-AVI-1296\n\nVulnérabilité dans Typo3\n\nCERTFR-2026-AVI-1297\n\nMultiples vulnérabilités dans Mozilla Firefox\n\nCERTFR-2026-AVI-1298\n\nMultiples vulnérabilités dans les produits Siemens\n\nCERTFR-2026-AVI-1299\n\nVulnérabilité dans Schneider Electric Harmony\n\nCERTFR-2026-AVI-1300\n\nMultiples vulnérabilités dans les produits SAP\n\nCERTFR-2026-AVI-1301\n\nMultiples vulnérabilités dans les produits Adobe\n\nCERTFR-2026-AVI-1302\n\nMultiples vulnérabilités dans Xen\n\nCERTFR-2026-AVI-1303\n\nVulnérabilité dans Symantec Endpoint Detection and Response\n\nCERTFR-2026-AVI-1304\n\nMultiples vulnérabilités dans MongoDB Server\n\nCERTFR-2026-AVI-1305\n\nMultiples vulnérabilités dans les produits Mozilla\n\nCERTFR-2026-AVI-1306\n\nMultiples vulnérabilités dans les produits Fortinet\n\nCERTFR-2026-AVI-1307\n\nMultiples vulnérabilités dans Curl\n\nCERTFR-2026-AVI-1308\n\nMultiples vulnérabilités dans Google Chrome\n\nCERTFR-2026-AVI-1309\n\nVulnérabilité dans Zabbix\n\nCERTFR-2026-AVI-1310\n\nMultiples vulnérabilités dans les produits Citrix\n\nCERTFR-2026-AVI-1311\n\nMultiples vulnérabilités dans les produits Ivanti\n\nCERTFR-2026-AVI-1312\n\nMultiples vulnérabilités dans Microsoft Office\n\nCERTFR-2026-AVI-1313\n\nMultiples vulnérabilités dans Microsoft .Net\n\nCERTFR-2026-AVI-1314\n\nMultiples vulnérabilités dans Microsoft Windows\n\nCERTFR-2026-AVI-1315\n\nMultiples vulnérabilités dans Microsoft Azure\n\nCERTFR-2026-AVI-1316\n\nMultiples vulnérabilités dans les produits Microsoft\n\nCERTFR-2026-AVI-1317\n\nMultiples vulnérabilités dans les produits F5\n\nCERTFR-2026-AVI-1318\n\nMultiples vulnérabilités dans Moodle\n\nCERTFR-2026-AVI-1319\n\nVulnérabilité dans PostgreSQL psqlODBC\n\nCERTFR-2026-AVI-1320\n\nMultiples vulnérabilités dans Sonicwall Network Security Manager\n\nCERTFR-2026-AVI-1321\n\nMultiples vulnérabilités dans Drupal\n\nCERTFR-2026-AVI-1322\n\nMultiples vulnérabilités dans les produits Juniper Networks\n\nCERTFR-2026-AVI-1323\n\nVulnérabilité dans les produits Microsoft\n\nCERTFR-2026-AVI-1324\n\nMultiples vulnérabilités dans les produits Symfony\n\nCERTFR-2026-AVI-1325\n\nVulnérabilité dans Cisco AsyncOS Software pour Secure Email Gateway\n\nCERTFR-2026-AVI-1326\n\nMultiples vulnérabilités dans les produits Palo Alto Networks\n\nCERTFR-2026-AVI-1327\n\nMultiples vulnérabilités dans Moxa AIG-302 Series\n\nCERTFR-2026-AVI-1328\n\nMultiples vulnérabilités dans les produits Mattermost\n\nCERTFR-2026-AVI-1329\n\nMultiples vulnérabilités dans Google Chrome\n\nCERTFR-2026-AVI-1330\n\nMultiples vulnérabilités dans Traefik\n\nCERTFR-2026-AVI-1331\n\nMultiples vulnérabilités dans Microsoft Office\n\nCERTFR-2026-AVI-1332\n\nMultiples vulnérabilités dans les produits Microsoft\n\nCERTFR-2026-AVI-1333\n\nMultiples vulnérabilités dans le noyau Linux d'Ubuntu\n\nCERTFR-2026-AVI-1334\n\nMultiples vulnérabilités dans le noyau Linux de Red Hat\n\nCERTFR-2026-AVI-1335\n\nMultiples vulnérabilités dans le noyau Linux de SUSE\n\nCERTFR-2026-AVI-1336\n\nMultiples vulnérabilités dans les produits IBM\n\nCERTFR-2026-ALE-012\n\nIncident de sécurité ciblant les contrôleurs à distance des installations de réfrigération\n\nCERTFR-2026-ALE-013\n\nVulnérabilité dans Ivanti Connect Secure (ICS)\n\nDurant la même période, les publications suivantes ont été mises à jour :\n\nCERTFR-2026-ALE-009\n\nMultiples vulnérabilités dans SonicWall Secure Mobile Access\n\nCERTFR-2026-ALE-010\n\nVulnérabilité dans Metabase\n\nHaut de page\n\nAccédez au portail authentifié du CERT-FR (ClubSSI)\n\nSe connecter au portail des services numériques du CERT-FR\n\nJe me connecte\n\nSuivez-nous sur les réseaux\n\nLinkedIn\n\nX (anciennement Twitter)\n\nMastodon\n\nGitHub\n\nRSS\n\nRépublique\nFrançaise\n\nLe site du CERT-FR est édité par l’Agence nationale de la sécurité des systèmes d’information (ANSSI).\n\ninfo.gouv.fr\n\nservice-public.fr\n\nlegifrance.gouv.fr\n\ndata.gouv.fr\n\nPlan du site\n\nAccessibilité : partiellement conforme\n\nMentions légales\n\nConditions générales\n\nANSSI\n\nContact\n\nRecrutement\n\nAPI\n\nSauf mention explicite de propriété intellectuelle détenue par des tiers, les contenus de ce site sont proposés sous licence etalab-2.0\n\nFermer\n\nParamètres d'affichage\n\nChoisissez un thème pour personnaliser l'apparence du site.\n\nThème clair\n\nThème sombre\n\nSystème Utilise les paramètres système",
+        "contenu": "Contenu\n\nMenu\n\nPied de page\n\nMenu\n\nParamètres d'affichage\n\nDéclarer un\nincident\n\nFermer\n\nParamètres\nd'affichage\n\nDéclarer un\nincident\n\nNous connaître\n\nA propos du CERT-FR\n\nRFC2350\n\nEcosystème des CERT/CSIRT\n\nPolitique de partage des informations\n\nPublications\n\nAlertes de sécurité\n\nRapports menaces et incidents\n\nAvis de sécurité\n\nIndicateurs de compromission\n\nDurcissement et recommandations\n\nBulletins d'actualité\n\nFiches réflexes\n\nNos services\n\nNous rejoindre\n\nBulletin d'actualité du CERT-FR\n\nObjet : Bulletin d'actualité CERTFR-2026-ACT-044\n\nImprimer\n\nGestion du document\n\nRéférence\nCERTFR-2026-ACT-044\n\nTitre\nBulletin d'actualité CERTFR-2026-ACT-044\n\nDate de la première version19 octobre 2026\n\nDate de la dernière version19 octobre 2026\n\nSource(s)\n\nUne gestion de version détaillée se trouve à la fin de ce document.\n\nCe bulletin d'actualité du CERT-FR revient sur les vulnérabilités significatives de la semaine passée pour souligner\nleurs criticités. Il ne remplace pas l'analyse de l'ensemble des avis et alertes publiés par le CERT-FR dans le cadre\nd'une analyse de risques pour prioriser l'application des correctifs.\nToutes les vulnérabilités évoquées dans les avis du CERT-FR doivent être prises en compte et faire l'objet d'un plan\nd'action lorsqu'elles génèrent des risques sur le système d'information.\nVeuillez-vous référer aux avis des éditeurs pour obtenir les correctifs.\n\nVulnérabilités significatives de la semaine 42\n\nTableau récapitulatif :\n\nVulnérabilités critiques du 12/10/26 au 18/10/26\n\nEditeur\nProduit\nIdentifiant CVE\nCVSS (source)\nType de vulnérabilité\nDate de publication\nExploitabilité (Preuve de concept publique)\nAvis Cert-FR\nAvis éditeur\n\nCisco\nAsyncOS\nCVE-2026-76519\n9.8 (NVD)\nExécution de code arbitraire à distance, Contournement de la politique de sécurité\n14/10/2026\nExploitée CERTFR-2026-AVI-1325\n\nhttps://sec.cloudapps.cisco.com/security/center/content/CiscoSecurityAdvisory/cisco-sa-esa-afw-zqYJkjxp\n\nMicrosoft\nWindows 10 22H2, Windows 11 26H1, Windows 10 21H2, Windows 10 1607, Windows 11 26H2, Windows Server 2025, Windows 11 25H2, Windows 10 1809, Windows Server 2022, Windows Server 2016, Windows 11 24H2, Windows 11 23H2, Windows Server 2012, Outlook Web, Windows Server 2019\nCVE-2026-96951\n8.8 (NVD)\nExécution de code arbitraire à distance, Contournement de la politique de sécurité\n13/10/2026\nExploitée CERTFR-2026-AVI-1312\n\nhttps://msrc.microsoft.com/update-guide/vulnerability/CVE-2026-96951\n\nPalo Alto Networks\nPAN-OS\nCVE-2026-0322\n8.6 (NVD)\nExécution de code arbitraire à distance\n14/10/2026\nExploitée CERTFR-2026-AVI-1326\n\nhttps://security.paloaltonetworks.com/CVE-2026-0322\n\nPostgreSQL\nPostgreSQL JDBC\nCVE-2026-107315\n5.3 (NVD)\nAtteinte à la confidentialité des données\n09/10/2026Code d'exploitation publicCERTFR-2026-AVI-1292\n\nhttps://www.postgresql.org/about/news/2026-10-07-postgresql-jdbc-42714-security-update-for-multiple-cves-3399/\n\nGitLab\nGitLab Community Edition (CE) et Gitlab Enterprise Edition (EE)\nCVE-2026-97229\n10 (NVD)\nExécution de code arbitraire à distance\n12/10/2026 Pas d'information\nCERTFR-2026-AVI-1294\n\nhttps://docs.gitlab.com/releases/patches/patch-release-gitlab-19-4-2-released/\n\nRappel des alertes CERT-FR\n\nIncident de sécurité ciblant les contrôleurs à distance des installations de réfrigération\n\nLe 12 octobre 2026, le CERT-FR a connaissance de nombreuses compromissions des contrôleurs à distance d'installation de réfrigération Danfoss série AK-SM, AK-SC ainsi que Copeland xweb et Dixell xweb.\nDe manière générale l'exposition d'une interface de gestion sur Internet est contraire aux bonnes pratiques.\nLiens :\n\nRecommandations pour une utilisation sécurisée des superviseurs XWEB\n\nVulnérabilité dans Ivanti Connect Secure (ICS)\n\nLe 13 octobre 2026, Ivanti a publié un avis concernant la vulnérabilité CVE-2026-104935 affectant Ivanti Connect Secure (ICS). Elle permet à un attaquant de provoquer une exécution de code arbitraire à distance, une élévation de privilèges et un contournement de la politique de sécurité.\nL'éditeur indique que cette vulnérabilité CVE-2026-104935 est activement exploitée.\nLiens :\n\nBulletin de sécurité Ivanti Security Advisory Ivanti Connect Secure (CVE-2026-104935)\nCVE-2026-104935\n\nAutres vulnérabilités\n\nTableau récapitulatif :\n\nEditeur\nProduit\nIdentifiant CVE\nCVSS\nType de vulnérabilité\nDate de publication\nExploitabilité (Preuve de concept publique)\nAvis éditeur\n\nAhsay\nAhsayCBS\nCVE-2026-105134\n9.3\nExécution de code arbitraire à distance\n04/10/2026\nExploitée https://www.ahsay.com/en/support/help-centre/release-notes/cbs/v10.3.4\n\nAhsay\nAhsayCBS\nCVE-2026-105133\n5.5\nContournement de la politique de sécurité\n04/10/2026\nExploitée https://www.ahsay.com/en/support/help-centre/release-notes/cbs/v10.3.4\n\nBeyondTrust\nRemote Support\nCVE-2026-102764\n9.3\nExécution de code arbitraire à distance\n15/10/2026\nExploitée https://www.beyondtrust.com/trust-center/security-advisories/bt26-05\nhttps://www.beyondtrust.com/blog/entry/bt26-05\n\nGestion détaillée du document\n\nDate\nDescription\n\n19 octobre 2026\nVersion initiale\n\nRappel des publications émises\n\nDans la période du 12 octobre 2026 au 18 octobre 2026, le CERT-FR\na émis les publications suivantes :\n\nCERTFR-2026-AVI-1292\n\nMultiples vulnérabilités dans PostgreSQL JDBC\n\nCERTFR-2026-AVI-1293\n\nMultiples vulnérabilités dans MongoDB\n\nCERTFR-2026-AVI-1294\n\nMultiples vulnérabilités dans GitLab\n\nCERTFR-2026-AVI-1295\n\nVulnérabilité dans NetApp StorageGRID\n\nCERTFR-2026-AVI-1296\n\nVulnérabilité dans Typo3\n\nCERTFR-2026-AVI-1297\n\nMultiples vulnérabilités dans Mozilla Firefox\n\nCERTFR-2026-AVI-1298\n\nMultiples vulnérabilités dans les produits Siemens\n\nCERTFR-2026-AVI-1299\n\nVulnérabilité dans Schneider Electric Harmony\n\nCERTFR-2026-AVI-1300\n\nMultiples vulnérabilités dans les produits SAP\n\nCERTFR-2026-AVI-1301\n\nMultiples vulnérabilités dans les produits Adobe\n\nCERTFR-2026-AVI-1302\n\nMultiples vulnérabilités dans Xen\n\nCERTFR-2026-AVI-1303\n\nVulnérabilité dans Symantec Endpoint Detection and Response\n\nCERTFR-2026-AVI-1304\n\nMultiples vulnérabilités dans MongoDB Server\n\nCERTFR-2026-AVI-1305\n\nMultiples vulnérabilités dans les produits Mozilla\n\nCERTFR-2026-AVI-1306\n\nMultiples vulnérabilités dans les produits Fortinet\n\nCERTFR-2026-AVI-1307\n\nMultiples vulnérabilités dans Curl\n\nCERTFR-2026-AVI-1308\n\nMultiples vulnérabilités dans Google Chrome\n\nCERTFR-2026-AVI-1309\n\nVulnérabilité dans Zabbix\n\nCERTFR-2026-AVI-1310\n\nMultiples vulnérabilités dans les produits Citrix\n\nCERTFR-2026-AVI-1311\n\nMultiples vulnérabilités dans les produits Ivanti\n\nCERTFR-2026-AVI-1312\n\nMultiples vulnérabilités dans Microsoft Office\n\nCERTFR-2026-AVI-1313\n\nMultiples vulnérabilités dans Microsoft .Net\n\nCERTFR-2026-AVI-1314\n\nMultiples vulnérabilités dans Microsoft Windows\n\nCERTFR-2026-AVI-1315\n\nMultiples vulnérabilités dans Microsoft Azure\n\nCERTFR-2026-AVI-1316\n\nMultiples vulnérabilités dans les produits Microsoft\n\nCERTFR-2026-AVI-1317\n\nMultiples vulnérabilités dans les produits F5\n\nCERTFR-2026-AVI-1318\n\nMultiples vulnérabilités dans Moodle\n\nCERTFR-2026-AVI-1319\n\nVulnérabilité dans PostgreSQL psqlODBC\n\nCERTFR-2026-AVI-1320\n\nMultiples vulnérabilités dans Sonicwall Network Security Manager\n\nCERTFR-2026-AVI-1321\n\nMultiples vulnérabilités dans Drupal\n\nCERTFR-2026-AVI-1322\n\nMultiples vulnérabilités dans les produits Juniper Networks\n\nCERTFR-2026-AVI-1323\n\nVulnérabilité dans les produits Microsoft\n\nCERTFR-2026-AVI-1324\n\nMultiples vulnérabilités dans les produits Symfony\n\nCERTFR-2026-AVI-1325\n\nVulnérabilité dans Cisco AsyncOS Software pour Secure Email Gateway\n\nCERTFR-2026-AVI-1326\n\nMultiples vulnérabilités dans les produits Palo Alto Networks\n\nCERTFR-2026-AVI-1327\n\nMultiples vulnérabilités dans Moxa AIG-302 Series\n\nCERTFR-2026-AVI-1328\n\nMultiples vulnérabilités dans les produits Mattermost\n\nCERTFR-2026-AVI-1329\n\nMultiples vulnérabilités dans Google Chrome\n\nCERTFR-2026-AVI-1330\n\nMultiples vulnérabilités dans Traefik\n\nCERTFR-2026-AVI-1331\n\nMultiples vulnérabilités dans Microsoft Office\n\nCERTFR-2026-AVI-1332\n\nMultiples vulnérabilités dans les produits Microsoft\n\nCERTFR-2026-AVI-1333\n\nMultiples vulnérabilités dans le noyau Linux d'Ubuntu\n\nCERTFR-2026-AVI-1334\n\nMultiples vulnérabilités dans le noyau Linux de Red Hat\n\nCERTFR-2026-AVI-1335\n\nMultiples vulnérabilités dans le noyau Linux de SUSE\n\nCERTFR-2026-AVI-1336\n\nMultiples vulnérabilités dans les produits IBM\n\nCERTFR-2026-ALE-012\n\nIncident de sécurité ciblant les contrôleurs à distance des installations de réfrigération\n\nCERTFR-2026-ALE-013\n\nVulnérabilité dans Ivanti Connect Secure (ICS)\n\nDurant la même période, les publications suivantes ont été mises à jour :\n\nCERTFR-2026-ALE-009\n\nMultiples vulnérabilités dans SonicWall Secure Mobile Access\n\nCERTFR-2026-ALE-010\n\nVulnérabilité dans Metabase\n\nHaut de page\n\nAccédez au portail authentifié du CERT-FR (ClubSSI)\n\nSe connecter au portail des services numériques du CERT-FR\n\nJe me connecte\n\nSuivez-nous sur les réseaux\n\nLinkedIn\n\nX (anciennement Twitter)\n\nMastodon\n\nGitHub\n\nRSS\n\nRépublique\nFrançaise\n\nLe site du CERT-FR est édité par l’Agence nationale de la sécurité des systèmes d’information (ANSSI).\n\ninfo.gouv.fr\n\nservice-public.fr\n\nlegifrance.gouv.fr\n\ndata.gouv.fr\n\nPlan du site\n\nAccessibilité : partiellement conforme\n\nMentions légales\n\nConditions générales\n\nANSSI\n\nContact\n\nRecrutement\n\nAPI\n\nSauf mention explicite de propriété intellectuelle détenue par des tiers, les contenus de ce site sont proposés sous licence etalab-2.0\n\nFermer\n\nParamètres d'affichage\n\nChoisissez un thème pour personnaliser l'apparence du site.\n\nThème clair\n\nThème sombre\n\nSystème Utilise les paramètres système",
         "ancre": null,
         "url": "https://www.cert.cyber.gouv.fr/actualite/CERTFR-2026-ACT-044/",
         "type": "section",
         "position": 0
       }
     ],
-    "run_id": "RUN-20261027-1945",
-    "version": 1,
-    "historique": []
+    "run_id": "RUN-20261029-1828",
+    "version": 2,
+    "historique": [
+      {
+        "version": 2,
+        "hash_sha256": "cc1fb6b2b8f9521e1fb90a20558f5345126c973560b38af19c7a20f50877d483",
+        "collecte_le": "2026-10-29T18:30:10.379Z",
+        "run_id": "RUN-20261029-1828",
+        "articles_ajoutes": [],
+        "articles_supprimes": [],
+        "articles_modifies": [
+          "document"
+        ]
+      }
+    ]
   },
   {
     "id": "TX-0026",
@@ -1992,10 +2028,10 @@
     "date_publication": null,
     "date_entree_en_vigueur": null,
     "date_entree_en_application": null,
-    "statut_texte": "En vigueur",
-    "hash_sha256": "48960446530c0c51cc9b58c0653a54eef78da84dfc2dee4db71dd73769a1427f",
-    "collecte_le": "2026-10-27T18:47:02.498Z",
-    "derniere_modification_detectee": null,
+    "statut_texte": "Modifié",
+    "hash_sha256": "2ae0ea933c9499ff2a29ab8e92132fab71cb12b9cef063c11ec1f2b76952e9f0",
+    "collecte_le": "2026-10-29T18:30:12.383Z",
+    "derniere_modification_detectee": "2026-10-29T18:30:12.383Z",
     "fichier_source": null,
     "applicable": "À déterminer",
     "justification_applicabilite": null,
@@ -2006,14 +2042,387 @@
       {
         "numero": "document",
         "titre": "Bulletin d'actualité CERTFR-2026-ACT-045 (26 octobre 2026)",
-        "contenu": "Contenu\n\nMenu\n\nPied de page\n\nMenu\n\nParamètres d'affichage\n\nDéclarer un\nincident\n\nFermer\n\nParamètres\nd'affichage\n\nDéclarer un\nincident\n\nNous connaître\n\nA propos du CERT-FR\n\nRFC2350\n\nEcosystème des CERT/CSIRT\n\nPolitique de partage des informations\n\nPublications\n\nAlertes de sécurité\n\nRapports menaces et incidents\n\nAvis de sécurité\n\nIndicateurs de compromission\n\nDurcissement et recommandations\n\nBulletins d'actualité\n\nFiches réflexes\n\nNos services\n\nNous rejoindre\n\nViolations de données applicatives – Le CERT-FR partage son expérience CERTFR-2026-CTI-008\n\nBulletin d'actualité du CERT-FR\n\nObjet : Bulletin d'actualité CERTFR-2026-ACT-045\n\nImprimer\n\nGestion du document\n\nRéférence\nCERTFR-2026-ACT-045\n\nTitre\nBulletin d'actualité CERTFR-2026-ACT-045\n\nDate de la première version26 octobre 2026\n\nDate de la dernière version26 octobre 2026\n\nSource(s)\n\nUne gestion de version détaillée se trouve à la fin de ce document.\n\nCe bulletin d'actualité du CERT-FR revient sur les vulnérabilités significatives de la semaine passée pour souligner\nleurs criticités. Il ne remplace pas l'analyse de l'ensemble des avis et alertes publiés par le CERT-FR dans le cadre\nd'une analyse de risques pour prioriser l'application des correctifs.\nToutes les vulnérabilités évoquées dans les avis du CERT-FR doivent être prises en compte et faire l'objet d'un plan\nd'action lorsqu'elles génèrent des risques sur le système d'information.\nVeuillez-vous référer aux avis des éditeurs pour obtenir les correctifs.\n\nVulnérabilités significatives de la semaine 43\n\nTableau récapitulatif :\n\nVulnérabilités critiques du 19/10/26 au 25/10/26\n\nEditeur\nProduit\nIdentifiant CVE\nCVSS (source)\nType de vulnérabilité\nDate de publication\nExploitabilité (Preuve de concept publique)\nAvis Cert-FR\nAvis éditeur\n\nHPE Aruba Networking\nAOS\nCVE-2026-79844\n10 (NVD)\nExécution de code arbitraire à distance, Contournement de la politique de sécurité\n22/10/2026 Pas d'information\nCERTFR-2026-AVI-1369\n\nhttps://csaf.arubanetworking.hpe.com/2026/hpe_networking_-_hpesbnw05162.txt\n\nHPE Aruba Networking\nAOS\nCVE-2026-79846\n10 (NVD)\nExécution de code arbitraire à distance\n22/10/2026 Pas d'information\nCERTFR-2026-AVI-1369\n\nhttps://csaf.arubanetworking.hpe.com/2026/hpe_networking_-_hpesbnw05162.txt\n\nHPE Aruba Networking\nAOS\nCVE-2026-79847\n10 (NVD)\nExécution de code arbitraire à distance\n22/10/2026 Pas d'information\nCERTFR-2026-AVI-1369\n\nhttps://csaf.arubanetworking.hpe.com/2026/hpe_networking_-_hpesbnw05162.txt\n\nHPE Aruba Networking\nAOS\nCVE-2026-79848\n10 (NVD)\nExécution de code arbitraire à distance, Injection SQL (SQLi)\n22/10/2026 Pas d'information\nCERTFR-2026-AVI-1369\n\nhttps://csaf.arubanetworking.hpe.com/2026/hpe_networking_-_hpesbnw05162.txt\n\nHPE Aruba Networking\nAOS\nCVE-2026-79849\n10 (NVD)\nExécution de code arbitraire à distance, Injection SQL (SQLi)\n22/10/2026 Pas d'information\nCERTFR-2026-AVI-1369\n\nhttps://csaf.arubanetworking.hpe.com/2026/hpe_networking_-_hpesbnw05162.txt\n\nHPE Aruba Networking\nAOS\nCVE-2026-79850\n10 (NVD)\nExécution de code arbitraire à distance, Contournement de la politique de sécurité\n22/10/2026 Pas d'information\nCERTFR-2026-AVI-1369\n\nhttps://csaf.arubanetworking.hpe.com/2026/hpe_networking_-_hpesbnw05162.txt\n\nHPE Aruba Networking\nAOS\nCVE-2026-79851\n10 (NVD)\nExécution de code arbitraire à distance\n22/10/2026 Pas d'information\nCERTFR-2026-AVI-1369\n\nhttps://csaf.arubanetworking.hpe.com/2026/hpe_networking_-_hpesbnw05162.txt\n\nHPE Aruba Networking\nAOS\nCVE-2026-79852\n9.8 (NVD)\nExécution de code arbitraire à distance, Injection SQL (SQLi)\n22/10/2026 Pas d'information\nCERTFR-2026-AVI-1369\n\nhttps://csaf.arubanetworking.hpe.com/2026/hpe_networking_-_hpesbnw05162.txt\n\nHPE Aruba Networking\nAOS\nCVE-2026-79853\n9.8 (NVD)\nExécution de code arbitraire à distance, Atteinte à la confidentialité des données\n22/10/2026 Pas d'information\nCERTFR-2026-AVI-1369\n\nhttps://csaf.arubanetworking.hpe.com/2026/hpe_networking_-_hpesbnw05162.txt\n\nHPE Aruba Networking\nAOS\nCVE-2026-79854\n9.8 (NVD)\nExécution de code arbitraire à distance, Injection SQL (SQLi)\n22/10/2026 Pas d'information\nCERTFR-2026-AVI-1369\n\nhttps://csaf.arubanetworking.hpe.com/2026/hpe_networking_-_hpesbnw05162.txt\n\nHPE Aruba Networking\nAOS\nCVE-2026-79855\n9.8 (NVD)\nÉlévation de privilèges, Contournement de la politique de sécurité\n22/10/2026 Pas d'information\nCERTFR-2026-AVI-1369\n\nhttps://csaf.arubanetworking.hpe.com/2026/hpe_networking_-_hpesbnw05162.txt\n\nHPE Aruba Networking\nAOS\nCVE-2026-79856\n9.8 (NVD)\nAtteinte à la confidentialité des données, Contournement de la politique de sécurité\n22/10/2026 Pas d'information\nCERTFR-2026-AVI-1369\n\nhttps://csaf.arubanetworking.hpe.com/2026/hpe_networking_-_hpesbnw05162.txt\n\nHPE Aruba Networking\nAOS\nCVE-2026-79857\n9.8 (NVD)\nExécution de code arbitraire à distance\n22/10/2026 Pas d'information\nCERTFR-2026-AVI-1369\n\nhttps://csaf.arubanetworking.hpe.com/2026/hpe_networking_-_hpesbnw05162.txt\n\nHPE Aruba Networking\nAOS\nCVE-2026-79858\n9.8 (NVD)\nExécution de code arbitraire à distance, Atteinte à la confidentialité des données, Injection SQL (SQLi)\n22/10/2026 Pas d'information\nCERTFR-2026-AVI-1369\n\nhttps://csaf.arubanetworking.hpe.com/2026/hpe_networking_-_hpesbnw05162.txt\n\nHPE Aruba Networking\nAOS\nCVE-2026-79859\n9.8 (NVD)\nExécution de code arbitraire à distance\n22/10/2026 Pas d'information\nCERTFR-2026-AVI-1369\n\nhttps://csaf.arubanetworking.hpe.com/2026/hpe_networking_-_hpesbnw05162.txt\n\nHPE Aruba Networking\nAOS\nCVE-2026-79860\n9.8 (NVD)\nExécution de code arbitraire à distance\n22/10/2026 Pas d'information\nCERTFR-2026-AVI-1369\n\nhttps://csaf.arubanetworking.hpe.com/2026/hpe_networking_-_hpesbnw05162.txt\n\nHPE Aruba Networking\nAOS\nCVE-2026-79861\n9.8 (NVD)\nExécution de code arbitraire à distance\n22/10/2026 Pas d'information\nCERTFR-2026-AVI-1369\n\nhttps://csaf.arubanetworking.hpe.com/2026/hpe_networking_-_hpesbnw05162.txt\n\nCisco\nUnified Communications Manager, Unified Communications Manager IM & Presence Service, Unity Connection\nCVE-2026-76473\n9.8 (NVD)\nContournement de la politique de sécurité\n21/10/2026 Pas d'information\nCERTFR-2026-AVI-1360\n\nhttps://sec.cloudapps.cisco.com/security/center/content/CiscoSecurityAdvisory/cisco-sa-voice-hardening-twgbH9e3\n\nCisco\nUnified Communications Manager, Unified Communications Manager IM & Presence Service, Unity Connection\nCVE-2026-76474\n9.8 (NVD)\nContournement de la politique de sécurité\n21/10/2026 Pas d'information\nCERTFR-2026-AVI-1360\n\nhttps://sec.cloudapps.cisco.com/security/center/content/CiscoSecurityAdvisory/cisco-sa-voice-hardening-twgbH9e3\n\nCisco\nTelePresence VCS\nCVE-2026-76466\n9.8 (NVD)\nExécution de code arbitraire à distance, Contournement de la politique de sécurité\n21/10/2026 Pas d'information\nCERTFR-2026-AVI-1360\n\nhttps://sec.cloudapps.cisco.com/security/center/content/CiscoSecurityAdvisory/cisco-sa-vcs-static-cred-hr7EWZ8t\n\nSolarWinds\nObservability Self-Hosted\nCVE-2026-28324\n9.8 (NVD)\nExécution de code arbitraire à distance\n20/10/2026 Pas d'information\nCERTFR-2026-AVI-1364\n\nhttps://www.solarwinds.com/trust-center/security-advisories/cve-2026-28328\n\nHPE Aruba Networking\nAOS\nCVE-2026-79862\n9.6 (NVD)\nExécution de code arbitraire\n22/10/2026 Pas d'information\nCERTFR-2026-AVI-1369\n\nhttps://csaf.arubanetworking.hpe.com/2026/hpe_networking_-_hpesbnw05162.txt\n\nHPE Aruba Networking\nAOS\nCVE-2026-79863\n9.6 (NVD)\nExécution de code arbitraire\n22/10/2026 Pas d'information\nCERTFR-2026-AVI-1369\n\nhttps://csaf.arubanetworking.hpe.com/2026/hpe_networking_-_hpesbnw05162.txt\n\nHPE Aruba Networking\nAOS\nCVE-2026-79864\n9.6 (NVD)\nExécution de code arbitraire\n22/10/2026 Pas d'information\nCERTFR-2026-AVI-1369\n\nhttps://csaf.arubanetworking.hpe.com/2026/hpe_networking_-_hpesbnw05162.txt\n\nHPE Aruba Networking\nAOS\nCVE-2026-79865\n9.6 (NVD)\nExécution de code arbitraire à distance, Exécution de code arbitraire\n22/10/2026 Pas d'information\nCERTFR-2026-AVI-1369\n\nhttps://csaf.arubanetworking.hpe.com/2026/hpe_networking_-_hpesbnw05162.txt\n\nHPE Aruba Networking\nAOS\nCVE-2026-79866\n9.6 (NVD)\nAtteinte à la confidentialité des données\n22/10/2026\nPas d'information\nCERTFR-2026-AVI-1369\n\nhttps://csaf.arubanetworking.hpe.com/2026/hpe_networking_-_hpesbnw05162.txt\n\nHPE Aruba Networking\nAOS\nCVE-2026-79867\n9.6 (NVD)\nExécution de code arbitraire, Contournement de la politique de sécurité\n22/10/2026 Pas d'information\nCERTFR-2026-AVI-1369\n\nhttps://csaf.arubanetworking.hpe.com/2026/hpe_networking_-_hpesbnw05162.txt\n\nHPE Aruba Networking\nAOS\nCVE-2026-79868\n9.6 (NVD)\nAtteinte à la confidentialité des données, Contournement de la politique de sécurité\n22/10/2026 Pas d'information\nCERTFR-2026-AVI-1369\n\nhttps://csaf.arubanetworking.hpe.com/2026/hpe_networking_-_hpesbnw05162.txt\n\nHPE Aruba Networking\nAOS\nCVE-2026-79869\n9.6 (NVD)\nExécution de code arbitraire, Contournement de la politique de sécurité\n22/10/2026 Pas d'information\nCERTFR-2026-AVI-1369\n\nhttps://csaf.arubanetworking.hpe.com/2026/hpe_networking_-_hpesbnw05162.txt\n\nHPE Aruba Networking\nAOS\nCVE-2026-79870\n9.6 (NVD)\nAtteinte à la confidentialité des données, Contournement de la politique de sécurité\n22/10/2026 Pas d'information\nCERTFR-2026-AVI-1369\n\nhttps://csaf.arubanetworking.hpe.com/2026/hpe_networking_-_hpesbnw05162.txt\n\nHPE Aruba Networking\nAOS\nCVE-2026-79871\n9.6 (NVD)\nAtteinte à la confidentialité des données\n22/10/2026 Pas d'information\nCERTFR-2026-AVI-1369\n\nhttps://csaf.arubanetworking.hpe.com/2026/hpe_networking_-_hpesbnw05162.txt\n\nHPE Aruba Networking\nAOS\nCVE-2026-79872\n9.4 (NVD)\nExécution de code arbitraire à distance\n22/10/2026 Pas d'information\nCERTFR-2026-AVI-1369\n\nhttps://csaf.arubanetworking.hpe.com/2026/hpe_networking_-_hpesbnw05162.txt\n\nHPE Aruba Networking\nAOS\nCVE-2026-79873\n9.3 (NVD)\nAtteinte à la confidentialité des données, Contournement de la politique de sécurité\n22/10/2026 Pas d'information\nCERTFR-2026-AVI-1369\n\nhttps://csaf.arubanetworking.hpe.com/2026/hpe_networking_-_hpesbnw05162.txt\n\nHPE Aruba Networking\nAOS\nCVE-2026-79874\n9.3 (NVD)\nAtteinte à la confidentialité des données, Contournement de la politique de sécurité\n22/10/2026 Pas d'information\nCERTFR-2026-AVI-1369\n\nhttps://csaf.arubanetworking.hpe.com/2026/hpe_networking_-_hpesbnw05162.txt\n\nHPE Aruba Networking\nAOS\nCVE-2026-79875\n9.3 (NVD)\nAtteinte à la confidentialité des données, Contournement de la politique de sécurité\n22/10/2026 Pas d'information\nCERTFR-2026-AVI-1369\n\nhttps://csaf.arubanetworking.hpe.com/2026/hpe_networking_-_hpesbnw05162.txt\n\nHPE Aruba Networking\nAOS\nCVE-2026-79876\n9.3 (NVD)\nAtteinte à la confidentialité des données\n22/10/2026 Pas d'information\nCERTFR-2026-AVI-1369\n\nhttps://csaf.arubanetworking.hpe.com/2026/hpe_networking_-_hpesbnw05162.txt\n\nCisco\nUnified Communications Manager, Unified Communications Manager IM & Presence Service, Unity Connection\nCVE-2026-76475\n9.3 (NVD)\nContournement de la politique de sécurité\n21/10/2026 Pas d'information\nCERTFR-2026-AVI-1360\n\nhttps://sec.cloudapps.cisco.com/security/center/content/CiscoSecurityAdvisory/cisco-sa-voice-hardening-twgbH9e3\n\nF5\nNGINX Open Source, NGINX Plus\nCVE-2026-15176\n9.2 (NVD)\nExécution de code arbitraire à distance, Déni de service à distance, Contournement de la politique de sécurité\n14/10/2026 Pas d'information\nCERTFR-2026-AVI-1341\n\nhttps://my.f5.com/manage/s/article/K000163408\nhttps://my.f5.com/manage/s/article/K000162416\n\nF5\nNGINX Open Source, NGINX Plus\nCVE-2026-93479\n9.2 (NVD)\nExécution de code arbitraire à distance, Déni de service à distance, Contournement de la politique de sécurité\n14/10/2026 Pas d'information\nCERTFR-2026-AVI-1341\n\nhttps://my.f5.com/manage/s/article/K000163408\nhttps://my.f5.com/manage/s/article/K000162607\n\nF5\nNGINX Open Source, NGINX Plus\nCVE-2026-97205\n9.2 (NVD)\nExécution de code arbitraire à distance, Déni de service à distance, Contournement de la politique de sécurité\n14/10/2026 Pas d'information\nCERTFR-2026-AVI-1341\n\nhttps://my.f5.com/manage/s/article/K000163408\nhttps://my.f5.com/manage/s/article/K000162608\n\nSolarWinds\nServ-U\nCVE-2026-28308\n9.1 (NVD)\nExécution de code arbitraire à distance\n20/10/2026 Pas d'information\nCERTFR-2026-AVI-1364\n\nhttps://www.solarwinds.com/trust-center/security-advisories/cve-2026-28329\n\nApache\nTomcat\nCVE-2026-103119\n9.1 (NVD)\nAtteinte à la confidentialité des données\n12/10/2026 Pas d'information\nCERTFR-2026-AVI-1358\n\nhttps://tomcat.apache.org/security-11.html#Fixed_in_Apache_Tomcat_11.0.27\n\nApache\nTomcat\nCVE-2026-101356\n9.1 (NVD)\nAtteinte à la confidentialité des données\n12/10/2026 Pas d'information\nCERTFR-2026-AVI-1358\n\nhttps://tomcat.apache.org/security-11.html#Fixed_in_Apache_Tomcat_11.0.27\nhttps://tomcat.apache.org/security-10.html#Fixed_in_Apache_Tomcat_10.1.61\nhttps://tomcat.apache.org/security-9.html#Fixed_in_Apache_Tomcat_9.0.123\n\nApache\nTomcat\nCVE-2026-101296\n9.1 (NVD)\nAtteinte à la confidentialité des données\n12/10/2026 Pas d'information\nCERTFR-2026-AVI-1358\n\nhttps://tomcat.apache.org/security-11.html#Fixed_in_Apache_Tomcat_11.0.27\nhttps://tomcat.apache.org/security-10.html#Fixed_in_Apache_Tomcat_10.1.61\nhttps://tomcat.apache.org/security-9.html#Fixed_in_Apache_Tomcat_9.0.123\n\nCisco\nSecure Firewall Threat Defense\nCVE-2026-20043\n9 (NVD)\nAtteinte à l'intégrité des données\n21/10/2026 Pas d'information\nCERTFR-2026-AVI-1360\n\nhttps://sec.cloudapps.cisco.com/security/center/content/CiscoSecurityAdvisory/cisco-sa-hardening-snort3-ybgmhTQe\n\nRappel des alertes CERT-FR\n\n[Màj] Multiples vulnérabilités dans PHP\n\nLe 20 octobre, PHP a publié une communication concernant deux vulnérabilités critiques.\n\nLe 21 octobre, des correctifs de sécurité sont disponibles sur le site de l'éditeur.\n\nLe 23 octobre, PHP a publié un avis de sécurité concernant une nouvelle vulnérabilité (CVE-2026-115560). Cette dernière permet une exécution de code à distance. Cependant, son exploitation reste peu probable. L'éditeur a prévu de corriger cette faille dans une futur mise à jour.\n\nLe 26 octobre, le CERT-FR a connaissance de preuves de concept et de tentatives d'exploitation pour les vulnérabilités CVE-2026-109618 et CVE-2026-109619 pour des déploiements spécifiques de PHP.\n\nPour rappel, le CERT-FR incite à la vigilance et rappelle que le langage PHP est utilisé dans de nombreux produits.\n\nLiens :\n\nAlerte de sécurité CERTFR-2026-ALE-014 du 21 octobre 2026\nAvis CERT-FR CERTFR-2026-AVI-1359 du 21 octobre 2026\nBulletin de sécurité PHP GHSA-w8hw-w9fx-j79w\nBulletin de sécurité PHP GHSA-6wmf-4rv5-p3rp\n\nAutres vulnérabilités\n\nTableau récapitulatif :\n\nEditeur\nProduit\nIdentifiant CVE\nCVSS\nType de vulnérabilité\nDate de publication\nExploitabilité (Preuve de concept publique)\nAvis éditeur\n\nArista\nVelocloud Orchestrator\nCVE-2026-114625\n9.4\nÉlévation de privilèges, Atteinte à la confidentialité des données\n22/10/2026\nExploitée https://www.arista.com/en/support/advisories-notices/security-advisory/24838-security-advisory-0199\n\nCollabora Online\nBuilt-in CODE Server\nCVE-2026-110447\n9.2\nExécution de code arbitraire à distance\n14/10/2026\nExploitée https://github.com/CollaboraOnline/online/security/advisories/GHSA-g3vx-3m76-fghh\n\nPlex\nMedia Server\nCVE-2026-96656\n8.6\nAtteinte à la confidentialité des données\n23/09/2026\nExploitée https://forums.plex.tv/t/plex-media-server/30447/711\n\nE-Guardian\nSiteguard\nCVE-2026-106931\n8.5\nExécution de code arbitraire\n14/10/2026\nExploitée https://jvn.jp/en/jp/JVN88474777/\n\nSiemens\nSoftware Center\nCVE-2026-110936\n8.4\nExécution de code arbitraire\n15/10/2026\nExploitée https://cert-portal.siemens.com/productcert/html/ssa-580366.html\n\nPlex\nMedia Server\nCVE-2026-96654\n6.9\nAtteinte à la confidentialité des données\n23/09/2026\nExploitée https://forums.plex.tv/t/plex-media-server/30447/711\n\nPlex\nMedia Server\nCVE-2026-96652\n5.3\nFalsification de requêtes côté serveur (SSRF)\n23/09/2026\nExploitée https://forums.plex.tv/t/plex-media-server/30447/711\n\nPlex\nMedia Server\nCVE-2026-96655\n5.3\nAtteinte à la confidentialité des données\n23/09/2026\nExploitée https://forums.plex.tv/t/plex-media-server/30447/711\n\nApusthemes\nSuperio\nCVE-2024-12213\n9.8\nÉlévation de privilèges\n12/02/2025Code d'exploitation publichttps://themeforest.net/item/superio-job-board-wordpress-theme/32180231\n\nGestion détaillée du document\n\nDate\nDescription\n\n26 octobre 2026\nVersion initiale\n\nRappel des publications émises\n\nDans la période du 19 octobre 2026 au 25 octobre 2026, le CERT-FR\na émis les publications suivantes :\n\nCERTFR-2026-AVI-1337\n\nMultiples vulnérabilités dans Juniper Networks Session Smart Router\n\nCERTFR-2026-AVI-1338\n\nVulnérabilité dans Mattermost Server\n\nCERTFR-2026-AVI-1339\n\nMultiples vulnérabilités dans Stormshield Network Security\n\nCERTFR-2026-AVI-1340\n\nMultiples vulnérabilités dans Roundcube Webmail\n\nCERTFR-2026-AVI-1341\n\nMultiples vulnérabilités dans les produits F5\n\nCERTFR-2026-AVI-1342\n\nMultiples vulnérabilités dans Microsoft Edge\n\nCERTFR-2026-AVI-1343\n\nMultiples vulnérabilités dans Laravel\n\nCERTFR-2026-AVI-1344\n\nMultiples vulnérabilités dans Mattermost Server\n\nCERTFR-2026-AVI-1345\n\nMultiples vulnérabilités dans les produits StormShield\n\nCERTFR-2026-AVI-1346\n\nMultiples vulnérabilités dans les produits Mozilla\n\nCERTFR-2026-AVI-1347\n\nVulnérabilité dans MongoDB PHP Driver\n\nCERTFR-2026-AVI-1348\n\nMultiples vulnérabilités dans Mattermost Server\n\nCERTFR-2026-AVI-1349\n\nMultiples vulnérabilités dans Oracle Database Server\n\nCERTFR-2026-AVI-1350\n\nMultiples vulnérabilités dans Oracle Java SE\n\nCERTFR-2026-AVI-1351\n\nMultiples vulnérabilités dans Oracle MySQL\n\nCERTFR-2026-AVI-1352\n\nMultiples vulnérabilités dans Oracle PeopleSoft\n\nCERTFR-2026-AVI-1353\n\nMultiples vulnérabilités dans Oracle Systems\n\nCERTFR-2026-AVI-1354\n\nMultiples vulnérabilités dans Oracle Virtualization\n\nCERTFR-2026-AVI-1355\n\nMultiples vulnérabilités dans Oracle Weblogic\n\nCERTFR-2026-AVI-1356\n\nVulnérabilité dans Traefik\n\nCERTFR-2026-AVI-1357\n\nMultiples vulnérabilités dans Google Chrome\n\nCERTFR-2026-AVI-1358\n\nMultiples vulnérabilités dans Apache Tomcat\n\nCERTFR-2026-AVI-1359\n\nMultiples vulnérabilités dans PHP\n\nCERTFR-2026-AVI-1360\n\nMultiples vulnérabilités dans les produits Cisco\n\nCERTFR-2026-AVI-1361\n\nVulnérabilité dans les produits Mozilla\n\nCERTFR-2026-AVI-1363\n\nMultiples vulnérabilités dans GitLab\n\nCERTFR-2026-AVI-1364\n\nMultiples vulnérabilités dans les produits SolarWinds\n\nCERTFR-2026-AVI-1365\n\nMultiples vulnérabilités dans ISC BIND\n\nCERTFR-2026-AVI-1366\n\nMultiples vulnérabilités dans les produits Splunk\n\nCERTFR-2026-AVI-1367\n\nMultiples vulnérabilités dans Node\n\nCERTFR-2026-AVI-1368\n\nVulnérabilité dans Mattermost Server\n\nCERTFR-2026-AVI-1369\n\nMultiples vulnérabilités dans les produits HPE Aruba Networking\n\nCERTFR-2026-AVI-1370\n\nMultiples vulnérabilités dans les produits Tenable\n\nCERTFR-2026-AVI-1371\n\nMultiples vulnérabilités dans Microsoft Edge\n\nCERTFR-2026-AVI-1372\n\nMultiples vulnérabilités dans les produits SUSE\n\nCERTFR-2026-AVI-1373\n\nMultiples vulnérabilités dans les produits Red Hat\n\nCERTFR-2026-AVI-1374\n\nMultiples vulnérabilités dans le noyau Linux de Debian\n\nCERTFR-2026-AVI-1375\n\nMultiples vulnérabilités dans le noyau Linux de Debian LTS\n\nCERTFR-2026-AVI-1376\n\nMultiples vulnérabilités dans le noyau Linux d'Ubuntu\n\nCERTFR-2026-AVI-1377\n\nMultiples vulnérabilités dans les produits Papercut\n\nCERTFR-2026-AVI-1378\n\nMultiples vulnérabilités dans les produits IBM\n\nCERTFR-2026-ALE-014\n\n[Màj] Multiples vulnérabilités dans PHP\n\nHaut de page\n\nAccédez au portail authentifié du CERT-FR (ClubSSI)\n\nSe connecter au portail des services numériques du CERT-FR\n\nJe me connecte\n\nSuivez-nous sur les réseaux\n\nLinkedIn\n\nX (anciennement Twitter)\n\nMastodon\n\nGitHub\n\nRSS\n\nRépublique\nFrançaise\n\nLe site du CERT-FR est édité par l’Agence nationale de la sécurité des systèmes d’information (ANSSI).\n\ninfo.gouv.fr\n\nservice-public.fr\n\nlegifrance.gouv.fr\n\ndata.gouv.fr\n\nPlan du site\n\nAccessibilité : partiellement conforme\n\nMentions légales\n\nConditions générales\n\nANSSI\n\nContact\n\nRecrutement\n\nAPI\n\nSauf mention explicite de propriété intellectuelle détenue par des tiers, les contenus de ce site sont proposés sous licence etalab-2.0\n\nFermer\n\nParamètres d'affichage\n\nChoisissez un thème pour personnaliser l'apparence du site.\n\nThème clair\n\nThème sombre\n\nSystème Utilise les paramètres système",
+        "contenu": "Contenu\n\nMenu\n\nPied de page\n\nMenu\n\nParamètres d'affichage\n\nDéclarer un\nincident\n\nFermer\n\nParamètres\nd'affichage\n\nDéclarer un\nincident\n\nNous connaître\n\nA propos du CERT-FR\n\nRFC2350\n\nEcosystème des CERT/CSIRT\n\nPolitique de partage des informations\n\nPublications\n\nAlertes de sécurité\n\nRapports menaces et incidents\n\nAvis de sécurité\n\nIndicateurs de compromission\n\nDurcissement et recommandations\n\nBulletins d'actualité\n\nFiches réflexes\n\nNos services\n\nNous rejoindre\n\nBulletin d'actualité du CERT-FR\n\nObjet : Bulletin d'actualité CERTFR-2026-ACT-045\n\nImprimer\n\nGestion du document\n\nRéférence\nCERTFR-2026-ACT-045\n\nTitre\nBulletin d'actualité CERTFR-2026-ACT-045\n\nDate de la première version26 octobre 2026\n\nDate de la dernière version26 octobre 2026\n\nSource(s)\n\nUne gestion de version détaillée se trouve à la fin de ce document.\n\nCe bulletin d'actualité du CERT-FR revient sur les vulnérabilités significatives de la semaine passée pour souligner\nleurs criticités. Il ne remplace pas l'analyse de l'ensemble des avis et alertes publiés par le CERT-FR dans le cadre\nd'une analyse de risques pour prioriser l'application des correctifs.\nToutes les vulnérabilités évoquées dans les avis du CERT-FR doivent être prises en compte et faire l'objet d'un plan\nd'action lorsqu'elles génèrent des risques sur le système d'information.\nVeuillez-vous référer aux avis des éditeurs pour obtenir les correctifs.\n\nVulnérabilités significatives de la semaine 43\n\nTableau récapitulatif :\n\nVulnérabilités critiques du 19/10/26 au 25/10/26\n\nEditeur\nProduit\nIdentifiant CVE\nCVSS (source)\nType de vulnérabilité\nDate de publication\nExploitabilité (Preuve de concept publique)\nAvis Cert-FR\nAvis éditeur\n\nHPE Aruba Networking\nAOS\nCVE-2026-79844\n10 (NVD)\nExécution de code arbitraire à distance, Contournement de la politique de sécurité\n22/10/2026 Pas d'information\nCERTFR-2026-AVI-1369\n\nhttps://csaf.arubanetworking.hpe.com/2026/hpe_networking_-_hpesbnw05162.txt\n\nHPE Aruba Networking\nAOS\nCVE-2026-79846\n10 (NVD)\nExécution de code arbitraire à distance\n22/10/2026 Pas d'information\nCERTFR-2026-AVI-1369\n\nhttps://csaf.arubanetworking.hpe.com/2026/hpe_networking_-_hpesbnw05162.txt\n\nHPE Aruba Networking\nAOS\nCVE-2026-79847\n10 (NVD)\nExécution de code arbitraire à distance\n22/10/2026 Pas d'information\nCERTFR-2026-AVI-1369\n\nhttps://csaf.arubanetworking.hpe.com/2026/hpe_networking_-_hpesbnw05162.txt\n\nHPE Aruba Networking\nAOS\nCVE-2026-79848\n10 (NVD)\nExécution de code arbitraire à distance, Injection SQL (SQLi)\n22/10/2026 Pas d'information\nCERTFR-2026-AVI-1369\n\nhttps://csaf.arubanetworking.hpe.com/2026/hpe_networking_-_hpesbnw05162.txt\n\nHPE Aruba Networking\nAOS\nCVE-2026-79849\n10 (NVD)\nExécution de code arbitraire à distance, Injection SQL (SQLi)\n22/10/2026 Pas d'information\nCERTFR-2026-AVI-1369\n\nhttps://csaf.arubanetworking.hpe.com/2026/hpe_networking_-_hpesbnw05162.txt\n\nHPE Aruba Networking\nAOS\nCVE-2026-79850\n10 (NVD)\nExécution de code arbitraire à distance, Contournement de la politique de sécurité\n22/10/2026 Pas d'information\nCERTFR-2026-AVI-1369\n\nhttps://csaf.arubanetworking.hpe.com/2026/hpe_networking_-_hpesbnw05162.txt\n\nHPE Aruba Networking\nAOS\nCVE-2026-79851\n10 (NVD)\nExécution de code arbitraire à distance\n22/10/2026 Pas d'information\nCERTFR-2026-AVI-1369\n\nhttps://csaf.arubanetworking.hpe.com/2026/hpe_networking_-_hpesbnw05162.txt\n\nHPE Aruba Networking\nAOS\nCVE-2026-79852\n9.8 (NVD)\nExécution de code arbitraire à distance, Injection SQL (SQLi)\n22/10/2026 Pas d'information\nCERTFR-2026-AVI-1369\n\nhttps://csaf.arubanetworking.hpe.com/2026/hpe_networking_-_hpesbnw05162.txt\n\nHPE Aruba Networking\nAOS\nCVE-2026-79853\n9.8 (NVD)\nExécution de code arbitraire à distance, Atteinte à la confidentialité des données\n22/10/2026 Pas d'information\nCERTFR-2026-AVI-1369\n\nhttps://csaf.arubanetworking.hpe.com/2026/hpe_networking_-_hpesbnw05162.txt\n\nHPE Aruba Networking\nAOS\nCVE-2026-79854\n9.8 (NVD)\nExécution de code arbitraire à distance, Injection SQL (SQLi)\n22/10/2026 Pas d'information\nCERTFR-2026-AVI-1369\n\nhttps://csaf.arubanetworking.hpe.com/2026/hpe_networking_-_hpesbnw05162.txt\n\nHPE Aruba Networking\nAOS\nCVE-2026-79855\n9.8 (NVD)\nÉlévation de privilèges, Contournement de la politique de sécurité\n22/10/2026 Pas d'information\nCERTFR-2026-AVI-1369\n\nhttps://csaf.arubanetworking.hpe.com/2026/hpe_networking_-_hpesbnw05162.txt\n\nHPE Aruba Networking\nAOS\nCVE-2026-79856\n9.8 (NVD)\nAtteinte à la confidentialité des données, Contournement de la politique de sécurité\n22/10/2026 Pas d'information\nCERTFR-2026-AVI-1369\n\nhttps://csaf.arubanetworking.hpe.com/2026/hpe_networking_-_hpesbnw05162.txt\n\nHPE Aruba Networking\nAOS\nCVE-2026-79857\n9.8 (NVD)\nExécution de code arbitraire à distance\n22/10/2026 Pas d'information\nCERTFR-2026-AVI-1369\n\nhttps://csaf.arubanetworking.hpe.com/2026/hpe_networking_-_hpesbnw05162.txt\n\nHPE Aruba Networking\nAOS\nCVE-2026-79858\n9.8 (NVD)\nExécution de code arbitraire à distance, Atteinte à la confidentialité des données, Injection SQL (SQLi)\n22/10/2026 Pas d'information\nCERTFR-2026-AVI-1369\n\nhttps://csaf.arubanetworking.hpe.com/2026/hpe_networking_-_hpesbnw05162.txt\n\nHPE Aruba Networking\nAOS\nCVE-2026-79859\n9.8 (NVD)\nExécution de code arbitraire à distance\n22/10/2026 Pas d'information\nCERTFR-2026-AVI-1369\n\nhttps://csaf.arubanetworking.hpe.com/2026/hpe_networking_-_hpesbnw05162.txt\n\nHPE Aruba Networking\nAOS\nCVE-2026-79860\n9.8 (NVD)\nExécution de code arbitraire à distance\n22/10/2026 Pas d'information\nCERTFR-2026-AVI-1369\n\nhttps://csaf.arubanetworking.hpe.com/2026/hpe_networking_-_hpesbnw05162.txt\n\nHPE Aruba Networking\nAOS\nCVE-2026-79861\n9.8 (NVD)\nExécution de code arbitraire à distance\n22/10/2026 Pas d'information\nCERTFR-2026-AVI-1369\n\nhttps://csaf.arubanetworking.hpe.com/2026/hpe_networking_-_hpesbnw05162.txt\n\nCisco\nUnified Communications Manager, Unified Communications Manager IM & Presence Service, Unity Connection\nCVE-2026-76473\n9.8 (NVD)\nContournement de la politique de sécurité\n21/10/2026 Pas d'information\nCERTFR-2026-AVI-1360\n\nhttps://sec.cloudapps.cisco.com/security/center/content/CiscoSecurityAdvisory/cisco-sa-voice-hardening-twgbH9e3\n\nCisco\nUnified Communications Manager, Unified Communications Manager IM & Presence Service, Unity Connection\nCVE-2026-76474\n9.8 (NVD)\nContournement de la politique de sécurité\n21/10/2026 Pas d'information\nCERTFR-2026-AVI-1360\n\nhttps://sec.cloudapps.cisco.com/security/center/content/CiscoSecurityAdvisory/cisco-sa-voice-hardening-twgbH9e3\n\nCisco\nTelePresence VCS\nCVE-2026-76466\n9.8 (NVD)\nExécution de code arbitraire à distance, Contournement de la politique de sécurité\n21/10/2026 Pas d'information\nCERTFR-2026-AVI-1360\n\nhttps://sec.cloudapps.cisco.com/security/center/content/CiscoSecurityAdvisory/cisco-sa-vcs-static-cred-hr7EWZ8t\n\nSolarWinds\nObservability Self-Hosted\nCVE-2026-28324\n9.8 (NVD)\nExécution de code arbitraire à distance\n20/10/2026 Pas d'information\nCERTFR-2026-AVI-1364\n\nhttps://www.solarwinds.com/trust-center/security-advisories/cve-2026-28328\n\nHPE Aruba Networking\nAOS\nCVE-2026-79862\n9.6 (NVD)\nExécution de code arbitraire\n22/10/2026 Pas d'information\nCERTFR-2026-AVI-1369\n\nhttps://csaf.arubanetworking.hpe.com/2026/hpe_networking_-_hpesbnw05162.txt\n\nHPE Aruba Networking\nAOS\nCVE-2026-79863\n9.6 (NVD)\nExécution de code arbitraire\n22/10/2026 Pas d'information\nCERTFR-2026-AVI-1369\n\nhttps://csaf.arubanetworking.hpe.com/2026/hpe_networking_-_hpesbnw05162.txt\n\nHPE Aruba Networking\nAOS\nCVE-2026-79864\n9.6 (NVD)\nExécution de code arbitraire\n22/10/2026 Pas d'information\nCERTFR-2026-AVI-1369\n\nhttps://csaf.arubanetworking.hpe.com/2026/hpe_networking_-_hpesbnw05162.txt\n\nHPE Aruba Networking\nAOS\nCVE-2026-79865\n9.6 (NVD)\nExécution de code arbitraire à distance, Exécution de code arbitraire\n22/10/2026 Pas d'information\nCERTFR-2026-AVI-1369\n\nhttps://csaf.arubanetworking.hpe.com/2026/hpe_networking_-_hpesbnw05162.txt\n\nHPE Aruba Networking\nAOS\nCVE-2026-79866\n9.6 (NVD)\nAtteinte à la confidentialité des données\n22/10/2026\nPas d'information\nCERTFR-2026-AVI-1369\n\nhttps://csaf.arubanetworking.hpe.com/2026/hpe_networking_-_hpesbnw05162.txt\n\nHPE Aruba Networking\nAOS\nCVE-2026-79867\n9.6 (NVD)\nExécution de code arbitraire, Contournement de la politique de sécurité\n22/10/2026 Pas d'information\nCERTFR-2026-AVI-1369\n\nhttps://csaf.arubanetworking.hpe.com/2026/hpe_networking_-_hpesbnw05162.txt\n\nHPE Aruba Networking\nAOS\nCVE-2026-79868\n9.6 (NVD)\nAtteinte à la confidentialité des données, Contournement de la politique de sécurité\n22/10/2026 Pas d'information\nCERTFR-2026-AVI-1369\n\nhttps://csaf.arubanetworking.hpe.com/2026/hpe_networking_-_hpesbnw05162.txt\n\nHPE Aruba Networking\nAOS\nCVE-2026-79869\n9.6 (NVD)\nExécution de code arbitraire, Contournement de la politique de sécurité\n22/10/2026 Pas d'information\nCERTFR-2026-AVI-1369\n\nhttps://csaf.arubanetworking.hpe.com/2026/hpe_networking_-_hpesbnw05162.txt\n\nHPE Aruba Networking\nAOS\nCVE-2026-79870\n9.6 (NVD)\nAtteinte à la confidentialité des données, Contournement de la politique de sécurité\n22/10/2026 Pas d'information\nCERTFR-2026-AVI-1369\n\nhttps://csaf.arubanetworking.hpe.com/2026/hpe_networking_-_hpesbnw05162.txt\n\nHPE Aruba Networking\nAOS\nCVE-2026-79871\n9.6 (NVD)\nAtteinte à la confidentialité des données\n22/10/2026 Pas d'information\nCERTFR-2026-AVI-1369\n\nhttps://csaf.arubanetworking.hpe.com/2026/hpe_networking_-_hpesbnw05162.txt\n\nHPE Aruba Networking\nAOS\nCVE-2026-79872\n9.4 (NVD)\nExécution de code arbitraire à distance\n22/10/2026 Pas d'information\nCERTFR-2026-AVI-1369\n\nhttps://csaf.arubanetworking.hpe.com/2026/hpe_networking_-_hpesbnw05162.txt\n\nHPE Aruba Networking\nAOS\nCVE-2026-79873\n9.3 (NVD)\nAtteinte à la confidentialité des données, Contournement de la politique de sécurité\n22/10/2026 Pas d'information\nCERTFR-2026-AVI-1369\n\nhttps://csaf.arubanetworking.hpe.com/2026/hpe_networking_-_hpesbnw05162.txt\n\nHPE Aruba Networking\nAOS\nCVE-2026-79874\n9.3 (NVD)\nAtteinte à la confidentialité des données, Contournement de la politique de sécurité\n22/10/2026 Pas d'information\nCERTFR-2026-AVI-1369\n\nhttps://csaf.arubanetworking.hpe.com/2026/hpe_networking_-_hpesbnw05162.txt\n\nHPE Aruba Networking\nAOS\nCVE-2026-79875\n9.3 (NVD)\nAtteinte à la confidentialité des données, Contournement de la politique de sécurité\n22/10/2026 Pas d'information\nCERTFR-2026-AVI-1369\n\nhttps://csaf.arubanetworking.hpe.com/2026/hpe_networking_-_hpesbnw05162.txt\n\nHPE Aruba Networking\nAOS\nCVE-2026-79876\n9.3 (NVD)\nAtteinte à la confidentialité des données\n22/10/2026 Pas d'information\nCERTFR-2026-AVI-1369\n\nhttps://csaf.arubanetworking.hpe.com/2026/hpe_networking_-_hpesbnw05162.txt\n\nCisco\nUnified Communications Manager, Unified Communications Manager IM & Presence Service, Unity Connection\nCVE-2026-76475\n9.3 (NVD)\nContournement de la politique de sécurité\n21/10/2026 Pas d'information\nCERTFR-2026-AVI-1360\n\nhttps://sec.cloudapps.cisco.com/security/center/content/CiscoSecurityAdvisory/cisco-sa-voice-hardening-twgbH9e3\n\nF5\nNGINX Open Source, NGINX Plus\nCVE-2026-15176\n9.2 (NVD)\nExécution de code arbitraire à distance, Déni de service à distance, Contournement de la politique de sécurité\n14/10/2026 Pas d'information\nCERTFR-2026-AVI-1341\n\nhttps://my.f5.com/manage/s/article/K000163408\nhttps://my.f5.com/manage/s/article/K000162416\n\nF5\nNGINX Open Source, NGINX Plus\nCVE-2026-93479\n9.2 (NVD)\nExécution de code arbitraire à distance, Déni de service à distance, Contournement de la politique de sécurité\n14/10/2026 Pas d'information\nCERTFR-2026-AVI-1341\n\nhttps://my.f5.com/manage/s/article/K000163408\nhttps://my.f5.com/manage/s/article/K000162607\n\nF5\nNGINX Open Source, NGINX Plus\nCVE-2026-97205\n9.2 (NVD)\nExécution de code arbitraire à distance, Déni de service à distance, Contournement de la politique de sécurité\n14/10/2026 Pas d'information\nCERTFR-2026-AVI-1341\n\nhttps://my.f5.com/manage/s/article/K000163408\nhttps://my.f5.com/manage/s/article/K000162608\n\nSolarWinds\nServ-U\nCVE-2026-28308\n9.1 (NVD)\nExécution de code arbitraire à distance\n20/10/2026 Pas d'information\nCERTFR-2026-AVI-1364\n\nhttps://www.solarwinds.com/trust-center/security-advisories/cve-2026-28329\n\nApache\nTomcat\nCVE-2026-103119\n9.1 (NVD)\nAtteinte à la confidentialité des données\n12/10/2026 Pas d'information\nCERTFR-2026-AVI-1358\n\nhttps://tomcat.apache.org/security-11.html#Fixed_in_Apache_Tomcat_11.0.27\n\nApache\nTomcat\nCVE-2026-101356\n9.1 (NVD)\nAtteinte à la confidentialité des données\n12/10/2026 Pas d'information\nCERTFR-2026-AVI-1358\n\nhttps://tomcat.apache.org/security-11.html#Fixed_in_Apache_Tomcat_11.0.27\nhttps://tomcat.apache.org/security-10.html#Fixed_in_Apache_Tomcat_10.1.61\nhttps://tomcat.apache.org/security-9.html#Fixed_in_Apache_Tomcat_9.0.123\n\nApache\nTomcat\nCVE-2026-101296\n9.1 (NVD)\nAtteinte à la confidentialité des données\n12/10/2026 Pas d'information\nCERTFR-2026-AVI-1358\n\nhttps://tomcat.apache.org/security-11.html#Fixed_in_Apache_Tomcat_11.0.27\nhttps://tomcat.apache.org/security-10.html#Fixed_in_Apache_Tomcat_10.1.61\nhttps://tomcat.apache.org/security-9.html#Fixed_in_Apache_Tomcat_9.0.123\n\nCisco\nSecure Firewall Threat Defense\nCVE-2026-20043\n9 (NVD)\nAtteinte à l'intégrité des données\n21/10/2026 Pas d'information\nCERTFR-2026-AVI-1360\n\nhttps://sec.cloudapps.cisco.com/security/center/content/CiscoSecurityAdvisory/cisco-sa-hardening-snort3-ybgmhTQe\n\nRappel des alertes CERT-FR\n\n[Màj] Multiples vulnérabilités dans PHP\n\nLe 20 octobre, PHP a publié une communication concernant deux vulnérabilités critiques.\n\nLe 21 octobre, des correctifs de sécurité sont disponibles sur le site de l'éditeur.\n\nLe 23 octobre, PHP a publié un avis de sécurité concernant une nouvelle vulnérabilité (CVE-2026-115560). Cette dernière permet une exécution de code à distance. Cependant, son exploitation reste peu probable. L'éditeur a prévu de corriger cette faille dans une futur mise à jour.\n\nLe 26 octobre, le CERT-FR a connaissance de preuves de concept et de tentatives d'exploitation pour les vulnérabilités CVE-2026-109618 et CVE-2026-109619 pour des déploiements spécifiques de PHP.\n\nPour rappel, le CERT-FR incite à la vigilance et rappelle que le langage PHP est utilisé dans de nombreux produits.\n\nLiens :\n\nAlerte de sécurité CERTFR-2026-ALE-014 du 21 octobre 2026\nAvis CERT-FR CERTFR-2026-AVI-1359 du 21 octobre 2026\nBulletin de sécurité PHP GHSA-w8hw-w9fx-j79w\nBulletin de sécurité PHP GHSA-6wmf-4rv5-p3rp\n\nAutres vulnérabilités\n\nTableau récapitulatif :\n\nEditeur\nProduit\nIdentifiant CVE\nCVSS\nType de vulnérabilité\nDate de publication\nExploitabilité (Preuve de concept publique)\nAvis éditeur\n\nArista\nVelocloud Orchestrator\nCVE-2026-114625\n9.4\nÉlévation de privilèges, Atteinte à la confidentialité des données\n22/10/2026\nExploitée https://www.arista.com/en/support/advisories-notices/security-advisory/24838-security-advisory-0199\n\nCollabora Online\nBuilt-in CODE Server\nCVE-2026-110447\n9.2\nExécution de code arbitraire à distance\n14/10/2026\nExploitée https://github.com/CollaboraOnline/online/security/advisories/GHSA-g3vx-3m76-fghh\n\nPlex\nMedia Server\nCVE-2026-96656\n8.6\nAtteinte à la confidentialité des données\n23/09/2026\nExploitée https://forums.plex.tv/t/plex-media-server/30447/711\n\nE-Guardian\nSiteguard\nCVE-2026-106931\n8.5\nExécution de code arbitraire\n14/10/2026\nExploitée https://jvn.jp/en/jp/JVN88474777/\n\nSiemens\nSoftware Center\nCVE-2026-110936\n8.4\nExécution de code arbitraire\n15/10/2026\nExploitée https://cert-portal.siemens.com/productcert/html/ssa-580366.html\n\nPlex\nMedia Server\nCVE-2026-96654\n6.9\nAtteinte à la confidentialité des données\n23/09/2026\nExploitée https://forums.plex.tv/t/plex-media-server/30447/711\n\nPlex\nMedia Server\nCVE-2026-96652\n5.3\nFalsification de requêtes côté serveur (SSRF)\n23/09/2026\nExploitée https://forums.plex.tv/t/plex-media-server/30447/711\n\nPlex\nMedia Server\nCVE-2026-96655\n5.3\nAtteinte à la confidentialité des données\n23/09/2026\nExploitée https://forums.plex.tv/t/plex-media-server/30447/711\n\nApusthemes\nSuperio\nCVE-2024-12213\n9.8\nÉlévation de privilèges\n12/02/2025Code d'exploitation publichttps://themeforest.net/item/superio-job-board-wordpress-theme/32180231\n\nGestion détaillée du document\n\nDate\nDescription\n\n26 octobre 2026\nVersion initiale\n\nRappel des publications émises\n\nDans la période du 19 octobre 2026 au 25 octobre 2026, le CERT-FR\na émis les publications suivantes :\n\nCERTFR-2026-AVI-1337\n\nMultiples vulnérabilités dans Juniper Networks Session Smart Router\n\nCERTFR-2026-AVI-1338\n\nVulnérabilité dans Mattermost Server\n\nCERTFR-2026-AVI-1339\n\nMultiples vulnérabilités dans Stormshield Network Security\n\nCERTFR-2026-AVI-1340\n\nMultiples vulnérabilités dans Roundcube Webmail\n\nCERTFR-2026-AVI-1341\n\nMultiples vulnérabilités dans les produits F5\n\nCERTFR-2026-AVI-1342\n\nMultiples vulnérabilités dans Microsoft Edge\n\nCERTFR-2026-AVI-1343\n\nMultiples vulnérabilités dans Laravel\n\nCERTFR-2026-AVI-1344\n\nMultiples vulnérabilités dans Mattermost Server\n\nCERTFR-2026-AVI-1345\n\nMultiples vulnérabilités dans les produits StormShield\n\nCERTFR-2026-AVI-1346\n\nMultiples vulnérabilités dans les produits Mozilla\n\nCERTFR-2026-AVI-1347\n\nVulnérabilité dans MongoDB PHP Driver\n\nCERTFR-2026-AVI-1348\n\nMultiples vulnérabilités dans Mattermost Server\n\nCERTFR-2026-AVI-1349\n\nMultiples vulnérabilités dans Oracle Database Server\n\nCERTFR-2026-AVI-1350\n\nMultiples vulnérabilités dans Oracle Java SE\n\nCERTFR-2026-AVI-1351\n\nMultiples vulnérabilités dans Oracle MySQL\n\nCERTFR-2026-AVI-1352\n\nMultiples vulnérabilités dans Oracle PeopleSoft\n\nCERTFR-2026-AVI-1353\n\nMultiples vulnérabilités dans Oracle Systems\n\nCERTFR-2026-AVI-1354\n\nMultiples vulnérabilités dans Oracle Virtualization\n\nCERTFR-2026-AVI-1355\n\nMultiples vulnérabilités dans Oracle Weblogic\n\nCERTFR-2026-AVI-1356\n\nVulnérabilité dans Traefik\n\nCERTFR-2026-AVI-1357\n\nMultiples vulnérabilités dans Google Chrome\n\nCERTFR-2026-AVI-1358\n\nMultiples vulnérabilités dans Apache Tomcat\n\nCERTFR-2026-AVI-1359\n\nMultiples vulnérabilités dans PHP\n\nCERTFR-2026-AVI-1360\n\nMultiples vulnérabilités dans les produits Cisco\n\nCERTFR-2026-AVI-1361\n\nVulnérabilité dans les produits Mozilla\n\nCERTFR-2026-AVI-1363\n\nMultiples vulnérabilités dans GitLab\n\nCERTFR-2026-AVI-1364\n\nMultiples vulnérabilités dans les produits SolarWinds\n\nCERTFR-2026-AVI-1365\n\nMultiples vulnérabilités dans ISC BIND\n\nCERTFR-2026-AVI-1366\n\nMultiples vulnérabilités dans les produits Splunk\n\nCERTFR-2026-AVI-1367\n\nMultiples vulnérabilités dans Node\n\nCERTFR-2026-AVI-1368\n\nVulnérabilité dans Mattermost Server\n\nCERTFR-2026-AVI-1369\n\nMultiples vulnérabilités dans les produits HPE Aruba Networking\n\nCERTFR-2026-AVI-1370\n\nMultiples vulnérabilités dans les produits Tenable\n\nCERTFR-2026-AVI-1371\n\nMultiples vulnérabilités dans Microsoft Edge\n\nCERTFR-2026-AVI-1372\n\nMultiples vulnérabilités dans les produits SUSE\n\nCERTFR-2026-AVI-1373\n\nMultiples vulnérabilités dans les produits Red Hat\n\nCERTFR-2026-AVI-1374\n\nMultiples vulnérabilités dans le noyau Linux de Debian\n\nCERTFR-2026-AVI-1375\n\nMultiples vulnérabilités dans le noyau Linux de Debian LTS\n\nCERTFR-2026-AVI-1376\n\nMultiples vulnérabilités dans le noyau Linux d'Ubuntu\n\nCERTFR-2026-AVI-1377\n\nMultiples vulnérabilités dans les produits Papercut\n\nCERTFR-2026-AVI-1378\n\nMultiples vulnérabilités dans les produits IBM\n\nCERTFR-2026-ALE-014\n\n[Màj] Multiples vulnérabilités dans PHP\n\nHaut de page\n\nAccédez au portail authentifié du CERT-FR (ClubSSI)\n\nSe connecter au portail des services numériques du CERT-FR\n\nJe me connecte\n\nSuivez-nous sur les réseaux\n\nLinkedIn\n\nX (anciennement Twitter)\n\nMastodon\n\nGitHub\n\nRSS\n\nRépublique\nFrançaise\n\nLe site du CERT-FR est édité par l’Agence nationale de la sécurité des systèmes d’information (ANSSI).\n\ninfo.gouv.fr\n\nservice-public.fr\n\nlegifrance.gouv.fr\n\ndata.gouv.fr\n\nPlan du site\n\nAccessibilité : partiellement conforme\n\nMentions légales\n\nConditions générales\n\nANSSI\n\nContact\n\nRecrutement\n\nAPI\n\nSauf mention explicite de propriété intellectuelle détenue par des tiers, les contenus de ce site sont proposés sous licence etalab-2.0\n\nFermer\n\nParamètres d'affichage\n\nChoisissez un thème pour personnaliser l'apparence du site.\n\nThème clair\n\nThème sombre\n\nSystème Utilise les paramètres système",
         "ancre": null,
         "url": "https://www.cert.cyber.gouv.fr/actualite/CERTFR-2026-ACT-045/",
         "type": "section",
         "position": 0
       }
     ],
-    "run_id": "RUN-20261027-1945",
+    "run_id": "RUN-20261029-1828",
+    "version": 2,
+    "historique": [
+      {
+        "version": 2,
+        "hash_sha256": "2ae0ea933c9499ff2a29ab8e92132fab71cb12b9cef063c11ec1f2b76952e9f0",
+        "collecte_le": "2026-10-29T18:30:12.383Z",
+        "run_id": "RUN-20261029-1828",
+        "articles_ajoutes": [],
+        "articles_supprimes": [],
+        "articles_modifies": [
+          "document"
+        ]
+      }
+    ]
+  },
+  {
+    "id": "TX-0027",
+    "source": "eurlex",
+    "reference": "CELEX:32026R2470",
+    "titre": "Règlement d’exécution (UE) 2026/2470 de la Commission du 28 octobre 2026 modifiant le règlement d’exécution (UE) 2022/996 en ce qui concerne la date d’application de l’article 11, paragraphe 1, dudit règlement d’exécution (Texte présentant de l’intérêt pour l’EEE)",
+    "type": "Règlement UE",
+    "url_officielle": "https://eur-lex.europa.eu/legal-content/FR/TXT/HTML/?uri=CELEX:32026R2470",
+    "urls_connues": [
+      "https://eur-lex.europa.eu/legal-content/FR/TXT/HTML/?uri=CELEX:32026R2470"
+    ],
+    "date_publication": null,
+    "date_entree_en_vigueur": null,
+    "date_entree_en_application": null,
+    "statut_texte": "En vigueur",
+    "hash_sha256": "622024e6545e6fade51d88b7b59a29ee112f0936620edff8ddffdc7570bcccb2",
+    "collecte_le": "2026-10-29T18:28:33.482Z",
+    "derniere_modification_detectee": null,
+    "fichier_source": null,
+    "applicable": "À déterminer",
+    "justification_applicabilite": null,
+    "confiance_applicabilite": null,
+    "resume": null,
+    "nombre_articles": 2,
+    "articles": [
+      {
+        "numero": "1",
+        "titre": null,
+        "contenu": "À l’article 28 du règlement délégué (UE) 2022/996, le troisième alinéa est remplacé par le texte suivant:\n«L’article 11, paragraphe 1, du présent règlement est applicable à partir du 1er janvier 2028.».",
+        "ancre": "#art_1",
+        "type": "article",
+        "position": 0
+      },
+      {
+        "numero": "2",
+        "titre": null,
+        "contenu": "Le présent règlement entre en vigueur le vingtième jour suivant celui de sa publication au Journal officiel de l’Union européenne.",
+        "ancre": "#art_2",
+        "type": "article",
+        "position": 1
+      }
+    ],
+    "run_id": "RUN-20261029-1828",
+    "version": 1,
+    "historique": []
+  },
+  {
+    "id": "TX-0028",
+    "source": "eurlex",
+    "reference": "CELEX:32026D2457",
+    "titre": "Décision (UE) 2026/2457 du Conseil du 26 octobre 2026 relative à la signature de l’accord sous forme d’échange de lettres entre l’Union européenne et le Canada au titre de l’article XXVIII de l’accord général sur les tarifs douaniers et le commerce de 1994 («GATT de 1994») en ce qui concerne la modification des concessions pour l’ensemble des contingents tarifaires de la liste CLXXV de l’UE à la suite du retrait du Royaume-Uni de l’Union européenne",
+    "type": "Décision",
+    "url_officielle": "https://eur-lex.europa.eu/legal-content/FR/TXT/HTML/?uri=CELEX:32026D2457",
+    "urls_connues": [
+      "https://eur-lex.europa.eu/legal-content/FR/TXT/HTML/?uri=CELEX:32026D2457"
+    ],
+    "date_publication": null,
+    "date_entree_en_vigueur": null,
+    "date_entree_en_application": null,
+    "statut_texte": "En vigueur",
+    "hash_sha256": "98d9eabc4737b4cca8426378b18adc12172cdb61b4a5772bd44db52ffcd8b595",
+    "collecte_le": "2026-10-29T18:28:37.192Z",
+    "derniere_modification_detectee": null,
+    "fichier_source": null,
+    "applicable": "À déterminer",
+    "justification_applicabilite": null,
+    "confiance_applicabilite": null,
+    "resume": null,
+    "nombre_articles": 2,
+    "articles": [
+      {
+        "numero": "1",
+        "titre": null,
+        "contenu": "La signature de l’accord sous forme d’échange de lettres entre l’Union européenne et le Canada au titre de l’article XXVIII de l’accord général sur les tarifs douaniers et le commerce de 1994 («GATT de 1994») en ce qui concerne la modification des concessions pour l’ensemble des contingents tarifaires de la liste CLXXV de l’UE à la suite du retrait du Royaume-Uni de l’Union européenne est autorisée, sous réserve de la conclusion de l’accord (1).",
+        "ancre": "#art_1",
+        "type": "article",
+        "position": 0
+      },
+      {
+        "numero": "2",
+        "titre": null,
+        "contenu": "La présente décision entre en vigueur le jour de son adoption.",
+        "ancre": "#art_2",
+        "type": "article",
+        "position": 1
+      }
+    ],
+    "run_id": "RUN-20261029-1828",
+    "version": 1,
+    "historique": []
+  },
+  {
+    "id": "TX-0029",
+    "source": "eurlex",
+    "reference": "CELEX:32026D2370",
+    "titre": "Décision d’exécution (UE) 2026/2370 de la Commission du 28 octobre 2026 concernant les normes harmonisées relatives aux sèche-linge domestiques à tambour élaborées à l’appui du règlement (UE) 2023/2533 et du règlement délégué (UE) 2023/2534 (Texte présentant de l’intérêt pour l’EEE) ANNEXE",
+    "type": "Décision",
+    "url_officielle": "https://eur-lex.europa.eu/legal-content/FR/TXT/HTML/?uri=CELEX:32026D2370",
+    "urls_connues": [
+      "https://eur-lex.europa.eu/legal-content/FR/TXT/HTML/?uri=CELEX:32026D2370"
+    ],
+    "date_publication": null,
+    "date_entree_en_vigueur": null,
+    "date_entree_en_application": null,
+    "statut_texte": "En vigueur",
+    "hash_sha256": "d67cfe2b19ca5b10a991300294f27e6398d26bb41ad521b91477cae9c6017cea",
+    "collecte_le": "2026-10-29T18:28:41.186Z",
+    "derniere_modification_detectee": null,
+    "fichier_source": null,
+    "applicable": "À déterminer",
+    "justification_applicabilite": null,
+    "confiance_applicabilite": null,
+    "resume": null,
+    "nombre_articles": 3,
+    "articles": [
+      {
+        "numero": "1",
+        "titre": null,
+        "contenu": "Les références des normes harmonisées concernant les sèche-linge à tambour domestiques élaborées à l’appui du règlement délégué (UE) 2023/2534 et du règlement (UE) 2023/2533, figurant à l’annexe de la présente décision, sont publiées au Journal officiel de l’Union européenne.",
+        "ancre": "#art_1",
+        "type": "article",
+        "position": 0
+      },
+      {
+        "numero": "2",
+        "titre": null,
+        "contenu": "La référence de la norme harmonisée EN 60704-2-6:2012 est retirée du Journal officiel de l’Union européenne et la communication 2014/C 149/01 est abrogée.",
+        "ancre": "#art_2",
+        "type": "article",
+        "position": 1
+      },
+      {
+        "numero": "3",
+        "titre": null,
+        "contenu": "La présente décision entre en vigueur le jour de sa publication au Journal officiel de l’Union européenne.",
+        "ancre": "#art_3",
+        "type": "article",
+        "position": 2
+      }
+    ],
+    "run_id": "RUN-20261029-1828",
+    "version": 1,
+    "historique": []
+  },
+  {
+    "id": "TX-0030",
+    "source": "eurlex",
+    "reference": "CELEX:32026R1915",
+    "titre": "Règlement délégué (UE) 2026/1915 de la Commission du 6 août 2026 modifiant le règlement (UE) 2019/1241 du Parlement européen et du Conseil en ce qui concerne des mesures techniques spécifiques pour la dorade rose (Pagellus bogaraveo) dans les sous-zones CIEM 6 à 8 ANNEXE",
+    "type": "Règlement UE",
+    "url_officielle": "https://eur-lex.europa.eu/legal-content/FR/TXT/HTML/?uri=CELEX:32026R1915",
+    "urls_connues": [
+      "https://eur-lex.europa.eu/legal-content/FR/TXT/HTML/?uri=CELEX:32026R1915"
+    ],
+    "date_publication": null,
+    "date_entree_en_vigueur": null,
+    "date_entree_en_application": null,
+    "statut_texte": "En vigueur",
+    "hash_sha256": "d825b176ab51dc52abf63a404ea41692ffda9c5b931a009394da4551d0a278e6",
+    "collecte_le": "2026-10-29T18:28:45.229Z",
+    "derniere_modification_detectee": null,
+    "fichier_source": null,
+    "applicable": "À déterminer",
+    "justification_applicabilite": null,
+    "confiance_applicabilite": null,
+    "resume": null,
+    "nombre_articles": 2,
+    "articles": [
+      {
+        "numero": "1",
+        "titre": "Mesures techniques pour la dorade rose (Pagellus bogaraveo) dans les sous-zones CIEM 6 à 8",
+        "contenu": "Les annexes VI et VII du règlement (UE) 2019/1241 sont modifiées conformément à l’annexe du présent règlement.",
+        "ancre": "#art_1",
+        "type": "article",
+        "position": 0
+      },
+      {
+        "numero": "2",
+        "titre": "Entrée en vigueur et durée d’application",
+        "contenu": "Le présent règlement entre en vigueur le jour suivant celui de sa publication au Journal officiel de l’Union européenne.\nIl est applicable du 1er janvier 2027 au 31 décembre 2027.",
+        "ancre": "#art_2",
+        "type": "article",
+        "position": 1
+      }
+    ],
+    "run_id": "RUN-20261029-1828",
+    "version": 1,
+    "historique": []
+  },
+  {
+    "id": "TX-0031",
+    "source": "eurlex",
+    "reference": "CELEX:32026R2466",
+    "titre": "Règlement d’exécution (UE) 2026/2466 de la Commission du 28 octobre 2026 modifiant les annexes V et XIV du règlement d’exécution (UE) 2021/404 en ce qui concerne les mentions relatives au Canada, au Royaume-Uni et aux États-Unis dans les listes des pays tiers, territoires et zones de pays tiers et territoires en provenance desquels l’entrée dans l’Union d’envois de volailles, de produits germinaux de volailles et de viandes fraîches de volailles et de gibier à plumes est autorisée (Texte présentant de l’intérêt pour l’EEE) ANNEXE",
+    "type": "Règlement UE",
+    "url_officielle": "https://eur-lex.europa.eu/legal-content/FR/TXT/HTML/?uri=CELEX:32026R2466",
+    "urls_connues": [
+      "https://eur-lex.europa.eu/legal-content/FR/TXT/HTML/?uri=CELEX:32026R2466"
+    ],
+    "date_publication": null,
+    "date_entree_en_vigueur": null,
+    "date_entree_en_application": null,
+    "statut_texte": "En vigueur",
+    "hash_sha256": "85cf6cd9592eae7e3737d14929b5c30aff92e45336b2838b1c006f6da3ab8c8c",
+    "collecte_le": "2026-10-29T18:28:49.258Z",
+    "derniere_modification_detectee": null,
+    "fichier_source": null,
+    "applicable": "À déterminer",
+    "justification_applicabilite": null,
+    "confiance_applicabilite": null,
+    "resume": null,
+    "nombre_articles": 2,
+    "articles": [
+      {
+        "numero": "1",
+        "titre": null,
+        "contenu": "Les annexes V et XIV du règlement d’exécution (UE) 2021/404 sont modifiées conformément à l’annexe du présent règlement.",
+        "ancre": "#art_1",
+        "type": "article",
+        "position": 0
+      },
+      {
+        "numero": "2",
+        "titre": null,
+        "contenu": "Le présent règlement entre en vigueur le jour suivant celui de sa publication au Journal officiel de l’Union européenne.",
+        "ancre": "#art_2",
+        "type": "article",
+        "position": 1
+      }
+    ],
+    "run_id": "RUN-20261029-1828",
+    "version": 1,
+    "historique": []
+  },
+  {
+    "id": "TX-0032",
+    "source": "eurlex",
+    "reference": "CELEX:32026D2448",
+    "titre": "Décision (UE) 2026/2448 du Conseil du 26 octobre 2026 relative à la position à prendre, au nom de l’Union européenne, au sein du Conseil général de l’Organisation mondiale du commerce, en ce qui concerne la demande de prorogation de la dérogation de l’OMC permettant à l’Union européenne d’accorder des préférences commerciales autonomes aux Balkans occidentaux",
+    "type": "Décision",
+    "url_officielle": "https://eur-lex.europa.eu/legal-content/FR/TXT/HTML/?uri=CELEX:32026D2448",
+    "urls_connues": [
+      "https://eur-lex.europa.eu/legal-content/FR/TXT/HTML/?uri=CELEX:32026D2448"
+    ],
+    "date_publication": null,
+    "date_entree_en_vigueur": null,
+    "date_entree_en_application": null,
+    "statut_texte": "En vigueur",
+    "hash_sha256": "8fc6606951888a3106806a8e20f19fe2302db1ddbbe7215ed718a1e13c1bcd3f",
+    "collecte_le": "2026-10-29T18:28:53.177Z",
+    "derniere_modification_detectee": null,
+    "fichier_source": null,
+    "applicable": "À déterminer",
+    "justification_applicabilite": null,
+    "confiance_applicabilite": null,
+    "resume": null,
+    "nombre_articles": 2,
+    "articles": [
+      {
+        "numero": "1",
+        "titre": null,
+        "contenu": "L’Union approuve la prorogation de la dérogation de l’OMC permettant à l’Union d’accorder des préférences commerciales autonomes aux Balkans occidentaux jusqu’au 31 décembre 2031.",
+        "ancre": "#art_1",
+        "type": "article",
+        "position": 0
+      },
+      {
+        "numero": "2",
+        "titre": null,
+        "contenu": "La présente décision entre en vigueur le jour de son adoption.",
+        "ancre": "#art_2",
+        "type": "article",
+        "position": 1
+      }
+    ],
+    "run_id": "RUN-20261029-1828",
+    "version": 1,
+    "historique": []
+  },
+  {
+    "id": "TX-0033",
+    "source": "eurlex",
+    "reference": "CELEX:32026R2343",
+    "titre": "Règlement délégué (UE) 2026/2343 de la Commission du 14 juillet 2026 modifiant les normes techniques de réglementation fixées par le règlement délégué (UE) no 149/2013 en ce qui concerne les seuils de compensation et les mécanismes déclenchant leur réexamen (Texte présentant de l’intérêt pour l’EEE)",
+    "type": "Règlement UE",
+    "url_officielle": "https://eur-lex.europa.eu/legal-content/FR/TXT/HTML/?uri=CELEX:32026R2343",
+    "urls_connues": [
+      "https://eur-lex.europa.eu/legal-content/FR/TXT/HTML/?uri=CELEX:32026R2343"
+    ],
+    "date_publication": null,
+    "date_entree_en_vigueur": null,
+    "date_entree_en_application": null,
+    "statut_texte": "En vigueur",
+    "hash_sha256": "72800bca9820382db270b00b98c8c0e1cf4e9b62200f6075244b1da11fbf63cf",
+    "collecte_le": "2026-10-29T18:29:49.262Z",
+    "derniere_modification_detectee": null,
+    "fichier_source": null,
+    "applicable": "À déterminer",
+    "justification_applicabilite": null,
+    "confiance_applicabilite": null,
+    "resume": null,
+    "nombre_articles": 2,
+    "articles": [
+      {
+        "numero": "1",
+        "titre": "Modifications du règlement délégué (UE) no 149/2013",
+        "contenu": "Le règlement délégué (UE) no 149/2013 est modifié comme suit:\n1) L’article 11 est remplacé par le texte suivant:\n\n«Article 11\n\n[Article 4 bis, paragraphe 4, du règlement (UE) no 648/2012]\n\nSeuils de compensation pour les positions agrégées\nLes valeurs des seuils de compensation applicables aux positions agrégées aux fins de l’obligation de compensation sont les suivantes:\n\na)\n\n1 000 000 000 EUR en valeur notionnelle brute pour les contrats dérivés de crédit de gré à gré;\n\nb)\n\n3 000 000 000 EUR en valeur notionnelle brute pour les contrats dérivés de taux d’intérêt de gré à gré.»\n\n.\na) 1 000 000 000 EUR en valeur notionnelle brute pour les contrats dérivés de crédit de gré à gré;\nb) 3 000 000 000 EUR en valeur notionnelle brute pour les contrats dérivés de taux d’intérêt de gré à gré.»\n2) Les articles 11 bis et 11 ter suivants sont insérés au chapitre VII:\n\n«Article 11 bis\n\n[Article 10, paragraphe 4, point b), du règlement (UE) no 648/2012]\n\nSeuils de compensation pour les positions non compensées\nLes valeurs des seuils de compensation applicables aux positions non compensées aux fins de l’obligation de compensation sont les suivantes:\n\na)\n\n800 000 000 EUR en valeur notionnelle brute pour les contrats dérivés de crédit de gré à gré non compensés;\n\nb)\n\n700 000 000 EUR en valeur notionnelle brute pour les contrats dérivés sur actions de gré à gré non compensés;\n\nc)\n\n2 200 000 000 EUR en valeur notionnelle brute pour les contrats dérivés de taux d’intérêt de gré à gré non compensés;\n\nd)\n\n3 000 000 000 EUR en valeur notionnelle brute pour les contrats dérivés de change de gré à gré non compensés;\n\ne)\n\n4 000 000 000 EUR en valeur notionnelle brute combinée pour les contrats dérivés de matières premières de gré à gré non compensés et les contrats dérivés de quotas d’émission de gré à gré non compensés.\n\nArticle 11 ter\n\n[Article 10, paragraphe 4, point c), du règlement (UE) no 648/2012]\n\nMécanismes déclenchant un réexamen des valeurs des seuils de compensation\nL’AEMF évalue, au moins une fois par an, l’évolution des indicateurs suivants:\n\na)\n\nles prix des sous-jacents de toute catégorie de produits dérivés de gré à gré parmi les suivantes:\n\ni)\n\ndérivés de crédit de gré à gré;\n\nii)\n\ndérivés sur actions de gré à gré;\n\niii)\n\ndérivés de taux d’intérêt de gré à gré;\n\niv)\n\ndérivés de change de gré à gré;\n\nv)\n\ndérivés sur matières premières de gré à gré;\n\nvi)\n\ndérivés sur quotas d’émission de gré à gré;\n\nb)\n\nla volatilité des prix des sous-jacents de chaque catégorie de dérivés de gré à gré visée au point a);\n\nc)\n\nla proportion de transactions sur dérivés de gré à gré, pour chaque catégorie de dérivés de gré à gré visée au point a), qui sont compensées;\n\nd)\n\nla proportion d’entités qui compensent leurs transactions sur dérivés de gré à gré;\n\ne)\n\nles taux d’inflation pertinents;\n\nf)\n\nles conditions financières globales;\n\ng)\n\nles incertitudes géopolitiques et relatives aux politiques économiques.\n\nLorsque l’AEMF constate des modifications importantes des indicateurs visés aux points a) à g), elle procède à un réexamen des seuils de compensation visés à l’article 11 et à l’article 11 bis conformément à l’article 10, paragraphe 4 bis, du règlement (UE) no 648/2012.»\n.\na) 800 000 000 EUR en valeur notionnelle brute pour les contrats dérivés de crédit de gré à gré non compensés;\nb) 700 000 000 EUR en valeur notionnelle brute pour les contrats dérivés sur actions de gré à gré non compensés;\nc) 2 200 000 000 EUR en valeur notionnelle brute pour les contrats dérivés de taux d’intérêt de gré à gré non compensés;\nd) 3 000 000 000 EUR en valeur notionnelle brute pour les contrats dérivés de change de gré à gré non compensés;\ne) 4 000 000 000 EUR en valeur notionnelle brute combinée pour les contrats dérivés de matières premières de gré à gré non compensés et les contrats dérivés de quotas d’émission de gré à gré non compensés.\na) les prix des sous-jacents de toute catégorie de produits dérivés de gré à gré parmi les suivantes:\n\ni)\n\ndérivés de crédit de gré à gré;\n\nii)\n\ndérivés sur actions de gré à gré;\n\niii)\n\ndérivés de taux d’intérêt de gré à gré;\n\niv)\n\ndérivés de change de gré à gré;\n\nv)\n\ndérivés sur matières premières de gré à gré;\n\nvi)\n\ndérivés sur quotas d’émission de gré à gré;\ni) dérivés de crédit de gré à gré;\nii) dérivés sur actions de gré à gré;\niii) dérivés de taux d’intérêt de gré à gré;\niv) dérivés de change de gré à gré;\nv) dérivés sur matières premières de gré à gré;\nvi) dérivés sur quotas d’émission de gré à gré;\nb) la volatilité des prix des sous-jacents de chaque catégorie de dérivés de gré à gré visée au point a);\nc) la proportion de transactions sur dérivés de gré à gré, pour chaque catégorie de dérivés de gré à gré visée au point a), qui sont compensées;\nd) la proportion d’entités qui compensent leurs transactions sur dérivés de gré à gré;\ne) les taux d’inflation pertinents;\nf) les conditions financières globales;\ng) les incertitudes géopolitiques et relatives aux politiques économiques.",
+        "ancre": "#art_1",
+        "type": "article",
+        "position": 0
+      },
+      {
+        "numero": "2",
+        "titre": "Entrée en vigueur",
+        "contenu": "Le présent règlement entre en vigueur le vingtième jour suivant celui de sa publication au Journal officiel de l’Union européenne.",
+        "ancre": "#art_2",
+        "type": "article",
+        "position": 1
+      }
+    ],
+    "run_id": "RUN-20261029-1828",
+    "version": 1,
+    "historique": []
+  },
+  {
+    "id": "TX-0034",
+    "source": "cnil",
+    "reference": "169092fr",
+    "titre": "Cookies et application mobile : sanctions de 7 millions d’euros à l’encontre des sociétés FNAC DARTY PARTICIPATIONS ET SERVICES et FNAC DIRECT",
+    "type": "Délibération",
+    "url_officielle": "https://www.cnil.fr/fr/sanction-cookies-app-fnac",
+    "urls_connues": [
+      "https://www.cnil.fr/fr/sanction-cookies-app-fnac"
+    ],
+    "date_publication": null,
+    "date_entree_en_vigueur": null,
+    "date_entree_en_application": null,
+    "statut_texte": "En vigueur",
+    "hash_sha256": "ab1ff4b768187717b7dd5dce0e47e36d22f6b5fae23a48d7e40f4d70536d7ff9",
+    "collecte_le": "2026-10-29T18:30:02.319Z",
+    "derniere_modification_detectee": null,
+    "fichier_source": null,
+    "applicable": "À déterminer",
+    "justification_applicabilite": null,
+    "confiance_applicabilite": null,
+    "resume": null,
+    "nombre_articles": 1,
+    "articles": [
+      {
+        "numero": "document",
+        "titre": "Cookies et application mobile : sanctions de 7 millions d’euros à l’encontre des sociétés FNAC DARTY PARTICIPATIONS ET SERVICES et FNAC DIRECT",
+        "contenu": "Aller au contenu principal\n\nMenu de navigation\n\nRechercher\n\nParticuliersProfessionnelsPresse\n\nFrEnGestionnaire de cookies\n\nParticuliersProfessionnelsPresse\n\nMon quotidien\n\nMa sécurité numérique\n\nSites web et réseaux sociaux\n\nTéléphones et applications\n\nObjets connectés\n\nEnfants et ados\n\nSanté\n\nSocial\n\nLogement\n\nTravail\n\nIntelligence artificielle (IA)\n\nAchats et publicité\n\nBanque/Assurance\n\nCitoyenneté\n\nSport\n\nTransports et mobilité\n\nVie associative\n\nFermer\n\nExercer mes droits\n\nQuels sont mes droits ?\n\nÊtre informé\n\nM'opposer\n\nAccéder à mes données\n\nRectifier mes données\n\nEffacer mes données\n\nÊtre déréférencé\n\nEmporter mes données avec moi\n\nFaire vérifier une décision automatisée\n\nLimiter l'utilisation de mes données\n\nLes droits des mineurs\n\nNos modèles de courrier\n\nSaisir la CNIL\n\nAdresser une plainte\n\nAccéder au FICOBA\n\nAccéder à un fichier de police, de gendarmerie ou de renseignement\n\nAdresser une alerte à la CNIL\n\nPoser une question à la CNIL\n\nQuestions/réponses\n\nFermer\n\nÀ télécharger\n\nRessources pédagogiques\n\nAffiches\n\nRapports et chiffres clés\n\nCahiers Innovation & Prospective\n\nLivres blancs\n\nFermer\n\nLa CNIL\n\nMissions\n\nInformer et protéger\n\nAccompagner et conseiller\n\nAnticiper et innover\n\nContrôler et sanctionner\n\nLa mission éthique de la CNIL\n\nTous les évènements de la CNIL\n\nFonctionnement\n\nStatut et organisation\n\nOrdres du jour des séances\n\nAgenda\n\nLes avis de la CNIL\n\nInterrégulation et partenariats\n\nEn Europe et dans le monde\n\nLa CNIL en Europe\n\nLa CNIL dans le monde\n\nLa carte de la protection des données dans le monde\n\nLa stratégie européenne et internationale de la CNIL\n\nL’histoire de la CNIL en vidéo\n\nTravailler à la CNIL\n\nMarchés publics\n\nConsultations publiques\n\nFermer\n\nRechercher\n\nFrEnGestionnaire de cookies\n\nCNIL : Formulaire de recherche\n\nPoser une question ou rechercher un article, une délibération...\n\nRechercher\n\nAccueil\n\nCookies et application mobile : sanctions de 7 millions d’euros à l’encontre des sociétés FNAC DARTY PARTICIPATIONS ET SERVICES et FNAC DIRECT\n\nCookies et application mobile : sanctions de 7 millions d’euros à l’encontre des sociétés FNAC DARTY PARTICIPATIONS ET SERVICES et FNAC DIRECT\n\n29 octobre 2026\n\nLe 22 octobre 2026, la CNIL a sanctionné les sociétés FNAC DARTY PARTICIPATIONS ET SERVICES et FNAC DIRECT d’une amende de 7 millions d’euros pour non-respect des règles applicables en matière de traceurs (cookies).\n\nImprimer l’article\n\nPartager cette page par courriel\n\nDiminuer la taille de la police\n\nAugmenter la taille de la police\n\nLe contexte\n\nSaisie d’une plainte déposée par l’association None Of Your Business (NOYB), la CNIL a effectué, en mars 2024, un contrôle sur l’application mobile éditée par les sociétés FNAC DARTY PARTICIPATIONS ET SERVICES et FNAC DIRECT.\n\nLa CNIL a constaté que les sociétés avaient recours à un traceur, dont les utilisateurs n’avaient pas consenti au dépôt, collectant notamment leur historique de navigation afin de leur afficher des recommandations de produits et d’entrainer son algorithme de recommandations.\n\nSur la base de ces constatations, la formation restreinte – organe de la CNIL chargé de prononcer les sanctions – a considéré que les sociétés FNAC DARTY PARTICIPATIONS ET SERVICES et FNAC DIRECT avaient manqué aux règles régissant les traceurs (article 82 de la loi Informatique et Libertés) et a prononcé à leur encontre une amende de 7 millions d’euros (6 millions d’euros à l’encontre de la société FNAC DARTY PARTICIPATIONS ET SERVICES et 1 million d’euros à l’encontre de la société FNAC DIRECT).\n\nLa formation restreinte a justifié ce montant par la méconnaissance, par les sociétés, du choix exprimé par l’utilisateur de ne pas consentir au suivi de sa navigation dans l’application mobile, ainsi que par le fait que cette application est utilisée par un grand nombre de personnes. La sanction tient également compte de l’existence d’une doctrine répressive constante et bien établie concernant les traceurs utilisés à des fins de personnalisation et de ciblage commercial, lesquels n’entrent pas dans le champ des exemptions définies par l’article 82 de la loi Informatique et Libertés.\n\nEn complément, la formation restreinte a adopté une injonction sous astreinte et demande aux sociétés de démontrer que le nouvel outil qu’elles utilisent permet désormais de recueillir le consentement lorsque cela est nécessaire, dans un délai d’un mois à compter de la notification de la décision. À défaut, les sociétés s’exposent au paiement d’une astreinte de 10 000 euros par jour de retard.\n\nCette décision est rendue publique, au regard de la gravité du manquement, de la portée du traitement et du nombre de personnes concernées.\n\nLe manquement sanctionné\n\nIl a été constaté que, lors de l’utilisation de l’application mobile, des requêtes étaient émises via une API (application programming interface ou interface de programmation d'application en français) vers un domaine tiers. Ces requêtes contenaient un identifiant attribué, par la FNAC, à l’utilisateur ainsi que des informations relatives à son activité, telles que les produits consultés.\n\nCe traceur permettait d’afficher au sein de l’application des produits personnalisés, en fonction de l’historique de la navigation, des produits complémentaires à ceux consultés ou achetés comme des accessoires, consommables ou des services associés, ainsi que des produits similaires à ceux consultés par l’utilisateur (des produits ayant des caractéristiques proches à celui recherché) et d’entrainer l’algorithme de recommandations.\n\nLa CNIL a considéré que de telles opérations n’entraient pas dans le champ des exemptions prévues à l’article 82 de la loi Informatique et Libertés. Elles n’avaient pas pour finalité de permettre ou faciliter la communication par voie électronique et n’étaient pas strictement nécessaires à la fourniture d’un service de communication en ligne à la demande expresse de l’utilisateur. Elles ne pouvaient, dès lors, être mises en œuvre sans le consentement préalable des personnes concernées.\n\nTexte reference\n\nLa délibération\n\nDélibération SAN-2026-015 du 22 octobre 2026 - Légifrance\n\nTexte reference\n\nTextes de référence\n\nArticle 82 de la loi Informatique et Libertés (règles pour les cookies et autres traceurs)\n\nTexte reference\n\nPour approfondir\n\nLa procédure de sanction\n\nCookies et autres traceurs : la CNIL publie des lignes directrices modificatives et sa recommandation\n\n#Sanction\n#Cookies et traceurs\n#Consentement\n\nCeci peut également vous intéresser ...\n\nReconstitution d’adresses électroniques professionnelles : dans quel cadre est-ce autorisé ?\n\n16 octobre 2026\n\nCourriels\n\nClôture de l’injonction prononcée à l’encontre de GOOGLE\n\n14 octobre 2026\n\nCookies et traceurs\n\nClôture de l’injonction prononcée à l’encontre de FRANCE TRAVAIL\n\n08 octobre 2026\n\nSanction\n\nBesoin d'aide\n\nCommission Nationale de l’Informatique et des Libertés\n\nMon quotidien\n\nMa sécurité numérique\n\nSites web et réseaux sociaux\n\nTéléphones et applications\n\nObjets connectés\n\nEnfants et ados\n\nSanté\n\nSocial\n\nLogement\n\nTravail\n\nIntelligence artificielle (IA)\n\nAchats et publicité\n\nBanque/Assurance\n\nCitoyenneté\n\nSport\n\nTransports et mobilité\n\nVie associative\n\nLa CNIL\n\nMissions\n\nFonctionnement\n\nEn Europe et dans le monde\n\nL’histoire de la CNIL en vidéo\n\nTravailler à la CNIL\n\nMarchés publics\n\nConsultations publiques\n\nExercer mes droits\n\nQuels sont mes droits ?\n\nSaisir la CNIL\n\nQuestions/réponses\n\nÀ télécharger\n\nRessources pédagogiques\n\nAffiches\n\nRapports et chiffres clés\n\nCahiers Innovation & Prospective\n\nLivres blancs\n\nSuivez-nous\ntwitter\nlinkedin\n\nMédiathèque\n\nGlossaire\n\nLexique FR-EN\n\nBesoin d'aide\n\nPresse\n\nLangue\n\nFr\n\nEn\n\nGestion des cookies\n\nS'inscrire à la lettre d'information\n\nLe Laboratoire d'Innovation Numérique de la CNIL (LINC)\n\nMentions légales\n| Données personnelles\n| Accessibilité : partiellement conforme\n| Informations publiques\n| Recrutement\n| Mon compte\n| Nous contacter",
+        "ancre": null,
+        "url": "https://www.cnil.fr/fr/sanction-cookies-app-fnac",
+        "type": "section",
+        "position": 0
+      }
+    ],
+    "run_id": "RUN-20261029-1828",
     "version": 1,
     "historique": []
   }
