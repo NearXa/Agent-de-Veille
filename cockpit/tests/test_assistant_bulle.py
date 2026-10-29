@@ -17,9 +17,12 @@ APP = Path(__file__).resolve().parents[1] / "app.py"
 
 @pytest.fixture
 def cockpit_local(monkeypatch):
-    """Données lues dans data/store/ sans passer par Notion, et faux client Anthropic."""
+    """Données lues dans data/store/ sans passer par Notion, faux client Anthropic, clé fictive (la CI n'a pas de .env)."""
+    import views.assistant as vue
+
     bundle = {"source": "Store local (lecture seule)", "writable": False, "error": None, **data._lire(LocalRepo())}
     monkeypatch.setattr(data, "load_bundle", lambda: bundle)
+    monkeypatch.setattr(vue, "ANTHROPIC_API_KEY", "cle-de-test")
 
     def brancher(client):
         monkeypatch.setattr(
@@ -78,3 +81,17 @@ def test_style_de_la_bulle_accepte_par_st_html():
     contenu = STYLE.removeprefix("<style>").removesuffix("</style>")
     assert STYLE.startswith("<style>") and STYLE.endswith("</style>")
     assert "<" not in contenu and ">" not in contenu.replace("> .st-key", "")
+
+
+def test_bulle_sans_cle_api(monkeypatch):
+    """Sans ANTHROPIC_API_KEY, la bulle explique comment l'activer et n'affiche pas de saisie."""
+    import views.assistant as vue
+
+    bundle = {"source": "Store local (lecture seule)", "writable": False, "error": None, **data._lire(LocalRepo())}
+    monkeypatch.setattr(data, "load_bundle", lambda: bundle)
+    monkeypatch.setattr(vue, "ANTHROPIC_API_KEY", None)
+    at = AppTest.from_file(str(APP), default_timeout=60)
+    at.run()
+    assert not at.exception, [e.value for e in at.exception]
+    assert len(at.chat_input) == 0
+    assert any("ANTHROPIC_API_KEY" in i.value for i in at.info)
