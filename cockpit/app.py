@@ -1,4 +1,4 @@
-"""Cockpit Streamlit : navigation vers les quatre vues, validateur, source de données, rafraîchissement."""
+"""Cockpit Streamlit : navigation vers les quatre vues, validateur, source de données, rafraîchissement, bulle de l'assistant GRC."""
 
 from __future__ import annotations
 
@@ -7,8 +7,10 @@ import streamlit as st
 from config import APP_TITLE
 from services import data
 from views import fil_de_veille, pilotage, textes_matrices, validation
+from views.assistant import afficher_assistant, injecter_style
 
 st.set_page_config(page_title=APP_TITLE, page_icon="⚖️", layout="wide")
+injecter_style()
 
 
 def barre_laterale() -> None:
@@ -33,3 +35,4 @@ pages = [
 
 barre_laterale()
 st.navigation(pages).run()
+afficher_assistant()

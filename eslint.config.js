@@ -15,7 +15,6 @@ export default tseslint.config(
       'cockpit/**',
       'docs/**',
       'notion/**',
-      'chat/**',
     ],
   },
   js.configs.recommended,

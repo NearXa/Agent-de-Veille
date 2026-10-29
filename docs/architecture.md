@@ -25,7 +25,7 @@ data/store/*.json  (vérité du pipeline, IDs stables)   +   data/runs/<run_id>/
 [Workers Notion push / pull / watch]  ◄──►  Notion (6 bases reliées)  ◄──►  [Serveur MCP Notion]
                                                    ▲
                                                    │ lecture + écriture des décisions
-                                         [Cockpit Streamlit, 4 vues]
+                                         [Cockpit Streamlit, 4 vues + bulle Assistant GRC]  ──►  API Anthropic
 ```
 
 ## Choix techniques
@@ -34,7 +34,7 @@ data/store/*.json  (vérité du pipeline, IDs stables)   +   data/runs/<run_id>/
 - **Appel LLM structuré** (`agent/src/llm/structured.ts`) : schéma Zod comme contrat ; structured outputs natifs d'Anthropic (`structuredOutputMode: 'auto'`) ; jusqu'à 3 tentatives en renvoyant au modèle la sortie brute et les erreurs de validation ; cache par hash (`data/cache/llm/`) ; compteur de tokens et de coût par run avec garde-fou `LLM_MAX_COST_PER_RUN`. Les modèles Claude 5.x n'acceptent pas `temperature` : elle n'est pas envoyée.
 - **Store** : fichiers JSON écrits de façon atomique (`data/store/`), validés par Zod à la lecture. Les matrices sont des projections déterministes du store ; le LLM ne génère jamais une matrice.
 - **Notion** : API data sources (version `2025-09-03`), une base = une data source, propriété title = ID métier (upsert trivial), relations bidirectionnelles posées après création des bases, rate limit respecté (≈ 3 requêtes/s, backoff sur 429).
-- **Cockpit** : Streamlit multipage, lecture Notion avec cache de 60 s et repli automatique en lecture seule sur `data/store/` ; les décisions humaines sont écrites uniquement dans Notion (page + commentaire d'audit).
+- **Cockpit** : Streamlit multipage, lecture Notion avec cache de 60 s et repli automatique en lecture seule sur `data/store/` ; les décisions humaines sont écrites uniquement dans Notion (page + commentaire d'audit). La bulle « Assistant GRC », présente sur toutes les pages, ne répond qu'aux questions GRC : un filtre de périmètre en sortie structurée, puis une boucle d'outils en lecture seule sur les mêmes données (SDK Python `anthropic`).
 
 ## Identifiants stables
 

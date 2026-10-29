@@ -21,6 +21,13 @@ NOTION_PARENT_PAGE_ID = (os.environ.get("NOTION_PARENT_PAGE_ID") or "").replace(
 NOTION_API_VERSION = os.environ.get("NOTION_API_VERSION", "2025-09-03")
 CACHE_TTL_SECONDS = 60
 
+# Assistant GRC (bulle du cockpit) : modèle Anthropic, effort, plafond de coût par conversation, fallbacks serveur.
+ANTHROPIC_API_KEY = os.environ.get("ANTHROPIC_API_KEY") or None
+ASSISTANT_MODELE = os.environ.get("LLM_CHAT_MODEL") or os.environ.get("LLM_MODEL") or "claude-opus-5-5"
+ASSISTANT_EFFORT = os.environ.get("LLM_CHAT_EFFORT") or "low"
+ASSISTANT_PLAFOND_USD = float(os.environ.get("LLM_CHAT_MAX_COST") or 1)
+ASSISTANT_FALLBACKS = (os.environ.get("LLM_FALLBACKS") or "1").strip().lower() not in ("0", "false", "non")
+
 APP_TITLE = "Veille GRC"
 
 

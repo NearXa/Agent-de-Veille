@@ -121,22 +121,26 @@ du cockpit : la décision est écrite dans Notion (lots d'action, page « Décis
 `output/gouvernance/decision.json`. Le serveur MCP Notion est aussi déclaré dans `.mcp.json` pour Claude Code (serveur hébergé,
 authentification OAuth via `/mcp`).
 
-## Assistant de chat (phase 6)
+## Assistant GRC du cockpit (phase 6)
 
-Interface de chat web demandée par l'enseignant, inspirée du template « Chatbot » de Vercel (Next.js, AI SDK, `useChat`,
-streaming, appels d'outils) mais sans sa couche d'infrastructure (pas d'Auth.js, de Postgres ni d'AI Gateway) : le dossier
-`chat/` est un paquet du workspace pnpm.
+Demande de l'enseignant, sur le modèle du template « Chatbot » de Vercel : un chat en langage naturel qui répond via l'API
+Anthropic à partir des données du projet. Il est intégré au cockpit : la bulle « Assistant GRC », fixée en bas à droite de
+toutes les pages, ouvre le panneau de conversation. `pnpm cockpit` suffit, sans application ni port supplémentaire.
 
-```bash
-pnpm chat                 # http://localhost:3000 (dev) ; pnpm chat:build puis pnpm chat:start en production
-```
+![Assistant GRC dans le cockpit](docs/captures/assistant-grc-reponse.png)
 
-- Le modèle est appelé avec la clé `ANTHROPIC_API_KEY` du `.env` racine (`LLM_CHAT_MODEL` sinon `LLM_MODEL`). Pour passer par
-  Vercel AI Gateway comme le template, remplacer `createAnthropic` par le provider gateway dans `chat/app/api/chat/route.ts`.
-- Le modèle dispose d'outils de lecture seule sur le store (`rechercher_exigences`, `detail_exigence`, `echeances`,
-  `lister_risques`, `lister_lots`, `lister_controles`, `fil_de_veille`, `indicateurs`) et d'une recherche Notion
-  (`rechercher_notion`, via `NOTION_TOKEN`). Il ne valide, ne corrige et ne décide jamais : ces actions restent dans le cockpit.
-- Les appels d'outils s'affichent dans la conversation (traçabilité), l'historique reste dans le navigateur (localStorage).
+- **Périmètre limité à la GRC.** Un filtre classe d'abord chaque question (`grc`, `salutation` ou `hors_perimetre`) par un
+  appel court en sortie structurée, qui traite le message comme une donnée. Une question hors périmètre reçoit un refus sans
+  que le modèle de réponse soit appelé : « Comment reverse une string ? », du code même présenté comme utile à DORA, de la
+  culture générale ou une tentative de contournement. Les consignes du modèle de réponse rappellent ce périmètre.
+- **Réponses tirées des données.** Neuf outils en lecture seule interrogent les données du cockpit (Notion, ou `data/store/`
+  en repli) : `rechercher_exigences`, `detail_exigence`, `echeances`, `lister_risques`, `lister_lots`, `lister_controles`,
+  `fil_de_veille`, `jurisprudence` et `indicateurs`. Les identifiants cités (EX-, RK-, LA-, CT-, TX-) viennent de ces
+  lectures, et chaque appel d'outil s'affiche dans la conversation.
+- **Lecture seule.** L'assistant ne valide, ne corrige et ne décide rien : il renvoie vers la vue du cockpit concernée.
+- **Réglages** (`.env`) : `LLM_CHAT_MODEL` (sinon `LLM_MODEL`), `LLM_CHAT_EFFORT` (`low` par défaut), `LLM_CHAT_MAX_COST`
+  (plafond par conversation, 1 $ par défaut) et `LLM_FALLBACKS=0` pour couper le repli serveur en cas de refus du modèle.
+- **Coût mesuré** avec `claude-sonnet-5-5` : 0,003 $ par refus, 0,02 à 0,05 $ par réponse avec outils.
 
 ## Sources de veille (phase 2)
 
@@ -204,8 +208,8 @@ pnpm cockpit:test              # tests Python (pytest)
 | Validation humaine    | file « À valider » / « À revalider » triée par confiance puis échéance puis sanction, panneau de détail avec lien vers l'article officiel et les trois composantes de la confiance, actions Valider / Corriger / Rejeter écrites dans Notion avec commentaire d'audit                                |
 | Pilotage et échéances | KPI (textes, exigences par statut, % vérifiées, % couverture, risques par niveau, lots par statut), timeline des échéances à 30 / 90 / 365 jours avec dépassements en rouge, lots d'action par priorité, recommandation de cadre de gouvernance et bouton de décision, exports XLSX et plan Markdown |
 
-Captures d'écran : à réaliser par l'équipe avec `pnpm cockpit` (aucun navigateur n'est disponible dans l'environnement de
-développement) et à déposer dans `docs/captures/`.
+La bulle « Assistant GRC » (phase 6) est présente sur les quatre vues. Captures d'écran des vues : à réaliser par l'équipe
+avec `pnpm cockpit` et à déposer dans `docs/captures/`, qui contient déjà celles de l'assistant.
 
 ## Dépannage
 
@@ -219,5 +223,10 @@ développement) et à déposer dans `docs/captures/`.
 - **Garde-fou de coût atteint** : augmenter `LLM_MAX_COST_PER_RUN` (défaut 2 $). Mesuré le 27/10/2026 : l'extraction
   des articles 5 à 16 avec `claude-opus-5-5` (effort medium) coûte 1,23 $ et dure 7 min 46 s pour 85 exigences
   (39 103 tokens en entrée, 53 496 en sortie, raisonnement compris) ; le rejeu avec cache est gratuit et immédiat.
+- **Cockpit lent sous WSL** : avec le dépôt sur `/mnt/c`, chaque import Python traverse le pont vers Windows. Le premier
+  affichage prend ≈ 20 s, et le SDK Anthropic (≈ 2 500 modules) se charge ensuite en arrière-plan en ≈ 25 s. Cloner le dépôt
+  dans le système de fichiers Linux (`~/…`) supprime ces délais. La surveillance des fichiers de Streamlit est désactivée
+  (`.streamlit/config.toml`) : relancer `pnpm cockpit` après une modification du code.
+- **Assistant GRC indisponible** : renseigner `ANTHROPIC_API_KEY` dans `.env`, puis relancer le cockpit.
 - **Streamlit et Windows** : lancer les commandes depuis WSL2 ; `.venv\Scripts\streamlit run cockpit\app.py`
   depuis PowerShell si l'environnement a été créé sous Windows.

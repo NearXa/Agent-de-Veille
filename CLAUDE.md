@@ -5,22 +5,22 @@ toute modification.** Les phases, critères de fin et règles de travail y sont 
 
 ## Commandes
 
-| Action                      | Commande                                                                                                                 |
-| --------------------------- | ------------------------------------------------------------------------------------------------------------------------ |
-| Installer                   | `scripts/setup.sh` (ou `pnpm install` puis `python3 -m venv .venv && .venv/bin/pip install -r cockpit/requirements.txt`) |
-| Aide CLI                    | `pnpm agent --help`                                                                                                      |
-| Vérifier la configuration   | `pnpm agent config`                                                                                                      |
-| Lint / typecheck / tests TS | `pnpm lint` · `pnpm typecheck` · `pnpm test` (agent et chat ; `pnpm check` pour les trois)                               |
-| Tests Python                | `pnpm cockpit:test` (`.venv/bin/python -m pytest cockpit/tests -q`)                                                      |
-| Cockpit                     | `pnpm cockpit` (`.venv/bin/streamlit run cockpit/app.py`, http://localhost:8501)                                         |
-| Parcours de démo            | `pnpm agent demo` (étapes 1 à 5, cache LLM forcé ; `--skip-notion` hors ligne)                                           |
-| Pipeline complet            | `pnpm agent run --texte TX-0001 --articles 5-16 --max-cost 12` (`--steps enrich,impact` pour une partie)                 |
-| Gouvernance                 | `pnpm agent governance --texte TX-0001`, puis décision dans la vue « Pilotage » du cockpit                               |
-| Veille                      | `pnpm agent watch --once [--source cnil,senat]` ; `pnpm agent watch` lance le planificateur cron                         |
-| Workers Notion              | `pnpm notion init` · `pnpm notion push` · `pnpm notion pull` · `pnpm notion watch`                                       |
-| MCP Notion                  | `pnpm agent ask "question"` (serveur MCP local via npx) ; `.mcp.json` pour Claude Code                                   |
-| Assistant de chat           | `pnpm chat` (http://localhost:3000) · `pnpm chat:typecheck` · `pnpm chat:build`                                          |
-| Docker                      | `docker compose up --build` (cockpit 8501, chat 3000, scheduler de veille)                                               |
+| Action                      | Commande                                                                                                                                                                 |
+| --------------------------- | ------------------------------------------------------------------------------------------------------------------------------------------------------------------------ |
+| Installer                   | `scripts/setup.sh` (ou `pnpm install` puis `python3 -m venv .venv && .venv/bin/pip install -r cockpit/requirements.txt`)                                                 |
+| Aide CLI                    | `pnpm agent --help`                                                                                                                                                      |
+| Vérifier la configuration   | `pnpm agent config`                                                                                                                                                      |
+| Lint / typecheck / tests TS | `pnpm lint` · `pnpm typecheck` · `pnpm test` (`pnpm check` pour les trois)                                                                                               |
+| Tests Python                | `pnpm cockpit:test` (`.venv/bin/python -m pytest cockpit/tests -q`)                                                                                                      |
+| Cockpit                     | `pnpm cockpit` (`.venv/bin/streamlit run cockpit/app.py`, http://localhost:8501)                                                                                         |
+| Parcours de démo            | `pnpm agent demo` (étapes 1 à 5, cache LLM forcé ; `--skip-notion` hors ligne)                                                                                           |
+| Pipeline complet            | `pnpm agent run --texte TX-0001 --articles 5-16 --max-cost 12` (`--steps enrich,impact` pour une partie)                                                                 |
+| Gouvernance                 | `pnpm agent governance --texte TX-0001`, puis décision dans la vue « Pilotage » du cockpit                                                                               |
+| Veille                      | `pnpm agent watch --once [--source cnil,senat]` ; `pnpm agent watch` lance le planificateur cron                                                                         |
+| Workers Notion              | `pnpm notion init` · `pnpm notion push` · `pnpm notion pull` · `pnpm notion watch`                                                                                       |
+| MCP Notion                  | `pnpm agent ask "question"` (serveur MCP local via npx) ; `.mcp.json` pour Claude Code                                                                                   |
+| Assistant GRC               | bulle en bas à droite de toutes les pages du cockpit (`pnpm cockpit`) ; code dans `cockpit/services/assistant.py`, `assistant_outils.py` et `cockpit/views/assistant.py` |
+| Docker                      | `docker compose up --build` (cockpit 8501, scheduler de veille)                                                                                                          |
 
 ## Conventions (SPEC.md, section 5)
 
@@ -54,6 +54,9 @@ toute modification.** Les phases, critères de fin et règles de travail y sont 
 - Le cache LLM est indexé par modèle : changer `LLM_MODEL` rend le cache inopérant. Le pipeline documenté a tourné avec `claude-opus-5-5` ; pour rejouer gratuitement, préfixer la commande par `LLM_MODEL=claude-opus-5-5`.
 - Prettier réaligne les tableaux Markdown (`pnpm format`) : pour modifier un tableau par script, cibler le début de ligne ou réécrire le tableau entier, puis vérifier que la modification a bien été appliquée.
 - Dépôt publié sur GitHub (`origin`, branche `main`) : travailler sur une branche par module, ne jamais pousser sans accord.
+- Assistant GRC (cockpit) : SDK Python `anthropic`. Un filtre de périmètre en sortie structurée (`messages.parse`) précède la boucle d'outils en streaming. L'historique envoyé à l'API est en ajout seul, la date des consignes est figée par conversation, et le repli serveur `fallbacks: "default"` est actif (`LLM_FALLBACKS=0` pour le couper).
+- `st.html` supprime une balise style dont le texte contient un chevron suivi d'une lettre : le CSS de la bulle n'en contient aucun (test dédié). Streamlit fixe la hauteur d'un `st.container(height=…)` par la base flex de son conteneur parent.
+- Dépôt sur `/mnt/c` : imports Python lents (`import anthropic` ≈ 23 s). La surveillance des fichiers de Streamlit est désactivée, car elle réexaminait les ≈ 3 900 modules chargés (≈ 70 s) après chaque exécution : relancer le cockpit après une modification du code.
 - Tests : vitest avec `LOG_LEVEL=silent`, fixtures `agent/test/fixtures/` (extrait officiel DORA art. 5 à 7, réponse LLM rejouable), faux client Notion `agent/test/helpers/fake-notion.ts`.
 
 ## Structure

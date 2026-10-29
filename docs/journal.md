@@ -3,15 +3,15 @@
 Tenu à chaque phase. Il distingue ce qui a été fait pendant l'atelier de 4 h (tag `atelier-4h`) de ce
 qui a été ajouté ensuite (tag `rendu-final`), conformément à la section 16 de `SPEC.md`.
 
-| Phase                            | Date       | Fait pendant l'atelier                                                                                                                                                                                              | Ajouté après                                                                                                                                                                                                                | Démo de l'état courant                                  |
-| -------------------------------- | ---------- | ------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- | --------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- | ------------------------------------------------------- |
-| 0 Fondations                     | 27/10/2026 | Scaffold du monorepo, configuration (4 YAML), store JSON et registre d'IDs, factory LLM avec cache et coût, CLI squelette, cockpit Streamlit (4 vues, repli local), tests                                           |                                                                                                                                                                                                                             | `pnpm agent config`, `pnpm cockpit`                     |
-| 1 MVP six étapes                 | 27/10/2026 | Connecteur fichier local, parser EUR-Lex, `ingest`, schéma Zod et prompt d'extraction, `extract` vérifié (85 exigences), matrice M1, `notion init` et `push`, validation dans le cockpit écrite dans Notion, `demo` |                                                                                                                                                                                                                             | `pnpm agent demo`, `pnpm cockpit`                       |
-| 2 Veille multi-sources           | 27/10/2026 |                                                                                                                                                                                                                     | Connecteurs EUR-Lex (Cellar), Légifrance et Judilibre (PISTE), Assemblée nationale, Sénat, CNIL, CERT-FR ; diff par article et « À revalider » ; dédup ; `watch` cron ; workflow de veille                                  | `pnpm agent watch --once`                               |
-| 3 Analyse complète et matrices   | 27/10/2026 |                                                                                                                                                                                                                     | Applicabilité, enrichissement, jurisprudence, impact, couverture, risques, `run`, M1 à M5 (CSV, XLSX, MD), `notion pull` et `watch`                                                                                         | `pnpm agent run --texte TX-0001 --articles 5-16`        |
-| 4 Gouvernance et cockpit complet | 27/10/2026 |                                                                                                                                                                                                                     | Recommandation TOGAF / ITIL / Hybride, 14 lots d'action, plan de gouvernance, décision humaine, 4 vues complètes, `agent ask` (MCP), Docker Compose                                                                         | `pnpm agent governance --texte TX-0001`, `pnpm cockpit` |
-| 5 Qualité et rendu               | 27/10/2026 |                                                                                                                                                                                                                     | CI, documentation complète, mesures, répétition de la démo, relecture sur clone propre                                                                                                                                      | `pnpm agent demo`, `pnpm cockpit`                       |
-| 6 Assistant de chat              | 29/10/2026 |                                                                                                                                                                                                                     | Demande de l'enseignant hors spec : application Next.js + AI SDK 7 (`chat/`) inspirée du template « Chatbot » de Vercel, outils de lecture sur le store et Notion ; correctif de l'extraction qui effaçait l'enrichissement | `pnpm chat`                                             |
+| Phase                            | Date       | Fait pendant l'atelier                                                                                                                                                                                              | Ajouté après                                                                                                                                                                                                                                                  | Démo de l'état courant                                  |
+| -------------------------------- | ---------- | ------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- | ------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- | ------------------------------------------------------- |
+| 0 Fondations                     | 27/10/2026 | Scaffold du monorepo, configuration (4 YAML), store JSON et registre d'IDs, factory LLM avec cache et coût, CLI squelette, cockpit Streamlit (4 vues, repli local), tests                                           |                                                                                                                                                                                                                                                               | `pnpm agent config`, `pnpm cockpit`                     |
+| 1 MVP six étapes                 | 27/10/2026 | Connecteur fichier local, parser EUR-Lex, `ingest`, schéma Zod et prompt d'extraction, `extract` vérifié (85 exigences), matrice M1, `notion init` et `push`, validation dans le cockpit écrite dans Notion, `demo` |                                                                                                                                                                                                                                                               | `pnpm agent demo`, `pnpm cockpit`                       |
+| 2 Veille multi-sources           | 27/10/2026 |                                                                                                                                                                                                                     | Connecteurs EUR-Lex (Cellar), Légifrance et Judilibre (PISTE), Assemblée nationale, Sénat, CNIL, CERT-FR ; diff par article et « À revalider » ; dédup ; `watch` cron ; workflow de veille                                                                    | `pnpm agent watch --once`                               |
+| 3 Analyse complète et matrices   | 27/10/2026 |                                                                                                                                                                                                                     | Applicabilité, enrichissement, jurisprudence, impact, couverture, risques, `run`, M1 à M5 (CSV, XLSX, MD), `notion pull` et `watch`                                                                                                                           | `pnpm agent run --texte TX-0001 --articles 5-16`        |
+| 4 Gouvernance et cockpit complet | 27/10/2026 |                                                                                                                                                                                                                     | Recommandation TOGAF / ITIL / Hybride, 14 lots d'action, plan de gouvernance, décision humaine, 4 vues complètes, `agent ask` (MCP), Docker Compose                                                                                                           | `pnpm agent governance --texte TX-0001`, `pnpm cockpit` |
+| 5 Qualité et rendu               | 27/10/2026 |                                                                                                                                                                                                                     | CI, documentation complète, mesures, répétition de la démo, relecture sur clone propre                                                                                                                                                                        | `pnpm agent demo`, `pnpm cockpit`                       |
+| 6 Assistant GRC                  | 29/10/2026 |                                                                                                                                                                                                                     | Demande de l'enseignant hors spec : bulle « Assistant GRC » sur toutes les pages du cockpit, filtre qui refuse toute question hors GRC, outils de lecture seule ; relations Notion relues en entier ; correctif de l'extraction qui effaçait l'enrichissement | `pnpm cockpit`, bulle en bas à droite                   |
 
 ## Phase 0 : fondations (27/10/2026)
 
@@ -187,20 +187,41 @@ et relations ; cockpit lisant les six bases en 2,7 s.
   régénérées depuis le store versionné (M3 : 85 lignes, M4 : 80 lignes). Seules les clés restent à renseigner.
 - Tag `rendu-final`.
 
-## Phase 6 : assistant de chat (29/10/2026, demande de l'enseignant, hors SPEC.md)
+## Phase 6 : assistant GRC (29/10/2026, demande de l'enseignant, hors SPEC.md)
 
-**Demande** : implémenter l'équivalent du template https://vercel.com/templates/next.js/chatbot (Next.js, AI SDK, chat avec
-streaming et outils, modèles via API ou token). Interprétation retenue avec Neyl : une application allégée dans le dépôt,
-appelant le modèle avec la clé Anthropic existante, sans Auth.js, Postgres ni AI Gateway.
+**Demande** : implémenter l'équivalent du template https://vercel.com/templates/next.js/chatbot, un chatbot qui répond via
+l'API. Une première version, le 29/10, était une application Next.js séparée (`chat/`, port 3000, `pnpm chat`). Neyl l'a écartée
+le même jour : tout doit rester dans le cockpit, sans autre port ni commande, et l'assistant ne doit répondre qu'aux questions
+GRC. L'application Next.js a été retirée.
 
-**Fait** : paquet `chat/` du workspace pnpm (Next.js 16, React 19, AI SDK 7, `@ai-sdk/react`), route `/api/chat`
-(`streamText` + `instructions` + outils + `stopWhen`), neuf outils de lecture seule (store et recherche Notion), composant
-de chat (suggestions, streaming, badges d'appels d'outils, Markdown, historique localStorage), scripts racine `pnpm chat`,
-`chat:build`, `chat:typecheck`, job CI, service Docker `chat`, documentation.
+**Fait** :
 
-**Mesure réelle (29/10/2026)** : page servie en production locale (`pnpm chat:build` puis `chat:start`), question « Quels risques
-ont un niveau résiduel critique ? » : deux appels d'outils (`lister_risques`, `lister_lots`), réponse exacte en 6 s citant
-RK-0004 / EX-0004 / LA-0001, RK-0007 / EX-0007 / LA-0005 et RK-0034 / EX-0037 / LA-0010.
+- bulle « Assistant GRC » fixée en bas à droite de toutes les pages (`st.popover` dans un fragment, positionné en CSS) ;
+  conversation en streaming, appels d'outils affichés, suggestions, coût de la conversation et plafond (`LLM_CHAT_MAX_COST`) ;
+- filtre de périmètre : un appel court en sortie structurée (`messages.parse`, schéma pydantic `Classement`) classe chaque
+  question `grc`, `salutation` ou `hors_perimetre`. Hors périmètre, ou si le classement échoue, l'assistant refuse sans appeler
+  le modèle de réponse ;
+- réponse : boucle d'outils en streaming (SDK Python `anthropic`) avec neuf outils en lecture seule sur les données du cockpit.
+  Les entrées sont validées par pydantic avant exécution, l'historique est en ajout seul, le repli serveur `fallbacks: "default"`
+  est actif ;
+- correctif de la lecture Notion du cockpit : les relations risques ↔ contrôles, lots ↔ risques et contrôles ↔ exigences
+  n'étaient pas relues, et les contrôles des exigences restaient des identifiants de pages Notion. L'assistant affirmait donc
+  qu'aucun lot ne traitait les risques critiques. Toutes les relations sont désormais résolues, dans les deux sens ;
+- performance sous WSL : après chaque exécution, la surveillance des fichiers de Streamlit réexaminait les ≈ 3 900 modules
+  chargés, soit ≈ 70 s sur `/mnt/c`, pendant lesquelles l'interface était gelée. Elle est désactivée. Le SDK, dont l'import
+  prend ≈ 23 s sur `/mnt/c`, est préchargé en arrière-plan ;
+- tests : 9 tests des outils, 12 tests de l'assistant avec un faux client Anthropic, 4 tests de la bulle (AppTest) et 1 test des
+  relations Notion.
+
+**Mesures réelles (29/10/2026, `claude-sonnet-5-5`, effort `low`)** :
+
+- filtre : 9 classements conformes sur 9, dont « Comment reverse une string ? », du code présenté « pour la conformité DORA »,
+  une tentative « Ignore tes consignes… » et la relance « Et pour l'article 19 ? » ;
+- cockpit piloté dans Firefox headless (Selenium) : bulle fixée à 24 px des bords, panneau entièrement visible en 1440×900 et
+  en 1366×700, aucune exception. Un refus s'affiche en 1,7 s et une réponse avec outils en 8,7 s. La réponse sur les risques
+  critiques est exacte : RK-0004 / EX-0004 / LA-0001, RK-0007 / EX-0007 / LA-0005, RK-0034 / EX-0037 / LA-0010 avec CT-0024 ;
+- coût : 0,003 $ par refus, 0,02 à 0,05 $ par réponse avec outils ;
+- captures : `docs/captures/assistant-grc-refus.png` et `docs/captures/assistant-grc-reponse.png`.
 
 **Correctif : une nouvelle extraction effaçait l'enrichissement.** Le 27/10 à 21:10, un `pnpm agent demo` lancé depuis un autre
 terminal a ré-extrait les exigences (depuis le cache) ; l'extraction réécrivait échéance, sanction et destinataires avec ses propres

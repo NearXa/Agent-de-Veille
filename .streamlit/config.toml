@@ -1,6 +1,10 @@
 [server]
 headless = true
 port = 8501
+# Pas de surveillance des fichiers source : après chaque exécution qui importe un module, Streamlit vérifie le
+# chemin de tous les modules chargés (≈ 3 900 avec le SDK Anthropic), ce qui gèle l'interface ~1 min quand le
+# dépôt est sur /mnt/c (WSL). Relancer `pnpm cockpit` après une modification du code.
+fileWatcherType = "none"
 
 [browser]
 gatherUsageStats = false

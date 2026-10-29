@@ -23,7 +23,8 @@ de 38 contrôles de `config/controles.yaml`. Tous les chiffres proviennent de `d
 | Coût et temps par run                  | extraction seule : 3 appels, 39 103 + 53 496 tokens, 1,23 $, 7 min 46 ; pipeline complet : 28 appels, 243 877 + 157 961 tokens, 2,91 $, 15 min 16 ; gouvernance : 1 appel, 0,29 $, 2 min 20 ; rejeu intégral avec cache : 0 $, 36 s                                                                                                                                                               | `pnpm agent status --all`                                 |
 | Notion                                 | init : 6 bases, 7 relations, 1 formule ; push complet : 26 textes, 85 exigences, 38 contrôles, 80 risques, 14 lots, 179 relations, 579 requêtes en 5 min 52 ; lecture par le cockpit des six bases en 2,7 s                                                                                                                                                                                       | `pnpm notion push`                                        |
 | Veille                                 | passage sur 5 sources réseau en 2 min 05 : 17 actes du JOUE (Cellar), 1 AN, 1 Sénat, 1 CNIL, 5 CERT-FR ; 3 rectificatifs indisponibles signalés                                                                                                                                                                                                                                                   | `pnpm agent watch --once`                                 |
-| Qualité                                | 77 tests vitest (16 fichiers), 13 tests pytest, lint, typecheck, format ; CI GitHub Actions                                                                                                                                                                                                                                                                                                       | `pnpm check`, `pnpm cockpit:test`                         |
+| Assistant GRC (29/10/2026)             | filtre de périmètre : 9 classements conformes sur 9 ; refus en 1,7 s pour 0,003 $ ; réponse avec outils en 8,7 s pour 0,02 à 0,05 $ (`claude-sonnet-5-5`, effort low)                                                                                                                                                                                                                             |
+| Qualité                                | 79 tests vitest (16 fichiers), 39 tests pytest, lint, typecheck, format ; CI GitHub Actions                                                                                                                                                                                                                                                                                                       |
 
 ## Limites
 
@@ -46,8 +47,13 @@ de 38 contrôles de `config/controles.yaml`. Tous les chiffres proviennent de `d
 - **PDF** : pris en charge par `unpdf` avec segmentation par regex, moins fiable que le HTML EUR-Lex ou le JSON Légifrance.
 - **Mots-clés de veille** : les premiers filtres EUR-Lex, trop larges, ont fait entrer des décisions PESC sans rapport (conservées
   dans le store à titre de trace, filtre resserré ensuite).
-- **Captures d'écran** : aucun navigateur n'est disponible dans l'environnement de développement ; les captures des quatre vues
-  sont à réaliser par l'équipe (`pnpm cockpit`, puis chaque vue) et à déposer dans `docs/captures/`.
+- **Assistant GRC** : le périmètre repose sur un classement fait par le modèle, pas sur une règle déterministe. Les essais
+  (9 sur 9) ne garantissent pas l'absence d'erreur ; en cas de doute ou d'échec du classement, l'assistant refuse. Ses réponses
+  sont des lectures des données du cockpit, à vérifier dans les vues avant toute décision.
+- **Dépôt sur `/mnt/c` (WSL)** : les imports Python y sont lents. Le premier affichage du cockpit prend ≈ 20 s, et le SDK
+  Anthropic se charge ensuite en ≈ 25 s en arrière-plan.
+- **Captures d'écran** : celles de l'assistant sont dans `docs/captures/` (Firefox headless). Celles des quatre vues restent à
+  réaliser par l'équipe (`pnpm cockpit`, puis chaque vue).
 
 ## Pistes d'amélioration
 
