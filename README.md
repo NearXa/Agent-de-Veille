@@ -1,5 +1,7 @@
 # Veille GRC : agent de veille continue législative et réglementaire
 
+Lien de la vidéo : https://youtu.be/YyYYwn0zfzU
+
 Projet d'atelier EPITA (Master, gouvernance des SI). Un agent TypeScript surveille des textes officiels
 (DORA pour le MVP), en extrait des exigences vérifiables (article exact, extrait verbatim, URL officielle),
 les stocke dans un store local puis dans Notion, produit des matrices GRC et un plan de gouvernance ; un
