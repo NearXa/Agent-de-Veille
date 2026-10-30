@@ -14,7 +14,7 @@
     "date_entree_en_application": "2025-01-17",
     "statut_texte": "En vigueur",
     "hash_sha256": "e1e54d9230e86244e1214976d009a6540e15bdc7e2fa1df992237605ff18b41b",
-    "collecte_le": "2026-10-29T18:28:26.879Z",
+    "collecte_le": "2026-10-30T11:53:27.281Z",
     "derniere_modification_detectee": null,
     "fichier_source": "data/sources/dora-32022R2554-fr.html",
     "applicable": "Oui",
@@ -536,7 +536,7 @@
         "position": 63
       }
     ],
-    "run_id": "RUN-20261029-1828",
+    "run_id": "RUN-20261030-1153",
     "version": 1,
     "historique": []
   },
@@ -1880,7 +1880,7 @@
     "date_entree_en_application": null,
     "statut_texte": "Modifié",
     "hash_sha256": "4d5e69b981722ca666fcb6f3b2fae8f3d4df5b883d7663862235989e99305587",
-    "collecte_le": "2026-10-29T18:30:06.595Z",
+    "collecte_le": "2026-10-30T11:54:35.366Z",
     "derniere_modification_detectee": "2026-10-29T18:30:06.595Z",
     "fichier_source": null,
     "applicable": "À déterminer",
@@ -1899,7 +1899,7 @@
         "position": 0
       }
     ],
-    "run_id": "RUN-20261029-1828",
+    "run_id": "RUN-20261030-1153",
     "version": 2,
     "historique": [
       {
@@ -1930,7 +1930,7 @@
     "date_entree_en_application": null,
     "statut_texte": "Modifié",
     "hash_sha256": "e8ff1659210c0878db0921ebba26165b9c212f8e662a9405bb74b23e9df23171",
-    "collecte_le": "2026-10-29T18:30:08.372Z",
+    "collecte_le": "2026-10-30T11:54:37.851Z",
     "derniere_modification_detectee": "2026-10-29T18:30:08.372Z",
     "fichier_source": null,
     "applicable": "À déterminer",
@@ -1949,7 +1949,7 @@
         "position": 0
       }
     ],
-    "run_id": "RUN-20261029-1828",
+    "run_id": "RUN-20261030-1153",
     "version": 2,
     "historique": [
       {
@@ -1980,7 +1980,7 @@
     "date_entree_en_application": null,
     "statut_texte": "Modifié",
     "hash_sha256": "cc1fb6b2b8f9521e1fb90a20558f5345126c973560b38af19c7a20f50877d483",
-    "collecte_le": "2026-10-29T18:30:10.379Z",
+    "collecte_le": "2026-10-30T11:54:39.244Z",
     "derniere_modification_detectee": "2026-10-29T18:30:10.379Z",
     "fichier_source": null,
     "applicable": "À déterminer",
@@ -1999,7 +1999,7 @@
         "position": 0
       }
     ],
-    "run_id": "RUN-20261029-1828",
+    "run_id": "RUN-20261030-1153",
     "version": 2,
     "historique": [
       {
@@ -2030,7 +2030,7 @@
     "date_entree_en_application": null,
     "statut_texte": "Modifié",
     "hash_sha256": "2ae0ea933c9499ff2a29ab8e92132fab71cb12b9cef063c11ec1f2b76952e9f0",
-    "collecte_le": "2026-10-29T18:30:12.383Z",
+    "collecte_le": "2026-10-30T11:54:41.267Z",
     "derniere_modification_detectee": "2026-10-29T18:30:12.383Z",
     "fichier_source": null,
     "applicable": "À déterminer",
@@ -2049,7 +2049,7 @@
         "position": 0
       }
     ],
-    "run_id": "RUN-20261029-1828",
+    "run_id": "RUN-20261030-1153",
     "version": 2,
     "historique": [
       {
@@ -2403,7 +2403,7 @@
     "date_entree_en_application": null,
     "statut_texte": "En vigueur",
     "hash_sha256": "ab1ff4b768187717b7dd5dce0e47e36d22f6b5fae23a48d7e40f4d70536d7ff9",
-    "collecte_le": "2026-10-29T18:30:02.319Z",
+    "collecte_le": "2026-10-30T11:54:31.187Z",
     "derniere_modification_detectee": null,
     "fichier_source": null,
     "applicable": "À déterminer",
@@ -2422,7 +2422,7 @@
         "position": 0
       }
     ],
-    "run_id": "RUN-20261029-1828",
+    "run_id": "RUN-20261030-1153",
     "version": 1,
     "historique": []
   }
