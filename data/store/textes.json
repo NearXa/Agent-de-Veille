@@ -14,7 +14,7 @@
     "date_entree_en_application": "2025-01-17",
     "statut_texte": "En vigueur",
     "hash_sha256": "e1e54d9230e86244e1214976d009a6540e15bdc7e2fa1df992237605ff18b41b",
-    "collecte_le": "2026-11-01T12:21:50.923Z",
+    "collecte_le": "2026-11-02T14:16:51.847Z",
     "derniere_modification_detectee": null,
     "fichier_source": "data/sources/dora-32022R2554-fr.html",
     "applicable": "Oui",
@@ -536,7 +536,7 @@
         "position": 63
       }
     ],
-    "run_id": "RUN-20261101-1221",
+    "run_id": "RUN-20261102-1416",
     "version": 1,
     "historique": []
   },
@@ -1766,7 +1766,7 @@
     "date_entree_en_application": null,
     "statut_texte": "En vigueur",
     "hash_sha256": "c7e4b2f25c85e27289b6e7728eb41a12b5a177f0304e56edaffa53c476188ff1",
-    "collecte_le": "2026-10-29T18:30:00.072Z",
+    "collecte_le": "2026-11-02T14:17:17.792Z",
     "derniere_modification_detectee": null,
     "fichier_source": null,
     "applicable": "À déterminer",
@@ -1785,7 +1785,7 @@
         "position": 0
       }
     ],
-    "run_id": "RUN-20261029-1828",
+    "run_id": "RUN-20261102-1416",
     "version": 1,
     "historique": []
   },
@@ -1880,7 +1880,7 @@
     "date_entree_en_application": null,
     "statut_texte": "Modifié",
     "hash_sha256": "55b2d258a028d205335b91e9009f7acfb0bf498a895a622b4c177a85bd4132ac",
-    "collecte_le": "2026-11-01T12:23:06.328Z",
+    "collecte_le": "2026-11-02T14:17:24.838Z",
     "derniere_modification_detectee": "2026-10-31T11:28:43.458Z",
     "fichier_source": null,
     "applicable": "À déterminer",
@@ -1899,7 +1899,7 @@
         "position": 0
       }
     ],
-    "run_id": "RUN-20261101-1221",
+    "run_id": "RUN-20261102-1416",
     "version": 3,
     "historique": [
       {
@@ -1941,7 +1941,7 @@
     "date_entree_en_application": null,
     "statut_texte": "Modifié",
     "hash_sha256": "2de25c5ac634ad19559fe3b3c489e1e79d5b95ef0bb5076e92dac4774f61a3ee",
-    "collecte_le": "2026-11-01T12:23:08.219Z",
+    "collecte_le": "2026-11-02T14:17:26.697Z",
     "derniere_modification_detectee": "2026-10-31T11:28:45.337Z",
     "fichier_source": null,
     "applicable": "À déterminer",
@@ -1960,7 +1960,7 @@
         "position": 0
       }
     ],
-    "run_id": "RUN-20261101-1221",
+    "run_id": "RUN-20261102-1416",
     "version": 3,
     "historique": [
       {
@@ -2002,7 +2002,7 @@
     "date_entree_en_application": null,
     "statut_texte": "Modifié",
     "hash_sha256": "1adae7b92eef9792dce75cbeb71dc0acea879ae68eb04114ee66d51b7ebc49af",
-    "collecte_le": "2026-11-01T12:23:10.214Z",
+    "collecte_le": "2026-11-02T14:17:28.685Z",
     "derniere_modification_detectee": "2026-10-31T11:28:47.337Z",
     "fichier_source": null,
     "applicable": "À déterminer",
@@ -2021,7 +2021,7 @@
         "position": 0
       }
     ],
-    "run_id": "RUN-20261101-1221",
+    "run_id": "RUN-20261102-1416",
     "version": 3,
     "historique": [
       {
@@ -2063,7 +2063,7 @@
     "date_entree_en_application": null,
     "statut_texte": "Modifié",
     "hash_sha256": "1cd6ec4540a3b057c86e669791b33807250d2c927308ce7025686728e0031e72",
-    "collecte_le": "2026-11-01T12:23:12.236Z",
+    "collecte_le": "2026-11-02T14:17:30.694Z",
     "derniere_modification_detectee": "2026-10-31T11:28:49.360Z",
     "fichier_source": null,
     "applicable": "À déterminer",
@@ -2082,7 +2082,7 @@
         "position": 0
       }
     ],
-    "run_id": "RUN-20261101-1221",
+    "run_id": "RUN-20261102-1416",
     "version": 3,
     "historique": [
       {
@@ -2447,7 +2447,7 @@
     "date_entree_en_application": null,
     "statut_texte": "En vigueur",
     "hash_sha256": "ab1ff4b768187717b7dd5dce0e47e36d22f6b5fae23a48d7e40f4d70536d7ff9",
-    "collecte_le": "2026-11-01T12:23:02.161Z",
+    "collecte_le": "2026-11-02T14:17:20.621Z",
     "derniere_modification_detectee": null,
     "fichier_source": null,
     "applicable": "À déterminer",
@@ -2466,7 +2466,45 @@
         "position": 0
       }
     ],
-    "run_id": "RUN-20261101-1221",
+    "run_id": "RUN-20261102-1416",
+    "version": 1,
+    "historique": []
+  },
+  {
+    "id": "TX-0035",
+    "source": "senat",
+    "reference": "http://www.senat.fr/dossier-legislatif/ppl26-101.html",
+    "titre": "proposition de loi visant à la création d'une délégation parlementaire au numériquevisant à la création d'une délégation parlementaire au numérique",
+    "type": "Proposition de loi",
+    "url_officielle": "http://www.senat.fr/dossier-legislatif/ppl26-101.html",
+    "urls_connues": [
+      "http://www.senat.fr/dossier-legislatif/ppl26-101.html"
+    ],
+    "date_publication": null,
+    "date_entree_en_vigueur": null,
+    "date_entree_en_application": null,
+    "statut_texte": "En vigueur",
+    "hash_sha256": "a2fa8fd40d65aa703a19d24e783675d47d845499b45b391613b92ee33eab7b87",
+    "collecte_le": "2026-11-02T14:17:16.382Z",
+    "derniere_modification_detectee": null,
+    "fichier_source": null,
+    "applicable": "À déterminer",
+    "justification_applicabilite": null,
+    "confiance_applicabilite": null,
+    "resume": null,
+    "nombre_articles": 1,
+    "articles": [
+      {
+        "numero": "document",
+        "titre": "proposition de loi visant à la création d'une délégation parlementaire au numériquevisant à la création d'une délégation parlementaire au numérique",
+        "contenu": "Aller au contenu\n\nAller à la navigation\n\nLa galaxie Sénat\n\nRéseaux sociaux\n\nX\n\nFacebook\n\nLinkedin\n\nInstagram\n\nYouTube\n\nTikTok\n\nS'abonner\n\nLangue sélectionnéeFrançais\n\nFrançais\n\nEnglish\n\nDeutsch\n\nEspañol\n\nPortuguês\n\nItaliano\n\nعربي\n\n中文\n\nРусский\n\nTürk\n\nOuvrir la recherche\n\nLangue sélectionnéeFrançais\n\nFrançais\n\nEnglish\n\nDeutsch\n\nEspañol\n\nPortuguês\n\nItaliano\n\nعربي\n\n中文\n\nРусский\n\nTürk\n\nTravaux parlementaires\n\nTravaux parlementaires\n\nLe Sénat a pour missions premières le vote de la loi, le contrôle du Gouvernement et l'évaluation des politiques publiques.\n\nEn savoir plus\n\nSéance publique\n\nDécouvrez le fonctionnement de la séance publique\n\nOrdre du jour\n\nDérouleurs\n\nScrutins publics\n\nDirect vidéo\n\nApplication \"En séance\"\n\nTextes législatifs\n\nTextes récents\n\nTous les textes\n\nContrôle et évaluation\n\nToute l'actualité du contrôle et de l'évaluation\n\nQuestions des sénateurs au Gouvernement\n\nSuivi des ordonnances\n\nContrôle de l'application des lois\n\nProgramme de contrôle\n\nCommissions\n\nDécouvrir le rôle et l'actualité des commissions\n\nCommission des affaires économiques\n\nCommission des affaires étrangères, de la défense et des forces armées\n\nCommission des affaires sociales\n\nCommission de l'aménagement du territoire et du développement durable\n\nCommission de la culture, de l’éducation, de la communication et du sport\n\nCommission des finances\n\nCommission des lois\n\nCommission des affaires européennes\n\nApplication \"En commission\"\n\nStructures temporaires\n\nCommissions d'enquête\n\nMission d'information commune\n\nCommissions spéciales\n\nCommissions mixtes paritaires\n\nOffice et délégations\n\nDécouvrir le rôle et l'actualité de l'office et des délégations\n\nDélégation aux collectivités territoriales et à la décentralisation\n\nDélégation aux droits des femmes et à l’égalité des chances entre les hommes et les femmes\n\nDélégation aux entreprises\n\nDélégation sénatoriale aux outre-mer\n\nDélégation à la prospective\n\nDélégation parlementaire au renseignement\n\nOffice parlementaire d’évaluation des choix scientifiques et technologiques (OPECST)\n\nGroupes d'études\n\nRapports et documents de travail\n\nDerniers rapports\n\nTous les rapports et documents de travail\n\nRésolutions\n\nComptes rendus\n\nL’activité du Sénat en chiffres\n\nVos sénateurs\n\nVos sénateurs\n\nDécouvrez qui sont vos sénateurs et suivez leurs principales activités.\n\nEn savoir plus\n\nRecherche de sénateurs\n\nRecherche simple de sénateurs\n\nRecherche avancée de sénateurs\n\nPrésidence du Sénat\n\nSénatoriales 2026\n\nGroupes politiques\n\nOrganisation interne\n\nBureau du Sénat\n\nConférence des Présidents\n\nConseil de Questure\n\nComité de déontologie\n\nCommission spéciale chargée du contrôle des comptes et de l'évaluation interne\n\nDéclarations\n\nDéclarations de rattachement\n\nActivités principales des Sénateurs\n\nOrganismes extraparlementaires\n\nAnciens sénateurs\n\nPrésentation par période\n\nAnciens sénateurs de la Vème République\n\nAnciens sénateurs de la IVème République\n\nAnciens sénateurs de la Communauté\n\nAnciens sénateurs de la IIIème République\n\nAnciens sénateurs du Second Empire\n\nPairs de France\n\nSénat conservateur\n\nConseil des anciens\n\nConnaître le Sénat\n\nConnaître le Sénat\n\nRetrouvez toutes les informations clés sur le rôle, le fonctionnement, l'Histoire et le patrimoine du Sénat.\n\nEn savoir plus\n\nRôle et fonctionnement\n\nSénat Junior\n\nDocuments de référence et guides pratiques\n\nL’Histoire du Sénat\n\nLes Archives du Sénat\n\nPatrimoine\n\nJardin du Luxembourg\n\nÉvénements et manifestations culturelles\n\nPhotothèque\n\nLe Sénat et vous\n\nLe Sénat et vous\n\nVous souhaitez participer à nos consultations, visiter le Sénat ou même y travailler ?\n\nEn savoir plus\n\nLe Sénat pour les élus locaux\n\nParticiper aux consultations\n\nConsultations citoyennes\n\nConsultations des élus locaux\n\nDéposer ou soutenir une pétition\n\nVisiter le Sénat\n\nAssister aux séances\n\nTravailler au Sénat\n\nLe Sénat recrute\n\nRecrutement des fonctionnaires par concours\n\nFonctionnaires extérieurs\n\nContractuels\n\nFaire son apprentissage au Sénat\n\nEffectuer un stage au Sénat\n\nLes prix décernés par le Sénat\n\nTous les prix du Sénat\n\nLe prix du Sénat du livre d'histoire\n\nL'aide à la publication \"Diffusons l'histoire\"\n\nLe prix de thèse\n\nLe prix de la Fondation Jacques Descours Desacres\n\nEurope et international\n\nEurope et international\n\nDécouvrez l'action internationale et européenne du Sénat.\n\nEn savoir plus\n\nLe Sénat et l'Europe\n\nDécouvrir les activités européennes du Sénat\n\nCommission des affaires européennes\n\nAssemblée parlementaire du Conseil de l'Europe (APCE)\n\nAssemblée parlementaire de l'OSCE\n\nL'Europe en séance publique\n\nLe Sénat à l'international\n\nDécouvrir les activités internationales du Sénat\n\nCommission des affaires étrangères, de la défense et des forces armées\n\nGroupes interparlementaires d'amitié\n\nAssemblées interparlementaires\n\nCoopération\n\nColloques et événements\n\nÉtudes internationales\n\nÉtudes de législation comparée\n\nLe Sénat et les Français de l'étranger\n\nSénats d'Europe, Sénats du monde\n\nPresse\n\nPresse\n\nRetrouvez dans cette section toutes les informations clés pour la presse et les médias.\n\nEn savoir plus\n\nAuditions accessibles à la presse\n\nConférences de presse\n\nCommuniqués de presse\n\nInformations pratiques\n\nBoîte à outils et formations\n\nNous contacter et nous suivre\n\nOuvrir la recherche\n\nLa galaxie Sénat\n\nSénateurs\n\nOrdre du jour\n\nAgenda\n\nTravaux récents\n\nVidéos\n\nLa galaxie Sénat\n\nFermer\n\nRetrouvez l’ensemble des sites internet et applications composant l’écosystème du Sénat.\n\nVidéothèque\n\nAudiothèque\n\nPhotothèque\n\nLes Archives : Mémoire du Sénat\n\nSénatoriales 2026\n\nE-petitions\n\nLa plateforme des élus locaux\n\nSénat Junior\n\nApplication \"En séance\"\n\nOpen Data\n\nSénat Infox\n\nBoutique officielle\n\nLibrairie en ligne\n\nPublic Sénat\n\nInstitut du Sénat\n\nJardin du Luxembourg\n\nMusée du Luxembourg\n\nRecherche rapide\n\nFermer la recherche\n\nRechercher dans la base documentaire du Sénat et le reste du site.\n\nAffiner ma recherche :\n\nDossiers législatifs\n\nRapports d’information\n\nQuestions parlementaires\n\nComptes rendus\n\nTextes européens\n\nDocuments de travail\n\nLancer la recherche\n\nMoteurs de recherche avancés\n\nSénateurs actifs\n\nDossiers législatifs\n\nQuestions parlementaires\n\nRapports d'informations\n\nComptes rendus de séance\n\nComptes rendus des commissions\n\nTextes européens\n\nDocuments de travail\n\nVoir le fil d’Ariane\n\nAccueil\n\nTravaux parlementaires\n\nProjets et propositions de loi\n\nCréation d'une délégation parlementaire au numérique\n\nDossier législatif\n\nProposition de loi visant à la création d'une délégation parlementaire au numérique\n\nLes étapes de la discussion\nLes étapes de la discussion\n\nPremière lecture - Sénat26 octobre 2026\n\nComprendre la procédure\n\nDépôt au Sénat\n\nTexte n° 101 (2026-2027) de Mme Nathalie GOULET, déposé au Sénat le 26 octobre 2026 - exposé des motifs\n\nPremière lecture au Sénat\n\nLes thèmes associés à ce dossier\n\nSociété\n\nPouvoirs publics et Constitution\n\nRecherche, sciences et techniques\n\nSuivre ce dossier législatif en s'abonnant aux alertes\n\nLes champs marqués d'un * sont obligatoires.\n\nVotre courriel\n\nS'inscrire\n\nExemple: nom@exemple.fr\n\nLes informations qui vous concernent sont strictement destinées aux services du Sénat. En aucun cas, les informations que vous nous communiquez lors de votre inscription à cette liste ne seront utilisées à d'autres fins. Conformément à la loi \"Informatique et Liberté\" du 6 janvier 1978, vous disposez d'un droit d'accès et de rectification aux données vous concernant. Si vous souhaitez exercer ce droit envoyez un message à lettre-senat@senat.fr.\n\nS'abonner au flux RSS\n\nPage mise à jour le\n\n2 novembre 2026\n\nPour toute remarque relative à cette page, veuillez contacter :\n\ndosleg@senat.fr\n\nPartager cette page\n\nX\n\nFacebook\n\nLinkedIn\n\nE-mail\n\nNous suivre sur les réseaux\n\nX\n\nFacebook\n\nLinkedin\n\nInstagram\n\nYouTube\n\nTikTok\n\nLiens pratiques\n\nFoire aux questions\n\nRèglement du Sénat\n\nRecrutement et stages\n\nBiens réformés\n\nMarchés publics\n\nFacturation\n\nReprésentants d'intérêts\n\nServices\n\nVisiter le Sénat\n\nLes abonnements du Sénat\n\nParticiper aux consultations\n\nDéposer ou soutenir une pétition\n\nPublic Sénat\n\nBoutique officielle\n\nFlux RSS\n\nLe Sénat\n\n15, rue de Vaugirard\n\n75291 Paris Cedex 06\n\nStandard : +33 (0)1 42 34 20 00\n\nNous contacter\n\nMentions légales\n\nPlan du site\n\nAccessibilité : partiellement conforme\n\nDonnées personnelles\n\nGestion des cookies\n\nIntr@Sénat\n\n© Sénat 2026. Tous droits réservés.",
+        "ancre": null,
+        "url": "http://www.senat.fr/dossier-legislatif/ppl26-101.html",
+        "type": "section",
+        "position": 0
+      }
+    ],
+    "run_id": "RUN-20261102-1416",
     "version": 1,
     "historique": []
   }

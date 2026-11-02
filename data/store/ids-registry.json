@@ -1,7 +1,7 @@
 {
   "version": 1,
   "counters": {
-    "TX": 34,
+    "TX": 35,
     "EX": 85,
     "RK": 80,
     "LA": 14
@@ -219,6 +219,7 @@
     "TX|eurlex|celex 32026r2466": "TX-0031",
     "TX|eurlex|celex 32026d2448": "TX-0032",
     "TX|eurlex|celex 32026r2343": "TX-0033",
-    "TX|cnil|169092fr": "TX-0034"
+    "TX|cnil|169092fr": "TX-0034",
+    "TX|senat|http www senat fr dossier legislatif ppl26 101 html": "TX-0035"
   }
 }
