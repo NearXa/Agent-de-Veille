@@ -14,7 +14,7 @@
     "date_entree_en_application": "2025-01-17",
     "statut_texte": "En vigueur",
     "hash_sha256": "e1e54d9230e86244e1214976d009a6540e15bdc7e2fa1df992237605ff18b41b",
-    "collecte_le": "2026-11-04T13:30:02.005Z",
+    "collecte_le": "2026-11-05T13:44:36.646Z",
     "derniere_modification_detectee": null,
     "fichier_source": "data/sources/dora-32022R2554-fr.html",
     "applicable": "Oui",
@@ -536,7 +536,7 @@
         "position": 63
       }
     ],
-    "run_id": "RUN-20261104-1330",
+    "run_id": "RUN-20261105-1344",
     "version": 1,
     "historique": []
   },
@@ -1941,7 +1941,7 @@
     "date_entree_en_application": null,
     "statut_texte": "Modifié",
     "hash_sha256": "2de25c5ac634ad19559fe3b3c489e1e79d5b95ef0bb5076e92dac4774f61a3ee",
-    "collecte_le": "2026-11-04T13:30:39.630Z",
+    "collecte_le": "2026-11-05T13:45:48.251Z",
     "derniere_modification_detectee": "2026-10-31T11:28:45.337Z",
     "fichier_source": null,
     "applicable": "À déterminer",
@@ -1960,7 +1960,7 @@
         "position": 0
       }
     ],
-    "run_id": "RUN-20261104-1330",
+    "run_id": "RUN-20261105-1344",
     "version": 3,
     "historique": [
       {
@@ -2002,7 +2002,7 @@
     "date_entree_en_application": null,
     "statut_texte": "Modifié",
     "hash_sha256": "3e2157eb8f807f84fbc6597a3c097aef00a305c177821a85c25eabf4295327b3",
-    "collecte_le": "2026-11-04T13:30:41.211Z",
+    "collecte_le": "2026-11-05T13:45:50.004Z",
     "derniere_modification_detectee": "2026-11-03T13:18:58.497Z",
     "fichier_source": null,
     "applicable": "À déterminer",
@@ -2021,7 +2021,7 @@
         "position": 0
       }
     ],
-    "run_id": "RUN-20261104-1330",
+    "run_id": "RUN-20261105-1344",
     "version": 4,
     "historique": [
       {
@@ -2074,7 +2074,7 @@
     "date_entree_en_application": null,
     "statut_texte": "Modifié",
     "hash_sha256": "1cd6ec4540a3b057c86e669791b33807250d2c927308ce7025686728e0031e72",
-    "collecte_le": "2026-11-04T13:30:43.219Z",
+    "collecte_le": "2026-11-05T13:45:52.024Z",
     "derniere_modification_detectee": "2026-10-31T11:28:49.360Z",
     "fichier_source": null,
     "applicable": "À déterminer",
@@ -2093,7 +2093,7 @@
         "position": 0
       }
     ],
-    "run_id": "RUN-20261104-1330",
+    "run_id": "RUN-20261105-1344",
     "version": 3,
     "historique": [
       {
@@ -2458,7 +2458,7 @@
     "date_entree_en_application": null,
     "statut_texte": "En vigueur",
     "hash_sha256": "ab1ff4b768187717b7dd5dce0e47e36d22f6b5fae23a48d7e40f4d70536d7ff9",
-    "collecte_le": "2026-11-04T13:30:35.138Z",
+    "collecte_le": "2026-11-05T13:45:43.922Z",
     "derniere_modification_detectee": null,
     "fichier_source": null,
     "applicable": "À déterminer",
@@ -2477,7 +2477,7 @@
         "position": 0
       }
     ],
-    "run_id": "RUN-20261104-1330",
+    "run_id": "RUN-20261105-1344",
     "version": 1,
     "historique": []
   },
@@ -2557,7 +2557,7 @@
     "date_entree_en_application": null,
     "statut_texte": "En vigueur",
     "hash_sha256": "b3d4468d711873585d8cbf151340feeee15dffc1316d792c8761ad2487389dc9",
-    "collecte_le": "2026-11-04T13:30:45.208Z",
+    "collecte_le": "2026-11-05T13:45:54.001Z",
     "derniere_modification_detectee": null,
     "fichier_source": null,
     "applicable": "À déterminer",
@@ -2576,7 +2576,7 @@
         "position": 0
       }
     ],
-    "run_id": "RUN-20261104-1330",
+    "run_id": "RUN-20261105-1344",
     "version": 1,
     "historique": []
   },
@@ -2595,7 +2595,7 @@
     "date_entree_en_application": null,
     "statut_texte": "En vigueur",
     "hash_sha256": "67b797f1be124a684eab67bd18b955e6396edf17feebd9260bbef589b6e96e76",
-    "collecte_le": "2026-11-04T13:30:08.942Z",
+    "collecte_le": "2026-11-05T13:44:43.519Z",
     "derniere_modification_detectee": null,
     "fichier_source": null,
     "applicable": "À déterminer",
@@ -2621,7 +2621,45 @@
         "position": 1
       }
     ],
-    "run_id": "RUN-20261104-1330",
+    "run_id": "RUN-20261105-1344",
+    "version": 1,
+    "historique": []
+  },
+  {
+    "id": "TX-0038",
+    "source": "cnil",
+    "reference": "169107fr",
+    "titre": "Outils de rejeu de session : la CNIL publie sa recommandation pour guider les acteurs",
+    "type": "Délibération",
+    "url_officielle": "https://www.cnil.fr/fr/rejeu-de-session-recommandation",
+    "urls_connues": [
+      "https://www.cnil.fr/fr/rejeu-de-session-recommandation"
+    ],
+    "date_publication": null,
+    "date_entree_en_vigueur": null,
+    "date_entree_en_application": null,
+    "statut_texte": "En vigueur",
+    "hash_sha256": "bcc1e625e0a65dcf0d788ab14f3eae71aeb60cea121b96137ed740e3878828bb",
+    "collecte_le": "2026-11-05T13:45:41.961Z",
+    "derniere_modification_detectee": null,
+    "fichier_source": null,
+    "applicable": "À déterminer",
+    "justification_applicabilite": null,
+    "confiance_applicabilite": null,
+    "resume": null,
+    "nombre_articles": 1,
+    "articles": [
+      {
+        "numero": "document",
+        "titre": "Outils de rejeu de session : la CNIL publie sa recommandation pour guider les acteurs",
+        "contenu": "Aller au contenu principal\n\nMenu de navigation\n\nRechercher\n\nParticuliersProfessionnelsPresse\n\nFrEnGestionnaire de cookies\n\nParticuliersProfessionnelsPresse\n\nMa conformité au RGPD\n\nComprendre le RGPD\n\nQu'est-ce que le RGPD ?\n\nLes six grands principes du RGPD\n\nRôles et responsabilités des acteurs\n\nMOOC - L'atelier RGPD\n\nL'accompagnement de la CNIL\n\nLes journées RGPD\n\nLes webinaires de la CNIL\n\nLe contrôle de la CNIL\n\nMe mettre en conformité\n\nPar où commencer ?\n\nCréer un registre des traitements\n\nChoisir une base légale\n\nChoisir une durée de conservation\n\nMettre en place un délégué (DPO)\n\nTravailler avec un sous-traitant\n\nAnonymiser les données\n\nSécuriser les données\n\nTransférer des données hors UE\n\nLa transmission de données aux tiers autorisés\n\nRespecter les droits des personnes\n\nQuelles sont les règles ?\n\nLes droits des personnes sur leurs données\n\nInformer les personnes\n\nExemples de mentions d'information\n\nRépondre aux demandes d'exercice des droits\n\nOutils spécifiques\n\nL'analyse d'impact (AIPD)\n\nLes cadres de référence\n\nLes règles d'entreprise contraignantes (BCR)\n\nLe code de conduite\n\nLa certification\n\nServices en ligne\n\nPoser une question à la CNIL\n\nDésigner un délégué (DPO)\n\nNotifier une violation de données\n\nDéclarer un fichier\n\nSoumettre une analyse d'impact (AIPD)\n\nSoumettre un projet de BCR\n\nSoumettre un code de conduite\n\nSoumettre une demande d'agrément\n\nSoumettre un mécanisme de certification\n\nQuestions-réponses\n\nFermer\n\nRessources\n\nActeurs et secteurs\n\nAffaires publiques\n\nAssociations\n\nAssurances\n\nBanque\n\nCollectivités locales\n\nÉducation\n\nLogement\n\nPartis politiques\n\nRecherche scientifique\n\nSanté\n\nServices publics\n\nSocial\n\nSport amateur et professionnel\n\nStartup\n\nTPE et PME\n\nTransports et mobilité\n\nThématiques communes\n\nCaméras et autres dispositifs vidéo\n\nCommerce et publicité\n\nCookies et autres traceurs\n\nDéveloppement informatique\n\nÉconomie de la donnée\n\nOuverture et réutilisation de données\n\nTéléphones et applications\n\nTravail\n\nEnjeux numériques\n\nAltruisme en matière de données\n\nBiométrie\n\nChaîne de blocs\n\nCivic tech\n\nDroits des mineurs\n\nIntelligence artificielle (IA)\n\nObjets connectés\n\nCybersécurité\n\nAuthentification multifacteur\n\nCryptologie et chiffrement\n\nInformatique en nuage - Cloud\n\nMots de passe\n\nRançongiciels\n\nSécurité des données\n\nViolations de données\n\nConsultations\n\nMédiathèque\n\nFermer\n\nTextes officiels\n\nCadre européen\n\nLe règlement général sur la protection des données (RGPD)\n\nLa directive Police-Justice\n\nLa directive ePrivacy\n\nLes lignes directrices du CEPD\n\nCadre national\n\nLa loi Informatique et Libertés\n\nLe décret d'application de la loi\n\nLes sanctions pénales\n\nLe règlement intérieur de la CNIL\n\nLes délégations de signature\n\nLa charte de déontologie\n\nDécisions de la CNIL\n\nToutes les délibérations de la CNIL\n\nLes Tables Informatique et Libertés\n\nLes lignes directrices et recommandations de la CNIL\n\nLes sanctions\n\nLes cadres de référence\n\nLes décisions de la CNIL sur Légifrance\n\nFermer\n\nLa CNIL\n\nMissions\n\nInformer et protéger\n\nAccompagner la conformité et conseiller\n\nAnticiper et innover\n\nContrôler et sanctionner\n\nLa mission éthique de la CNIL\n\nLes évènements\n\nFonctionnement\n\nOrdres du jour des séances\n\nStatut et organisation\n\nAgenda\n\nAvis de la CNIL\n\nInterrégulation et partenariats\n\nEn Europe et dans le monde\n\nLa CNIL en Europe\n\nLa CNIL dans le monde\n\nLa carte de la protection des données dans le monde\n\nLa stratégie européenne et internationale de la CNIL\n\nL'histoire de la CNIL en vidéo\n\nMarchés publics\n\nOpen CNIL\n\nTravailler à la CNIL\n\nFermer\n\nRechercher\n\nFrEnGestionnaire de cookies\n\nCNIL : Formulaire de recherche\n\nPoser une question ou rechercher un article, une délibération...\n\nRechercher\n\nAccueil\n\nOutils de rejeu de session : la CNIL publie sa recommandation pour guider les acteurs\n\nOutils de rejeu de session : la CNIL publie sa recommandation pour guider les acteurs\n\n05 novembre 2026\n\nLa CNIL publie une recommandation relative aux outils de rejeu de session permettant le suivi et l'analyse du comportement en ligne des utilisateurs. L’objectif est d’aider les acteurs qui conçoivent ces outils et ceux qui les utilisent dans leur mise en conformité.\n\nImprimer l’article\n\nPartager cette page par courriel\n\nDiminuer la taille de la police\n\nAugmenter la taille de la police\n\nLes enjeux\n\nLes outils de rejeu de session fonctionnent avec des traceurs et servent à enregistrer visuellement ou à reconstituer le parcours complet de navigation d’un internaute sur un site web ou une application mobile. Ils peuvent notamment être utilisés pour détecter et corriger des dysfonctionnements, ou encore optimiser la structure ou l’ergonomie d’un service numérique.\n\nConcrètement, ces outils offrent à l’éditeur d’un site ou d’une application mobile la possibilité d’enregistrer l’ensemble des interactions des utilisateurs : mouvements de souris, interactions tactiles, clics, défilement des pages et, dans certains cas, saisies dans les formulaires. Ces éléments sont ensuite utilisés pour analyser le parcours de l’internaute sous forme de vidéos.\n\nSi ces solutions offrent de nouvelles possibilités de suivi et d’analyse des comportements des internautes, elles présentent également des risques élevés d’atteinte à la vie privée de ces derniers. Elles peuvent notamment conduire à collecter des données personnelles qui ne sont pas nécessaires à l’analyse recherchée.\n\nUne recommandation pour encadrer l’utilisation des outils de rejeu de session\n\nÀ qui s’adresse-t-elle ?\n\nLa recommandation de la CNIL s’adresse à deux catégories d’acteurs :\n\nles fournisseurs d’outils de rejeu de session, qui conçoivent les solutions techniques et définissent les paramétrages et fonctionnalités ;\n\nles éditeurs de sites web ou d’applications mobiles, qui déploient ces outils pour analyser les parcours de leurs utilisateurs.\n\nQuels sont ses objectifs ?\n\nLa recommandation apporte des réponses concrètes aux enjeux juridiques et techniques liés à l’utilisation des outils de rejeu de session. Elle vise à aider les fournisseurs et les éditeurs à respecter le principe de minimisation des données et à déterminer les conditions dans lesquelles ces solutions peuvent déployées.\n\nElle explicite notamment les obligations relatives à l’information des personnes et la manière de recueillir leur consentement. Elle propose également des recommandations techniques et organisationnelles qui doivent permettre aux fournisseurs qui proposent ces outils et aux éditeurs qui les exploitent de s’assurer du respect de la règlementation applicable.\n\nLes principaux apports de la recommandation\n\nClarifier le rôle des acteurs et le cadre juridique applicable\n\nLa recommandation aide les acteurs à déterminer leur qualification en fonction de leur rôle et en lien avec le cadre légal applicable. Elle précise que les outils de rejeu de session fonctionnent avec des traceurs et qu’ils doivent respecter les dispositions de l’article 82 de la loi Informatique et Libertés.\n\nLa recommandation rappelle que ces outils sont soumis au consentement préalable des personnes, puisqu’aucune exemption prévue par cet article n’est applicable. Le recueil du consentement doit donc respecter les règles déjà exposées par la CNIL en matière de traceurs (cookies).\n\nPréciser les finalités pour lesquelles les outils peuvent être déployés\n\nLa recommandation rappelle que les outils de rejeu de session doivent être utilisés pour des finalités déterminées, explicites et légitimes. Ces finalités doivent être déterminées en amont du déploiement des outils, et non après la collecte des données.\n\nProposer des recommandations concrètes aux acteurs\n\nLa recommandation propose aux acteurs une série de mesures techniques et opérationnelles, adaptables aux finalités poursuivies, afin de s’assurer de la conformité de ces outils aux principes clés du RGPD.\n\nElle souligne l’importance de mettre en place un outil de masquage permettant d’occulter les données non pertinentes, de limiter le nombre de sessions collectées en fonction des finalités poursuivies et de limiter le recours aux identifiants.\n\nLire la recommandation\n\nUne recommandation enrichie par la consultation publique\n\nCette recommandation a fait l’objet d’échanges avec des professionnels et des associations représentatives de la société civile. Elle a également été soumise à consultation publique entre février et mai 2026. Les contributions reçues ont permis de mieux comprendre les usages et les enjeux de ces outils.\n\nLa CNIL a apporté plusieurs clarifications dans cette version finale :\n\nLa recommandation apporte aux acteurs des précisions sur le contenu de l’information à fournir en distinguant les informations de premier et deuxième niveau des interfaces de recueil du consentement. La recommandation propose des formulations pour parvenir à cet objectif.\n\nLa version définitive du document prévoit désormais une recommandation relative à l’information spécifique sur l’utilisation de ces outils, à fournir dès le premier niveau des interfaces utilisées afin de s’assurer du recueil d’un consentement éclairé.\n\nEnfin, elle ajoute une précision dans les mesures techniques proposées en recommandant le masquage des mouvements de souris dans certaines zones afin d’éviter la collecte incidente de codes d’authentification.\n\nLa recommandation couvre les risques associés à l’usage d’outils de rejeu utilisés dans des chatbots (agents conversationnels). Elle précise que ces outils devraient permettre de masquer le contenu des discussions (questions et réponses), celles-ci pouvant révéler des données potentiellement sensibles.\n\nLire la synthèse des contributions\n\nLes prochaines étapes\n\nLa CNIL accompagnera les acteurs professionnels, notamment à travers un webinaire. L’objectif est que les professionnels s’approprient au mieux les règles et les recommandations présentées dans la recommandation et qu’ils puissent mettre en œuvre les mesures proposées pour assurer leur conformité.\n\nDocument reference\n\nÀ télécharger\n\nOutils de rejeu de session - Recommandation\n\n[ PDF-316.87 Ko ]\n\nConsultation publique sur le projet de recommandation concernant les outils de rejeu de session - Synthèse des contributions\n\n[ PDF-141.2 Ko ]\n\nTexte reference\n\nTexte de référence\n\nDélibération n° 2026-114 du 8 octobre 2026 portant adoption d'une recommandation concernant les outils de rejeu de session - Légifrance\n\nTexte reference\n\nPour approfondir\n\nRejeu de session : ces outils qui enregistrent votre activité en ligne\n\nRejeu de session : la CNIL lance une consultation publique sur son projet de recommandation\n\nLe guide RGPD de l’équipe de développement\n\nApplications mobiles : la CNIL publie ses recommandations pour mieux protéger la vie privée\n\nTéléphones et applications : règles et conseils pour les professionnels\n\n#Rejeu de session\n#Recommandations\n\nCeci peut également vous intéresser ...\n\nVote par correspondance électronique : la CNIL met à jour sa recommandation\n\n24 avril 2026\n\nVote électronique\n\nPixels de suivi dans les courriers électroniques : la CNIL publie ses recommandations pour mieux ...\n\n14 avril 2026\n\nPixel de suivi\n\nServeur mandataire web filtrant : les recommandations de la CNIL\n\n13 mars 2026\n\nRecommandations\n\nBesoin d'aide\n\nCommission Nationale de l’Informatique et des Libertés\n\nMa conformité au RGPD\n\nComprendre le RGPD\n\nMe mettre en conformité\n\nRespecter les droits des personnes\n\nOutils spécifiques\n\nServices en ligne\n\nQuestions-réponses\n\nLa CNIL\n\nMissions\n\nFonctionnement\n\nEn Europe et dans le monde\n\nL'histoire de la CNIL en vidéo\n\nMarchés publics\n\nOpen CNIL\n\nTravailler à la CNIL\n\nRessources\n\nActeurs et secteurs\n\nThématiques communes\n\nEnjeux numériques\n\nCybersécurité\n\nConsultations\n\nMédiathèque\n\nTextes officiels\n\nCadre européen\n\nCadre national\n\nDécisions de la CNIL\n\nLes décisions de la CNIL sur Légifrance\n\nSuivez-nous\ntwitter\nlinkedin\n\nMédiathèque\n\nGlossaire\n\nLexique FR-EN\n\nBesoin d'aide\n\nPresse\n\nLangue\n\nFr\n\nEn\n\nGestion des cookies\n\nS'inscrire à la lettre d'information\n\nLe Laboratoire d'Innovation Numérique de la CNIL (LINC)\n\nMentions légales\n| Données personnelles\n| Accessibilité : partiellement conforme\n| Informations publiques\n| Recrutement\n| Mon compte\n| Nous contacter",
+        "ancre": null,
+        "url": "https://www.cnil.fr/fr/rejeu-de-session-recommandation",
+        "type": "section",
+        "position": 0
+      }
+    ],
+    "run_id": "RUN-20261105-1344",
     "version": 1,
     "historique": []
   }

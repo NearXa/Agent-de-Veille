@@ -1,7 +1,7 @@
 {
   "version": 1,
   "counters": {
-    "TX": 37,
+    "TX": 38,
     "EX": 85,
     "RK": 80,
     "LA": 14
@@ -222,6 +222,7 @@
     "TX|cnil|169092fr": "TX-0034",
     "TX|senat|http www senat fr dossier legislatif ppl26 101 html": "TX-0035",
     "TX|anssi|https www cert cyber gouv fr actualite certfr 2026 act 046": "TX-0036",
-    "TX|eurlex|celex 32026d2413": "TX-0037"
+    "TX|eurlex|celex 32026d2413": "TX-0037",
+    "TX|cnil|169107fr": "TX-0038"
   }
 }
