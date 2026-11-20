@@ -1,7 +1,7 @@
 {
   "version": 1,
   "counters": {
-    "TX": 38,
+    "TX": 48,
     "EX": 85,
     "RK": 80,
     "LA": 14
@@ -223,6 +223,16 @@
     "TX|senat|http www senat fr dossier legislatif ppl26 101 html": "TX-0035",
     "TX|anssi|https www cert cyber gouv fr actualite certfr 2026 act 046": "TX-0036",
     "TX|eurlex|celex 32026d2413": "TX-0037",
-    "TX|cnil|169107fr": "TX-0038"
+    "TX|cnil|169107fr": "TX-0038",
+    "TX|eurlex|celex 32026r2550": "TX-0039",
+    "TX|eurlex|celex 32026d2546": "TX-0040",
+    "TX|senat|http www senat fr dossier legislatif ppl26 178 html": "TX-0041",
+    "TX|cnil|169176fr": "TX-0042",
+    "TX|cnil|169167fr": "TX-0043",
+    "TX|cnil|169161fr": "TX-0044",
+    "TX|cnil|169149fr": "TX-0045",
+    "TX|cnil|169128fr": "TX-0046",
+    "TX|anssi|https www cert cyber gouv fr actualite certfr 2026 act 047": "TX-0047",
+    "TX|anssi|https www cert cyber gouv fr actualite certfr 2026 act 048": "TX-0048"
   }
 }
