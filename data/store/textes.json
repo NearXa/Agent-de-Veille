@@ -14,7 +14,7 @@
     "date_entree_en_application": "2025-01-17",
     "statut_texte": "En vigueur",
     "hash_sha256": "e1e54d9230e86244e1214976d009a6540e15bdc7e2fa1df992237605ff18b41b",
-    "collecte_le": "2026-11-20T14:38:34.971Z",
+    "collecte_le": "2026-11-21T13:55:28.720Z",
     "derniere_modification_detectee": null,
     "fichier_source": "data/sources/dora-32022R2554-fr.html",
     "applicable": "Oui",
@@ -536,7 +536,7 @@
         "position": 63
       }
     ],
-    "run_id": "RUN-20261120-1438",
+    "run_id": "RUN-20261121-1355",
     "version": 1,
     "historique": []
   },
@@ -1766,7 +1766,7 @@
     "date_entree_en_application": null,
     "statut_texte": "En vigueur",
     "hash_sha256": "c7e4b2f25c85e27289b6e7728eb41a12b5a177f0304e56edaffa53c476188ff1",
-    "collecte_le": "2026-11-20T14:39:04.266Z",
+    "collecte_le": "2026-11-21T13:55:59.098Z",
     "derniere_modification_detectee": null,
     "fichier_source": null,
     "applicable": "À déterminer",
@@ -1785,7 +1785,7 @@
         "position": 0
       }
     ],
-    "run_id": "RUN-20261120-1438",
+    "run_id": "RUN-20261121-1355",
     "version": 1,
     "historique": []
   },
@@ -2074,7 +2074,7 @@
     "date_entree_en_application": null,
     "statut_texte": "Modifié",
     "hash_sha256": "2ae0ea933c9499ff2a29ab8e92132fab71cb12b9cef063c11ec1f2b76952e9f0",
-    "collecte_le": "2026-11-20T14:39:19.390Z",
+    "collecte_le": "2026-11-21T13:56:13.768Z",
     "derniere_modification_detectee": "2026-11-20T14:39:19.390Z",
     "fichier_source": null,
     "applicable": "À déterminer",
@@ -2093,7 +2093,7 @@
         "position": 0
       }
     ],
-    "run_id": "RUN-20261120-1438",
+    "run_id": "RUN-20261121-1355",
     "version": 4,
     "historique": [
       {
@@ -2507,7 +2507,7 @@
     "date_entree_en_application": null,
     "statut_texte": "Modifié",
     "hash_sha256": "db8ca642062b4bc59264450b16b88c20f35fbcf7c1b9a8374c7be105137baad3",
-    "collecte_le": "2026-11-20T14:39:00.814Z",
+    "collecte_le": "2026-11-21T13:55:55.764Z",
     "derniere_modification_detectee": "2026-11-20T14:39:00.814Z",
     "fichier_source": null,
     "applicable": "À déterminer",
@@ -2526,7 +2526,7 @@
         "position": 0
       }
     ],
-    "run_id": "RUN-20261120-1438",
+    "run_id": "RUN-20261121-1355",
     "version": 4,
     "historique": [
       {
@@ -2579,7 +2579,7 @@
     "date_entree_en_application": null,
     "statut_texte": "Modifié",
     "hash_sha256": "4202630f123b7e85416ad87a4a4294ac6686ba19ed5f8af1333c7e31d7dfee2d",
-    "collecte_le": "2026-11-20T14:39:21.350Z",
+    "collecte_le": "2026-11-21T13:56:15.504Z",
     "derniere_modification_detectee": "2026-11-20T14:39:21.350Z",
     "fichier_source": null,
     "applicable": "À déterminer",
@@ -2598,7 +2598,7 @@
         "position": 0
       }
     ],
-    "run_id": "RUN-20261120-1438",
+    "run_id": "RUN-20261121-1355",
     "version": 2,
     "historique": [
       {
@@ -2712,7 +2712,7 @@
     "date_entree_en_application": null,
     "statut_texte": "En vigueur",
     "hash_sha256": "42a39a1eb78ee5050c1756bc637195bf2ff72e15548c501a6c2570e9492efdd8",
-    "collecte_le": "2026-11-20T14:38:41.807Z",
+    "collecte_le": "2026-11-21T13:55:35.504Z",
     "derniere_modification_detectee": null,
     "fichier_source": null,
     "applicable": "À déterminer",
@@ -2738,7 +2738,7 @@
         "position": 1
       }
     ],
-    "run_id": "RUN-20261120-1438",
+    "run_id": "RUN-20261121-1355",
     "version": 1,
     "historique": []
   },
@@ -2757,7 +2757,7 @@
     "date_entree_en_application": null,
     "statut_texte": "En vigueur",
     "hash_sha256": "8dcf8120e5560f35b21fa12e93ec7a161c37d097b5fcde404ba8d5742b29301b",
-    "collecte_le": "2026-11-20T14:38:45.404Z",
+    "collecte_le": "2026-11-21T13:55:39.148Z",
     "derniere_modification_detectee": null,
     "fichier_source": null,
     "applicable": "À déterminer",
@@ -2783,7 +2783,7 @@
         "position": 1
       }
     ],
-    "run_id": "RUN-20261120-1438",
+    "run_id": "RUN-20261121-1355",
     "version": 1,
     "historique": []
   },
@@ -2800,10 +2800,10 @@
     "date_publication": null,
     "date_entree_en_vigueur": null,
     "date_entree_en_application": null,
-    "statut_texte": "En vigueur",
-    "hash_sha256": "74501c4b8207ca62e76681a3c23ceab974f40ff32ec7e7733779a5bfbbbe8d96",
-    "collecte_le": "2026-11-20T14:39:02.209Z",
-    "derniere_modification_detectee": null,
+    "statut_texte": "Modifié",
+    "hash_sha256": "55b78140962bd14f7d9f71f893e6a715c9016fb3ac9b7d84b11ced0594a6ccec",
+    "collecte_le": "2026-11-21T13:55:57.097Z",
+    "derniere_modification_detectee": "2026-11-21T13:55:57.097Z",
     "fichier_source": null,
     "applicable": "À déterminer",
     "justification_applicabilite": null,
@@ -2814,16 +2814,28 @@
       {
         "numero": "document",
         "titre": "proposition de loi visant à étendre la convention judiciaire d'intérêt public au domaine de la cybercriminalité",
-        "contenu": "Aller au contenu\n\nAller à la navigation\n\nLa galaxie Sénat\n\nRéseaux sociaux\n\nX\n\nFacebook\n\nLinkedin\n\nInstagram\n\nYouTube\n\nTikTok\n\nS'abonner\n\nLangue sélectionnéeFrançais\n\nFrançais\n\nEnglish\n\nDeutsch\n\nEspañol\n\nPortuguês\n\nItaliano\n\nعربي\n\n中文\n\nРусский\n\nTürk\n\nOuvrir la recherche\n\nLangue sélectionnéeFrançais\n\nFrançais\n\nEnglish\n\nDeutsch\n\nEspañol\n\nPortuguês\n\nItaliano\n\nعربي\n\n中文\n\nРусский\n\nTürk\n\nTravaux parlementaires\n\nTravaux parlementaires\n\nLe Sénat a pour missions premières le vote de la loi, le contrôle du Gouvernement et l'évaluation des politiques publiques.\n\nEn savoir plus\n\nSéance publique\n\nDécouvrez le fonctionnement de la séance publique\n\nOrdre du jour\n\nDérouleurs\n\nScrutins publics\n\nDirect vidéo\n\nApplication \"En séance\"\n\nTextes législatifs\n\nTextes récents\n\nTous les textes\n\nContrôle et évaluation\n\nToute l'actualité du contrôle et de l'évaluation\n\nQuestions des sénateurs au Gouvernement\n\nSuivi des ordonnances\n\nContrôle de l'application des lois\n\nProgramme de contrôle\n\nCommissions\n\nDécouvrir le rôle et l'actualité des commissions\n\nCommission des affaires économiques\n\nCommission des affaires étrangères, de la défense et des forces armées\n\nCommission des affaires sociales\n\nCommission de l'aménagement du territoire et du développement durable\n\nCommission de la culture, de l’éducation, de la communication et du sport\n\nCommission des finances\n\nCommission des lois\n\nCommission des affaires européennes\n\nApplication \"En commission\"\n\nStructures temporaires\n\nCommissions d'enquête\n\nMission d'information commune\n\nCommissions spéciales\n\nCommissions mixtes paritaires\n\nOffice et délégations\n\nDécouvrir le rôle et l'actualité de l'office et des délégations\n\nDélégation aux collectivités territoriales et à la décentralisation\n\nDélégation aux droits des femmes et à l’égalité des chances entre les hommes et les femmes\n\nDélégation aux entreprises\n\nDélégation sénatoriale aux outre-mer\n\nDélégation à la prospective\n\nDélégation parlementaire au renseignement\n\nOffice parlementaire d’évaluation des choix scientifiques et technologiques (OPECST)\n\nGroupes d'études\n\nRapports et documents de travail\n\nDerniers rapports\n\nTous les rapports et documents de travail\n\nRésolutions\n\nComptes rendus\n\nL’activité du Sénat en chiffres\n\nVos sénateurs\n\nVos sénateurs\n\nDécouvrez qui sont vos sénateurs et suivez leurs principales activités.\n\nEn savoir plus\n\nRecherche de sénateurs\n\nRecherche simple de sénateurs\n\nRecherche avancée de sénateurs\n\nPrésidence du Sénat\n\nSénatoriales 2026\n\nGroupes politiques\n\nOrganisation interne\n\nBureau du Sénat\n\nConférence des Présidents\n\nConseil de Questure\n\nComité de déontologie\n\nCommission spéciale chargée du contrôle des comptes et de l'évaluation interne\n\nDéclarations\n\nDéclarations de rattachement\n\nActivités principales des Sénateurs\n\nOrganismes extraparlementaires\n\nAnciens sénateurs\n\nPrésentation par période\n\nAnciens sénateurs de la Vème République\n\nAnciens sénateurs de la IVème République\n\nAnciens sénateurs de la Communauté\n\nAnciens sénateurs de la IIIème République\n\nAnciens sénateurs du Second Empire\n\nPairs de France\n\nSénat conservateur\n\nConseil des anciens\n\nConnaître le Sénat\n\nConnaître le Sénat\n\nRetrouvez toutes les informations clés sur le rôle, le fonctionnement, l'Histoire et le patrimoine du Sénat.\n\nEn savoir plus\n\nRôle et fonctionnement\n\nSénat Junior\n\nDocuments de référence et guides pratiques\n\nL’Histoire du Sénat\n\nLes Archives du Sénat\n\nPatrimoine\n\nJardin du Luxembourg\n\nÉvénements et manifestations culturelles\n\nPhotothèque\n\nLe Sénat et vous\n\nLe Sénat et vous\n\nVous souhaitez participer à nos consultations, visiter le Sénat ou même y travailler ?\n\nEn savoir plus\n\nLe Sénat pour les élus locaux\n\nParticiper aux consultations\n\nConsultations citoyennes\n\nConsultations des élus locaux\n\nDéposer ou soutenir une pétition\n\nVisiter le Sénat\n\nAssister aux séances\n\nTravailler au Sénat\n\nLe Sénat recrute\n\nRecrutement des fonctionnaires par concours\n\nFonctionnaires extérieurs\n\nContractuels\n\nFaire son apprentissage au Sénat\n\nEffectuer un stage au Sénat\n\nLes prix décernés par le Sénat\n\nTous les prix du Sénat\n\nLe prix du Sénat du livre d'histoire\n\nL'aide à la publication \"Diffusons l'histoire\"\n\nLe prix de thèse\n\nLe prix de la Fondation Jacques Descours Desacres\n\nEurope et international\n\nEurope et international\n\nDécouvrez l'action internationale et européenne du Sénat.\n\nEn savoir plus\n\nLe Sénat et l'Europe\n\nDécouvrir les activités européennes du Sénat\n\nCommission des affaires européennes\n\nAssemblée parlementaire du Conseil de l'Europe (APCE)\n\nAssemblée parlementaire de l'OSCE\n\nL'Europe en séance publique\n\nLe Sénat à l'international\n\nDécouvrir les activités internationales du Sénat\n\nCommission des affaires étrangères, de la défense et des forces armées\n\nGroupes interparlementaires d'amitié\n\nAssemblées interparlementaires\n\nCoopération\n\nColloques et événements\n\nÉtudes internationales\n\nÉtudes de législation comparée\n\nLe Sénat et les Français de l'étranger\n\nSénats d'Europe, Sénats du monde\n\nPresse\n\nPresse\n\nRetrouvez dans cette section toutes les informations clés pour la presse et les médias.\n\nEn savoir plus\n\nAuditions accessibles à la presse\n\nConférences de presse\n\nCommuniqués de presse\n\nInformations pratiques\n\nBoîte à outils et formations\n\nNous contacter et nous suivre\n\nOuvrir la recherche\n\nLa galaxie Sénat\n\nSénateurs\n\nOrdre du jour\n\nAgenda\n\nTravaux récents\n\nVidéos\n\nLa galaxie Sénat\n\nFermer\n\nRetrouvez l’ensemble des sites internet et applications composant l’écosystème du Sénat.\n\nVidéothèque\n\nAudiothèque\n\nPhotothèque\n\nLes Archives : Mémoire du Sénat\n\nSénatoriales 2026\n\nE-petitions\n\nLa plateforme des élus locaux\n\nSénat Junior\n\nApplication \"En séance\"\n\nOpen Data\n\nSénat Infox\n\nBoutique officielle\n\nLibrairie en ligne\n\nPublic Sénat\n\nInstitut du Sénat\n\nJardin du Luxembourg\n\nMusée du Luxembourg\n\nRecherche rapide\n\nFermer la recherche\n\nRechercher dans la base documentaire du Sénat et le reste du site.\n\nAffiner ma recherche :\n\nDossiers législatifs\n\nRapports d’information\n\nQuestions parlementaires\n\nComptes rendus\n\nTextes européens\n\nDocuments de travail\n\nLancer la recherche\n\nMoteurs de recherche avancés\n\nSénateurs actifs\n\nDossiers législatifs\n\nQuestions parlementaires\n\nRapports d'informations\n\nComptes rendus de séance\n\nComptes rendus des commissions\n\nTextes européens\n\nDocuments de travail\n\nVoir le fil d’Ariane\n\nAccueil\n\nTravaux parlementaires\n\nProjets et propositions de loi\n\nConvention judiciaire d'intérêt public et domaine de la cybercriminalité\n\nDossier législatif\n\nProposition de loi visant à étendre la convention judiciaire d'intérêt public au domaine de la cybercriminalité\n\nLes étapes de la discussion\nLes étapes de la discussion\n\nPremière lecture - Sénat17 novembre 2026\n\nComprendre la procédure\n\nDépôt au Sénat\n\nTexte n° 178 (2026-2027) de Mme Nadège HAVET, déposé au Sénat le 17 novembre 2026\n\nPremière lecture au Sénat\n\nLes thèmes associés à ce dossier\n\nPolice et sécurité\n\nJustice\n\nSuivre ce dossier législatif en s'abonnant aux alertes\n\nLes champs marqués d'un * sont obligatoires.\n\nVotre courriel\n\nS'inscrire\n\nExemple: nom@exemple.fr\n\nLes informations qui vous concernent sont strictement destinées aux services du Sénat. En aucun cas, les informations que vous nous communiquez lors de votre inscription à cette liste ne seront utilisées à d'autres fins. Conformément à la loi \"Informatique et Liberté\" du 6 janvier 1978, vous disposez d'un droit d'accès et de rectification aux données vous concernant. Si vous souhaitez exercer ce droit envoyez un message à lettre-senat@senat.fr.\n\nS'abonner au flux RSS\n\nPage mise à jour le\n\n20 novembre 2026\n\nPour toute remarque relative à cette page, veuillez contacter :\n\ndosleg@senat.fr\n\nPartager cette page\n\nX\n\nFacebook\n\nLinkedIn\n\nE-mail\n\nNous suivre sur les réseaux\n\nX\n\nFacebook\n\nLinkedin\n\nInstagram\n\nYouTube\n\nTikTok\n\nLiens pratiques\n\nFoire aux questions\n\nRèglement du Sénat\n\nRecrutement et stages\n\nBiens réformés\n\nMarchés publics\n\nFacturation\n\nReprésentants d'intérêts\n\nServices\n\nVisiter le Sénat\n\nLes abonnements du Sénat\n\nParticiper aux consultations\n\nDéposer ou soutenir une pétition\n\nPublic Sénat\n\nBoutique officielle\n\nFlux RSS\n\nLe Sénat\n\n15, rue de Vaugirard\n\n75291 Paris Cedex 06\n\nStandard : +33 (0)1 42 34 20 00\n\nNous contacter\n\nMentions légales\n\nPlan du site\n\nAccessibilité : partiellement conforme\n\nDonnées personnelles\n\nGestion des cookies\n\nIntr@Sénat\n\n© Sénat 2026. Tous droits réservés.",
+        "contenu": "Aller au contenu\n\nAller à la navigation\n\nLa galaxie Sénat\n\nRéseaux sociaux\n\nX\n\nFacebook\n\nLinkedin\n\nInstagram\n\nYouTube\n\nTikTok\n\nS'abonner\n\nLangue sélectionnéeFrançais\n\nFrançais\n\nEnglish\n\nDeutsch\n\nEspañol\n\nPortuguês\n\nItaliano\n\nعربي\n\n中文\n\nРусский\n\nTürk\n\nOuvrir la recherche\n\nLangue sélectionnéeFrançais\n\nFrançais\n\nEnglish\n\nDeutsch\n\nEspañol\n\nPortuguês\n\nItaliano\n\nعربي\n\n中文\n\nРусский\n\nTürk\n\nTravaux parlementaires\n\nTravaux parlementaires\n\nLe Sénat a pour missions premières le vote de la loi, le contrôle du Gouvernement et l'évaluation des politiques publiques.\n\nEn savoir plus\n\nSéance publique\n\nDécouvrez le fonctionnement de la séance publique\n\nOrdre du jour\n\nDérouleurs\n\nScrutins publics\n\nDirect vidéo\n\nApplication \"En séance\"\n\nTextes législatifs\n\nTextes récents\n\nTous les textes\n\nContrôle et évaluation\n\nToute l'actualité du contrôle et de l'évaluation\n\nQuestions des sénateurs au Gouvernement\n\nSuivi des ordonnances\n\nContrôle de l'application des lois\n\nProgramme de contrôle\n\nCommissions\n\nDécouvrir le rôle et l'actualité des commissions\n\nCommission des affaires économiques\n\nCommission des affaires étrangères, de la défense et des forces armées\n\nCommission des affaires sociales\n\nCommission de l'aménagement du territoire et du développement durable\n\nCommission de la culture, de l’éducation, de la communication et du sport\n\nCommission des finances\n\nCommission des lois\n\nCommission des affaires européennes\n\nApplication \"En commission\"\n\nStructures temporaires\n\nCommissions d'enquête\n\nMission d'information commune\n\nCommissions spéciales\n\nCommissions mixtes paritaires\n\nOffice et délégations\n\nDécouvrir le rôle et l'actualité de l'office et des délégations\n\nDélégation aux collectivités territoriales et à la décentralisation\n\nDélégation aux droits des femmes et à l’égalité des chances entre les hommes et les femmes\n\nDélégation aux entreprises\n\nDélégation sénatoriale aux outre-mer\n\nDélégation à la prospective\n\nDélégation parlementaire au renseignement\n\nOffice parlementaire d’évaluation des choix scientifiques et technologiques (OPECST)\n\nGroupes d'études\n\nRapports et documents de travail\n\nDerniers rapports\n\nTous les rapports et documents de travail\n\nRésolutions\n\nComptes rendus\n\nL’activité du Sénat en chiffres\n\nVos sénateurs\n\nVos sénateurs\n\nDécouvrez qui sont vos sénateurs et suivez leurs principales activités.\n\nEn savoir plus\n\nRecherche de sénateurs\n\nRecherche simple de sénateurs\n\nRecherche avancée de sénateurs\n\nPrésidence du Sénat\n\nSénatoriales 2026\n\nGroupes politiques\n\nOrganisation interne\n\nBureau du Sénat\n\nConférence des Présidents\n\nConseil de Questure\n\nComité de déontologie\n\nCommission spéciale chargée du contrôle des comptes et de l'évaluation interne\n\nDéclarations\n\nDéclarations de rattachement\n\nActivités principales des Sénateurs\n\nOrganismes extraparlementaires\n\nAnciens sénateurs\n\nPrésentation par période\n\nAnciens sénateurs de la Vème République\n\nAnciens sénateurs de la IVème République\n\nAnciens sénateurs de la Communauté\n\nAnciens sénateurs de la IIIème République\n\nAnciens sénateurs du Second Empire\n\nPairs de France\n\nSénat conservateur\n\nConseil des anciens\n\nConnaître le Sénat\n\nConnaître le Sénat\n\nRetrouvez toutes les informations clés sur le rôle, le fonctionnement, l'Histoire et le patrimoine du Sénat.\n\nEn savoir plus\n\nRôle et fonctionnement\n\nSénat Junior\n\nDocuments de référence et guides pratiques\n\nL’Histoire du Sénat\n\nLes Archives du Sénat\n\nPatrimoine\n\nJardin du Luxembourg\n\nÉvénements et manifestations culturelles\n\nPhotothèque\n\nLe Sénat et vous\n\nLe Sénat et vous\n\nVous souhaitez participer à nos consultations, visiter le Sénat ou même y travailler ?\n\nEn savoir plus\n\nLe Sénat pour les élus locaux\n\nParticiper aux consultations\n\nConsultations citoyennes\n\nConsultations des élus locaux\n\nDéposer ou soutenir une pétition\n\nVisiter le Sénat\n\nAssister aux séances\n\nTravailler au Sénat\n\nLe Sénat recrute\n\nRecrutement des fonctionnaires par concours\n\nFonctionnaires extérieurs\n\nContractuels\n\nFaire son apprentissage au Sénat\n\nEffectuer un stage au Sénat\n\nLes prix décernés par le Sénat\n\nTous les prix du Sénat\n\nLe prix du Sénat du livre d'histoire\n\nL'aide à la publication \"Diffusons l'histoire\"\n\nLe prix de thèse\n\nLe prix de la Fondation Jacques Descours Desacres\n\nEurope et international\n\nEurope et international\n\nDécouvrez l'action internationale et européenne du Sénat.\n\nEn savoir plus\n\nLe Sénat et l'Europe\n\nDécouvrir les activités européennes du Sénat\n\nCommission des affaires européennes\n\nAssemblée parlementaire du Conseil de l'Europe (APCE)\n\nAssemblée parlementaire de l'OSCE\n\nL'Europe en séance publique\n\nLe Sénat à l'international\n\nDécouvrir les activités internationales du Sénat\n\nCommission des affaires étrangères, de la défense et des forces armées\n\nGroupes interparlementaires d'amitié\n\nAssemblées interparlementaires\n\nCoopération\n\nColloques et événements\n\nÉtudes internationales\n\nÉtudes de législation comparée\n\nLe Sénat et les Français de l'étranger\n\nSénats d'Europe, Sénats du monde\n\nPresse\n\nPresse\n\nRetrouvez dans cette section toutes les informations clés pour la presse et les médias.\n\nEn savoir plus\n\nAuditions accessibles à la presse\n\nConférences de presse\n\nCommuniqués de presse\n\nInformations pratiques\n\nBoîte à outils et formations\n\nNous contacter et nous suivre\n\nOuvrir la recherche\n\nLa galaxie Sénat\n\nSénateurs\n\nOrdre du jour\n\nAgenda\n\nTravaux récents\n\nVidéos\n\nLa galaxie Sénat\n\nFermer\n\nRetrouvez l’ensemble des sites internet et applications composant l’écosystème du Sénat.\n\nVidéothèque\n\nAudiothèque\n\nPhotothèque\n\nLes Archives : Mémoire du Sénat\n\nSénatoriales 2026\n\nE-petitions\n\nLa plateforme des élus locaux\n\nSénat Junior\n\nApplication \"En séance\"\n\nOpen Data\n\nSénat Infox\n\nBoutique officielle\n\nLibrairie en ligne\n\nPublic Sénat\n\nInstitut du Sénat\n\nJardin du Luxembourg\n\nMusée du Luxembourg\n\nRecherche rapide\n\nFermer la recherche\n\nRechercher dans la base documentaire du Sénat et le reste du site.\n\nAffiner ma recherche :\n\nDossiers législatifs\n\nRapports d’information\n\nQuestions parlementaires\n\nComptes rendus\n\nTextes européens\n\nDocuments de travail\n\nLancer la recherche\n\nMoteurs de recherche avancés\n\nSénateurs actifs\n\nDossiers législatifs\n\nQuestions parlementaires\n\nRapports d'informations\n\nComptes rendus de séance\n\nComptes rendus des commissions\n\nTextes européens\n\nDocuments de travail\n\nVoir le fil d’Ariane\n\nAccueil\n\nTravaux parlementaires\n\nProjets et propositions de loi\n\nConvention judiciaire d'intérêt public et domaine de la cybercriminalité\n\nDossier législatif\n\nProposition de loi visant à étendre la convention judiciaire d'intérêt public au domaine de la cybercriminalité\n\nLes étapes de la discussion\nLes étapes de la discussion\n\nPremière lecture - Sénat17 novembre 2026\n\nComprendre la procédure\n\nDépôt au Sénat\n\nTexte n° 178 (2026-2027) de Mme Nadège HAVET, déposé au Sénat le 17 novembre 2026\n\nPremière lecture au Sénat\n\nLes thèmes associés à ce dossier\n\nPolice et sécurité\n\nJustice\n\nSuivre ce dossier législatif en s'abonnant aux alertes\n\nLes champs marqués d'un * sont obligatoires.\n\nVotre courriel\n\nS'inscrire\n\nExemple: nom@exemple.fr\n\nLes informations qui vous concernent sont strictement destinées aux services du Sénat. En aucun cas, les informations que vous nous communiquez lors de votre inscription à cette liste ne seront utilisées à d'autres fins. Conformément à la loi \"Informatique et Liberté\" du 6 janvier 1978, vous disposez d'un droit d'accès et de rectification aux données vous concernant. Si vous souhaitez exercer ce droit envoyez un message à lettre-senat@senat.fr.\n\nS'abonner au flux RSS\n\nPage mise à jour le\n\n21 novembre 2026\n\nPour toute remarque relative à cette page, veuillez contacter :\n\ndosleg@senat.fr\n\nPartager cette page\n\nX\n\nFacebook\n\nLinkedIn\n\nE-mail\n\nNous suivre sur les réseaux\n\nX\n\nFacebook\n\nLinkedin\n\nInstagram\n\nYouTube\n\nTikTok\n\nLiens pratiques\n\nFoire aux questions\n\nRèglement du Sénat\n\nRecrutement et stages\n\nBiens réformés\n\nMarchés publics\n\nFacturation\n\nReprésentants d'intérêts\n\nServices\n\nVisiter le Sénat\n\nLes abonnements du Sénat\n\nParticiper aux consultations\n\nDéposer ou soutenir une pétition\n\nPublic Sénat\n\nBoutique officielle\n\nFlux RSS\n\nLe Sénat\n\n15, rue de Vaugirard\n\n75291 Paris Cedex 06\n\nStandard : +33 (0)1 42 34 20 00\n\nNous contacter\n\nMentions légales\n\nPlan du site\n\nAccessibilité : partiellement conforme\n\nDonnées personnelles\n\nGestion des cookies\n\nIntr@Sénat\n\n© Sénat 2026. Tous droits réservés.",
         "ancre": null,
         "url": "http://www.senat.fr/dossier-legislatif/ppl26-178.html",
         "type": "section",
         "position": 0
       }
     ],
-    "run_id": "RUN-20261120-1438",
-    "version": 1,
-    "historique": []
+    "run_id": "RUN-20261121-1355",
+    "version": 2,
+    "historique": [
+      {
+        "version": 2,
+        "hash_sha256": "55b78140962bd14f7d9f71f893e6a715c9016fb3ac9b7d84b11ced0594a6ccec",
+        "collecte_le": "2026-11-21T13:55:57.097Z",
+        "run_id": "RUN-20261121-1355",
+        "articles_ajoutes": [],
+        "articles_supprimes": [],
+        "articles_modifies": [
+          "document"
+        ]
+      }
+    ]
   },
   {
     "id": "TX-0042",
@@ -2840,7 +2852,7 @@
     "date_entree_en_application": null,
     "statut_texte": "En vigueur",
     "hash_sha256": "c751f59fb6e01bcfed04f8ac700095fe50260581283ef4a4b74cecc10caf6703",
-    "collecte_le": "2026-11-20T14:39:06.604Z",
+    "collecte_le": "2026-11-21T13:56:01.441Z",
     "derniere_modification_detectee": null,
     "fichier_source": null,
     "applicable": "À déterminer",
@@ -2859,7 +2871,7 @@
         "position": 0
       }
     ],
-    "run_id": "RUN-20261120-1438",
+    "run_id": "RUN-20261121-1355",
     "version": 1,
     "historique": []
   },
@@ -2878,7 +2890,7 @@
     "date_entree_en_application": null,
     "statut_texte": "En vigueur",
     "hash_sha256": "29d5150c418ba8ee329fb8fbd91062110e8f8c9061dd2665e4fb49725dec04c0",
-    "collecte_le": "2026-11-20T14:39:08.580Z",
+    "collecte_le": "2026-11-21T13:56:03.440Z",
     "derniere_modification_detectee": null,
     "fichier_source": null,
     "applicable": "À déterminer",
@@ -2896,7 +2908,7 @@
         "position": 0
       }
     ],
-    "run_id": "RUN-20261120-1438",
+    "run_id": "RUN-20261121-1355",
     "version": 1,
     "historique": []
   },
@@ -2915,7 +2927,7 @@
     "date_entree_en_application": null,
     "statut_texte": "En vigueur",
     "hash_sha256": "08f9d9819a6b3734e09f5d7c372a38cccdf446a6dbe2d32fb358fb2d1e3f7a3b",
-    "collecte_le": "2026-11-20T14:39:10.600Z",
+    "collecte_le": "2026-11-21T13:56:05.441Z",
     "derniere_modification_detectee": null,
     "fichier_source": null,
     "applicable": "À déterminer",
@@ -2934,7 +2946,7 @@
         "position": 0
       }
     ],
-    "run_id": "RUN-20261120-1438",
+    "run_id": "RUN-20261121-1355",
     "version": 1,
     "historique": []
   },
@@ -2951,10 +2963,10 @@
     "date_publication": null,
     "date_entree_en_vigueur": null,
     "date_entree_en_application": null,
-    "statut_texte": "En vigueur",
-    "hash_sha256": "aec86c0be2698a76175601dd9c50856a90593c65986162fabcee0aad00788331",
-    "collecte_le": "2026-11-20T14:39:12.596Z",
-    "derniere_modification_detectee": null,
+    "statut_texte": "Modifié",
+    "hash_sha256": "4a022bfc7aebe9fb739de185a48eef80748abcd46b22591a809e98415d80a6b3",
+    "collecte_le": "2026-11-21T13:56:07.504Z",
+    "derniere_modification_detectee": "2026-11-21T13:56:07.504Z",
     "fichier_source": null,
     "applicable": "À déterminer",
     "justification_applicabilite": null,
@@ -2965,16 +2977,28 @@
       {
         "numero": "document",
         "titre": "Actualité du CEPD : adéquation de la Corée du Sud, versions finales des BCR-ST, et action coordonnée sur le recrutement via IA",
-        "contenu": "Aller au contenu principal\n\nMenu de navigation\n\nRechercher\n\nParticuliersProfessionnelsPresse\n\nFrEnGestionnaire de cookies\n\nParticuliersProfessionnelsPresse\n\nMon quotidien\n\nMa sécurité numérique\n\nSites web et réseaux sociaux\n\nTéléphones et applications\n\nObjets connectés\n\nEnfants et ados\n\nSanté\n\nSocial\n\nLogement\n\nTravail\n\nIntelligence artificielle (IA)\n\nAchats et publicité\n\nBanque/Assurance\n\nCitoyenneté\n\nSport\n\nTransports et mobilité\n\nVie associative\n\nFermer\n\nExercer mes droits\n\nQuels sont mes droits ?\n\nÊtre informé\n\nM'opposer\n\nAccéder à mes données\n\nRectifier mes données\n\nEffacer mes données\n\nÊtre déréférencé\n\nEmporter mes données avec moi\n\nFaire vérifier une décision automatisée\n\nLimiter l'utilisation de mes données\n\nLes droits des mineurs\n\nNos modèles de courrier\n\nSaisir la CNIL\n\nAdresser une plainte\n\nAccéder au FICOBA\n\nAccéder à un fichier de police, de gendarmerie ou de renseignement\n\nAdresser une alerte à la CNIL\n\nPoser une question à la CNIL\n\nQuestions/réponses\n\nFermer\n\nÀ télécharger\n\nRessources pédagogiques\n\nAffiches\n\nRapports et chiffres clés\n\nCahiers Innovation & Prospective\n\nLivres blancs\n\nFermer\n\nLa CNIL\n\nMissions\n\nInformer et protéger\n\nAccompagner et conseiller\n\nAnticiper et innover\n\nContrôler et sanctionner\n\nLa mission éthique de la CNIL\n\nTous les évènements de la CNIL\n\nFonctionnement\n\nStatut et organisation\n\nOrdres du jour des séances\n\nAgenda\n\nLes avis de la CNIL\n\nInterrégulation et partenariats\n\nEn Europe et dans le monde\n\nLa CNIL en Europe\n\nLa CNIL dans le monde\n\nLa carte de la protection des données dans le monde\n\nLa stratégie européenne et internationale de la CNIL\n\nL’histoire de la CNIL en vidéo\n\nMarchés publics\n\nConsultations publiques\n\nFermer\n\nRechercher\n\nFrEnGestionnaire de cookies\n\nCNIL : Formulaire de recherche\n\nPoser une question ou rechercher un article, une délibération...\n\nRechercher\n\nAccueil\n\nActualité du CEPD : adéquation de la Corée du Sud, versions finales des BCR-ST, et action coordonnée sur le recrutement via IA\n\nActualité du CEPD : adéquation de la Corée du Sud, versions finales des BCR-ST, et action coordonnée sur le recrutement via IA\n\n12 novembre 2026\n\nLe 10 novembre 2026, le Comité européen de la protection des données (CEPD) a adopté une déclaration sur l’adéquation de la Corée du Sud en matière de protection des données, ses recommandations finales sur les règles d’entreprises contraignantes et le thème de la sixième action coordonnée (CEF).\n\nImprimer l’article\n\nPartager cette page par courriel\n\nDiminuer la taille de la police\n\nAugmenter la taille de la police\n\nLa déclaration du CEPD sur le premier réexamen de la décision d’adéquation de la République de Corée porte principalement sur l’évaluation des modifications apportées au cadre juridique coréen en matière de protection des données, tant en ce qui concerne les aspects commerciaux que l’accès des autorités publiques coréennes aux données à caractère personnel et leur utilisation par celles-ci*.\n\nPar exemple, la loi sur la protection des informations à caractère personnel (PIPA) a été modifiée afin d’introduire un droit général de retirer son consentement, un droit de demander la suspension du traitement des données à caractère personnel, ainsi qu’un droit de s’opposer à une décision automatisée (y compris lorsqu’elle est prise au moyen de systèmes d’IA) ou de demander une explication lorsque la décision a une incidence significative sur les droits ou les obligations des personnes concernées.\n\nEn outre, en ce qui concerne les transferts ultérieurs, le CEPD se félicite des modifications apportées à la PIPA concernant le régime juridique applicable aux transferts internationaux de données à caractère personnel. Ces modifications précisent que les transferts transfrontières d’informations à caractère personnel doivent s’appuyer sur des mécanismes de transfert spécifiques (articles 28-8 de la PIPA), offrant ainsi des solutions autres que le consentement.\n\nLe Comité européen de la protection des données se félicite également du renforcement des pouvoirs d’enquête, d’exécution et de sanct‍ion de l’autorité coréenne de protection des données.\n\nLe CEPD approuve la proposition de la Commission de consulter le Comité institué en vertu de l’article 93, paragraphe 1, du RGPD afin de procéder à un réexamen de la décision d’adéquation tous les quatre ans.\n\nVersion finale des recommandations relatives à l’adoption de règles d’entreprise contraignantes pour les sous-traitants\n\nÀ la suite d’une consultation publique, le Comité européen de la protection des données a adopté la version finale des recommandations relatives à la demande d’approbation et aux éléments et principes figurant dans les règles d’entreprise contraignantes pour les sous-traitants. Les règles d’entreprise contraignantes pour les sous-traitants sont un mécanisme de transfert qui peut être utilisé par un groupe d’entreprises pour transférer des données à caractère personnel en dehors de l’Europe à des sous-traitants appartenant au même groupe. Les règles d’entreprise contraignantes créent des droits opposables et énoncent des engagements visant à garantir un niveau de protection des données essentiellement équivalent à celui prévu par le RGPD.\n\nLes recommandations s’appliquent désormais à tous les titulaires de BCR-P. Tous les titulaires de BCR-P, ainsi que les nouveaux demandeurs et ceux dont la demande est en cours, devraient aligner leurs BCR-P sur les recommandations, soit au cours de la procédure de demande, soit dans le cadre de leur mise à jour annuelle de 2028, en fonction de leur situation particulière.\n\nConformément à l’objectif de la déclaration d’Helsinki visant à renforcer le dialogue avec les parties prenantes, le Comité a également publié un rapport présentant les résultats de la consultation publique ciblée, ainsi qu’une version des recommandations faisant apparaître les modifications.\n\nCadre d’application coordonnée : thème retenu pour 2027\n\nLe Comité européen de la protection des données a choisi le thème de sa sixième action coordonnée en matière d’application de la législation, qui portera sur la prise de décision automatisée (y compris via de l'IA) dans le recrutement. Plus précisément, cette action coordonnée se concentrera sur l’application du droit de ne pas faire l’objet d’une décision fondée exclusivement sur un traitement automatisé, ainsi que du droit d’accès correspondant, dans le contexte de l’utilisation d’outils automatisés de sélection des candidats, y compris ceux reposant sur l’IA. Les autorités de protection des données participeront à cette action sur une base volontaire dans les semaines à venir, et l’action elle-même sera lancée au cours de l’année 2027.\n\nVous trouverez de plus amples informations sur le CEF, ainsi que les rapports relatifs aux actions précédentes du CEF, ici.\n\n*Note :\n\nLe 17 décembre 2021, la Commission européenne a adopté une décision d’adéquation reconnaissant que le cadre de protection des données de la République de Corée assure un niveau adéquat de protection des données. L’adoption d’une décision d’adéquation implique :\n\nune proposition de la Commission européenne ;\n\nun avis du Comité européen de la protection des données ;\n\nune approbation des représentants des pays de l’UE ;\n\nl’adoption de la décision par la Commission européenne.\n\nLa Commission est tenue de réexaminer périodiquement les décisions d’adéquation et de communiquer ses conclusions au Parlement européen et au Conseil. Des examens réguliers garantissent le maintien du niveau essentiel d’équivalence.\n\nLe premier réexamen du fonctionnement de la décision d’adéquation a eu lieu en 2025 et a notamment comporté une réunion de réexamen en ligne le 17 octobre 2025. La Commission a invité le Comité européen de la protection des données à participer à cette réunion, conformément au considérant 221 de la décision d’adéquation concernant la Corée. Le 23 juillet 2026, la Commission européenne a publié le rapport au Parlement européen et au Conseil sur le premier réexamen du fonctionnement de la décision d’adéquation concernant la République de Corée, ainsi qu’un document de travail des services de la Commission [SWD(2026) 231 final]. La Commission a conclu que la République de Corée continuait d’assurer un niveau adéquat de protection des données à caractère personnel de l’Union européenne transférées à des entités situées en République de Corée et soumises à son cadre de protection des données modifié.\n\nÀ la lumière des résultats de cet examen, le CEPD approuve la proposition de la Commission européenne de passer à un cycle de réexamen de quatre ans pour cette décision d’adéquation.\n\nIl s’agit d’une traduction automatique d’un communiqué de presse du CEPD, qui peut contenir des erreurs. Elle ne remplace pas la version anglaise officielle.\n\nTexte reference\n\nPour approfondir\n\nLe communiqué du CEPD (en anglais)\n\n#CEPD\n#Transfert de données\n#Transferts de données hors UE\n#BCR\n#Coordinated enforcement framework (CEF)\n\nCeci peut également vous intéresser ...\n\nPrivacy for Kids : le CEPD lance une plateforme dédiée à la vie privée des enfants\n\n04 novembre 2026\n\nCEPD\n\nLe CEPD publie une déclaration sur les enjeux de protection des données liés aux lunettes ...\n\n13 octobre 2026\n\nCEPD\n\nAmendes RGPD et interaction avec le règlement sur les services numériques : retour sur la ...\n\n23 septembre 2026\n\nCEPD\n\nBesoin d'aide\n\nCommission Nationale de l’Informatique et des Libertés\n\nMon quotidien\n\nMa sécurité numérique\n\nSites web et réseaux sociaux\n\nTéléphones et applications\n\nObjets connectés\n\nEnfants et ados\n\nSanté\n\nSocial\n\nLogement\n\nTravail\n\nIntelligence artificielle (IA)\n\nAchats et publicité\n\nBanque/Assurance\n\nCitoyenneté\n\nSport\n\nTransports et mobilité\n\nVie associative\n\nLa CNIL\n\nMissions\n\nFonctionnement\n\nEn Europe et dans le monde\n\nL’histoire de la CNIL en vidéo\n\nMarchés publics\n\nConsultations publiques\n\nExercer mes droits\n\nQuels sont mes droits ?\n\nSaisir la CNIL\n\nQuestions/réponses\n\nÀ télécharger\n\nRessources pédagogiques\n\nAffiches\n\nRapports et chiffres clés\n\nCahiers Innovation & Prospective\n\nLivres blancs\n\nSuivez-nous\ntwitter\nlinkedin\n\nMédiathèque\n\nGlossaire\n\nLexique FR-EN\n\nBesoin d'aide\n\nPresse\n\nLangue\n\nFr\n\nEn\n\nGestion des cookies\n\nS'inscrire à la lettre d'information\n\nLe Laboratoire d'Innovation Numérique de la CNIL (LINC)\n\nMentions légales\n| Données personnelles\n| Accessibilité : partiellement conforme\n| Informations publiques\n| Recrutement\n| Mon compte\n| Nous contacter",
+        "contenu": "Aller au contenu principal\n\nMenu de navigation\n\nRechercher\n\nParticuliersProfessionnelsPresse\n\nFrEnGestionnaire de cookies\n\nParticuliersProfessionnelsPresse\n\nMon quotidien\n\nMa sécurité numérique\n\nSites web et réseaux sociaux\n\nTéléphones et applications\n\nObjets connectés\n\nEnfants et ados\n\nSanté\n\nSocial\n\nLogement\n\nTravail\n\nIntelligence artificielle (IA)\n\nAchats et publicité\n\nBanque/Assurance\n\nCitoyenneté\n\nSport\n\nTransports et mobilité\n\nVie associative\n\nFermer\n\nExercer mes droits\n\nQuels sont mes droits ?\n\nÊtre informé\n\nM'opposer\n\nAccéder à mes données\n\nRectifier mes données\n\nEffacer mes données\n\nÊtre déréférencé\n\nEmporter mes données avec moi\n\nFaire vérifier une décision automatisée\n\nLimiter l'utilisation de mes données\n\nLes droits des mineurs\n\nNos modèles de courrier\n\nSaisir la CNIL\n\nAdresser une plainte\n\nAccéder au FICOBA\n\nAccéder à un fichier de police, de gendarmerie ou de renseignement\n\nAdresser une alerte à la CNIL\n\nPoser une question à la CNIL\n\nQuestions/réponses\n\nFermer\n\nÀ télécharger\n\nRessources pédagogiques\n\nAffiches\n\nRapports et chiffres clés\n\nCahiers Innovation & Prospective\n\nLivres blancs\n\nFermer\n\nLa CNIL\n\nMissions\n\nInformer et protéger\n\nAccompagner et conseiller\n\nAnticiper et innover\n\nContrôler et sanctionner\n\nLa mission éthique de la CNIL\n\nTous les évènements de la CNIL\n\nFonctionnement\n\nStatut et organisation\n\nOrdres du jour des séances\n\nAgenda\n\nLes avis de la CNIL\n\nInterrégulation et partenariats\n\nEn Europe et dans le monde\n\nLa CNIL en Europe\n\nLa CNIL dans le monde\n\nLa carte de la protection des données dans le monde\n\nLa stratégie européenne et internationale de la CNIL\n\nL’histoire de la CNIL en vidéo\n\nMarchés publics\n\nConsultations publiques\n\nFermer\n\nRechercher\n\nFrEnGestionnaire de cookies\n\nCNIL : Formulaire de recherche\n\nPoser une question ou rechercher un article, une délibération...\n\nRechercher\n\nAccueil\n\nActualité du CEPD : adéquation de la Corée du Sud, versions finales des BCR-ST, et action coordonnée sur le recrutement via IA\n\nActualité du CEPD : adéquation de la Corée du Sud, versions finales des BCR-ST, et action coordonnée sur le recrutement via IA\n\n12 novembre 2026\n\nLe 10 novembre 2026, le Comité européen de la protection des données (CEPD) a adopté une déclaration sur l’adéquation de la Corée du Sud en matière de protection des données, ses recommandations finales sur les règles d’entreprises contraignantes et le thème de la sixième action coordonnée (CEF).\n\nImprimer l’article\n\nPartager cette page par courriel\n\nDiminuer la taille de la police\n\nAugmenter la taille de la police\n\nLa déclaration du CEPD sur le premier réexamen de la décision d’adéquation de la République de Corée porte principalement sur l’évaluation des modifications apportées au cadre juridique coréen en matière de protection des données, tant en ce qui concerne les aspects commerciaux que l’accès des autorités publiques coréennes aux données à caractère personnel et leur utilisation par celles-ci*.\n\nPar exemple, la loi sur la protection des informations à caractère personnel (PIPA) a été modifiée afin d’introduire un droit général de retirer son consentement, un droit de demander la suspension du traitement des données à caractère personnel, ainsi qu’un droit de s’opposer à une décision automatisée (y compris lorsqu’elle est prise au moyen de systèmes d’IA) ou de demander une explication lorsque la décision a une incidence significative sur les droits ou les obligations des personnes concernées.\n\nEn outre, en ce qui concerne les transferts ultérieurs, le CEPD se félicite des modifications apportées à la PIPA concernant le régime juridique applicable aux transferts internationaux de données à caractère personnel. Ces modifications précisent que les transferts transfrontières d’informations à caractère personnel doivent s’appuyer sur des mécanismes de transfert spécifiques (articles 28-8 de la PIPA), offrant ainsi des solutions autres que le consentement.\n\nLe Comité européen de la protection des données se félicite également du renforcement des pouvoirs d’enquête, d’exécution et de sanct‍ion de l’autorité coréenne de protection des données.\n\nLe CEPD approuve la proposition de la Commission de consulter le Comité institué en vertu de l’article 93, paragraphe 1, du RGPD afin de procéder à un réexamen de la décision d’adéquation tous les quatre ans.\n\nVersion finale des recommandations relatives à l’adoption de règles d’entreprise contraignantes pour les sous-traitants\n\nÀ la suite d’une consultation publique, le Comité européen de la protection des données a adopté la version finale des recommandations relatives à la demande d’approbation et aux éléments et principes figurant dans les règles d’entreprise contraignantes pour les sous-traitants. Les règles d’entreprise contraignantes pour les sous-traitants sont un mécanisme de transfert qui peut être utilisé par un groupe d’entreprises pour transférer des données à caractère personnel en dehors de l’Europe à des sous-traitants appartenant au même groupe. Les règles d’entreprise contraignantes créent des droits opposables et énoncent des engagements visant à garantir un niveau de protection des données essentiellement équivalent à celui prévu par le RGPD.\n\nLes recommandations s’appliquent désormais à tous les titulaires de BCR-P. Tous les titulaires de BCR-P, ainsi que les nouveaux demandeurs et ceux dont la demande est en cours, devraient aligner leurs BCR-P sur les recommandations, soit au cours de la procédure de demande, soit dans le cadre de leur mise à jour annuelle de 2028, en fonction de leur situation particulière.\n\nConformément à l’objectif de la déclaration d’Helsinki visant à renforcer le dialogue avec les parties prenantes, le Comité a également publié un rapport présentant les résultats de la consultation publique ciblée, ainsi qu’une version des recommandations faisant apparaître les modifications.\n\nCadre d’application coordonnée : thème retenu pour 2027\n\nLe Comité européen de la protection des données a choisi le thème de sa sixième action coordonnée en matière d’application de la législation, qui portera sur la prise de décision automatisée (y compris via de l'IA) dans le recrutement. Plus précisément, cette action coordonnée se concentrera sur l’application du droit de ne pas faire l’objet d’une décision fondée exclusivement sur un traitement automatisé, ainsi que du droit d’accès correspondant, dans le contexte de l’utilisation d’outils automatisés de sélection des candidats, y compris ceux reposant sur l’IA. Les autorités de protection des données participeront à cette action sur une base volontaire dans les semaines à venir, et l’action elle-même sera lancée au cours de l’année 2027.\n\nVous trouverez de plus amples informations sur le CEF, ainsi que les rapports relatifs aux actions précédentes du CEF, ici.\n\n*Note :\n\nLe 17 décembre 2021, la Commission européenne a adopté une décision d’adéquation reconnaissant que le cadre de protection des données de la République de Corée assure un niveau adéquat de protection des données. L’adoption d’une décision d’adéquation implique :\n\nune proposition de la Commission européenne ;\n\nun avis du Comité européen de la protection des données ;\n\nune approbation des représentants des pays de l’UE ;\n\nl’adoption de la décision par la Commission européenne.\n\nLa Commission est tenue de réexaminer périodiquement les décisions d’adéquation et de communiquer ses conclusions au Parlement européen et au Conseil. Des examens réguliers garantissent le maintien du niveau essentiel d’équivalence.\n\nLe premier réexamen du fonctionnement de la décision d’adéquation a eu lieu en 2025 et a notamment comporté une réunion de réexamen en ligne le 17 octobre 2025. La Commission a invité le Comité européen de la protection des données à participer à cette réunion, conformément au considérant 221 de la décision d’adéquation concernant la Corée. Le 23 juillet 2026, la Commission européenne a publié le rapport au Parlement européen et au Conseil sur le premier réexamen du fonctionnement de la décision d’adéquation concernant la République de Corée, ainsi qu’un document de travail des services de la Commission [SWD(2026) 231 final]. La Commission a conclu que la République de Corée continuait d’assurer un niveau adéquat de protection des données à caractère personnel de l’Union européenne transférées à des entités situées en République de Corée et soumises à son cadre de protection des données modifié.\n\nÀ la lumière des résultats de cet examen, le CEPD approuve la proposition de la Commission européenne de passer à un cycle de réexamen de quatre ans pour cette décision d’adéquation.\n\nIl s’agit d’une traduction automatique d’un communiqué de presse du CEPD, qui peut contenir des erreurs. Elle ne remplace pas la version anglaise officielle.\n\nTexte reference\n\nPour approfondir\n\nLe communiqué du CEPD (en anglais)\n\n#CEPD\n#Transfert de données\n#Transferts de données hors UE\n#BCR\n#Coordinated enforcement framework (CEF)\n\nCeci peut également vous intéresser ...\n\n48e Assemblée mondiale pour la protection de la vie privée (GPA)\n\n20 novembre 2026\n\nGPA\n\nPrivacy for Kids : le CEPD lance une plateforme dédiée à la vie privée des enfants\n\n04 novembre 2026\n\nCEPD\n\nLe CEPD publie une déclaration sur les enjeux de protection des données liés aux lunettes ...\n\n13 octobre 2026\n\nCEPD\n\nBesoin d'aide\n\nCommission Nationale de l’Informatique et des Libertés\n\nMon quotidien\n\nMa sécurité numérique\n\nSites web et réseaux sociaux\n\nTéléphones et applications\n\nObjets connectés\n\nEnfants et ados\n\nSanté\n\nSocial\n\nLogement\n\nTravail\n\nIntelligence artificielle (IA)\n\nAchats et publicité\n\nBanque/Assurance\n\nCitoyenneté\n\nSport\n\nTransports et mobilité\n\nVie associative\n\nLa CNIL\n\nMissions\n\nFonctionnement\n\nEn Europe et dans le monde\n\nL’histoire de la CNIL en vidéo\n\nMarchés publics\n\nConsultations publiques\n\nExercer mes droits\n\nQuels sont mes droits ?\n\nSaisir la CNIL\n\nQuestions/réponses\n\nÀ télécharger\n\nRessources pédagogiques\n\nAffiches\n\nRapports et chiffres clés\n\nCahiers Innovation & Prospective\n\nLivres blancs\n\nSuivez-nous\ntwitter\nlinkedin\n\nMédiathèque\n\nGlossaire\n\nLexique FR-EN\n\nBesoin d'aide\n\nPresse\n\nLangue\n\nFr\n\nEn\n\nGestion des cookies\n\nS'inscrire à la lettre d'information\n\nLe Laboratoire d'Innovation Numérique de la CNIL (LINC)\n\nMentions légales\n| Données personnelles\n| Accessibilité : partiellement conforme\n| Informations publiques\n| Recrutement\n| Mon compte\n| Nous contacter",
         "ancre": null,
         "url": "https://www.cnil.fr/fr/actualite-du-cepd-adequation-de-la-coree-du-sud-versions-finales-des-bcr-st-et-action-coordonnee-sur",
         "type": "section",
         "position": 0
       }
     ],
-    "run_id": "RUN-20261120-1438",
-    "version": 1,
-    "historique": []
+    "run_id": "RUN-20261121-1355",
+    "version": 2,
+    "historique": [
+      {
+        "version": 2,
+        "hash_sha256": "4a022bfc7aebe9fb739de185a48eef80748abcd46b22591a809e98415d80a6b3",
+        "collecte_le": "2026-11-21T13:56:07.504Z",
+        "run_id": "RUN-20261121-1355",
+        "articles_ajoutes": [],
+        "articles_supprimes": [],
+        "articles_modifies": [
+          "document"
+        ]
+      }
+    ]
   },
   {
     "id": "TX-0046",
@@ -2991,7 +3015,7 @@
     "date_entree_en_application": null,
     "statut_texte": "En vigueur",
     "hash_sha256": "c2168087ef4b4316d7fbafb7d1582c3b9d4f895d671c7984dc004c731de5fb96",
-    "collecte_le": "2026-11-20T14:39:14.580Z",
+    "collecte_le": "2026-11-21T13:56:09.427Z",
     "derniere_modification_detectee": null,
     "fichier_source": null,
     "applicable": "À déterminer",
@@ -3010,7 +3034,7 @@
         "position": 0
       }
     ],
-    "run_id": "RUN-20261120-1438",
+    "run_id": "RUN-20261121-1355",
     "version": 1,
     "historique": []
   },
@@ -3029,7 +3053,7 @@
     "date_entree_en_application": null,
     "statut_texte": "En vigueur",
     "hash_sha256": "9a570f487fa1085e1032bde7f0a825dc08af8050bd31797090aea38e1b08e43d",
-    "collecte_le": "2026-11-20T14:39:23.280Z",
+    "collecte_le": "2026-11-21T13:56:17.499Z",
     "derniere_modification_detectee": null,
     "fichier_source": null,
     "applicable": "À déterminer",
@@ -3048,7 +3072,7 @@
         "position": 0
       }
     ],
-    "run_id": "RUN-20261120-1438",
+    "run_id": "RUN-20261121-1355",
     "version": 1,
     "historique": []
   },
@@ -3067,7 +3091,7 @@
     "date_entree_en_application": null,
     "statut_texte": "En vigueur",
     "hash_sha256": "3700a9af5816638a584fe53e0231b45d08d6e63c895f297e2f416b53e0bcdb6a",
-    "collecte_le": "2026-11-20T14:39:24.634Z",
+    "collecte_le": "2026-11-21T13:56:19.522Z",
     "derniere_modification_detectee": null,
     "fichier_source": null,
     "applicable": "À déterminer",
@@ -3086,7 +3110,7 @@
         "position": 0
       }
     ],
-    "run_id": "RUN-20261120-1438",
+    "run_id": "RUN-20261121-1355",
     "version": 1,
     "historique": []
   }
