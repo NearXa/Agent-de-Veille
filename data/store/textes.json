@@ -14,7 +14,7 @@
     "date_entree_en_application": "2025-01-17",
     "statut_texte": "En vigueur",
     "hash_sha256": "e1e54d9230e86244e1214976d009a6540e15bdc7e2fa1df992237605ff18b41b",
-    "collecte_le": "2026-11-21T13:55:28.720Z",
+    "collecte_le": "2026-11-22T13:48:50.416Z",
     "derniere_modification_detectee": null,
     "fichier_source": "data/sources/dora-32022R2554-fr.html",
     "applicable": "Oui",
@@ -536,7 +536,7 @@
         "position": 63
       }
     ],
-    "run_id": "RUN-20261121-1355",
+    "run_id": "RUN-20261122-1348",
     "version": 1,
     "historique": []
   },
@@ -1766,7 +1766,7 @@
     "date_entree_en_application": null,
     "statut_texte": "En vigueur",
     "hash_sha256": "c7e4b2f25c85e27289b6e7728eb41a12b5a177f0304e56edaffa53c476188ff1",
-    "collecte_le": "2026-11-21T13:55:59.098Z",
+    "collecte_le": "2026-11-22T13:49:16.746Z",
     "derniere_modification_detectee": null,
     "fichier_source": null,
     "applicable": "À déterminer",
@@ -1785,7 +1785,7 @@
         "position": 0
       }
     ],
-    "run_id": "RUN-20261121-1355",
+    "run_id": "RUN-20261122-1348",
     "version": 1,
     "historique": []
   },
@@ -2074,7 +2074,7 @@
     "date_entree_en_application": null,
     "statut_texte": "Modifié",
     "hash_sha256": "2ae0ea933c9499ff2a29ab8e92132fab71cb12b9cef063c11ec1f2b76952e9f0",
-    "collecte_le": "2026-11-21T13:56:13.768Z",
+    "collecte_le": "2026-11-22T13:49:31.112Z",
     "derniere_modification_detectee": "2026-11-20T14:39:19.390Z",
     "fichier_source": null,
     "applicable": "À déterminer",
@@ -2093,7 +2093,7 @@
         "position": 0
       }
     ],
-    "run_id": "RUN-20261121-1355",
+    "run_id": "RUN-20261122-1348",
     "version": 4,
     "historique": [
       {
@@ -2507,7 +2507,7 @@
     "date_entree_en_application": null,
     "statut_texte": "Modifié",
     "hash_sha256": "db8ca642062b4bc59264450b16b88c20f35fbcf7c1b9a8374c7be105137baad3",
-    "collecte_le": "2026-11-21T13:55:55.764Z",
+    "collecte_le": "2026-11-22T13:49:13.221Z",
     "derniere_modification_detectee": "2026-11-20T14:39:00.814Z",
     "fichier_source": null,
     "applicable": "À déterminer",
@@ -2526,7 +2526,7 @@
         "position": 0
       }
     ],
-    "run_id": "RUN-20261121-1355",
+    "run_id": "RUN-20261122-1348",
     "version": 4,
     "historique": [
       {
@@ -2579,7 +2579,7 @@
     "date_entree_en_application": null,
     "statut_texte": "Modifié",
     "hash_sha256": "4202630f123b7e85416ad87a4a4294ac6686ba19ed5f8af1333c7e31d7dfee2d",
-    "collecte_le": "2026-11-21T13:56:15.504Z",
+    "collecte_le": "2026-11-22T13:49:33.067Z",
     "derniere_modification_detectee": "2026-11-20T14:39:21.350Z",
     "fichier_source": null,
     "applicable": "À déterminer",
@@ -2598,7 +2598,7 @@
         "position": 0
       }
     ],
-    "run_id": "RUN-20261121-1355",
+    "run_id": "RUN-20261122-1348",
     "version": 2,
     "historique": [
       {
@@ -2712,7 +2712,7 @@
     "date_entree_en_application": null,
     "statut_texte": "En vigueur",
     "hash_sha256": "42a39a1eb78ee5050c1756bc637195bf2ff72e15548c501a6c2570e9492efdd8",
-    "collecte_le": "2026-11-21T13:55:35.504Z",
+    "collecte_le": "2026-11-22T13:48:57.067Z",
     "derniere_modification_detectee": null,
     "fichier_source": null,
     "applicable": "À déterminer",
@@ -2738,7 +2738,7 @@
         "position": 1
       }
     ],
-    "run_id": "RUN-20261121-1355",
+    "run_id": "RUN-20261122-1348",
     "version": 1,
     "historique": []
   },
@@ -2757,7 +2757,7 @@
     "date_entree_en_application": null,
     "statut_texte": "En vigueur",
     "hash_sha256": "8dcf8120e5560f35b21fa12e93ec7a161c37d097b5fcde404ba8d5742b29301b",
-    "collecte_le": "2026-11-21T13:55:39.148Z",
+    "collecte_le": "2026-11-22T13:49:00.779Z",
     "derniere_modification_detectee": null,
     "fichier_source": null,
     "applicable": "À déterminer",
@@ -2783,7 +2783,7 @@
         "position": 1
       }
     ],
-    "run_id": "RUN-20261121-1355",
+    "run_id": "RUN-20261122-1348",
     "version": 1,
     "historique": []
   },
@@ -2801,9 +2801,9 @@
     "date_entree_en_vigueur": null,
     "date_entree_en_application": null,
     "statut_texte": "Modifié",
-    "hash_sha256": "55b78140962bd14f7d9f71f893e6a715c9016fb3ac9b7d84b11ced0594a6ccec",
-    "collecte_le": "2026-11-21T13:55:57.097Z",
-    "derniere_modification_detectee": "2026-11-21T13:55:57.097Z",
+    "hash_sha256": "4d601005584449145f964b0913e1a2c79973a264aecef6c41afb14b14968c516",
+    "collecte_le": "2026-11-22T13:49:14.738Z",
+    "derniere_modification_detectee": "2026-11-22T13:49:14.738Z",
     "fichier_source": null,
     "applicable": "À déterminer",
     "justification_applicabilite": null,
@@ -2814,21 +2814,32 @@
       {
         "numero": "document",
         "titre": "proposition de loi visant à étendre la convention judiciaire d'intérêt public au domaine de la cybercriminalité",
-        "contenu": "Aller au contenu\n\nAller à la navigation\n\nLa galaxie Sénat\n\nRéseaux sociaux\n\nX\n\nFacebook\n\nLinkedin\n\nInstagram\n\nYouTube\n\nTikTok\n\nS'abonner\n\nLangue sélectionnéeFrançais\n\nFrançais\n\nEnglish\n\nDeutsch\n\nEspañol\n\nPortuguês\n\nItaliano\n\nعربي\n\n中文\n\nРусский\n\nTürk\n\nOuvrir la recherche\n\nLangue sélectionnéeFrançais\n\nFrançais\n\nEnglish\n\nDeutsch\n\nEspañol\n\nPortuguês\n\nItaliano\n\nعربي\n\n中文\n\nРусский\n\nTürk\n\nTravaux parlementaires\n\nTravaux parlementaires\n\nLe Sénat a pour missions premières le vote de la loi, le contrôle du Gouvernement et l'évaluation des politiques publiques.\n\nEn savoir plus\n\nSéance publique\n\nDécouvrez le fonctionnement de la séance publique\n\nOrdre du jour\n\nDérouleurs\n\nScrutins publics\n\nDirect vidéo\n\nApplication \"En séance\"\n\nTextes législatifs\n\nTextes récents\n\nTous les textes\n\nContrôle et évaluation\n\nToute l'actualité du contrôle et de l'évaluation\n\nQuestions des sénateurs au Gouvernement\n\nSuivi des ordonnances\n\nContrôle de l'application des lois\n\nProgramme de contrôle\n\nCommissions\n\nDécouvrir le rôle et l'actualité des commissions\n\nCommission des affaires économiques\n\nCommission des affaires étrangères, de la défense et des forces armées\n\nCommission des affaires sociales\n\nCommission de l'aménagement du territoire et du développement durable\n\nCommission de la culture, de l’éducation, de la communication et du sport\n\nCommission des finances\n\nCommission des lois\n\nCommission des affaires européennes\n\nApplication \"En commission\"\n\nStructures temporaires\n\nCommissions d'enquête\n\nMission d'information commune\n\nCommissions spéciales\n\nCommissions mixtes paritaires\n\nOffice et délégations\n\nDécouvrir le rôle et l'actualité de l'office et des délégations\n\nDélégation aux collectivités territoriales et à la décentralisation\n\nDélégation aux droits des femmes et à l’égalité des chances entre les hommes et les femmes\n\nDélégation aux entreprises\n\nDélégation sénatoriale aux outre-mer\n\nDélégation à la prospective\n\nDélégation parlementaire au renseignement\n\nOffice parlementaire d’évaluation des choix scientifiques et technologiques (OPECST)\n\nGroupes d'études\n\nRapports et documents de travail\n\nDerniers rapports\n\nTous les rapports et documents de travail\n\nRésolutions\n\nComptes rendus\n\nL’activité du Sénat en chiffres\n\nVos sénateurs\n\nVos sénateurs\n\nDécouvrez qui sont vos sénateurs et suivez leurs principales activités.\n\nEn savoir plus\n\nRecherche de sénateurs\n\nRecherche simple de sénateurs\n\nRecherche avancée de sénateurs\n\nPrésidence du Sénat\n\nSénatoriales 2026\n\nGroupes politiques\n\nOrganisation interne\n\nBureau du Sénat\n\nConférence des Présidents\n\nConseil de Questure\n\nComité de déontologie\n\nCommission spéciale chargée du contrôle des comptes et de l'évaluation interne\n\nDéclarations\n\nDéclarations de rattachement\n\nActivités principales des Sénateurs\n\nOrganismes extraparlementaires\n\nAnciens sénateurs\n\nPrésentation par période\n\nAnciens sénateurs de la Vème République\n\nAnciens sénateurs de la IVème République\n\nAnciens sénateurs de la Communauté\n\nAnciens sénateurs de la IIIème République\n\nAnciens sénateurs du Second Empire\n\nPairs de France\n\nSénat conservateur\n\nConseil des anciens\n\nConnaître le Sénat\n\nConnaître le Sénat\n\nRetrouvez toutes les informations clés sur le rôle, le fonctionnement, l'Histoire et le patrimoine du Sénat.\n\nEn savoir plus\n\nRôle et fonctionnement\n\nSénat Junior\n\nDocuments de référence et guides pratiques\n\nL’Histoire du Sénat\n\nLes Archives du Sénat\n\nPatrimoine\n\nJardin du Luxembourg\n\nÉvénements et manifestations culturelles\n\nPhotothèque\n\nLe Sénat et vous\n\nLe Sénat et vous\n\nVous souhaitez participer à nos consultations, visiter le Sénat ou même y travailler ?\n\nEn savoir plus\n\nLe Sénat pour les élus locaux\n\nParticiper aux consultations\n\nConsultations citoyennes\n\nConsultations des élus locaux\n\nDéposer ou soutenir une pétition\n\nVisiter le Sénat\n\nAssister aux séances\n\nTravailler au Sénat\n\nLe Sénat recrute\n\nRecrutement des fonctionnaires par concours\n\nFonctionnaires extérieurs\n\nContractuels\n\nFaire son apprentissage au Sénat\n\nEffectuer un stage au Sénat\n\nLes prix décernés par le Sénat\n\nTous les prix du Sénat\n\nLe prix du Sénat du livre d'histoire\n\nL'aide à la publication \"Diffusons l'histoire\"\n\nLe prix de thèse\n\nLe prix de la Fondation Jacques Descours Desacres\n\nEurope et international\n\nEurope et international\n\nDécouvrez l'action internationale et européenne du Sénat.\n\nEn savoir plus\n\nLe Sénat et l'Europe\n\nDécouvrir les activités européennes du Sénat\n\nCommission des affaires européennes\n\nAssemblée parlementaire du Conseil de l'Europe (APCE)\n\nAssemblée parlementaire de l'OSCE\n\nL'Europe en séance publique\n\nLe Sénat à l'international\n\nDécouvrir les activités internationales du Sénat\n\nCommission des affaires étrangères, de la défense et des forces armées\n\nGroupes interparlementaires d'amitié\n\nAssemblées interparlementaires\n\nCoopération\n\nColloques et événements\n\nÉtudes internationales\n\nÉtudes de législation comparée\n\nLe Sénat et les Français de l'étranger\n\nSénats d'Europe, Sénats du monde\n\nPresse\n\nPresse\n\nRetrouvez dans cette section toutes les informations clés pour la presse et les médias.\n\nEn savoir plus\n\nAuditions accessibles à la presse\n\nConférences de presse\n\nCommuniqués de presse\n\nInformations pratiques\n\nBoîte à outils et formations\n\nNous contacter et nous suivre\n\nOuvrir la recherche\n\nLa galaxie Sénat\n\nSénateurs\n\nOrdre du jour\n\nAgenda\n\nTravaux récents\n\nVidéos\n\nLa galaxie Sénat\n\nFermer\n\nRetrouvez l’ensemble des sites internet et applications composant l’écosystème du Sénat.\n\nVidéothèque\n\nAudiothèque\n\nPhotothèque\n\nLes Archives : Mémoire du Sénat\n\nSénatoriales 2026\n\nE-petitions\n\nLa plateforme des élus locaux\n\nSénat Junior\n\nApplication \"En séance\"\n\nOpen Data\n\nSénat Infox\n\nBoutique officielle\n\nLibrairie en ligne\n\nPublic Sénat\n\nInstitut du Sénat\n\nJardin du Luxembourg\n\nMusée du Luxembourg\n\nRecherche rapide\n\nFermer la recherche\n\nRechercher dans la base documentaire du Sénat et le reste du site.\n\nAffiner ma recherche :\n\nDossiers législatifs\n\nRapports d’information\n\nQuestions parlementaires\n\nComptes rendus\n\nTextes européens\n\nDocuments de travail\n\nLancer la recherche\n\nMoteurs de recherche avancés\n\nSénateurs actifs\n\nDossiers législatifs\n\nQuestions parlementaires\n\nRapports d'informations\n\nComptes rendus de séance\n\nComptes rendus des commissions\n\nTextes européens\n\nDocuments de travail\n\nVoir le fil d’Ariane\n\nAccueil\n\nTravaux parlementaires\n\nProjets et propositions de loi\n\nConvention judiciaire d'intérêt public et domaine de la cybercriminalité\n\nDossier législatif\n\nProposition de loi visant à étendre la convention judiciaire d'intérêt public au domaine de la cybercriminalité\n\nLes étapes de la discussion\nLes étapes de la discussion\n\nPremière lecture - Sénat17 novembre 2026\n\nComprendre la procédure\n\nDépôt au Sénat\n\nTexte n° 178 (2026-2027) de Mme Nadège HAVET, déposé au Sénat le 17 novembre 2026\n\nPremière lecture au Sénat\n\nLes thèmes associés à ce dossier\n\nPolice et sécurité\n\nJustice\n\nSuivre ce dossier législatif en s'abonnant aux alertes\n\nLes champs marqués d'un * sont obligatoires.\n\nVotre courriel\n\nS'inscrire\n\nExemple: nom@exemple.fr\n\nLes informations qui vous concernent sont strictement destinées aux services du Sénat. En aucun cas, les informations que vous nous communiquez lors de votre inscription à cette liste ne seront utilisées à d'autres fins. Conformément à la loi \"Informatique et Liberté\" du 6 janvier 1978, vous disposez d'un droit d'accès et de rectification aux données vous concernant. Si vous souhaitez exercer ce droit envoyez un message à lettre-senat@senat.fr.\n\nS'abonner au flux RSS\n\nPage mise à jour le\n\n21 novembre 2026\n\nPour toute remarque relative à cette page, veuillez contacter :\n\ndosleg@senat.fr\n\nPartager cette page\n\nX\n\nFacebook\n\nLinkedIn\n\nE-mail\n\nNous suivre sur les réseaux\n\nX\n\nFacebook\n\nLinkedin\n\nInstagram\n\nYouTube\n\nTikTok\n\nLiens pratiques\n\nFoire aux questions\n\nRèglement du Sénat\n\nRecrutement et stages\n\nBiens réformés\n\nMarchés publics\n\nFacturation\n\nReprésentants d'intérêts\n\nServices\n\nVisiter le Sénat\n\nLes abonnements du Sénat\n\nParticiper aux consultations\n\nDéposer ou soutenir une pétition\n\nPublic Sénat\n\nBoutique officielle\n\nFlux RSS\n\nLe Sénat\n\n15, rue de Vaugirard\n\n75291 Paris Cedex 06\n\nStandard : +33 (0)1 42 34 20 00\n\nNous contacter\n\nMentions légales\n\nPlan du site\n\nAccessibilité : partiellement conforme\n\nDonnées personnelles\n\nGestion des cookies\n\nIntr@Sénat\n\n© Sénat 2026. Tous droits réservés.",
+        "contenu": "Aller au contenu\n\nAller à la navigation\n\nLa galaxie Sénat\n\nRéseaux sociaux\n\nX\n\nFacebook\n\nLinkedin\n\nInstagram\n\nYouTube\n\nTikTok\n\nS'abonner\n\nLangue sélectionnéeFrançais\n\nFrançais\n\nEnglish\n\nDeutsch\n\nEspañol\n\nPortuguês\n\nItaliano\n\nعربي\n\n中文\n\nРусский\n\nTürk\n\nOuvrir la recherche\n\nLangue sélectionnéeFrançais\n\nFrançais\n\nEnglish\n\nDeutsch\n\nEspañol\n\nPortuguês\n\nItaliano\n\nعربي\n\n中文\n\nРусский\n\nTürk\n\nTravaux parlementaires\n\nTravaux parlementaires\n\nLe Sénat a pour missions premières le vote de la loi, le contrôle du Gouvernement et l'évaluation des politiques publiques.\n\nEn savoir plus\n\nSéance publique\n\nDécouvrez le fonctionnement de la séance publique\n\nOrdre du jour\n\nDérouleurs\n\nScrutins publics\n\nDirect vidéo\n\nApplication \"En séance\"\n\nTextes législatifs\n\nTextes récents\n\nTous les textes\n\nContrôle et évaluation\n\nToute l'actualité du contrôle et de l'évaluation\n\nQuestions des sénateurs au Gouvernement\n\nSuivi des ordonnances\n\nContrôle de l'application des lois\n\nProgramme de contrôle\n\nCommissions\n\nDécouvrir le rôle et l'actualité des commissions\n\nCommission des affaires économiques\n\nCommission des affaires étrangères, de la défense et des forces armées\n\nCommission des affaires sociales\n\nCommission de l'aménagement du territoire et du développement durable\n\nCommission de la culture, de l’éducation, de la communication et du sport\n\nCommission des finances\n\nCommission des lois\n\nCommission des affaires européennes\n\nApplication \"En commission\"\n\nStructures temporaires\n\nCommissions d'enquête\n\nMission d'information commune\n\nCommissions spéciales\n\nCommissions mixtes paritaires\n\nOffice et délégations\n\nDécouvrir le rôle et l'actualité de l'office et des délégations\n\nDélégation aux collectivités territoriales et à la décentralisation\n\nDélégation aux droits des femmes et à l’égalité des chances entre les hommes et les femmes\n\nDélégation aux entreprises\n\nDélégation sénatoriale aux outre-mer\n\nDélégation à la prospective\n\nDélégation parlementaire au renseignement\n\nOffice parlementaire d’évaluation des choix scientifiques et technologiques (OPECST)\n\nGroupes d'études\n\nRapports et documents de travail\n\nDerniers rapports\n\nTous les rapports et documents de travail\n\nRésolutions\n\nComptes rendus\n\nL’activité du Sénat en chiffres\n\nVos sénateurs\n\nVos sénateurs\n\nDécouvrez qui sont vos sénateurs et suivez leurs principales activités.\n\nEn savoir plus\n\nRecherche de sénateurs\n\nRecherche simple de sénateurs\n\nRecherche avancée de sénateurs\n\nPrésidence du Sénat\n\nSénatoriales 2026\n\nGroupes politiques\n\nOrganisation interne\n\nBureau du Sénat\n\nConférence des Présidents\n\nConseil de Questure\n\nComité de déontologie\n\nCommission spéciale chargée du contrôle des comptes et de l'évaluation interne\n\nDéclarations\n\nDéclarations de rattachement\n\nActivités principales des Sénateurs\n\nOrganismes extraparlementaires\n\nAnciens sénateurs\n\nPrésentation par période\n\nAnciens sénateurs de la Vème République\n\nAnciens sénateurs de la IVème République\n\nAnciens sénateurs de la Communauté\n\nAnciens sénateurs de la IIIème République\n\nAnciens sénateurs du Second Empire\n\nPairs de France\n\nSénat conservateur\n\nConseil des anciens\n\nConnaître le Sénat\n\nConnaître le Sénat\n\nRetrouvez toutes les informations clés sur le rôle, le fonctionnement, l'Histoire et le patrimoine du Sénat.\n\nEn savoir plus\n\nRôle et fonctionnement\n\nSénat Junior\n\nDocuments de référence et guides pratiques\n\nL’Histoire du Sénat\n\nLes Archives du Sénat\n\nPatrimoine\n\nJardin du Luxembourg\n\nÉvénements et manifestations culturelles\n\nPhotothèque\n\nLe Sénat et vous\n\nLe Sénat et vous\n\nVous souhaitez participer à nos consultations, visiter le Sénat ou même y travailler ?\n\nEn savoir plus\n\nLe Sénat pour les élus locaux\n\nParticiper aux consultations\n\nConsultations citoyennes\n\nConsultations des élus locaux\n\nDéposer ou soutenir une pétition\n\nVisiter le Sénat\n\nAssister aux séances\n\nTravailler au Sénat\n\nLe Sénat recrute\n\nRecrutement des fonctionnaires par concours\n\nFonctionnaires extérieurs\n\nContractuels\n\nFaire son apprentissage au Sénat\n\nEffectuer un stage au Sénat\n\nLes prix décernés par le Sénat\n\nTous les prix du Sénat\n\nLe prix du Sénat du livre d'histoire\n\nL'aide à la publication \"Diffusons l'histoire\"\n\nLe prix de thèse\n\nLe prix de la Fondation Jacques Descours Desacres\n\nEurope et international\n\nEurope et international\n\nDécouvrez l'action internationale et européenne du Sénat.\n\nEn savoir plus\n\nLe Sénat et l'Europe\n\nDécouvrir les activités européennes du Sénat\n\nCommission des affaires européennes\n\nAssemblée parlementaire du Conseil de l'Europe (APCE)\n\nAssemblée parlementaire de l'OSCE\n\nL'Europe en séance publique\n\nLe Sénat à l'international\n\nDécouvrir les activités internationales du Sénat\n\nCommission des affaires étrangères, de la défense et des forces armées\n\nGroupes interparlementaires d'amitié\n\nAssemblées interparlementaires\n\nCoopération\n\nColloques et événements\n\nÉtudes internationales\n\nÉtudes de législation comparée\n\nLe Sénat et les Français de l'étranger\n\nSénats d'Europe, Sénats du monde\n\nPresse\n\nPresse\n\nRetrouvez dans cette section toutes les informations clés pour la presse et les médias.\n\nEn savoir plus\n\nAuditions accessibles à la presse\n\nConférences de presse\n\nCommuniqués de presse\n\nInformations pratiques\n\nBoîte à outils et formations\n\nNous contacter et nous suivre\n\nOuvrir la recherche\n\nLa galaxie Sénat\n\nSénateurs\n\nOrdre du jour\n\nAgenda\n\nTravaux récents\n\nVidéos\n\nLa galaxie Sénat\n\nFermer\n\nRetrouvez l’ensemble des sites internet et applications composant l’écosystème du Sénat.\n\nVidéothèque\n\nAudiothèque\n\nPhotothèque\n\nLes Archives : Mémoire du Sénat\n\nSénatoriales 2026\n\nE-petitions\n\nLa plateforme des élus locaux\n\nSénat Junior\n\nApplication \"En séance\"\n\nOpen Data\n\nSénat Infox\n\nBoutique officielle\n\nLibrairie en ligne\n\nPublic Sénat\n\nInstitut du Sénat\n\nJardin du Luxembourg\n\nMusée du Luxembourg\n\nRecherche rapide\n\nFermer la recherche\n\nRechercher dans la base documentaire du Sénat et le reste du site.\n\nAffiner ma recherche :\n\nDossiers législatifs\n\nRapports d’information\n\nQuestions parlementaires\n\nComptes rendus\n\nTextes européens\n\nDocuments de travail\n\nLancer la recherche\n\nMoteurs de recherche avancés\n\nSénateurs actifs\n\nDossiers législatifs\n\nQuestions parlementaires\n\nRapports d'informations\n\nComptes rendus de séance\n\nComptes rendus des commissions\n\nTextes européens\n\nDocuments de travail\n\nVoir le fil d’Ariane\n\nAccueil\n\nTravaux parlementaires\n\nProjets et propositions de loi\n\nConvention judiciaire d'intérêt public et domaine de la cybercriminalité\n\nDossier législatif\n\nProposition de loi visant à étendre la convention judiciaire d'intérêt public au domaine de la cybercriminalité\n\nLes étapes de la discussion\nLes étapes de la discussion\n\nPremière lecture - Sénat17 novembre 2026\n\nComprendre la procédure\n\nDépôt au Sénat\n\nTexte n° 178 (2026-2027) de Mme Nadège HAVET, déposé au Sénat le 17 novembre 2026\n\nPremière lecture au Sénat\n\nLes thèmes associés à ce dossier\n\nPolice et sécurité\n\nJustice\n\nSuivre ce dossier législatif en s'abonnant aux alertes\n\nLes champs marqués d'un * sont obligatoires.\n\nVotre courriel\n\nS'inscrire\n\nExemple: nom@exemple.fr\n\nLes informations qui vous concernent sont strictement destinées aux services du Sénat. En aucun cas, les informations que vous nous communiquez lors de votre inscription à cette liste ne seront utilisées à d'autres fins. Conformément à la loi \"Informatique et Liberté\" du 6 janvier 1978, vous disposez d'un droit d'accès et de rectification aux données vous concernant. Si vous souhaitez exercer ce droit envoyez un message à lettre-senat@senat.fr.\n\nS'abonner au flux RSS\n\nPage mise à jour le\n\n22 novembre 2026\n\nPour toute remarque relative à cette page, veuillez contacter :\n\ndosleg@senat.fr\n\nPartager cette page\n\nX\n\nFacebook\n\nLinkedIn\n\nE-mail\n\nNous suivre sur les réseaux\n\nX\n\nFacebook\n\nLinkedin\n\nInstagram\n\nYouTube\n\nTikTok\n\nLiens pratiques\n\nFoire aux questions\n\nRèglement du Sénat\n\nRecrutement et stages\n\nBiens réformés\n\nMarchés publics\n\nFacturation\n\nReprésentants d'intérêts\n\nServices\n\nVisiter le Sénat\n\nLes abonnements du Sénat\n\nParticiper aux consultations\n\nDéposer ou soutenir une pétition\n\nPublic Sénat\n\nBoutique officielle\n\nFlux RSS\n\nLe Sénat\n\n15, rue de Vaugirard\n\n75291 Paris Cedex 06\n\nStandard : +33 (0)1 42 34 20 00\n\nNous contacter\n\nMentions légales\n\nPlan du site\n\nAccessibilité : partiellement conforme\n\nDonnées personnelles\n\nGestion des cookies\n\nIntr@Sénat\n\n© Sénat 2026. Tous droits réservés.",
         "ancre": null,
         "url": "http://www.senat.fr/dossier-legislatif/ppl26-178.html",
         "type": "section",
         "position": 0
       }
     ],
-    "run_id": "RUN-20261121-1355",
-    "version": 2,
+    "run_id": "RUN-20261122-1348",
+    "version": 3,
     "historique": [
       {
         "version": 2,
         "hash_sha256": "55b78140962bd14f7d9f71f893e6a715c9016fb3ac9b7d84b11ced0594a6ccec",
         "collecte_le": "2026-11-21T13:55:57.097Z",
         "run_id": "RUN-20261121-1355",
+        "articles_ajoutes": [],
+        "articles_supprimes": [],
+        "articles_modifies": [
+          "document"
+        ]
+      },
+      {
+        "version": 3,
+        "hash_sha256": "4d601005584449145f964b0913e1a2c79973a264aecef6c41afb14b14968c516",
+        "collecte_le": "2026-11-22T13:49:14.738Z",
+        "run_id": "RUN-20261122-1348",
         "articles_ajoutes": [],
         "articles_supprimes": [],
         "articles_modifies": [
@@ -2850,10 +2861,10 @@
     "date_publication": null,
     "date_entree_en_vigueur": null,
     "date_entree_en_application": null,
-    "statut_texte": "En vigueur",
-    "hash_sha256": "c751f59fb6e01bcfed04f8ac700095fe50260581283ef4a4b74cecc10caf6703",
-    "collecte_le": "2026-11-21T13:56:01.441Z",
-    "derniere_modification_detectee": null,
+    "statut_texte": "Modifié",
+    "hash_sha256": "1590379cc3f7b3fbd7f1d1e304c1364e020cc170e5d020b19fffc5fa845b3c2f",
+    "collecte_le": "2026-11-22T13:49:18.999Z",
+    "derniere_modification_detectee": "2026-11-22T13:49:18.999Z",
     "fichier_source": null,
     "applicable": "À déterminer",
     "justification_applicabilite": null,
@@ -2864,16 +2875,28 @@
       {
         "numero": "document",
         "titre": "Pixels de suivi dans les courriels : la CNIL sollicite un premier retour d’expérience sur sa recommandation",
-        "contenu": "Aller au contenu principal\n\nMenu de navigation\n\nRechercher\n\nParticuliersProfessionnelsPresse\n\nFrEnGestionnaire de cookies\n\nParticuliersProfessionnelsPresse\n\nMon quotidien\n\nMa sécurité numérique\n\nSites web et réseaux sociaux\n\nTéléphones et applications\n\nObjets connectés\n\nEnfants et ados\n\nSanté\n\nSocial\n\nLogement\n\nTravail\n\nIntelligence artificielle (IA)\n\nAchats et publicité\n\nBanque/Assurance\n\nCitoyenneté\n\nSport\n\nTransports et mobilité\n\nVie associative\n\nFermer\n\nExercer mes droits\n\nQuels sont mes droits ?\n\nÊtre informé\n\nM'opposer\n\nAccéder à mes données\n\nRectifier mes données\n\nEffacer mes données\n\nÊtre déréférencé\n\nEmporter mes données avec moi\n\nFaire vérifier une décision automatisée\n\nLimiter l'utilisation de mes données\n\nLes droits des mineurs\n\nNos modèles de courrier\n\nSaisir la CNIL\n\nAdresser une plainte\n\nAccéder au FICOBA\n\nAccéder à un fichier de police, de gendarmerie ou de renseignement\n\nAdresser une alerte à la CNIL\n\nPoser une question à la CNIL\n\nQuestions/réponses\n\nFermer\n\nÀ télécharger\n\nRessources pédagogiques\n\nAffiches\n\nRapports et chiffres clés\n\nCahiers Innovation & Prospective\n\nLivres blancs\n\nFermer\n\nLa CNIL\n\nMissions\n\nInformer et protéger\n\nAccompagner et conseiller\n\nAnticiper et innover\n\nContrôler et sanctionner\n\nLa mission éthique de la CNIL\n\nTous les évènements de la CNIL\n\nFonctionnement\n\nStatut et organisation\n\nOrdres du jour des séances\n\nAgenda\n\nLes avis de la CNIL\n\nInterrégulation et partenariats\n\nEn Europe et dans le monde\n\nLa CNIL en Europe\n\nLa CNIL dans le monde\n\nLa carte de la protection des données dans le monde\n\nLa stratégie européenne et internationale de la CNIL\n\nL’histoire de la CNIL en vidéo\n\nMarchés publics\n\nConsultations publiques\n\nFermer\n\nRechercher\n\nFrEnGestionnaire de cookies\n\nCNIL : Formulaire de recherche\n\nPoser une question ou rechercher un article, une délibération...\n\nRechercher\n\nAccueil\n\nPixels de suivi dans les courriels : la CNIL sollicite un premier retour d’expérience sur sa recommandation\n\nPixels de suivi dans les courriels : la CNIL sollicite un premier retour d’expérience sur sa recommandation\n\n20 novembre 2026\n\nLe 14 avril 2026, la CNIL a publié sa recommandation sur les pixels de suivi dans les courriels. Elle invite désormais les acteurs concernés, expéditeurs de messages et fournisseurs de solutions, à effectuer un retour d’expérience jusqu’au 3 décembre 2026.\n\nImprimer l’article\n\nPartager cette page par courriel\n\nDiminuer la taille de la police\n\nAugmenter la taille de la police\n\nUne mise en conformité progressive\n\nAprès examen des contributions reçues lors de la consultation publique close le 24 juillet 2025, la CNIL a publié sa recommandation relative aux pixels de suivi dans les courriers électroniques le 14 avril 2026.\n\nCette recommandation adoptait une approche progressive : pour les nouveaux clients, la conformité à la recommandation était demandée ; pour les bases préconstituées, il était seulement demandé aux expéditeurs d’informer clairement, dans un délai de trois mois, les destinataires de l’utilisation de pixels pour les mettre en mesure de s’y opposer facilement s’ils le souhaitent.\n\nDans ce contexte, il est à présent utile de faire à présent un point d’étape sur la mise en conformité des acteurs et de solliciter un premier retour d’expérience du terrain.\n\nUn premier retour d’expérience jusqu’au 3 décembre\n\nUne régulation efficace repose sur des règles claires, applicables et adaptées à la réalité des modèles d’affaires. A travers ce point d’étape, la CNIL cherche à s’assurer que la recommandation protège efficacement les personnes, tout en repérant les difficultés rencontrées et les bonnes pratiques mises en place. Cette démarche doit aussi permettre de commencer à mesurer les effets concrets de la recommandation sur l’écosystème : coûts de mise en conformité, évolution des pratiques de mesure d’audience et de personnalisation, solutions alternatives développées par le marché, etc.\n\nL’appel à contributions s’adresse aux entreprises du secteur privé, prestataires techniques comme utilisateurs expéditeurs de courriers. Des retours précis, concrets et, dans la mesure du possible, chiffrés, notamment sur la soutenabilité économique, sont particulièrement utiles. Les acteurs d’un même organisme ou groupe sont invités à regrouper leurs réponses.\n\nCes contributions permettront à la CNIL d’optimiser son accompagnement des professionnels, dans un cadre favorable à l’innovation et à la confiance dans l’univers numérique.\n\nL’appel à contributions est ouvert jusqu’au jeudi 3 décembre 2026.\n\nParticiper à la consultation\n\nTexte reference\n\nPour approfondir\n\nPixels de suivi dans les courriers électroniques : la CNIL publie ses recommandations pour mieux protéger la vie privée\n\n#Consultation\n#Pixel de suivi\n#Evaluation\n#Courriels\n#Economie\n\nCeci peut également vous intéresser ...\n\nReconstitution d’adresses électroniques professionnelles : dans quel cadre est-ce autorisé ?\n\n16 octobre 2026\n\nCourriels\n\nDe la protection des données à la création de valeur en finance : des autorités européennes ...\n\n16 octobre 2026\n\nEconomie\n\nReconstitution d’adresses électroniques professionnelles : quels sont vos droits ?\n\n16 octobre 2026\n\nCourriels\n\nBesoin d'aide\n\nCommission Nationale de l’Informatique et des Libertés\n\nMon quotidien\n\nMa sécurité numérique\n\nSites web et réseaux sociaux\n\nTéléphones et applications\n\nObjets connectés\n\nEnfants et ados\n\nSanté\n\nSocial\n\nLogement\n\nTravail\n\nIntelligence artificielle (IA)\n\nAchats et publicité\n\nBanque/Assurance\n\nCitoyenneté\n\nSport\n\nTransports et mobilité\n\nVie associative\n\nLa CNIL\n\nMissions\n\nFonctionnement\n\nEn Europe et dans le monde\n\nL’histoire de la CNIL en vidéo\n\nMarchés publics\n\nConsultations publiques\n\nExercer mes droits\n\nQuels sont mes droits ?\n\nSaisir la CNIL\n\nQuestions/réponses\n\nÀ télécharger\n\nRessources pédagogiques\n\nAffiches\n\nRapports et chiffres clés\n\nCahiers Innovation & Prospective\n\nLivres blancs\n\nSuivez-nous\ntwitter\nlinkedin\n\nMédiathèque\n\nGlossaire\n\nLexique FR-EN\n\nBesoin d'aide\n\nPresse\n\nLangue\n\nFr\n\nEn\n\nGestion des cookies\n\nS'inscrire à la lettre d'information\n\nLe Laboratoire d'Innovation Numérique de la CNIL (LINC)\n\nMentions légales\n| Données personnelles\n| Accessibilité : partiellement conforme\n| Informations publiques\n| Recrutement\n| Mon compte\n| Nous contacter",
+        "contenu": "Aller au contenu principal\n\nMenu de navigation\n\nRechercher\n\nParticuliersProfessionnelsPresse\n\nFrEnGestionnaire de cookies\n\nParticuliersProfessionnelsPresse\n\nMon quotidien\n\nMa sécurité numérique\n\nSites web et réseaux sociaux\n\nTéléphones et applications\n\nObjets connectés\n\nEnfants et ados\n\nSanté\n\nSocial\n\nLogement\n\nTravail\n\nIntelligence artificielle (IA)\n\nAchats et publicité\n\nBanque/Assurance\n\nCitoyenneté\n\nSport\n\nTransports et mobilité\n\nVie associative\n\nFermer\n\nExercer mes droits\n\nQuels sont mes droits ?\n\nÊtre informé\n\nM'opposer\n\nAccéder à mes données\n\nRectifier mes données\n\nEffacer mes données\n\nÊtre déréférencé\n\nEmporter mes données avec moi\n\nFaire vérifier une décision automatisée\n\nLimiter l'utilisation de mes données\n\nLes droits des mineurs\n\nNos modèles de courrier\n\nSaisir la CNIL\n\nAdresser une plainte\n\nAccéder au FICOBA\n\nAccéder à un fichier de police, de gendarmerie ou de renseignement\n\nAdresser une alerte à la CNIL\n\nPoser une question à la CNIL\n\nQuestions/réponses\n\nFermer\n\nÀ télécharger\n\nRessources pédagogiques\n\nAffiches\n\nRapports et chiffres clés\n\nCahiers Innovation & Prospective\n\nLivres blancs\n\nFermer\n\nLa CNIL\n\nMissions\n\nInformer et protéger\n\nAccompagner et conseiller\n\nAnticiper et innover\n\nContrôler et sanctionner\n\nLa mission éthique de la CNIL\n\nTous les évènements de la CNIL\n\nFonctionnement\n\nStatut et organisation\n\nOrdres du jour des séances\n\nAgenda\n\nLes avis de la CNIL\n\nInterrégulation et partenariats\n\nEn Europe et dans le monde\n\nLa CNIL en Europe\n\nLa CNIL dans le monde\n\nLa carte de la protection des données dans le monde\n\nLa stratégie européenne et internationale de la CNIL\n\nL’histoire de la CNIL en vidéo\n\nMarchés publics\n\nConsultations publiques\n\nFermer\n\nRechercher\n\nFrEnGestionnaire de cookies\n\nCNIL : Formulaire de recherche\n\nPoser une question ou rechercher un article, une délibération...\n\nRechercher\n\nAccueil\n\nPixels de suivi dans les courriels : la CNIL sollicite un premier retour d’expérience sur sa recommandation\n\nPixels de suivi dans les courriels : la CNIL sollicite un premier retour d’expérience sur sa recommandation\n\n20 novembre 2026\n\nLe 14 avril 2026, la CNIL a publié sa recommandation sur les pixels de suivi dans les courriels. Elle invite désormais les acteurs concernés, expéditeurs de messages et fournisseurs de solutions, à effectuer un retour d’expérience jusqu’au 3 décembre 2026.\n\nImprimer l’article\n\nPartager cette page par courriel\n\nDiminuer la taille de la police\n\nAugmenter la taille de la police\n\nUne mise en conformité progressive\n\nAprès examen des contributions reçues lors de la consultation publique close le 24 juillet 2025, la CNIL a publié sa recommandation relative aux pixels de suivi dans les courriers électroniques le 14 avril 2026.\n\nCette recommandation adoptait une approche progressive : pour les nouveaux clients, la conformité à la recommandation était demandée ; pour les bases préconstituées, il était seulement demandé aux expéditeurs d’informer clairement, dans un délai de trois mois, les destinataires de l’utilisation de pixels pour les mettre en mesure de s’y opposer facilement s’ils le souhaitent.\n\nDans ce contexte, il est à présent utile de faire à présent un point d’étape sur la mise en conformité des acteurs et de solliciter un premier retour d’expérience du terrain.\n\nUn premier retour d’expérience jusqu’au 3 décembre\n\nUne régulation efficace repose sur des règles claires, applicables et adaptées à la réalité des modèles d’affaires. A travers ce point d’étape, la CNIL cherche à s’assurer que la recommandation protège efficacement les personnes, tout en repérant les difficultés rencontrées et les bonnes pratiques mises en place. Cette démarche doit aussi permettre de commencer à mesurer les effets concrets de la recommandation sur l’écosystème : coûts de mise en conformité, évolution des pratiques de mesure d’audience et de personnalisation, solutions alternatives développées par le marché, etc.\n\nL’appel à contributions s’adresse aux entreprises du secteur privé, prestataires techniques comme utilisateurs expéditeurs de courriers. Des retours précis, concrets et, dans la mesure du possible, chiffrés, notamment sur la soutenabilité économique, sont particulièrement utiles. Les acteurs d’un même organisme ou groupe sont invités à regrouper leurs réponses.\n\nCes contributions permettront à la CNIL d’optimiser son accompagnement des professionnels, dans un cadre favorable à l’innovation et à la confiance dans l’univers numérique.\n\nL’appel à contributions est ouvert jusqu’au jeudi 3 décembre 2026.\n\nParticiper à la consultation\n\nTexte reference\n\nPour approfondir\n\nPixels de suivi dans les courriers électroniques : la CNIL publie ses recommandations pour mieux protéger la vie privée\n\n#Consultation\n#Pixel de suivi\n#Evaluation\n#Courriels\n#Economie\n\nCeci peut également vous intéresser ...\n\nReconstitution d’adresses électroniques professionnelles : quels sont vos droits ?\n\n16 octobre 2026\n\nCourriels\n\nReconstitution d’adresses électroniques professionnelles : dans quel cadre est-ce autorisé ?\n\n16 octobre 2026\n\nCourriels\n\nDe la protection des données à la création de valeur en finance : des autorités européennes ...\n\n16 octobre 2026\n\nEconomie\n\nBesoin d'aide\n\nCommission Nationale de l’Informatique et des Libertés\n\nMon quotidien\n\nMa sécurité numérique\n\nSites web et réseaux sociaux\n\nTéléphones et applications\n\nObjets connectés\n\nEnfants et ados\n\nSanté\n\nSocial\n\nLogement\n\nTravail\n\nIntelligence artificielle (IA)\n\nAchats et publicité\n\nBanque/Assurance\n\nCitoyenneté\n\nSport\n\nTransports et mobilité\n\nVie associative\n\nLa CNIL\n\nMissions\n\nFonctionnement\n\nEn Europe et dans le monde\n\nL’histoire de la CNIL en vidéo\n\nMarchés publics\n\nConsultations publiques\n\nExercer mes droits\n\nQuels sont mes droits ?\n\nSaisir la CNIL\n\nQuestions/réponses\n\nÀ télécharger\n\nRessources pédagogiques\n\nAffiches\n\nRapports et chiffres clés\n\nCahiers Innovation & Prospective\n\nLivres blancs\n\nSuivez-nous\ntwitter\nlinkedin\n\nMédiathèque\n\nGlossaire\n\nLexique FR-EN\n\nBesoin d'aide\n\nPresse\n\nLangue\n\nFr\n\nEn\n\nGestion des cookies\n\nS'inscrire à la lettre d'information\n\nLe Laboratoire d'Innovation Numérique de la CNIL (LINC)\n\nMentions légales\n| Données personnelles\n| Accessibilité : partiellement conforme\n| Informations publiques\n| Recrutement\n| Mon compte\n| Nous contacter",
         "ancre": null,
         "url": "https://www.cnil.fr/fr/recommandation-pixels-retour-dexperience",
         "type": "section",
         "position": 0
       }
     ],
-    "run_id": "RUN-20261121-1355",
-    "version": 1,
-    "historique": []
+    "run_id": "RUN-20261122-1348",
+    "version": 2,
+    "historique": [
+      {
+        "version": 2,
+        "hash_sha256": "1590379cc3f7b3fbd7f1d1e304c1364e020cc170e5d020b19fffc5fa845b3c2f",
+        "collecte_le": "2026-11-22T13:49:18.999Z",
+        "run_id": "RUN-20261122-1348",
+        "articles_ajoutes": [],
+        "articles_supprimes": [],
+        "articles_modifies": [
+          "document"
+        ]
+      }
+    ]
   },
   {
     "id": "TX-0043",
@@ -2890,7 +2913,7 @@
     "date_entree_en_application": null,
     "statut_texte": "En vigueur",
     "hash_sha256": "29d5150c418ba8ee329fb8fbd91062110e8f8c9061dd2665e4fb49725dec04c0",
-    "collecte_le": "2026-11-21T13:56:03.440Z",
+    "collecte_le": "2026-11-22T13:49:20.989Z",
     "derniere_modification_detectee": null,
     "fichier_source": null,
     "applicable": "À déterminer",
@@ -2908,7 +2931,7 @@
         "position": 0
       }
     ],
-    "run_id": "RUN-20261121-1355",
+    "run_id": "RUN-20261122-1348",
     "version": 1,
     "historique": []
   },
@@ -2927,7 +2950,7 @@
     "date_entree_en_application": null,
     "statut_texte": "En vigueur",
     "hash_sha256": "08f9d9819a6b3734e09f5d7c372a38cccdf446a6dbe2d32fb358fb2d1e3f7a3b",
-    "collecte_le": "2026-11-21T13:56:05.441Z",
+    "collecte_le": "2026-11-22T13:49:22.988Z",
     "derniere_modification_detectee": null,
     "fichier_source": null,
     "applicable": "À déterminer",
@@ -2946,7 +2969,7 @@
         "position": 0
       }
     ],
-    "run_id": "RUN-20261121-1355",
+    "run_id": "RUN-20261122-1348",
     "version": 1,
     "historique": []
   },
@@ -2965,7 +2988,7 @@
     "date_entree_en_application": null,
     "statut_texte": "Modifié",
     "hash_sha256": "4a022bfc7aebe9fb739de185a48eef80748abcd46b22591a809e98415d80a6b3",
-    "collecte_le": "2026-11-21T13:56:07.504Z",
+    "collecte_le": "2026-11-22T13:49:24.989Z",
     "derniere_modification_detectee": "2026-11-21T13:56:07.504Z",
     "fichier_source": null,
     "applicable": "À déterminer",
@@ -2984,7 +3007,7 @@
         "position": 0
       }
     ],
-    "run_id": "RUN-20261121-1355",
+    "run_id": "RUN-20261122-1348",
     "version": 2,
     "historique": [
       {
@@ -3015,7 +3038,7 @@
     "date_entree_en_application": null,
     "statut_texte": "En vigueur",
     "hash_sha256": "c2168087ef4b4316d7fbafb7d1582c3b9d4f895d671c7984dc004c731de5fb96",
-    "collecte_le": "2026-11-21T13:56:09.427Z",
+    "collecte_le": "2026-11-22T13:49:27.009Z",
     "derniere_modification_detectee": null,
     "fichier_source": null,
     "applicable": "À déterminer",
@@ -3034,7 +3057,7 @@
         "position": 0
       }
     ],
-    "run_id": "RUN-20261121-1355",
+    "run_id": "RUN-20261122-1348",
     "version": 1,
     "historique": []
   },
@@ -3053,7 +3076,7 @@
     "date_entree_en_application": null,
     "statut_texte": "En vigueur",
     "hash_sha256": "9a570f487fa1085e1032bde7f0a825dc08af8050bd31797090aea38e1b08e43d",
-    "collecte_le": "2026-11-21T13:56:17.499Z",
+    "collecte_le": "2026-11-22T13:49:35.066Z",
     "derniere_modification_detectee": null,
     "fichier_source": null,
     "applicable": "À déterminer",
@@ -3072,7 +3095,7 @@
         "position": 0
       }
     ],
-    "run_id": "RUN-20261121-1355",
+    "run_id": "RUN-20261122-1348",
     "version": 1,
     "historique": []
   },
@@ -3091,7 +3114,7 @@
     "date_entree_en_application": null,
     "statut_texte": "En vigueur",
     "hash_sha256": "3700a9af5816638a584fe53e0231b45d08d6e63c895f297e2f416b53e0bcdb6a",
-    "collecte_le": "2026-11-21T13:56:19.522Z",
+    "collecte_le": "2026-11-22T13:49:37.077Z",
     "derniere_modification_detectee": null,
     "fichier_source": null,
     "applicable": "À déterminer",
@@ -3110,7 +3133,7 @@
         "position": 0
       }
     ],
-    "run_id": "RUN-20261121-1355",
+    "run_id": "RUN-20261122-1348",
     "version": 1,
     "historique": []
   }
