@@ -1,7 +1,7 @@
 {
   "version": 1,
   "counters": {
-    "TX": 48,
+    "TX": 49,
     "EX": 85,
     "RK": 80,
     "LA": 14
@@ -233,6 +233,7 @@
     "TX|cnil|169149fr": "TX-0045",
     "TX|cnil|169128fr": "TX-0046",
     "TX|anssi|https www cert cyber gouv fr actualite certfr 2026 act 047": "TX-0047",
-    "TX|anssi|https www cert cyber gouv fr actualite certfr 2026 act 048": "TX-0048"
+    "TX|anssi|https www cert cyber gouv fr actualite certfr 2026 act 048": "TX-0048",
+    "TX|anssi|https www cert cyber gouv fr actualite certfr 2026 act 049": "TX-0049"
   }
 }

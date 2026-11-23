@@ -14,7 +14,7 @@
     "date_entree_en_application": "2025-01-17",
     "statut_texte": "En vigueur",
     "hash_sha256": "e1e54d9230e86244e1214976d009a6540e15bdc7e2fa1df992237605ff18b41b",
-    "collecte_le": "2026-11-22T13:48:50.416Z",
+    "collecte_le": "2026-11-23T16:54:17.499Z",
     "derniere_modification_detectee": null,
     "fichier_source": "data/sources/dora-32022R2554-fr.html",
     "applicable": "Oui",
@@ -536,7 +536,7 @@
         "position": 63
       }
     ],
-    "run_id": "RUN-20261122-1348",
+    "run_id": "RUN-20261123-1654",
     "version": 1,
     "historique": []
   },
@@ -1766,7 +1766,7 @@
     "date_entree_en_application": null,
     "statut_texte": "En vigueur",
     "hash_sha256": "c7e4b2f25c85e27289b6e7728eb41a12b5a177f0304e56edaffa53c476188ff1",
-    "collecte_le": "2026-11-22T13:49:16.746Z",
+    "collecte_le": "2026-11-23T16:54:45.467Z",
     "derniere_modification_detectee": null,
     "fichier_source": null,
     "applicable": "À déterminer",
@@ -1785,7 +1785,7 @@
         "position": 0
       }
     ],
-    "run_id": "RUN-20261122-1348",
+    "run_id": "RUN-20261123-1654",
     "version": 1,
     "historique": []
   },
@@ -2074,7 +2074,7 @@
     "date_entree_en_application": null,
     "statut_texte": "Modifié",
     "hash_sha256": "2ae0ea933c9499ff2a29ab8e92132fab71cb12b9cef063c11ec1f2b76952e9f0",
-    "collecte_le": "2026-11-22T13:49:31.112Z",
+    "collecte_le": "2026-11-23T16:54:58.727Z",
     "derniere_modification_detectee": "2026-11-20T14:39:19.390Z",
     "fichier_source": null,
     "applicable": "À déterminer",
@@ -2093,7 +2093,7 @@
         "position": 0
       }
     ],
-    "run_id": "RUN-20261122-1348",
+    "run_id": "RUN-20261123-1654",
     "version": 4,
     "historique": [
       {
@@ -2507,7 +2507,7 @@
     "date_entree_en_application": null,
     "statut_texte": "Modifié",
     "hash_sha256": "db8ca642062b4bc59264450b16b88c20f35fbcf7c1b9a8374c7be105137baad3",
-    "collecte_le": "2026-11-22T13:49:13.221Z",
+    "collecte_le": "2026-11-23T16:54:41.976Z",
     "derniere_modification_detectee": "2026-11-20T14:39:00.814Z",
     "fichier_source": null,
     "applicable": "À déterminer",
@@ -2526,7 +2526,7 @@
         "position": 0
       }
     ],
-    "run_id": "RUN-20261122-1348",
+    "run_id": "RUN-20261123-1654",
     "version": 4,
     "historique": [
       {
@@ -2579,7 +2579,7 @@
     "date_entree_en_application": null,
     "statut_texte": "Modifié",
     "hash_sha256": "4202630f123b7e85416ad87a4a4294ac6686ba19ed5f8af1333c7e31d7dfee2d",
-    "collecte_le": "2026-11-22T13:49:33.067Z",
+    "collecte_le": "2026-11-23T16:54:59.905Z",
     "derniere_modification_detectee": "2026-11-20T14:39:21.350Z",
     "fichier_source": null,
     "applicable": "À déterminer",
@@ -2598,7 +2598,7 @@
         "position": 0
       }
     ],
-    "run_id": "RUN-20261122-1348",
+    "run_id": "RUN-20261123-1654",
     "version": 2,
     "historique": [
       {
@@ -2712,7 +2712,7 @@
     "date_entree_en_application": null,
     "statut_texte": "En vigueur",
     "hash_sha256": "42a39a1eb78ee5050c1756bc637195bf2ff72e15548c501a6c2570e9492efdd8",
-    "collecte_le": "2026-11-22T13:48:57.067Z",
+    "collecte_le": "2026-11-23T16:54:24.553Z",
     "derniere_modification_detectee": null,
     "fichier_source": null,
     "applicable": "À déterminer",
@@ -2738,7 +2738,7 @@
         "position": 1
       }
     ],
-    "run_id": "RUN-20261122-1348",
+    "run_id": "RUN-20261123-1654",
     "version": 1,
     "historique": []
   },
@@ -2757,7 +2757,7 @@
     "date_entree_en_application": null,
     "statut_texte": "En vigueur",
     "hash_sha256": "8dcf8120e5560f35b21fa12e93ec7a161c37d097b5fcde404ba8d5742b29301b",
-    "collecte_le": "2026-11-22T13:49:00.779Z",
+    "collecte_le": "2026-11-23T16:54:27.974Z",
     "derniere_modification_detectee": null,
     "fichier_source": null,
     "applicable": "À déterminer",
@@ -2783,7 +2783,7 @@
         "position": 1
       }
     ],
-    "run_id": "RUN-20261122-1348",
+    "run_id": "RUN-20261123-1654",
     "version": 1,
     "historique": []
   },
@@ -2801,9 +2801,9 @@
     "date_entree_en_vigueur": null,
     "date_entree_en_application": null,
     "statut_texte": "Modifié",
-    "hash_sha256": "4d601005584449145f964b0913e1a2c79973a264aecef6c41afb14b14968c516",
-    "collecte_le": "2026-11-22T13:49:14.738Z",
-    "derniere_modification_detectee": "2026-11-22T13:49:14.738Z",
+    "hash_sha256": "3b348191e2cce24adef20d4812c7bab9b81c942d56ab0f8f553e3d4ea044f0fd",
+    "collecte_le": "2026-11-23T16:54:43.434Z",
+    "derniere_modification_detectee": "2026-11-23T16:54:43.434Z",
     "fichier_source": null,
     "applicable": "À déterminer",
     "justification_applicabilite": null,
@@ -2814,15 +2814,15 @@
       {
         "numero": "document",
         "titre": "proposition de loi visant à étendre la convention judiciaire d'intérêt public au domaine de la cybercriminalité",
-        "contenu": "Aller au contenu\n\nAller à la navigation\n\nLa galaxie Sénat\n\nRéseaux sociaux\n\nX\n\nFacebook\n\nLinkedin\n\nInstagram\n\nYouTube\n\nTikTok\n\nS'abonner\n\nLangue sélectionnéeFrançais\n\nFrançais\n\nEnglish\n\nDeutsch\n\nEspañol\n\nPortuguês\n\nItaliano\n\nعربي\n\n中文\n\nРусский\n\nTürk\n\nOuvrir la recherche\n\nLangue sélectionnéeFrançais\n\nFrançais\n\nEnglish\n\nDeutsch\n\nEspañol\n\nPortuguês\n\nItaliano\n\nعربي\n\n中文\n\nРусский\n\nTürk\n\nTravaux parlementaires\n\nTravaux parlementaires\n\nLe Sénat a pour missions premières le vote de la loi, le contrôle du Gouvernement et l'évaluation des politiques publiques.\n\nEn savoir plus\n\nSéance publique\n\nDécouvrez le fonctionnement de la séance publique\n\nOrdre du jour\n\nDérouleurs\n\nScrutins publics\n\nDirect vidéo\n\nApplication \"En séance\"\n\nTextes législatifs\n\nTextes récents\n\nTous les textes\n\nContrôle et évaluation\n\nToute l'actualité du contrôle et de l'évaluation\n\nQuestions des sénateurs au Gouvernement\n\nSuivi des ordonnances\n\nContrôle de l'application des lois\n\nProgramme de contrôle\n\nCommissions\n\nDécouvrir le rôle et l'actualité des commissions\n\nCommission des affaires économiques\n\nCommission des affaires étrangères, de la défense et des forces armées\n\nCommission des affaires sociales\n\nCommission de l'aménagement du territoire et du développement durable\n\nCommission de la culture, de l’éducation, de la communication et du sport\n\nCommission des finances\n\nCommission des lois\n\nCommission des affaires européennes\n\nApplication \"En commission\"\n\nStructures temporaires\n\nCommissions d'enquête\n\nMission d'information commune\n\nCommissions spéciales\n\nCommissions mixtes paritaires\n\nOffice et délégations\n\nDécouvrir le rôle et l'actualité de l'office et des délégations\n\nDélégation aux collectivités territoriales et à la décentralisation\n\nDélégation aux droits des femmes et à l’égalité des chances entre les hommes et les femmes\n\nDélégation aux entreprises\n\nDélégation sénatoriale aux outre-mer\n\nDélégation à la prospective\n\nDélégation parlementaire au renseignement\n\nOffice parlementaire d’évaluation des choix scientifiques et technologiques (OPECST)\n\nGroupes d'études\n\nRapports et documents de travail\n\nDerniers rapports\n\nTous les rapports et documents de travail\n\nRésolutions\n\nComptes rendus\n\nL’activité du Sénat en chiffres\n\nVos sénateurs\n\nVos sénateurs\n\nDécouvrez qui sont vos sénateurs et suivez leurs principales activités.\n\nEn savoir plus\n\nRecherche de sénateurs\n\nRecherche simple de sénateurs\n\nRecherche avancée de sénateurs\n\nPrésidence du Sénat\n\nSénatoriales 2026\n\nGroupes politiques\n\nOrganisation interne\n\nBureau du Sénat\n\nConférence des Présidents\n\nConseil de Questure\n\nComité de déontologie\n\nCommission spéciale chargée du contrôle des comptes et de l'évaluation interne\n\nDéclarations\n\nDéclarations de rattachement\n\nActivités principales des Sénateurs\n\nOrganismes extraparlementaires\n\nAnciens sénateurs\n\nPrésentation par période\n\nAnciens sénateurs de la Vème République\n\nAnciens sénateurs de la IVème République\n\nAnciens sénateurs de la Communauté\n\nAnciens sénateurs de la IIIème République\n\nAnciens sénateurs du Second Empire\n\nPairs de France\n\nSénat conservateur\n\nConseil des anciens\n\nConnaître le Sénat\n\nConnaître le Sénat\n\nRetrouvez toutes les informations clés sur le rôle, le fonctionnement, l'Histoire et le patrimoine du Sénat.\n\nEn savoir plus\n\nRôle et fonctionnement\n\nSénat Junior\n\nDocuments de référence et guides pratiques\n\nL’Histoire du Sénat\n\nLes Archives du Sénat\n\nPatrimoine\n\nJardin du Luxembourg\n\nÉvénements et manifestations culturelles\n\nPhotothèque\n\nLe Sénat et vous\n\nLe Sénat et vous\n\nVous souhaitez participer à nos consultations, visiter le Sénat ou même y travailler ?\n\nEn savoir plus\n\nLe Sénat pour les élus locaux\n\nParticiper aux consultations\n\nConsultations citoyennes\n\nConsultations des élus locaux\n\nDéposer ou soutenir une pétition\n\nVisiter le Sénat\n\nAssister aux séances\n\nTravailler au Sénat\n\nLe Sénat recrute\n\nRecrutement des fonctionnaires par concours\n\nFonctionnaires extérieurs\n\nContractuels\n\nFaire son apprentissage au Sénat\n\nEffectuer un stage au Sénat\n\nLes prix décernés par le Sénat\n\nTous les prix du Sénat\n\nLe prix du Sénat du livre d'histoire\n\nL'aide à la publication \"Diffusons l'histoire\"\n\nLe prix de thèse\n\nLe prix de la Fondation Jacques Descours Desacres\n\nEurope et international\n\nEurope et international\n\nDécouvrez l'action internationale et européenne du Sénat.\n\nEn savoir plus\n\nLe Sénat et l'Europe\n\nDécouvrir les activités européennes du Sénat\n\nCommission des affaires européennes\n\nAssemblée parlementaire du Conseil de l'Europe (APCE)\n\nAssemblée parlementaire de l'OSCE\n\nL'Europe en séance publique\n\nLe Sénat à l'international\n\nDécouvrir les activités internationales du Sénat\n\nCommission des affaires étrangères, de la défense et des forces armées\n\nGroupes interparlementaires d'amitié\n\nAssemblées interparlementaires\n\nCoopération\n\nColloques et événements\n\nÉtudes internationales\n\nÉtudes de législation comparée\n\nLe Sénat et les Français de l'étranger\n\nSénats d'Europe, Sénats du monde\n\nPresse\n\nPresse\n\nRetrouvez dans cette section toutes les informations clés pour la presse et les médias.\n\nEn savoir plus\n\nAuditions accessibles à la presse\n\nConférences de presse\n\nCommuniqués de presse\n\nInformations pratiques\n\nBoîte à outils et formations\n\nNous contacter et nous suivre\n\nOuvrir la recherche\n\nLa galaxie Sénat\n\nSénateurs\n\nOrdre du jour\n\nAgenda\n\nTravaux récents\n\nVidéos\n\nLa galaxie Sénat\n\nFermer\n\nRetrouvez l’ensemble des sites internet et applications composant l’écosystème du Sénat.\n\nVidéothèque\n\nAudiothèque\n\nPhotothèque\n\nLes Archives : Mémoire du Sénat\n\nSénatoriales 2026\n\nE-petitions\n\nLa plateforme des élus locaux\n\nSénat Junior\n\nApplication \"En séance\"\n\nOpen Data\n\nSénat Infox\n\nBoutique officielle\n\nLibrairie en ligne\n\nPublic Sénat\n\nInstitut du Sénat\n\nJardin du Luxembourg\n\nMusée du Luxembourg\n\nRecherche rapide\n\nFermer la recherche\n\nRechercher dans la base documentaire du Sénat et le reste du site.\n\nAffiner ma recherche :\n\nDossiers législatifs\n\nRapports d’information\n\nQuestions parlementaires\n\nComptes rendus\n\nTextes européens\n\nDocuments de travail\n\nLancer la recherche\n\nMoteurs de recherche avancés\n\nSénateurs actifs\n\nDossiers législatifs\n\nQuestions parlementaires\n\nRapports d'informations\n\nComptes rendus de séance\n\nComptes rendus des commissions\n\nTextes européens\n\nDocuments de travail\n\nVoir le fil d’Ariane\n\nAccueil\n\nTravaux parlementaires\n\nProjets et propositions de loi\n\nConvention judiciaire d'intérêt public et domaine de la cybercriminalité\n\nDossier législatif\n\nProposition de loi visant à étendre la convention judiciaire d'intérêt public au domaine de la cybercriminalité\n\nLes étapes de la discussion\nLes étapes de la discussion\n\nPremière lecture - Sénat17 novembre 2026\n\nComprendre la procédure\n\nDépôt au Sénat\n\nTexte n° 178 (2026-2027) de Mme Nadège HAVET, déposé au Sénat le 17 novembre 2026\n\nPremière lecture au Sénat\n\nLes thèmes associés à ce dossier\n\nPolice et sécurité\n\nJustice\n\nSuivre ce dossier législatif en s'abonnant aux alertes\n\nLes champs marqués d'un * sont obligatoires.\n\nVotre courriel\n\nS'inscrire\n\nExemple: nom@exemple.fr\n\nLes informations qui vous concernent sont strictement destinées aux services du Sénat. En aucun cas, les informations que vous nous communiquez lors de votre inscription à cette liste ne seront utilisées à d'autres fins. Conformément à la loi \"Informatique et Liberté\" du 6 janvier 1978, vous disposez d'un droit d'accès et de rectification aux données vous concernant. Si vous souhaitez exercer ce droit envoyez un message à lettre-senat@senat.fr.\n\nS'abonner au flux RSS\n\nPage mise à jour le\n\n22 novembre 2026\n\nPour toute remarque relative à cette page, veuillez contacter :\n\ndosleg@senat.fr\n\nPartager cette page\n\nX\n\nFacebook\n\nLinkedIn\n\nE-mail\n\nNous suivre sur les réseaux\n\nX\n\nFacebook\n\nLinkedin\n\nInstagram\n\nYouTube\n\nTikTok\n\nLiens pratiques\n\nFoire aux questions\n\nRèglement du Sénat\n\nRecrutement et stages\n\nBiens réformés\n\nMarchés publics\n\nFacturation\n\nReprésentants d'intérêts\n\nServices\n\nVisiter le Sénat\n\nLes abonnements du Sénat\n\nParticiper aux consultations\n\nDéposer ou soutenir une pétition\n\nPublic Sénat\n\nBoutique officielle\n\nFlux RSS\n\nLe Sénat\n\n15, rue de Vaugirard\n\n75291 Paris Cedex 06\n\nStandard : +33 (0)1 42 34 20 00\n\nNous contacter\n\nMentions légales\n\nPlan du site\n\nAccessibilité : partiellement conforme\n\nDonnées personnelles\n\nGestion des cookies\n\nIntr@Sénat\n\n© Sénat 2026. Tous droits réservés.",
+        "contenu": "Aller au contenu\n\nAller à la navigation\n\nLa galaxie Sénat\n\nRéseaux sociaux\n\nX\n\nFacebook\n\nLinkedin\n\nInstagram\n\nYouTube\n\nTikTok\n\nS'abonner\n\nLangue sélectionnéeFrançais\n\nFrançais\n\nEnglish\n\nDeutsch\n\nEspañol\n\nPortuguês\n\nItaliano\n\nعربي\n\n中文\n\nРусский\n\nTürk\n\nOuvrir la recherche\n\nLangue sélectionnéeFrançais\n\nFrançais\n\nEnglish\n\nDeutsch\n\nEspañol\n\nPortuguês\n\nItaliano\n\nعربي\n\n中文\n\nРусский\n\nTürk\n\nTravaux parlementaires\n\nTravaux parlementaires\n\nLe Sénat a pour missions premières le vote de la loi, le contrôle du Gouvernement et l'évaluation des politiques publiques.\n\nEn savoir plus\n\nSéance publique\n\nDécouvrez le fonctionnement de la séance publique\n\nOrdre du jour\n\nDérouleurs\n\nScrutins publics\n\nDirect vidéo\n\nApplication \"En séance\"\n\nTextes législatifs\n\nTextes récents\n\nTous les textes\n\nContrôle et évaluation\n\nToute l'actualité du contrôle et de l'évaluation\n\nQuestions des sénateurs au Gouvernement\n\nSuivi des ordonnances\n\nContrôle de l'application des lois\n\nProgramme de contrôle\n\nCommissions\n\nDécouvrir le rôle et l'actualité des commissions\n\nCommission des affaires économiques\n\nCommission des affaires étrangères, de la défense et des forces armées\n\nCommission des affaires sociales\n\nCommission de l'aménagement du territoire et du développement durable\n\nCommission de la culture, de l’éducation, de la communication et du sport\n\nCommission des finances\n\nCommission des lois\n\nCommission des affaires européennes\n\nApplication \"En commission\"\n\nStructures temporaires\n\nCommissions d'enquête\n\nMission d'information commune\n\nCommissions spéciales\n\nCommissions mixtes paritaires\n\nOffice et délégations\n\nDécouvrir le rôle et l'actualité de l'office et des délégations\n\nDélégation aux collectivités territoriales et à la décentralisation\n\nDélégation aux droits des femmes et à l’égalité des chances entre les hommes et les femmes\n\nDélégation aux entreprises\n\nDélégation sénatoriale aux outre-mer\n\nDélégation à la prospective\n\nDélégation parlementaire au renseignement\n\nOffice parlementaire d’évaluation des choix scientifiques et technologiques (OPECST)\n\nGroupes d'études\n\nRapports et documents de travail\n\nDerniers rapports\n\nTous les rapports et documents de travail\n\nRésolutions\n\nComptes rendus\n\nL’activité du Sénat en chiffres\n\nVos sénateurs\n\nVos sénateurs\n\nDécouvrez qui sont vos sénateurs et suivez leurs principales activités.\n\nEn savoir plus\n\nRecherche de sénateurs\n\nRecherche simple de sénateurs\n\nRecherche avancée de sénateurs\n\nPrésidence du Sénat\n\nSénatoriales 2026\n\nGroupes politiques\n\nOrganisation interne\n\nBureau du Sénat\n\nConférence des Présidents\n\nConseil de Questure\n\nComité de déontologie\n\nCommission spéciale chargée du contrôle des comptes et de l'évaluation interne\n\nDéclarations\n\nDéclarations de rattachement\n\nActivités principales des Sénateurs\n\nOrganismes extraparlementaires\n\nAnciens sénateurs\n\nPrésentation par période\n\nAnciens sénateurs de la Vème République\n\nAnciens sénateurs de la IVème République\n\nAnciens sénateurs de la Communauté\n\nAnciens sénateurs de la IIIème République\n\nAnciens sénateurs du Second Empire\n\nPairs de France\n\nSénat conservateur\n\nConseil des anciens\n\nConnaître le Sénat\n\nConnaître le Sénat\n\nRetrouvez toutes les informations clés sur le rôle, le fonctionnement, l'Histoire et le patrimoine du Sénat.\n\nEn savoir plus\n\nRôle et fonctionnement\n\nSénat Junior\n\nDocuments de référence et guides pratiques\n\nL’Histoire du Sénat\n\nLes Archives du Sénat\n\nPatrimoine\n\nJardin du Luxembourg\n\nÉvénements et manifestations culturelles\n\nPhotothèque\n\nLe Sénat et vous\n\nLe Sénat et vous\n\nVous souhaitez participer à nos consultations, visiter le Sénat ou même y travailler ?\n\nEn savoir plus\n\nLe Sénat pour les élus locaux\n\nParticiper aux consultations\n\nConsultations citoyennes\n\nConsultations des élus locaux\n\nDéposer ou soutenir une pétition\n\nVisiter le Sénat\n\nAssister aux séances\n\nTravailler au Sénat\n\nLe Sénat recrute\n\nRecrutement des fonctionnaires par concours\n\nFonctionnaires extérieurs\n\nContractuels\n\nFaire son apprentissage au Sénat\n\nEffectuer un stage au Sénat\n\nLes prix décernés par le Sénat\n\nTous les prix du Sénat\n\nLe prix du Sénat du livre d'histoire\n\nL'aide à la publication \"Diffusons l'histoire\"\n\nLe prix de thèse\n\nLe prix de la Fondation Jacques Descours Desacres\n\nEurope et international\n\nEurope et international\n\nDécouvrez l'action internationale et européenne du Sénat.\n\nEn savoir plus\n\nLe Sénat et l'Europe\n\nDécouvrir les activités européennes du Sénat\n\nCommission des affaires européennes\n\nAssemblée parlementaire du Conseil de l'Europe (APCE)\n\nAssemblée parlementaire de l'OSCE\n\nL'Europe en séance publique\n\nLe Sénat à l'international\n\nDécouvrir les activités internationales du Sénat\n\nCommission des affaires étrangères, de la défense et des forces armées\n\nGroupes interparlementaires d'amitié\n\nAssemblées interparlementaires\n\nCoopération\n\nColloques et événements\n\nÉtudes internationales\n\nÉtudes de législation comparée\n\nLe Sénat et les Français de l'étranger\n\nSénats d'Europe, Sénats du monde\n\nPresse\n\nPresse\n\nRetrouvez dans cette section toutes les informations clés pour la presse et les médias.\n\nEn savoir plus\n\nAuditions accessibles à la presse\n\nConférences de presse\n\nCommuniqués de presse\n\nInformations pratiques\n\nBoîte à outils et formations\n\nNous contacter et nous suivre\n\nOuvrir la recherche\n\nLa galaxie Sénat\n\nSénateurs\n\nOrdre du jour\n\nAgenda\n\nTravaux récents\n\nVidéos\n\nLa galaxie Sénat\n\nFermer\n\nRetrouvez l’ensemble des sites internet et applications composant l’écosystème du Sénat.\n\nVidéothèque\n\nAudiothèque\n\nPhotothèque\n\nLes Archives : Mémoire du Sénat\n\nSénatoriales 2026\n\nE-petitions\n\nLa plateforme des élus locaux\n\nSénat Junior\n\nApplication \"En séance\"\n\nOpen Data\n\nSénat Infox\n\nBoutique officielle\n\nLibrairie en ligne\n\nPublic Sénat\n\nInstitut du Sénat\n\nJardin du Luxembourg\n\nMusée du Luxembourg\n\nRecherche rapide\n\nFermer la recherche\n\nRechercher dans la base documentaire du Sénat et le reste du site.\n\nAffiner ma recherche :\n\nDossiers législatifs\n\nRapports d’information\n\nQuestions parlementaires\n\nComptes rendus\n\nTextes européens\n\nDocuments de travail\n\nLancer la recherche\n\nMoteurs de recherche avancés\n\nSénateurs actifs\n\nDossiers législatifs\n\nQuestions parlementaires\n\nRapports d'informations\n\nComptes rendus de séance\n\nComptes rendus des commissions\n\nTextes européens\n\nDocuments de travail\n\nVoir le fil d’Ariane\n\nAccueil\n\nTravaux parlementaires\n\nProjets et propositions de loi\n\nConvention judiciaire d'intérêt public et domaine de la cybercriminalité\n\nDossier législatif\n\nProposition de loi visant à étendre la convention judiciaire d'intérêt public au domaine de la cybercriminalité\n\nLes étapes de la discussion\nLes étapes de la discussion\n\nPremière lecture - Sénat17 novembre 2026\n\nComprendre la procédure\n\nDépôt au Sénat\n\nTexte n° 178 (2026-2027) de Mme Nadège HAVET, déposé au Sénat le 17 novembre 2026\n\nPremière lecture au Sénat\n\nLes thèmes associés à ce dossier\n\nPolice et sécurité\n\nJustice\n\nSuivre ce dossier législatif en s'abonnant aux alertes\n\nLes champs marqués d'un * sont obligatoires.\n\nVotre courriel\n\nS'inscrire\n\nExemple: nom@exemple.fr\n\nLes informations qui vous concernent sont strictement destinées aux services du Sénat. En aucun cas, les informations que vous nous communiquez lors de votre inscription à cette liste ne seront utilisées à d'autres fins. Conformément à la loi \"Informatique et Liberté\" du 6 janvier 1978, vous disposez d'un droit d'accès et de rectification aux données vous concernant. Si vous souhaitez exercer ce droit envoyez un message à lettre-senat@senat.fr.\n\nS'abonner au flux RSS\n\nPage mise à jour le\n\n23 novembre 2026\n\nPour toute remarque relative à cette page, veuillez contacter :\n\ndosleg@senat.fr\n\nPartager cette page\n\nX\n\nFacebook\n\nLinkedIn\n\nE-mail\n\nNous suivre sur les réseaux\n\nX\n\nFacebook\n\nLinkedin\n\nInstagram\n\nYouTube\n\nTikTok\n\nLiens pratiques\n\nFoire aux questions\n\nRèglement du Sénat\n\nRecrutement et stages\n\nBiens réformés\n\nMarchés publics\n\nFacturation\n\nReprésentants d'intérêts\n\nServices\n\nVisiter le Sénat\n\nLes abonnements du Sénat\n\nParticiper aux consultations\n\nDéposer ou soutenir une pétition\n\nPublic Sénat\n\nBoutique officielle\n\nFlux RSS\n\nLe Sénat\n\n15, rue de Vaugirard\n\n75291 Paris Cedex 06\n\nStandard : +33 (0)1 42 34 20 00\n\nNous contacter\n\nMentions légales\n\nPlan du site\n\nAccessibilité : partiellement conforme\n\nDonnées personnelles\n\nGestion des cookies\n\nIntr@Sénat\n\n© Sénat 2026. Tous droits réservés.",
         "ancre": null,
         "url": "http://www.senat.fr/dossier-legislatif/ppl26-178.html",
         "type": "section",
         "position": 0
       }
     ],
-    "run_id": "RUN-20261122-1348",
-    "version": 3,
+    "run_id": "RUN-20261123-1654",
+    "version": 4,
     "historique": [
       {
         "version": 2,
@@ -2845,6 +2845,17 @@
         "articles_modifies": [
           "document"
         ]
+      },
+      {
+        "version": 4,
+        "hash_sha256": "3b348191e2cce24adef20d4812c7bab9b81c942d56ab0f8f553e3d4ea044f0fd",
+        "collecte_le": "2026-11-23T16:54:43.434Z",
+        "run_id": "RUN-20261123-1654",
+        "articles_ajoutes": [],
+        "articles_supprimes": [],
+        "articles_modifies": [
+          "document"
+        ]
       }
     ]
   },
@@ -2862,9 +2873,9 @@
     "date_entree_en_vigueur": null,
     "date_entree_en_application": null,
     "statut_texte": "Modifié",
-    "hash_sha256": "1590379cc3f7b3fbd7f1d1e304c1364e020cc170e5d020b19fffc5fa845b3c2f",
-    "collecte_le": "2026-11-22T13:49:18.999Z",
-    "derniere_modification_detectee": "2026-11-22T13:49:18.999Z",
+    "hash_sha256": "c751f59fb6e01bcfed04f8ac700095fe50260581283ef4a4b74cecc10caf6703",
+    "collecte_le": "2026-11-23T16:54:47.884Z",
+    "derniere_modification_detectee": "2026-11-23T16:54:47.884Z",
     "fichier_source": null,
     "applicable": "À déterminer",
     "justification_applicabilite": null,
@@ -2875,21 +2886,32 @@
       {
         "numero": "document",
         "titre": "Pixels de suivi dans les courriels : la CNIL sollicite un premier retour d’expérience sur sa recommandation",
-        "contenu": "Aller au contenu principal\n\nMenu de navigation\n\nRechercher\n\nParticuliersProfessionnelsPresse\n\nFrEnGestionnaire de cookies\n\nParticuliersProfessionnelsPresse\n\nMon quotidien\n\nMa sécurité numérique\n\nSites web et réseaux sociaux\n\nTéléphones et applications\n\nObjets connectés\n\nEnfants et ados\n\nSanté\n\nSocial\n\nLogement\n\nTravail\n\nIntelligence artificielle (IA)\n\nAchats et publicité\n\nBanque/Assurance\n\nCitoyenneté\n\nSport\n\nTransports et mobilité\n\nVie associative\n\nFermer\n\nExercer mes droits\n\nQuels sont mes droits ?\n\nÊtre informé\n\nM'opposer\n\nAccéder à mes données\n\nRectifier mes données\n\nEffacer mes données\n\nÊtre déréférencé\n\nEmporter mes données avec moi\n\nFaire vérifier une décision automatisée\n\nLimiter l'utilisation de mes données\n\nLes droits des mineurs\n\nNos modèles de courrier\n\nSaisir la CNIL\n\nAdresser une plainte\n\nAccéder au FICOBA\n\nAccéder à un fichier de police, de gendarmerie ou de renseignement\n\nAdresser une alerte à la CNIL\n\nPoser une question à la CNIL\n\nQuestions/réponses\n\nFermer\n\nÀ télécharger\n\nRessources pédagogiques\n\nAffiches\n\nRapports et chiffres clés\n\nCahiers Innovation & Prospective\n\nLivres blancs\n\nFermer\n\nLa CNIL\n\nMissions\n\nInformer et protéger\n\nAccompagner et conseiller\n\nAnticiper et innover\n\nContrôler et sanctionner\n\nLa mission éthique de la CNIL\n\nTous les évènements de la CNIL\n\nFonctionnement\n\nStatut et organisation\n\nOrdres du jour des séances\n\nAgenda\n\nLes avis de la CNIL\n\nInterrégulation et partenariats\n\nEn Europe et dans le monde\n\nLa CNIL en Europe\n\nLa CNIL dans le monde\n\nLa carte de la protection des données dans le monde\n\nLa stratégie européenne et internationale de la CNIL\n\nL’histoire de la CNIL en vidéo\n\nMarchés publics\n\nConsultations publiques\n\nFermer\n\nRechercher\n\nFrEnGestionnaire de cookies\n\nCNIL : Formulaire de recherche\n\nPoser une question ou rechercher un article, une délibération...\n\nRechercher\n\nAccueil\n\nPixels de suivi dans les courriels : la CNIL sollicite un premier retour d’expérience sur sa recommandation\n\nPixels de suivi dans les courriels : la CNIL sollicite un premier retour d’expérience sur sa recommandation\n\n20 novembre 2026\n\nLe 14 avril 2026, la CNIL a publié sa recommandation sur les pixels de suivi dans les courriels. Elle invite désormais les acteurs concernés, expéditeurs de messages et fournisseurs de solutions, à effectuer un retour d’expérience jusqu’au 3 décembre 2026.\n\nImprimer l’article\n\nPartager cette page par courriel\n\nDiminuer la taille de la police\n\nAugmenter la taille de la police\n\nUne mise en conformité progressive\n\nAprès examen des contributions reçues lors de la consultation publique close le 24 juillet 2025, la CNIL a publié sa recommandation relative aux pixels de suivi dans les courriers électroniques le 14 avril 2026.\n\nCette recommandation adoptait une approche progressive : pour les nouveaux clients, la conformité à la recommandation était demandée ; pour les bases préconstituées, il était seulement demandé aux expéditeurs d’informer clairement, dans un délai de trois mois, les destinataires de l’utilisation de pixels pour les mettre en mesure de s’y opposer facilement s’ils le souhaitent.\n\nDans ce contexte, il est à présent utile de faire à présent un point d’étape sur la mise en conformité des acteurs et de solliciter un premier retour d’expérience du terrain.\n\nUn premier retour d’expérience jusqu’au 3 décembre\n\nUne régulation efficace repose sur des règles claires, applicables et adaptées à la réalité des modèles d’affaires. A travers ce point d’étape, la CNIL cherche à s’assurer que la recommandation protège efficacement les personnes, tout en repérant les difficultés rencontrées et les bonnes pratiques mises en place. Cette démarche doit aussi permettre de commencer à mesurer les effets concrets de la recommandation sur l’écosystème : coûts de mise en conformité, évolution des pratiques de mesure d’audience et de personnalisation, solutions alternatives développées par le marché, etc.\n\nL’appel à contributions s’adresse aux entreprises du secteur privé, prestataires techniques comme utilisateurs expéditeurs de courriers. Des retours précis, concrets et, dans la mesure du possible, chiffrés, notamment sur la soutenabilité économique, sont particulièrement utiles. Les acteurs d’un même organisme ou groupe sont invités à regrouper leurs réponses.\n\nCes contributions permettront à la CNIL d’optimiser son accompagnement des professionnels, dans un cadre favorable à l’innovation et à la confiance dans l’univers numérique.\n\nL’appel à contributions est ouvert jusqu’au jeudi 3 décembre 2026.\n\nParticiper à la consultation\n\nTexte reference\n\nPour approfondir\n\nPixels de suivi dans les courriers électroniques : la CNIL publie ses recommandations pour mieux protéger la vie privée\n\n#Consultation\n#Pixel de suivi\n#Evaluation\n#Courriels\n#Economie\n\nCeci peut également vous intéresser ...\n\nReconstitution d’adresses électroniques professionnelles : quels sont vos droits ?\n\n16 octobre 2026\n\nCourriels\n\nReconstitution d’adresses électroniques professionnelles : dans quel cadre est-ce autorisé ?\n\n16 octobre 2026\n\nCourriels\n\nDe la protection des données à la création de valeur en finance : des autorités européennes ...\n\n16 octobre 2026\n\nEconomie\n\nBesoin d'aide\n\nCommission Nationale de l’Informatique et des Libertés\n\nMon quotidien\n\nMa sécurité numérique\n\nSites web et réseaux sociaux\n\nTéléphones et applications\n\nObjets connectés\n\nEnfants et ados\n\nSanté\n\nSocial\n\nLogement\n\nTravail\n\nIntelligence artificielle (IA)\n\nAchats et publicité\n\nBanque/Assurance\n\nCitoyenneté\n\nSport\n\nTransports et mobilité\n\nVie associative\n\nLa CNIL\n\nMissions\n\nFonctionnement\n\nEn Europe et dans le monde\n\nL’histoire de la CNIL en vidéo\n\nMarchés publics\n\nConsultations publiques\n\nExercer mes droits\n\nQuels sont mes droits ?\n\nSaisir la CNIL\n\nQuestions/réponses\n\nÀ télécharger\n\nRessources pédagogiques\n\nAffiches\n\nRapports et chiffres clés\n\nCahiers Innovation & Prospective\n\nLivres blancs\n\nSuivez-nous\ntwitter\nlinkedin\n\nMédiathèque\n\nGlossaire\n\nLexique FR-EN\n\nBesoin d'aide\n\nPresse\n\nLangue\n\nFr\n\nEn\n\nGestion des cookies\n\nS'inscrire à la lettre d'information\n\nLe Laboratoire d'Innovation Numérique de la CNIL (LINC)\n\nMentions légales\n| Données personnelles\n| Accessibilité : partiellement conforme\n| Informations publiques\n| Recrutement\n| Mon compte\n| Nous contacter",
+        "contenu": "Aller au contenu principal\n\nMenu de navigation\n\nRechercher\n\nParticuliersProfessionnelsPresse\n\nFrEnGestionnaire de cookies\n\nParticuliersProfessionnelsPresse\n\nMon quotidien\n\nMa sécurité numérique\n\nSites web et réseaux sociaux\n\nTéléphones et applications\n\nObjets connectés\n\nEnfants et ados\n\nSanté\n\nSocial\n\nLogement\n\nTravail\n\nIntelligence artificielle (IA)\n\nAchats et publicité\n\nBanque/Assurance\n\nCitoyenneté\n\nSport\n\nTransports et mobilité\n\nVie associative\n\nFermer\n\nExercer mes droits\n\nQuels sont mes droits ?\n\nÊtre informé\n\nM'opposer\n\nAccéder à mes données\n\nRectifier mes données\n\nEffacer mes données\n\nÊtre déréférencé\n\nEmporter mes données avec moi\n\nFaire vérifier une décision automatisée\n\nLimiter l'utilisation de mes données\n\nLes droits des mineurs\n\nNos modèles de courrier\n\nSaisir la CNIL\n\nAdresser une plainte\n\nAccéder au FICOBA\n\nAccéder à un fichier de police, de gendarmerie ou de renseignement\n\nAdresser une alerte à la CNIL\n\nPoser une question à la CNIL\n\nQuestions/réponses\n\nFermer\n\nÀ télécharger\n\nRessources pédagogiques\n\nAffiches\n\nRapports et chiffres clés\n\nCahiers Innovation & Prospective\n\nLivres blancs\n\nFermer\n\nLa CNIL\n\nMissions\n\nInformer et protéger\n\nAccompagner et conseiller\n\nAnticiper et innover\n\nContrôler et sanctionner\n\nLa mission éthique de la CNIL\n\nTous les évènements de la CNIL\n\nFonctionnement\n\nStatut et organisation\n\nOrdres du jour des séances\n\nAgenda\n\nLes avis de la CNIL\n\nInterrégulation et partenariats\n\nEn Europe et dans le monde\n\nLa CNIL en Europe\n\nLa CNIL dans le monde\n\nLa carte de la protection des données dans le monde\n\nLa stratégie européenne et internationale de la CNIL\n\nL’histoire de la CNIL en vidéo\n\nMarchés publics\n\nConsultations publiques\n\nFermer\n\nRechercher\n\nFrEnGestionnaire de cookies\n\nCNIL : Formulaire de recherche\n\nPoser une question ou rechercher un article, une délibération...\n\nRechercher\n\nAccueil\n\nPixels de suivi dans les courriels : la CNIL sollicite un premier retour d’expérience sur sa recommandation\n\nPixels de suivi dans les courriels : la CNIL sollicite un premier retour d’expérience sur sa recommandation\n\n20 novembre 2026\n\nLe 14 avril 2026, la CNIL a publié sa recommandation sur les pixels de suivi dans les courriels. Elle invite désormais les acteurs concernés, expéditeurs de messages et fournisseurs de solutions, à effectuer un retour d’expérience jusqu’au 3 décembre 2026.\n\nImprimer l’article\n\nPartager cette page par courriel\n\nDiminuer la taille de la police\n\nAugmenter la taille de la police\n\nUne mise en conformité progressive\n\nAprès examen des contributions reçues lors de la consultation publique close le 24 juillet 2025, la CNIL a publié sa recommandation relative aux pixels de suivi dans les courriers électroniques le 14 avril 2026.\n\nCette recommandation adoptait une approche progressive : pour les nouveaux clients, la conformité à la recommandation était demandée ; pour les bases préconstituées, il était seulement demandé aux expéditeurs d’informer clairement, dans un délai de trois mois, les destinataires de l’utilisation de pixels pour les mettre en mesure de s’y opposer facilement s’ils le souhaitent.\n\nDans ce contexte, il est à présent utile de faire à présent un point d’étape sur la mise en conformité des acteurs et de solliciter un premier retour d’expérience du terrain.\n\nUn premier retour d’expérience jusqu’au 3 décembre\n\nUne régulation efficace repose sur des règles claires, applicables et adaptées à la réalité des modèles d’affaires. A travers ce point d’étape, la CNIL cherche à s’assurer que la recommandation protège efficacement les personnes, tout en repérant les difficultés rencontrées et les bonnes pratiques mises en place. Cette démarche doit aussi permettre de commencer à mesurer les effets concrets de la recommandation sur l’écosystème : coûts de mise en conformité, évolution des pratiques de mesure d’audience et de personnalisation, solutions alternatives développées par le marché, etc.\n\nL’appel à contributions s’adresse aux entreprises du secteur privé, prestataires techniques comme utilisateurs expéditeurs de courriers. Des retours précis, concrets et, dans la mesure du possible, chiffrés, notamment sur la soutenabilité économique, sont particulièrement utiles. Les acteurs d’un même organisme ou groupe sont invités à regrouper leurs réponses.\n\nCes contributions permettront à la CNIL d’optimiser son accompagnement des professionnels, dans un cadre favorable à l’innovation et à la confiance dans l’univers numérique.\n\nL’appel à contributions est ouvert jusqu’au jeudi 3 décembre 2026.\n\nParticiper à la consultation\n\nTexte reference\n\nPour approfondir\n\nPixels de suivi dans les courriers électroniques : la CNIL publie ses recommandations pour mieux protéger la vie privée\n\n#Consultation\n#Pixel de suivi\n#Evaluation\n#Courriels\n#Economie\n\nCeci peut également vous intéresser ...\n\nReconstitution d’adresses électroniques professionnelles : dans quel cadre est-ce autorisé ?\n\n16 octobre 2026\n\nCourriels\n\nDe la protection des données à la création de valeur en finance : des autorités européennes ...\n\n16 octobre 2026\n\nEconomie\n\nReconstitution d’adresses électroniques professionnelles : quels sont vos droits ?\n\n16 octobre 2026\n\nCourriels\n\nBesoin d'aide\n\nCommission Nationale de l’Informatique et des Libertés\n\nMon quotidien\n\nMa sécurité numérique\n\nSites web et réseaux sociaux\n\nTéléphones et applications\n\nObjets connectés\n\nEnfants et ados\n\nSanté\n\nSocial\n\nLogement\n\nTravail\n\nIntelligence artificielle (IA)\n\nAchats et publicité\n\nBanque/Assurance\n\nCitoyenneté\n\nSport\n\nTransports et mobilité\n\nVie associative\n\nLa CNIL\n\nMissions\n\nFonctionnement\n\nEn Europe et dans le monde\n\nL’histoire de la CNIL en vidéo\n\nMarchés publics\n\nConsultations publiques\n\nExercer mes droits\n\nQuels sont mes droits ?\n\nSaisir la CNIL\n\nQuestions/réponses\n\nÀ télécharger\n\nRessources pédagogiques\n\nAffiches\n\nRapports et chiffres clés\n\nCahiers Innovation & Prospective\n\nLivres blancs\n\nSuivez-nous\ntwitter\nlinkedin\n\nMédiathèque\n\nGlossaire\n\nLexique FR-EN\n\nBesoin d'aide\n\nPresse\n\nLangue\n\nFr\n\nEn\n\nGestion des cookies\n\nS'inscrire à la lettre d'information\n\nLe Laboratoire d'Innovation Numérique de la CNIL (LINC)\n\nMentions légales\n| Données personnelles\n| Accessibilité : partiellement conforme\n| Informations publiques\n| Recrutement\n| Mon compte\n| Nous contacter",
         "ancre": null,
         "url": "https://www.cnil.fr/fr/recommandation-pixels-retour-dexperience",
         "type": "section",
         "position": 0
       }
     ],
-    "run_id": "RUN-20261122-1348",
-    "version": 2,
+    "run_id": "RUN-20261123-1654",
+    "version": 3,
     "historique": [
       {
         "version": 2,
         "hash_sha256": "1590379cc3f7b3fbd7f1d1e304c1364e020cc170e5d020b19fffc5fa845b3c2f",
         "collecte_le": "2026-11-22T13:49:18.999Z",
         "run_id": "RUN-20261122-1348",
+        "articles_ajoutes": [],
+        "articles_supprimes": [],
+        "articles_modifies": [
+          "document"
+        ]
+      },
+      {
+        "version": 3,
+        "hash_sha256": "c751f59fb6e01bcfed04f8ac700095fe50260581283ef4a4b74cecc10caf6703",
+        "collecte_le": "2026-11-23T16:54:47.884Z",
+        "run_id": "RUN-20261123-1654",
         "articles_ajoutes": [],
         "articles_supprimes": [],
         "articles_modifies": [
@@ -2913,7 +2935,7 @@
     "date_entree_en_application": null,
     "statut_texte": "En vigueur",
     "hash_sha256": "29d5150c418ba8ee329fb8fbd91062110e8f8c9061dd2665e4fb49725dec04c0",
-    "collecte_le": "2026-11-22T13:49:20.989Z",
+    "collecte_le": "2026-11-23T16:54:49.805Z",
     "derniere_modification_detectee": null,
     "fichier_source": null,
     "applicable": "À déterminer",
@@ -2931,7 +2953,7 @@
         "position": 0
       }
     ],
-    "run_id": "RUN-20261122-1348",
+    "run_id": "RUN-20261123-1654",
     "version": 1,
     "historique": []
   },
@@ -2950,7 +2972,7 @@
     "date_entree_en_application": null,
     "statut_texte": "En vigueur",
     "hash_sha256": "08f9d9819a6b3734e09f5d7c372a38cccdf446a6dbe2d32fb358fb2d1e3f7a3b",
-    "collecte_le": "2026-11-22T13:49:22.988Z",
+    "collecte_le": "2026-11-23T16:54:51.799Z",
     "derniere_modification_detectee": null,
     "fichier_source": null,
     "applicable": "À déterminer",
@@ -2969,7 +2991,7 @@
         "position": 0
       }
     ],
-    "run_id": "RUN-20261122-1348",
+    "run_id": "RUN-20261123-1654",
     "version": 1,
     "historique": []
   },
@@ -2988,7 +3010,7 @@
     "date_entree_en_application": null,
     "statut_texte": "Modifié",
     "hash_sha256": "4a022bfc7aebe9fb739de185a48eef80748abcd46b22591a809e98415d80a6b3",
-    "collecte_le": "2026-11-22T13:49:24.989Z",
+    "collecte_le": "2026-11-23T16:54:53.854Z",
     "derniere_modification_detectee": "2026-11-21T13:56:07.504Z",
     "fichier_source": null,
     "applicable": "À déterminer",
@@ -3007,7 +3029,7 @@
         "position": 0
       }
     ],
-    "run_id": "RUN-20261122-1348",
+    "run_id": "RUN-20261123-1654",
     "version": 2,
     "historique": [
       {
@@ -3076,7 +3098,7 @@
     "date_entree_en_application": null,
     "statut_texte": "En vigueur",
     "hash_sha256": "9a570f487fa1085e1032bde7f0a825dc08af8050bd31797090aea38e1b08e43d",
-    "collecte_le": "2026-11-22T13:49:35.066Z",
+    "collecte_le": "2026-11-23T16:55:02.541Z",
     "derniere_modification_detectee": null,
     "fichier_source": null,
     "applicable": "À déterminer",
@@ -3095,7 +3117,7 @@
         "position": 0
       }
     ],
-    "run_id": "RUN-20261122-1348",
+    "run_id": "RUN-20261123-1654",
     "version": 1,
     "historique": []
   },
@@ -3114,7 +3136,7 @@
     "date_entree_en_application": null,
     "statut_texte": "En vigueur",
     "hash_sha256": "3700a9af5816638a584fe53e0231b45d08d6e63c895f297e2f416b53e0bcdb6a",
-    "collecte_le": "2026-11-22T13:49:37.077Z",
+    "collecte_le": "2026-11-23T16:55:03.916Z",
     "derniere_modification_detectee": null,
     "fichier_source": null,
     "applicable": "À déterminer",
@@ -3133,7 +3155,45 @@
         "position": 0
       }
     ],
-    "run_id": "RUN-20261122-1348",
+    "run_id": "RUN-20261123-1654",
+    "version": 1,
+    "historique": []
+  },
+  {
+    "id": "TX-0049",
+    "source": "anssi",
+    "reference": "https://www.cert.cyber.gouv.fr/actualite/CERTFR-2026-ACT-049/",
+    "titre": "Bulletin d'actualité CERTFR-2026-ACT-049 (23 novembre 2026)",
+    "type": "Recommandation",
+    "url_officielle": "https://www.cert.cyber.gouv.fr/actualite/CERTFR-2026-ACT-049/",
+    "urls_connues": [
+      "https://www.cert.cyber.gouv.fr/actualite/CERTFR-2026-ACT-049/"
+    ],
+    "date_publication": null,
+    "date_entree_en_vigueur": null,
+    "date_entree_en_application": null,
+    "statut_texte": "En vigueur",
+    "hash_sha256": "7e6336254f0fc139007049f7319540f1daa43dde0403657ca00d05726ae74ffe",
+    "collecte_le": "2026-11-23T16:55:05.911Z",
+    "derniere_modification_detectee": null,
+    "fichier_source": null,
+    "applicable": "À déterminer",
+    "justification_applicabilite": null,
+    "confiance_applicabilite": null,
+    "resume": null,
+    "nombre_articles": 1,
+    "articles": [
+      {
+        "numero": "document",
+        "titre": "Bulletin d'actualité CERTFR-2026-ACT-049 (23 novembre 2026)",
+        "contenu": "Contenu\n\nMenu\n\nPied de page\n\nMenu\n\nParamètres d'affichage\n\nDéclarer un\nincident\n\nFermer\n\nParamètres\nd'affichage\n\nDéclarer un\nincident\n\nNous connaître\n\nA propos du CERT-FR\n\nRFC2350\n\nEcosystème des CERT/CSIRT\n\nPolitique de partage des informations\n\nPublications\n\nAlertes de sécurité\n\nRapports menaces et incidents\n\nAvis de sécurité\n\nIndicateurs de compromission\n\nDurcissement et recommandations\n\nBulletins d'actualité\n\nFiches réflexes\n\nNos services\n\nNous rejoindre\n\nBulletin d'actualité du CERT-FR\n\nObjet : Bulletin d'actualité CERTFR-2026-ACT-049\n\nImprimer\n\nGestion du document\n\nRéférence\nCERTFR-2026-ACT-049\n\nTitre\nBulletin d'actualité CERTFR-2026-ACT-049\n\nDate de la première version23 novembre 2026\n\nDate de la dernière version23 novembre 2026\n\nSource(s)\n\nUne gestion de version détaillée se trouve à la fin de ce document.\n\nCe bulletin d'actualité du CERT-FR revient sur les vulnérabilités significatives de la semaine passée pour souligner\nleurs criticités. Il ne remplace pas l'analyse de l'ensemble des avis et alertes publiés par le CERT-FR dans le cadre\nd'une analyse de risques pour prioriser l'application des correctifs.\nToutes les vulnérabilités évoquées dans les avis du CERT-FR doivent être prises en compte et faire l'objet d'un plan\nd'action lorsqu'elles génèrent des risques sur le système d'information.\nVeuillez-vous référer aux avis des éditeurs pour obtenir les correctifs.\n\nVulnérabilités significatives de la semaine 47\n\nTableau récapitulatif :\n\nVulnérabilités critiques du 16/11/26 au 22/11/26\n\nEditeur\nProduit\nIdentifiant CVE\nCVSS (source)\nType de vulnérabilité\nDate de publication\nExploitabilité (Preuve de concept publique)\nAvis Cert-FR\nAvis éditeur\n\nVMware\nvCenter Server\nCVE-2026-123890\n9.8 (NVD)\nContournement de la politique de sécurité\n19/11/2026\nExploitée CERTFR-2026-AVI-1598\n\nhttps://support.broadcom.com/web/ecx/support-content-notification/-/external/content/SecurityAdvisories/0/39495\n\nOracle\nWeblogic\nCVE-2026-91569\n10 (NVD)\nExécution de code arbitraire à distance\n17/11/2026 Pas d'information\nCERTFR-2026-AVI-1567\n\nhttps://www.oracle.com/security-alerts/cspunov2026.html\n\nSplunk\nSOAR\nCVE-2026-131253\n9.9 (NVD)\nExécution de code arbitraire à distance, Atteinte à la confidentialité des données\n18/11/2026 Pas d'information\nCERTFR-2026-AVI-1576\n\nhttps://advisory.splunk.com/advisories/SVD-2026-1108\n\nOracle\nDatabase Server\nCVE-2026-114819\n9.9 (NVD)\nExécution de code arbitraire à distance\n17/11/2026 Pas d'information\nCERTFR-2026-AVI-1561\n\nhttps://www.oracle.com/security-alerts/cspunov2026.html\n\nOracle\nDatabase Server\nCVE-2026-114822\n9.9 (NVD)\nExécution de code arbitraire à distance\n17/11/2026 Pas d'information\nCERTFR-2026-AVI-1561\n\nhttps://www.oracle.com/security-alerts/cspunov2026.html\n\nOracle\nDatabase Server\nCVE-2026-114848\n9.9 (NVD)\nExécution de code arbitraire à distance\n17/11/2026 Pas d'information\nCERTFR-2026-AVI-1561\n\nhttps://www.oracle.com/security-alerts/cspunov2026.html\n\nOracle\nWeblogic\nCVE-2026-91456\n9.8 (NVD)\nExécution de code arbitraire à distance\n17/11/2026 Pas d'information\nCERTFR-2026-AVI-1567\n\nhttps://www.oracle.com/security-alerts/cspunov2026.html\n\nOracle\nWeblogic\nCVE-2026-91470\n9.8 (NVD)\nExécution de code arbitraire à distance\n17/11/2026 Pas d'information\nCERTFR-2026-AVI-1567\n\nhttps://www.oracle.com/security-alerts/cspunov2026.html\n\nOracle\nWeblogic\nCVE-2026-91570\n9.8 (NVD)\nExécution de code arbitraire à distance\n17/11/2026 Pas d'information\nCERTFR-2026-AVI-1567\n\nhttps://www.oracle.com/security-alerts/cspunov2026.html\n\nOracle\nWeblogic\nCVE-2026-91583\n9.8 (NVD)\nExécution de code arbitraire à distance\n17/11/2026 Pas d'information\nCERTFR-2026-AVI-1567\n\nhttps://www.oracle.com/security-alerts/cspunov2026.html\n\nOracle\nWeblogic\nCVE-2026-91585\n9.8 (NVD)\nExécution de code arbitraire à distance\n17/11/2026 Pas d'information\nCERTFR-2026-AVI-1567\n\nhttps://www.oracle.com/security-alerts/cspunov2026.html\n\nSplunk\nSOAR\nCVE-2026-131287\n9.6 (NVD)\nExécution de code arbitraire à distance\n18/11/2026 Pas d'information\nCERTFR-2026-AVI-1576\n\nhttps://advisory.splunk.com/advisories/SVD-2026-1108\n\nGoogle\nChrome\nCVE-2026-131031\n9.6 (NVD)\nNon spécifié par l'éditeur\n17/11/2026 Pas d'information\nCERTFR-2026-AVI-1559\n\nhttps://chromereleases.googleblog.com/2026/11/stable-channel-update-for-desktop_01699533288.html\n\nGoogle\nChrome\nCVE-2026-131054\n9.6 (NVD)\nExécution de code arbitraire à distance\n17/11/2026 Pas d'information\nCERTFR-2026-AVI-1559\n\nhttps://chromereleases.googleblog.com/2026/11/stable-channel-update-for-desktop_01699533288.html\n\nTypo3\nTypo3\nCVE-2026-119623\n9.4 (NVD)\nExécution de code arbitraire à distance\n17/11/2026 Pas d'information\nCERTFR-2026-AVI-1553\n\nhttps://github.com/TYPO3/typo3/security/advisories/GHSA-3x7g-4rhf-5r97\n\nOracle\nMySQL, Database Server\nCVE-2026-115557\n9.4 (NVD)\nContournement de la politique de sécurité\n17/11/2026 Pas d'information\nCERTFR-2026-AVI-1561\n\nhttps://www.oracle.com/security-alerts/cspunov2026.html\n\nOracle\nWeblogic\nCVE-2026-91469\n9.4 (NVD)\nDéni de service à distance, Atteinte à la confidentialité des données, Atteinte à l'intégrité des données\n17/11/2026 Pas d'information\nCERTFR-2026-AVI-1567\n\nhttps://www.oracle.com/security-alerts/cspunov2026.html\n\nOracle\nPeopleSoft\nCVE-2026-114934\n9.3 (NVD)\nAtteinte à la confidentialité des données, Atteinte à l'intégrité des données\n17/11/2026 Pas d'information\nCERTFR-2026-AVI-1564\n\nhttps://www.oracle.com/security-alerts/cspunov2026.html\n\nPHP\nPHP\nCVE-2026-115560\n9.2 (NVD)\nExécution de code arbitraire à distance, Déni de service à distance\n19/11/2026 Pas d'information\nCERTFR-2026-AVI-1580\n\nhttps://www.php.net/ChangeLog-8.php#8.5.13\nhttps://www.php.net/ChangeLog-8.php#8.4.28\nhttps://www.php.net/ChangeLog-8.php#8.3.37\nhttps://www.php.net/ChangeLog-8.php#8.2.36\n\nPHP\nPHP\nCVE-2026-129182\n9.2 (NVD)\nExécution de code arbitraire à distance, Déni de service à distance\n19/11/2026 Pas d'information\nCERTFR-2026-AVI-1580\n\nhttps://www.php.net/ChangeLog-8.php#8.5.13\n\nPHP\nPHP\nCVE-2026-129481\n9.2 (NVD)\nExécution de code arbitraire à distance, Déni de service à distance\n19/11/2026 Pas d'information\nCERTFR-2026-AVI-1580\n\nhttps://www.php.net/ChangeLog-8.php#8.5.13\nhttps://www.php.net/ChangeLog-8.php#8.4.28\nhttps://www.php.net/ChangeLog-8.php#8.3.37\n\nPHP\nPHP\nCVE-2026-129289\n9.2 (NVD)\nExécution de code arbitraire à distance\n19/11/2026 Pas d'information\nCERTFR-2026-AVI-1580\n\nhttps://www.php.net/ChangeLog-8.php#8.5.13\nhttps://www.php.net/ChangeLog-8.php#8.4.28\nhttps://www.php.net/ChangeLog-8.php#8.3.37\nhttps://www.php.net/ChangeLog-8.php#8.2.36\n\nPHP\nPHP\nCVE-2026-129474\n9.2 (NVD)\nExécution de code arbitraire à distance, Déni de service à distance\n19/11/2026 Pas d'information\nCERTFR-2026-AVI-1580\n\nhttps://www.php.net/ChangeLog-8.php#8.5.13\n\nPHP\nPHP\nCVE-2026-126714\n9.2 (NVD)\nExécution de code arbitraire à distance\n19/11/2026 Pas d'information\nCERTFR-2026-AVI-1580\n\nhttps://www.php.net/ChangeLog-8.php#8.5.13\nhttps://www.php.net/ChangeLog-8.php#8.4.28\nhttps://www.php.net/ChangeLog-8.php#8.3.37\nhttps://www.php.net/ChangeLog-8.php#8.2.36\n\nPHP\nPHP\nCVE-2026-129496\n9.2 (NVD)\nExécution de code arbitraire à distance, Déni de service à distance\n19/11/2026 Pas d'information\nCERTFR-2026-AVI-1580\n\nhttps://www.php.net/ChangeLog-8.php#8.5.13\nhttps://www.php.net/ChangeLog-8.php#8.4.28\nhttps://www.php.net/ChangeLog-8.php#8.3.37\nhttps://www.php.net/ChangeLog-8.php#8.2.36\n\nSplunk\nSplunk Enterprise\nCVE-2026-73501\n9.1 (NVD)\nContournement de la politique de sécurité\n18/11/2026 Pas d'information\nCERTFR-2026-AVI-1576\n\nhttps://advisory.splunk.com/advisories/SVD-2026-1104\n\nSplunk\nSOAR\nCVE-2026-102266\n9.1 (NVD)\nContournement de la politique de sécurité\n18/11/2026 Pas d'information\nCERTFR-2026-AVI-1576\n\nhttps://advisory.splunk.com/advisories/SVD-2026-1109\n\nOracle\nMySQL\nCVE-2026-114952\n9.1 (NVD)\nAtteinte à la confidentialité des données, Atteinte à l'intégrité des données\n17/11/2026 Pas d'information\nCERTFR-2026-AVI-1563\n\nhttps://www.oracle.com/security-alerts/cspunov2026.html\n\nOracle\nPeopleSoft\nCVE-2026-114862\n9.1 (NVD)\nAtteinte à la confidentialité des données, Atteinte à l'intégrité des données\n17/11/2026 Pas d'information\nCERTFR-2026-AVI-1564\n\nhttps://www.oracle.com/security-alerts/cspunov2026.html\n\nGoogle\nChrome\nCVE-2026-130963\n9 (NVD)\nExécution de code arbitraire à distance\n17/11/2026 Pas d'information\nCERTFR-2026-AVI-1559\n\nhttps://chromereleases.googleblog.com/2026/11/stable-channel-update-for-desktop_01699533288.html\n\nRappel des alertes CERT-FR\n\nVulnérabilité dans Oracle Java SE\n\nLe 17 novembre 2026, Oracle a publié un avis de sécurité concernant la vulnérabilité CVE-2026-114938, surnommée java4shell, qui affecte le décodeur Base64 de OpenJDK sur les processeurs x86-64 supportant AVX-512 VBMI. Celle-ci permet à un attaquant de provoquer une exécution de code arbitraire à distance et un déni de service à distance.\n\nCette vulnérabilité ne peut être exploitée qu'en fournissant des données en base64 aux API du composant spécifié sans recourir à des applications Java Web Start ou des applets Java non fiables. Chaque produit affecté nécessite donc une charge utile sur mesure pour être effective.\n\nCependant, le CERT-FR incite à la vigilance et rappelle que OpenJDK est utilisé dans de nombreux produits, notamment Keycloak, Atlassian Jira, Atlassian Confluence, JFrog Artifactory, Jenkins, PingFederate, Apache Kafka Broker, Apache Solr, Elasticsearch, Gerrit, Spinnaker, il est donc important d'appliquer les correctifs de sécurité.\nLiens :\n\nBulletin de sécurité OpenJDK\nBulletin de sécurité Oracle\nAvis CERT-FR CERTFR-2026-AVI-1562 du 18 novembre 2026\njava4shell\nCVE-2026-114938\n\nMultiples vulnérabilités dans F5 NGINX\n\nLe 18 novembre 2026, F5 a publié deux avis de sécurité concernant les vulnérabilités CVE-2026-123633 et CVE-2026-123007. Celles-ci affectent NGINX Open Source et NGINX Plus permettent à un attaquant non authentifié d'exécuter du code à distance, en utilisant le protocole HTTP en version 2.\n\nLe CERT-FR a connaissance d'une preuve de concept publique pour la vulnérabilité CVE-2026-123007. Cependant, celle-ci nécessite une quantité de trafic réseau significative pour obtenir une exploitation.\nLiens :\n\nBulletin de sécurité F5 K000163928\nBulletin de sécurité F5 K000163926\n[1] nginx2root\nBillet de blogue Wiz\nAvis CERT-FR CERTFR-2026-AVI-1567 du 18 novembre 2026\nCVE-2026-123007\nCVE-2026-123633\n\nAutres vulnérabilités\n\nTableau récapitulatif :\n\nEditeur\nProduit\nIdentifiant CVE\nCVSS\nType de vulnérabilité\nDate de publication\nExploitabilité (Preuve de concept publique)\nAvis éditeur\n\nCisco\nTelePresence VCS\nCVE-2026-76466\n9.8 (NVD)\nExécution de code arbitraire à distance, Contournement de la politique de sécurité\n21/10/2026 Exploitée\nhttps://sec.cloudapps.cisco.com/security/center/content/CiscoSecurityAdvisory/cisco-sa-vcs-static-cred-hr7EWZ8t\nhttps://www.cisa.gov/known-exploited-vulnerabilities-catalog?field_cve=CVE-2026-76466\n\nAtlassian\nConfluence\nCVE-2026-90436\n9.8\nExécution de code arbitraire à distance\n09/11/2026\nExploitée https://confluence.atlassian.com/security/cve-2026-90436-remote-code-execution-in-confluence-data-center-1874560038.html\nhttps://www.cisa.gov/known-exploited-vulnerabilities-catalog?field_cve=CVE-2026-90436\n\nSynology\nBeestation Os, Diskstation Manager\nCVE-2024-10441\n9.8\nExécution de code arbitraire à distance, Contournement de la politique de sécurité, Non spécifié par l'éditeur\n05/11/2024\nExploitée https://www.synology.com/en-global/security/advisory/Synology_SA_24_20\nhttps://www.synology.com/en-global/security/advisory/Synology_SA_24_23\nhttps://www.cisa.gov/known-exploited-vulnerabilities-catalog?field_cve=CVE-2024-10441\n\nVanderbilt\nRedcap\nCVE-2026-90817\n9.8\nExécution de code arbitraire à distance\n20/09/2026\nExploitée https://www.securifera.com/advisories/\nhttps://www.cisa.gov/known-exploited-vulnerabilities-catalog?field_cve=CVE-2026-90817\n\nApache\nRoller\nCVE-2026-129448\n9.8\nExécution de code arbitraire à distance\n17/11/2026\nExploitée https://lists.apache.org/thread/lnz4s26tv6hdo03wngtdbpfj4hg4gtds\n\nPuppet\nPuppet, Puppet Enterprise\nCVE-2026-115731\n9.4\nExécution de code arbitraire à distance\n03/11/2026\nExploitée https://portal.perforce.com/s/cve/a91Qi000003IaHpIAK/report-deserialization-code-execution\nhttps://www.cisa.gov/known-exploited-vulnerabilities-catalog?field_cve=CVE-2026-115731\n\nRedhat\nOpenshift Ai, Ansible Automation Platform, Openshift Lightspeed\nCVE-2026-40217\n8.8\nExécution de code arbitraire à distance\n09/06/2026\nExploitée https://access.redhat.com/errata/RHSA-2026:24866\nhttps://access.redhat.com/errata/RHSA-2026:30056\nhttps://access.redhat.com/security/cve/CVE-2026-40217\nhttps://www.cisa.gov/known-exploited-vulnerabilities-catalog?field_cve=CVE-2026-40217\n\nLitellm\nLitellm\nCVE-2026-40217\n8.8\nExécution de code arbitraire à distance\n10/04/2026\nExploitée https://github.com/BerriAI/litellm\nhttps://www.cisa.gov/known-exploited-vulnerabilities-catalog?field_cve=CVE-2026-40217\n\nLibrenms\nLibrenms\nCVE-2026-86426\n9.2\nExécution de code arbitraire à distance, Contournement de la politique de sécurité\n23/08/2026Code d'exploitation publichttps://github.com/librenms/librenms/security/advisories/GHSA-cvq8-gqfq-3mvg\nhttps://www.vulncheck.com/advisories/librenms-before-26.8.0-authentication-bypass-via-api-token-type-confusion\n\nVideoLan\nVLC\nCVE-2026-28731\n6.5\nExécution de code arbitraire à distance\n16/11/2026Code d'exploitation publichttps://code.videolan.org/videolan/vlc/-/merge_requests/8850\n\nMultiples vulnérabilités dans Danfoss AK-SM-800A\n\nUn chercheur nééerlandais a publié des détails sur six vulnérabilités qu'il dit avoir découvertes dans Danfoss AK-SM 800A, un superviseur central d'installations frigorifiques. Elles permettent toutes d'exécuter du code arbitraire à distance, sans authentification pour cinq d'entres elles.\n\nCet équipement fait partie de ceux qui avaient fait l'objet d'une attaque courant octobre.\n\nhttps://www.midnightblue.nl/blog/multiple-rce-danfoss-aksm800a\n\nhttps://cert.cyber.gouv.fr/alerte/CERTFR-2026-ALE-012/\n\nAttaque par la chaîne d'approvisement d'Optimizely\n\nLe 16 novembre 2026, du code javascript malveillant a été servi aux visiteurs de cent soixante-dix-huit organisations via la plateforme Optimizely.\n\nCe maliciel a tenté de récupérer des informations sur des portefeuilles de monnaies cryptographiques, des cartes de crédit, des identifiants de sessions. De plus, sur des iPhones et iPads, celui-ci a tenté d'installer des portes dérobées.\n\nDes indicateurs de compromission (non qualifiés par l'ANSSI) sont fournis dans le rapport.\nhttps://blog.report-uri.com/worlds-largest-brands-infected-with-malware-via-optimizely/\n\nGestion détaillée du document\n\nDate\nDescription\n\n23 novembre 2026\nVersion initiale\n\nRappel des publications émises\n\nDans la période du 16 novembre 2026 au 22 novembre 2026, le CERT-FR\na émis les publications suivantes :\n\nCERTFR-2026-AVI-1540\n\nMultiples vulnérabilités dans Kerberos\n\nCERTFR-2026-AVI-1541\n\nVulnérabilité dans Git\n\nCERTFR-2026-AVI-1542\n\nMultiples vulnérabilités dans les produits Trend Micro\n\nCERTFR-2026-AVI-1543\n\nVulnérabilité dans VMware Tanzu\n\nCERTFR-2026-AVI-1544\n\nMultiples vulnérabilités dans MongoDB\n\nCERTFR-2026-AVI-1545\n\nVulnérabilité dans Citrix App Layering\n\nCERTFR-2026-AVI-1546\n\nMultiples vulnérabilités dans Microsoft Edge\n\nCERTFR-2026-AVI-1547\n\nMultiples vulnérabilités dans Mitel MiCollab\n\nCERTFR-2026-AVI-1548\n\nVulnérabilité dans GLPI\n\nCERTFR-2026-AVI-1549\n\nVulnérabilité dans Axis OS\n\nCERTFR-2026-AVI-1550\n\nMultiples vulnérabilités dans Tenable Identity Exposure\n\nCERTFR-2026-AVI-1551\n\nVulnérabilité dans Juniper Networks Junos OS Evolved\n\nCERTFR-2026-AVI-1552\n\nMultiples vulnérabilités dans GitLab\n\nCERTFR-2026-AVI-1553\n\nMultiples vulnérabilités dans Typo3\n\nCERTFR-2026-AVI-1554\n\nMultiples vulnérabilités dans OpenSSL\n\nCERTFR-2026-AVI-1555\n\nMultiples vulnérabilités dans Microsoft SharePoint\n\nCERTFR-2026-AVI-1556\n\nMultiples vulnérabilités dans les produits Tenable\n\nCERTFR-2026-AVI-1557\n\nMultiples vulnérabilités dans Netgate pfSense\n\nCERTFR-2026-AVI-1558\n\nVulnérabilité dans FreeBSD\n\nCERTFR-2026-AVI-1559\n\nMultiples vulnérabilités dans Google Chrome\n\nCERTFR-2026-AVI-1560\n\nMultiples vulnérabilités dans Mozilla Firefox\n\nCERTFR-2026-AVI-1561\n\nMultiples vulnérabilités dans Oracle Database Server\n\nCERTFR-2026-AVI-1562\n\nMultiples vulnérabilités dans Oracle Java SE\n\nCERTFR-2026-AVI-1563\n\nMultiples vulnérabilités dans Oracle MySQL\n\nCERTFR-2026-AVI-1564\n\nMultiples vulnérabilités dans Oracle PeopleSoft\n\nCERTFR-2026-AVI-1565\n\nMultiples vulnérabilités dans Oracle Weblogic\n\nCERTFR-2026-AVI-1566\n\nMultiples vulnérabilités dans Oracle Virtualization\n\nCERTFR-2026-AVI-1567\n\nMultiples vulnérabilités dans les produits F5\n\nCERTFR-2026-AVI-1568\n\nVulnérabilité dans VMware Tanzu\n\nCERTFR-2026-AVI-1569\n\nMultiples vulnérabilités dans les produits Mitel\n\nCERTFR-2026-AVI-1570\n\nMultiples vulnérabilités dans Progress WS_FTP Server\n\nCERTFR-2026-AVI-1571\n\nMultiples vulnérabilités dans Laravel\n\nCERTFR-2026-AVI-1572\n\nMultiples vulnérabilités dans ClamAV\n\nCERTFR-2026-AVI-1573\n\nMultiples vulnérabilités dans les produits Cisco\n\nCERTFR-2026-AVI-1574\n\nMultiples vulnérabilités dans WordPress\n\nCERTFR-2026-AVI-1575\n\nMultiples vulnérabilités dans Wireshark\n\nCERTFR-2026-AVI-1576\n\nMultiples vulnérabilités dans les produits Splunk\n\nCERTFR-2026-AVI-1577\n\nMultiples vulnérabilités dans les produits NetApp\n\nCERTFR-2026-AVI-1578\n\nVulnérabilité dans les produits Elastic\n\nCERTFR-2026-AVI-1579\n\nMultiples vulnérabilités dans Drupal\n\nCERTFR-2026-AVI-1580\n\nMultiples vulnérabilités dans PHP\n\nCERTFR-2026-AVI-1581\n\nMultiples vulnérabilités dans Moodle\n\nCERTFR-2026-AVI-1582\n\nMultiples vulnérabilités dans les produits Citrix\n\nCERTFR-2026-AVI-1583\n\nMultiples vulnérabilités dans Tenable Security Center\n\nCERTFR-2026-AVI-1584\n\nVulnérabilité dans les produits Palo Alto Networks\n\nCERTFR-2026-AVI-1585\n\nVulnérabilité dans Metabase\n\nCERTFR-2026-AVI-1586\n\nVulnérabilité dans KeyCloak\n\nCERTFR-2026-AVI-1587\n\nMultiples vulnérabilités dans Apache Tomcat\n\nCERTFR-2026-AVI-1588\n\nMultiples vulnérabilités dans les produits Mattermost\n\nCERTFR-2026-AVI-1589\n\nMultiples vulnérabilités dans les produits Moxa\n\nCERTFR-2026-AVI-1590\n\nMultiples vulnérabilités dans Siemens Industrial Edge\n\nCERTFR-2026-AVI-1591\n\nVulnérabilité dans GitLab\n\nCERTFR-2026-AVI-1592\n\nMultiples vulnérabilités dans le noyau Linux de Red Hat\n\nCERTFR-2026-AVI-1593\n\nMultiples vulnérabilités dans le noyau Linux de SUSE\n\nCERTFR-2026-AVI-1594\n\nMultiples vulnérabilités dans le noyau Linux de Debian\n\nCERTFR-2026-AVI-1595\n\nMultiples vulnérabilités dans le noyau Linux de Debian LTS\n\nCERTFR-2026-AVI-1596\n\nMultiples vulnérabilités dans le noyau Linux d'Ubuntu\n\nCERTFR-2026-AVI-1597\n\nMultiples vulnérabilités dans les produits IBM\n\nCERTFR-2026-AVI-1598\n\nMultiples vulnérabilités dans les produits VMware\n\nCERTFR-2026-ALE-016\n\nVulnérabilité dans Oracle Java SE\n\nCERTFR-2026-ALE-017\n\nMultiples vulnérabilités dans F5 NGINX\n\nDurant la même période, les publications suivantes ont été mises à jour :\n\nCERTFR-2026-AVI-1344\n\nMultiples vulnérabilités dans Mattermost Server\n\nCERTFR-2026-AVI-1458\n\nMultiples vulnérabilités dans les produits Mattermost\n\nCERTFR-2026-ALE-011\n\nMultiples vulnérabilités dans Citrix NetScaler ADC et Gateway\n\nHaut de page\n\nAccédez au portail authentifié du CERT-FR (ClubSSI)\n\nSe connecter au portail des services numériques du CERT-FR\n\nJe me connecte\n\nSuivez-nous sur les réseaux\n\nLinkedIn\n\nX (anciennement Twitter)\n\nMastodon\n\nGitHub\n\nRSS\n\nRépublique\nFrançaise\n\nLe site du CERT-FR est édité par l’Agence nationale de la sécurité des systèmes d’information (ANSSI).\n\ninfo.gouv.fr\n\nservice-public.fr\n\nlegifrance.gouv.fr\n\ndata.gouv.fr\n\nPlan du site\n\nAccessibilité : partiellement conforme\n\nMentions légales\n\nConditions générales\n\nANSSI\n\nContact\n\nRecrutement\n\nAPI\n\nSauf mention explicite de propriété intellectuelle détenue par des tiers, les contenus de ce site sont proposés sous licence etalab-2.0\n\nFermer\n\nParamètres d'affichage\n\nChoisissez un thème pour personnaliser l'apparence du site.\n\nThème clair\n\nThème sombre\n\nSystème Utilise les paramètres système",
+        "ancre": null,
+        "url": "https://www.cert.cyber.gouv.fr/actualite/CERTFR-2026-ACT-049/",
+        "type": "section",
+        "position": 0
+      }
+    ],
+    "run_id": "RUN-20261123-1654",
     "version": 1,
     "historique": []
   }
