@@ -14,7 +14,7 @@
     "date_entree_en_application": "2025-01-17",
     "statut_texte": "En vigueur",
     "hash_sha256": "e1e54d9230e86244e1214976d009a6540e15bdc7e2fa1df992237605ff18b41b",
-    "collecte_le": "2026-11-26T16:03:29.226Z",
+    "collecte_le": "2026-11-27T15:51:40.174Z",
     "derniere_modification_detectee": null,
     "fichier_source": "data/sources/dora-32022R2554-fr.html",
     "applicable": "Oui",
@@ -536,7 +536,7 @@
         "position": 63
       }
     ],
-    "run_id": "RUN-20261126-1603",
+    "run_id": "RUN-20261127-1551",
     "version": 1,
     "historique": []
   },
@@ -1766,7 +1766,7 @@
     "date_entree_en_application": null,
     "statut_texte": "En vigueur",
     "hash_sha256": "c7e4b2f25c85e27289b6e7728eb41a12b5a177f0304e56edaffa53c476188ff1",
-    "collecte_le": "2026-11-26T16:03:57.013Z",
+    "collecte_le": "2026-11-27T15:52:05.585Z",
     "derniere_modification_detectee": null,
     "fichier_source": null,
     "applicable": "À déterminer",
@@ -1785,7 +1785,7 @@
         "position": 0
       }
     ],
-    "run_id": "RUN-20261126-1603",
+    "run_id": "RUN-20261127-1551",
     "version": 1,
     "historique": []
   },
@@ -2579,7 +2579,7 @@
     "date_entree_en_application": null,
     "statut_texte": "Modifié",
     "hash_sha256": "4202630f123b7e85416ad87a4a4294ac6686ba19ed5f8af1333c7e31d7dfee2d",
-    "collecte_le": "2026-11-26T16:04:05.739Z",
+    "collecte_le": "2026-11-27T15:52:12.723Z",
     "derniere_modification_detectee": "2026-11-20T14:39:21.350Z",
     "fichier_source": null,
     "applicable": "À déterminer",
@@ -2598,7 +2598,7 @@
         "position": 0
       }
     ],
-    "run_id": "RUN-20261126-1603",
+    "run_id": "RUN-20261127-1551",
     "version": 2,
     "historique": [
       {
@@ -2712,7 +2712,7 @@
     "date_entree_en_application": null,
     "statut_texte": "En vigueur",
     "hash_sha256": "42a39a1eb78ee5050c1756bc637195bf2ff72e15548c501a6c2570e9492efdd8",
-    "collecte_le": "2026-11-26T16:03:36.083Z",
+    "collecte_le": "2026-11-27T15:51:46.867Z",
     "derniere_modification_detectee": null,
     "fichier_source": null,
     "applicable": "À déterminer",
@@ -2738,7 +2738,7 @@
         "position": 1
       }
     ],
-    "run_id": "RUN-20261126-1603",
+    "run_id": "RUN-20261127-1551",
     "version": 1,
     "historique": []
   },
@@ -2757,7 +2757,7 @@
     "date_entree_en_application": null,
     "statut_texte": "En vigueur",
     "hash_sha256": "8dcf8120e5560f35b21fa12e93ec7a161c37d097b5fcde404ba8d5742b29301b",
-    "collecte_le": "2026-11-26T16:03:39.653Z",
+    "collecte_le": "2026-11-27T15:51:50.538Z",
     "derniere_modification_detectee": null,
     "fichier_source": null,
     "applicable": "À déterminer",
@@ -2783,7 +2783,7 @@
         "position": 1
       }
     ],
-    "run_id": "RUN-20261126-1603",
+    "run_id": "RUN-20261127-1551",
     "version": 1,
     "historique": []
   },
@@ -2802,7 +2802,7 @@
     "date_entree_en_application": null,
     "statut_texte": "Modifié",
     "hash_sha256": "52d5d439fb3e1f8156945630432f74b408f3566f7f6859ce51586da82e8a9247",
-    "collecte_le": "2026-11-26T16:03:55.225Z",
+    "collecte_le": "2026-11-27T15:52:04.089Z",
     "derniere_modification_detectee": "2026-11-26T16:03:55.225Z",
     "fichier_source": null,
     "applicable": "À déterminer",
@@ -2821,7 +2821,7 @@
         "position": 0
       }
     ],
-    "run_id": "RUN-20261126-1603",
+    "run_id": "RUN-20261127-1551",
     "version": 7,
     "historique": [
       {
@@ -2906,9 +2906,9 @@
     "date_entree_en_vigueur": null,
     "date_entree_en_application": null,
     "statut_texte": "Modifié",
-    "hash_sha256": "287777d8a85443323aab924a44fdb2d871856b587b2462366cf556d31faa50bd",
-    "collecte_le": "2026-11-26T16:03:59.424Z",
-    "derniere_modification_detectee": "2026-11-25T16:30:56.647Z",
+    "hash_sha256": "6b396f9320783635d5d86c3d8825eee2f12b277dd46417c083668d3da85c02b3",
+    "collecte_le": "2026-11-27T15:52:07.896Z",
+    "derniere_modification_detectee": "2026-11-27T15:52:07.896Z",
     "fichier_source": null,
     "applicable": "À déterminer",
     "justification_applicabilite": null,
@@ -2919,15 +2919,15 @@
       {
         "numero": "document",
         "titre": "Pixels de suivi dans les courriels : la CNIL sollicite un premier retour d’expérience sur sa recommandation",
-        "contenu": "Aller au contenu principal\n\nMenu de navigation\n\nRechercher\n\nParticuliersProfessionnelsPresse\n\nFrEnGestionnaire de cookies\n\nParticuliersProfessionnelsPresse\n\nMon quotidien\n\nMa sécurité numérique\n\nSites web et réseaux sociaux\n\nTéléphones et applications\n\nObjets connectés\n\nEnfants et ados\n\nSanté\n\nSocial\n\nLogement\n\nTravail\n\nIntelligence artificielle (IA)\n\nAchats et publicité\n\nBanque/Assurance\n\nCitoyenneté\n\nSport\n\nTransports et mobilité\n\nVie associative\n\nFermer\n\nExercer mes droits\n\nQuels sont mes droits ?\n\nÊtre informé\n\nM'opposer\n\nAccéder à mes données\n\nRectifier mes données\n\nEffacer mes données\n\nÊtre déréférencé\n\nEmporter mes données avec moi\n\nFaire vérifier une décision automatisée\n\nLimiter l'utilisation de mes données\n\nLes droits des mineurs\n\nNos modèles de courrier\n\nSaisir la CNIL\n\nAdresser une plainte\n\nAccéder au FICOBA\n\nAccéder à un fichier de police, de gendarmerie ou de renseignement\n\nAdresser une alerte à la CNIL\n\nPoser une question à la CNIL\n\nQuestions/réponses\n\nFermer\n\nÀ télécharger\n\nRessources pédagogiques\n\nAffiches\n\nRapports et chiffres clés\n\nCahiers Innovation & Prospective\n\nLivres blancs\n\nFermer\n\nLa CNIL\n\nMissions\n\nInformer et protéger\n\nAccompagner et conseiller\n\nAnticiper et innover\n\nContrôler et sanctionner\n\nLa mission éthique de la CNIL\n\nTous les évènements de la CNIL\n\nFonctionnement\n\nStatut et organisation\n\nOrdres du jour des séances\n\nAgenda\n\nLes avis de la CNIL\n\nInterrégulation et partenariats\n\nEn Europe et dans le monde\n\nLa CNIL en Europe\n\nLa CNIL dans le monde\n\nLa carte de la protection des données dans le monde\n\nLa stratégie européenne et internationale de la CNIL\n\nL’histoire de la CNIL en vidéo\n\nTravailler à la CNIL\n\nMarchés publics\n\nConsultations publiques\n\nFermer\n\nRechercher\n\nFrEnGestionnaire de cookies\n\nCNIL : Formulaire de recherche\n\nPoser une question ou rechercher un article, une délibération...\n\nRechercher\n\nAccueil\n\nPixels de suivi dans les courriels : la CNIL sollicite un premier retour d’expérience sur sa recommandation\n\nPixels de suivi dans les courriels : la CNIL sollicite un premier retour d’expérience sur sa recommandation\n\n20 novembre 2026\n\nLe 14 avril 2026, la CNIL a publié sa recommandation sur les pixels de suivi dans les courriels. Elle invite désormais les acteurs concernés, expéditeurs de messages et fournisseurs de solutions, à effectuer un retour d’expérience jusqu’au 3 décembre 2026.\n\nImprimer l’article\n\nPartager cette page par courriel\n\nDiminuer la taille de la police\n\nAugmenter la taille de la police\n\nUne mise en conformité progressive\n\nAprès examen des contributions reçues lors de la consultation publique close le 24 juillet 2025, la CNIL a publié sa recommandation relative aux pixels de suivi dans les courriers électroniques le 14 avril 2026.\n\nCette recommandation adoptait une approche progressive : pour les nouveaux clients, la conformité à la recommandation était demandée ; pour les bases préconstituées, il était seulement demandé aux expéditeurs d’informer clairement, dans un délai de trois mois, les destinataires de l’utilisation de pixels pour les mettre en mesure de s’y opposer facilement s’ils le souhaitent.\n\nDans ce contexte, il est à présent utile de faire à présent un point d’étape sur la mise en conformité des acteurs et de solliciter un premier retour d’expérience du terrain.\n\nUn premier retour d’expérience jusqu’au 3 décembre\n\nUne régulation efficace repose sur des règles claires, applicables et adaptées à la réalité des modèles d’affaires. A travers ce point d’étape, la CNIL cherche à s’assurer que la recommandation protège efficacement les personnes, tout en repérant les difficultés rencontrées et les bonnes pratiques mises en place. Cette démarche doit aussi permettre de commencer à mesurer les effets concrets de la recommandation sur l’écosystème : coûts de mise en conformité, évolution des pratiques de mesure d’audience et de personnalisation, solutions alternatives développées par le marché, etc.\n\nL’appel à contributions s’adresse aux entreprises du secteur privé, prestataires techniques comme utilisateurs expéditeurs de courriers. Des retours précis, concrets et, dans la mesure du possible, chiffrés, notamment sur la soutenabilité économique, sont particulièrement utiles. Les acteurs d’un même organisme ou groupe sont invités à regrouper leurs réponses.\n\nCes contributions permettront à la CNIL d’optimiser son accompagnement des professionnels, dans un cadre favorable à l’innovation et à la confiance dans l’univers numérique.\n\nL’appel à contributions est ouvert jusqu’au jeudi 3 décembre 2026.\n\nParticiper à la consultation\n\nTexte reference\n\nPour approfondir\n\nPixels de suivi dans les courriers électroniques : la CNIL publie ses recommandations pour mieux protéger la vie privée\n\n#Consultation\n#Pixel de suivi\n#Evaluation\n#Courriels\n#Economie\n\nCeci peut également vous intéresser ...\n\nReconstitution d’adresses électroniques professionnelles : quels sont vos droits ?\n\n16 octobre 2026\n\nCourriels\n\nReconstitution d’adresses électroniques professionnelles : dans quel cadre est-ce autorisé ?\n\n16 octobre 2026\n\nCourriels\n\nDe la protection des données à la création de valeur en finance : des autorités européennes ...\n\n16 octobre 2026\n\nEconomie\n\nBesoin d'aide\n\nCommission Nationale de l’Informatique et des Libertés\n\nMon quotidien\n\nMa sécurité numérique\n\nSites web et réseaux sociaux\n\nTéléphones et applications\n\nObjets connectés\n\nEnfants et ados\n\nSanté\n\nSocial\n\nLogement\n\nTravail\n\nIntelligence artificielle (IA)\n\nAchats et publicité\n\nBanque/Assurance\n\nCitoyenneté\n\nSport\n\nTransports et mobilité\n\nVie associative\n\nLa CNIL\n\nMissions\n\nFonctionnement\n\nEn Europe et dans le monde\n\nL’histoire de la CNIL en vidéo\n\nTravailler à la CNIL\n\nMarchés publics\n\nConsultations publiques\n\nExercer mes droits\n\nQuels sont mes droits ?\n\nSaisir la CNIL\n\nQuestions/réponses\n\nÀ télécharger\n\nRessources pédagogiques\n\nAffiches\n\nRapports et chiffres clés\n\nCahiers Innovation & Prospective\n\nLivres blancs\n\nSuivez-nous\ntwitter\nlinkedin\n\nMédiathèque\n\nGlossaire\n\nLexique FR-EN\n\nBesoin d'aide\n\nPresse\n\nLangue\n\nFr\n\nEn\n\nGestion des cookies\n\nS'inscrire à la lettre d'information\n\nLe Laboratoire d'Innovation Numérique de la CNIL (LINC)\n\nMentions légales\n| Données personnelles\n| Accessibilité : partiellement conforme\n| Informations publiques\n| Recrutement\n| Mon compte\n| Nous contacter",
+        "contenu": "Aller au contenu principal\n\nMenu de navigation\n\nRechercher\n\nParticuliersProfessionnelsPresse\n\nFrEnGestionnaire de cookies\n\nParticuliersProfessionnelsPresse\n\nMon quotidien\n\nMa sécurité numérique\n\nSites web et réseaux sociaux\n\nTéléphones et applications\n\nObjets connectés\n\nEnfants et ados\n\nSanté\n\nSocial\n\nLogement\n\nTravail\n\nIntelligence artificielle (IA)\n\nAchats et publicité\n\nBanque/Assurance\n\nCitoyenneté\n\nSport\n\nTransports et mobilité\n\nVie associative\n\nFermer\n\nExercer mes droits\n\nQuels sont mes droits ?\n\nÊtre informé\n\nM'opposer\n\nAccéder à mes données\n\nRectifier mes données\n\nEffacer mes données\n\nÊtre déréférencé\n\nEmporter mes données avec moi\n\nFaire vérifier une décision automatisée\n\nLimiter l'utilisation de mes données\n\nLes droits des mineurs\n\nNos modèles de courrier\n\nSaisir la CNIL\n\nAdresser une plainte\n\nAccéder au FICOBA\n\nAccéder à un fichier de police, de gendarmerie ou de renseignement\n\nAdresser une alerte à la CNIL\n\nPoser une question à la CNIL\n\nQuestions/réponses\n\nFermer\n\nÀ télécharger\n\nRessources pédagogiques\n\nAffiches\n\nRapports et chiffres clés\n\nCahiers Innovation & Prospective\n\nLivres blancs\n\nFermer\n\nLa CNIL\n\nMissions\n\nInformer et protéger\n\nAccompagner et conseiller\n\nAnticiper et innover\n\nContrôler et sanctionner\n\nLa mission éthique de la CNIL\n\nTous les évènements de la CNIL\n\nFonctionnement\n\nStatut et organisation\n\nOrdres du jour des séances\n\nAgenda\n\nLes avis de la CNIL\n\nInterrégulation et partenariats\n\nEn Europe et dans le monde\n\nLa CNIL en Europe\n\nLa CNIL dans le monde\n\nLa carte de la protection des données dans le monde\n\nLa stratégie européenne et internationale de la CNIL\n\nL’histoire de la CNIL en vidéo\n\nTravailler à la CNIL\n\nMarchés publics\n\nConsultations publiques\n\nFermer\n\nRechercher\n\nFrEnGestionnaire de cookies\n\nCNIL : Formulaire de recherche\n\nPoser une question ou rechercher un article, une délibération...\n\nRechercher\n\nAccueil\n\nPixels de suivi dans les courriels : la CNIL sollicite un premier retour d’expérience sur sa recommandation\n\nPixels de suivi dans les courriels : la CNIL sollicite un premier retour d’expérience sur sa recommandation\n\n20 novembre 2026\n\nLe 14 avril 2026, la CNIL a publié sa recommandation sur les pixels de suivi dans les courriels. Elle invite désormais les acteurs concernés, expéditeurs de messages et fournisseurs de solutions, à effectuer un retour d’expérience jusqu’au 3 décembre 2026.\n\nImprimer l’article\n\nPartager cette page par courriel\n\nDiminuer la taille de la police\n\nAugmenter la taille de la police\n\nUne mise en conformité progressive\n\nAprès examen des contributions reçues lors de la consultation publique close le 24 juillet 2025, la CNIL a publié sa recommandation relative aux pixels de suivi dans les courriers électroniques le 14 avril 2026.\n\nCette recommandation adoptait une approche progressive : pour les nouveaux clients, la conformité à la recommandation était demandée ; pour les bases préconstituées, il était seulement demandé aux expéditeurs d’informer clairement, dans un délai de trois mois, les destinataires de l’utilisation de pixels pour les mettre en mesure de s’y opposer facilement s’ils le souhaitent.\n\nDans ce contexte, il est à présent utile de faire à présent un point d’étape sur la mise en conformité des acteurs et de solliciter un premier retour d’expérience du terrain.\n\nUn premier retour d’expérience jusqu’au 3 décembre\n\nUne régulation efficace repose sur des règles claires, applicables et adaptées à la réalité des modèles d’affaires. A travers ce point d’étape, la CNIL cherche à s’assurer que la recommandation protège efficacement les personnes, tout en repérant les difficultés rencontrées et les bonnes pratiques mises en place. Cette démarche doit aussi permettre de commencer à mesurer les effets concrets de la recommandation sur l’écosystème : coûts de mise en conformité, évolution des pratiques de mesure d’audience et de personnalisation, solutions alternatives développées par le marché, etc.\n\nL’appel à contributions s’adresse aux entreprises du secteur privé, prestataires techniques comme utilisateurs expéditeurs de courriers. Des retours précis, concrets et, dans la mesure du possible, chiffrés, notamment sur la soutenabilité économique, sont particulièrement utiles. Les acteurs d’un même organisme ou groupe sont invités à regrouper leurs réponses.\n\nCes contributions permettront à la CNIL d’optimiser son accompagnement des professionnels, dans un cadre favorable à l’innovation et à la confiance dans l’univers numérique.\n\nL’appel à contributions est ouvert jusqu’au jeudi 3 décembre 2026.\n\nParticiper à la consultation\n\nTexte reference\n\nPour approfondir\n\nPixels de suivi dans les courriers électroniques : la CNIL publie ses recommandations pour mieux protéger la vie privée\n\n#Consultation\n#Pixel de suivi\n#Evaluation\n#Courriels\n#Economie\n\nCeci peut également vous intéresser ...\n\nReconstitution d’adresses électroniques professionnelles : dans quel cadre est-ce autorisé ?\n\n16 octobre 2026\n\nCourriels\n\nDe la protection des données à la création de valeur en finance : des autorités européennes ...\n\n16 octobre 2026\n\nEconomie\n\nReconstitution d’adresses électroniques professionnelles : quels sont vos droits ?\n\n16 octobre 2026\n\nCourriels\n\nBesoin d'aide\n\nCommission Nationale de l’Informatique et des Libertés\n\nMon quotidien\n\nMa sécurité numérique\n\nSites web et réseaux sociaux\n\nTéléphones et applications\n\nObjets connectés\n\nEnfants et ados\n\nSanté\n\nSocial\n\nLogement\n\nTravail\n\nIntelligence artificielle (IA)\n\nAchats et publicité\n\nBanque/Assurance\n\nCitoyenneté\n\nSport\n\nTransports et mobilité\n\nVie associative\n\nLa CNIL\n\nMissions\n\nFonctionnement\n\nEn Europe et dans le monde\n\nL’histoire de la CNIL en vidéo\n\nTravailler à la CNIL\n\nMarchés publics\n\nConsultations publiques\n\nExercer mes droits\n\nQuels sont mes droits ?\n\nSaisir la CNIL\n\nQuestions/réponses\n\nÀ télécharger\n\nRessources pédagogiques\n\nAffiches\n\nRapports et chiffres clés\n\nCahiers Innovation & Prospective\n\nLivres blancs\n\nSuivez-nous\ntwitter\nlinkedin\n\nMédiathèque\n\nGlossaire\n\nLexique FR-EN\n\nBesoin d'aide\n\nPresse\n\nLangue\n\nFr\n\nEn\n\nGestion des cookies\n\nS'inscrire à la lettre d'information\n\nLe Laboratoire d'Innovation Numérique de la CNIL (LINC)\n\nMentions légales\n| Données personnelles\n| Accessibilité : partiellement conforme\n| Informations publiques\n| Recrutement\n| Mon compte\n| Nous contacter",
         "ancre": null,
         "url": "https://www.cnil.fr/fr/recommandation-pixels-retour-dexperience",
         "type": "section",
         "position": 0
       }
     ],
-    "run_id": "RUN-20261126-1603",
-    "version": 5,
+    "run_id": "RUN-20261127-1551",
+    "version": 6,
     "historique": [
       {
         "version": 2,
@@ -2967,6 +2967,17 @@
         "hash_sha256": "287777d8a85443323aab924a44fdb2d871856b587b2462366cf556d31faa50bd",
         "collecte_le": "2026-11-25T16:30:56.647Z",
         "run_id": "RUN-20261125-1630",
+        "articles_ajoutes": [],
+        "articles_supprimes": [],
+        "articles_modifies": [
+          "document"
+        ]
+      },
+      {
+        "version": 6,
+        "hash_sha256": "6b396f9320783635d5d86c3d8825eee2f12b277dd46417c083668d3da85c02b3",
+        "collecte_le": "2026-11-27T15:52:07.896Z",
+        "run_id": "RUN-20261127-1551",
         "articles_ajoutes": [],
         "articles_supprimes": [],
         "articles_modifies": [
@@ -3177,7 +3188,7 @@
     "date_entree_en_application": null,
     "statut_texte": "En vigueur",
     "hash_sha256": "9a570f487fa1085e1032bde7f0a825dc08af8050bd31797090aea38e1b08e43d",
-    "collecte_le": "2026-11-26T16:04:08.082Z",
+    "collecte_le": "2026-11-27T15:52:13.977Z",
     "derniere_modification_detectee": null,
     "fichier_source": null,
     "applicable": "À déterminer",
@@ -3196,7 +3207,7 @@
         "position": 0
       }
     ],
-    "run_id": "RUN-20261126-1603",
+    "run_id": "RUN-20261127-1551",
     "version": 1,
     "historique": []
   },
@@ -3215,7 +3226,7 @@
     "date_entree_en_application": null,
     "statut_texte": "En vigueur",
     "hash_sha256": "3700a9af5816638a584fe53e0231b45d08d6e63c895f297e2f416b53e0bcdb6a",
-    "collecte_le": "2026-11-26T16:04:10.255Z",
+    "collecte_le": "2026-11-27T15:52:15.980Z",
     "derniere_modification_detectee": null,
     "fichier_source": null,
     "applicable": "À déterminer",
@@ -3234,7 +3245,7 @@
         "position": 0
       }
     ],
-    "run_id": "RUN-20261126-1603",
+    "run_id": "RUN-20261127-1551",
     "version": 1,
     "historique": []
   },
@@ -3253,7 +3264,7 @@
     "date_entree_en_application": null,
     "statut_texte": "En vigueur",
     "hash_sha256": "7e6336254f0fc139007049f7319540f1daa43dde0403657ca00d05726ae74ffe",
-    "collecte_le": "2026-11-26T16:04:11.461Z",
+    "collecte_le": "2026-11-27T15:52:17.971Z",
     "derniere_modification_detectee": null,
     "fichier_source": null,
     "applicable": "À déterminer",
@@ -3272,7 +3283,7 @@
         "position": 0
       }
     ],
-    "run_id": "RUN-20261126-1603",
+    "run_id": "RUN-20261127-1551",
     "version": 1,
     "historique": []
   }
